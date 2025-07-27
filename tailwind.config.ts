@@ -61,6 +61,17 @@ export default {
           border: "var(--sidebar-border)",
           ring: "var(--sidebar-ring)",
         },
+        // Custom Xenra colors
+        "purple-primary": "var(--purple-primary)",
+        "purple-light": "var(--purple-light)",
+        "purple-soft": "var(--purple-soft)",
+        "orange-primary": "var(--orange-primary)",
+        "orange-light": "var(--orange-light)",
+        "orange-soft": "var(--orange-soft)",
+        "warm-gray": "var(--warm-gray)",
+        "dark-gray": "var(--dark-gray)",
+        "soft-beige": "var(--soft-beige)",
+        "natural-white": "var(--natural-white)",
       },
       keyframes: {
         "accordion-down": {
