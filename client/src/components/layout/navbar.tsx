@@ -7,13 +7,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [location] = useLocation();
 
-  const navigation = [
-    { name: "Home", href: "/" },
-    { name: "Over Ons", href: "/over-ons" },
-    { name: "Diensten", href: "/diensten" },
-    { name: "FAQ", href: "/faq" },
-    { name: "Contact", href: "/contact" },
-  ];
+
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -24,36 +18,35 @@ export default function Navbar() {
           {/* Left Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link href="/over-ons" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
-              WIE ZIJN WIJ?
+              OVER ONS
             </Link>
             <Link href="/diensten" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
-              ONZE VISIE
+              DIENSTEN
             </Link>
             <Link href="/faq" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
-              WERKWIJZE
+              VEELGESTELDE VRAGEN
             </Link>
           </div>
           
           {/* Center Logo */}
-          <div className="flex flex-col items-center">
-            <div className="bg-white rounded-lg px-4 py-2 mb-1">
-              <span className="text-purple-primary font-bold text-lg">XENRA</span>
-            </div>
-            <div className="text-orange-primary font-bold text-sm tracking-wider">
-              NAZORGHULP
-            </div>
-          </div>
+          <Link href="/" className="flex items-center">
+            <img 
+              src="/attached_assets/logo web_1753635650777.jpg" 
+              alt="Xenra Logo" 
+              className="h-12 w-auto"
+            />
+          </Link>
           
           {/* Right Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link href="/contact" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
-              LEDEN
+              CONTACT
             </Link>
-            <Link href="/faq" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
-              REFERENTIES
+            <Link href="/diensten" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
+              PAKKETTEN
             </Link>
             <Link href="/contact" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
-              BLOG
+              AFSPRAAK MAKEN
             </Link>
           </div>
 
@@ -73,20 +66,18 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden bg-purple-light border-t border-purple-soft">
           <div className="px-4 pt-4 pb-6 space-y-2">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className={`block px-4 py-3 rounded-xl text-lg font-medium transition-colors duration-200 ${
-                  location === item.href
-                    ? "text-orange-primary bg-orange-soft"
-                    : "text-white hover:text-orange-light hover:bg-purple-primary"
-                }`}
-                onClick={() => setIsOpen(false)}
-              >
-                {item.name}
-              </Link>
-            ))}
+            <Link href="/over-ons" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
+              OVER ONS
+            </Link>
+            <Link href="/diensten" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
+              DIENSTEN
+            </Link>
+            <Link href="/faq" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
+              VEELGESTELDE VRAGEN
+            </Link>
+            <Link href="/contact" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
+              CONTACT
+            </Link>
           </div>
         </div>
       )}
