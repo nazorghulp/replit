@@ -10,28 +10,34 @@ export default function Hero() {
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center">
-          <div className="mb-16">
-            <h2 className="text-lg lg:text-xl text-white mb-4 font-light tracking-wide uppercase">Welkom bij</h2>
-            <h1 className="text-4xl lg:text-6xl font-bold text-white mb-8 leading-tight">
-              <span className="block">XENRA</span>
-              <span className="block">NAZORGHULP</span>
-            </h1>
-          </div>
-        </div>
+        <div className="max-w-5xl mx-auto">
+          <div className="bg-white rounded-3xl p-12 lg:p-16 shadow-2xl">
+            <div className="text-center">
+              <div className="mb-12">
+                <h2 className="text-lg lg:text-xl text-purple-primary mb-4 font-light tracking-wide uppercase">Welkom bij</h2>
+                <h1 className="text-4xl lg:text-6xl font-bold text-dark-gray mb-8 leading-tight">
+                  <span className="block">XENRA</span>
+                  <span className="block text-orange-primary">NAZORGHULP</span>
+                </h1>
+                <p className="text-xl lg:text-2xl text-warm-gray leading-relaxed max-w-4xl mx-auto">
+                  Het verlies van een dierbare is een van de zwaarste momenten in een mensenleven. 
+                  Juist dan is het belangrijk dat je niet alles alleen hoeft te doen.
+                </p>
+              </div>
 
-        <div className="max-w-4xl mx-auto">
-          <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <Link href="/contact">
-              <button className="bg-orange-primary text-white px-10 py-5 rounded-2xl font-semibold hover:bg-orange-light transition-colors duration-300 text-xl shadow-xl">
-                Plan gratis kennismaking
-              </button>
-            </Link>
-            <Link href="/diensten">
-              <button className="border-2 border-white text-white px-10 py-5 rounded-2xl font-semibold hover:bg-white hover:text-purple-primary transition-colors duration-300 text-xl shadow-xl">
-                Bekijk onze pakketten
-              </button>
-            </Link>
+              <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                <Link href="/contact">
+                  <button className="bg-orange-primary text-white px-10 py-5 rounded-2xl font-semibold hover:bg-orange-light transition-colors duration-300 text-xl shadow-lg">
+                    Plan gratis kennismaking
+                  </button>
+                </Link>
+                <Link href="/diensten">
+                  <button className="border-2 border-purple-primary text-purple-primary px-10 py-5 rounded-2xl font-semibold hover:bg-purple-primary hover:text-white transition-colors duration-300 text-xl shadow-lg">
+                    Bekijk onze pakketten
+                  </button>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
