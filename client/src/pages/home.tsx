@@ -3,12 +3,12 @@ import HowWeWork from "@/components/sections/how-we-work";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-purple-primary">
       <Hero />
       <HowWeWork />
       
       {/* Plan vandaag nog jouw eerste contactmoment */}
-      <section className="py-20 bg-purple-soft">
+      <section className="py-20 bg-purple-primary">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-natural-white rounded-3xl p-12 shadow-xl">
             <h2 className="text-3xl lg:text-4xl font-bold text-dark-gray mb-6">
@@ -34,6 +34,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
