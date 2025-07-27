@@ -24,9 +24,10 @@ The application follows a modern full-stack architecture with clear separation b
 ### Backend Architecture
 - **Runtime**: Node.js with Express server
 - **Language**: TypeScript with ES modules
-- **Database**: PostgreSQL with Drizzle ORM
+- **Database**: PostgreSQL with Drizzle ORM (implemented 2025-01-27)
 - **Database Provider**: Neon Database (@neondatabase/serverless)
 - **Session Storage**: PostgreSQL-based sessions (connect-pg-simple)
+- **Data Storage**: DatabaseStorage class with contact form submissions
 
 ### Development Architecture
 - **Monorepo Structure**: Shared schemas and types between frontend and backend
@@ -67,8 +68,10 @@ shared/
 
 ### Database Schema
 - **Users Table**: Basic user authentication schema with username/password
+- **Contacts Table**: Stores contact form submissions with name, email, phone, package preference, and message
 - **Schema Definition**: Uses Drizzle ORM with Zod validation schemas
 - **Type Safety**: Shared types between frontend and backend via TypeScript
+- **Storage**: DatabaseStorage implementation replaces MemStorage for persistent data
 
 ### API Architecture
 - **RESTful Design**: All API routes prefixed with `/api`

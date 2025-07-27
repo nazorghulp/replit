@@ -1,30 +1,27 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useMutation } from "@tanstack/react-query";
+import { insertContactSchema } from "@shared/schema";
 import { z } from "zod";
-import { CheckCircle } from "lucide-react";
+import { CheckCircle, AlertCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { useToast } from "@/hooks/use-toast";
+import { apiRequest } from "@/lib/queryClient";
 
-const contactFormSchema = z.object({
-  name: z.string().min(1, "Naam is verplicht"),
-  email: z.string().email("Voer een geldig e-mailadres in"),
-  phone: z.string().optional(),
-  package: z.string().optional(),
-  message: z.string().min(10, "Bericht moet minimaal 10 karakters bevatten"),
-});
-
-type ContactFormData = z.infer<typeof contactFormSchema>;
+type ContactFormData = z.infer<typeof insertContactSchema>;
 
 export default function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [submittedData, setSubmittedData] = useState<ContactFormData | null>(null);
+  const { toast } = useToast();
 
   const form = useForm<ContactFormData>({
-    resolver: zodResolver(contactFormSchema),
+    resolver: zodResolver(insertContactSchema),
     defaultValues: {
       name: "",
       email: "",
@@ -34,11 +31,43 @@ export default function ContactForm() {
     },
   });
 
+  const contactMutation = useMutation({
+    mutationFn: async (data: ContactFormData) => {
+      const response = await fetch('/api/contacts', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+      
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      
+      return response.json();
+    },
+    onSuccess: (response) => {
+      setSubmittedData(form.getValues());
+      setIsSubmitted(true);
+      form.reset();
+      toast({
+        title: "Bericht verstuurd!",
+        description: "We nemen binnen één werkdag contact met je op.",
+      });
+    },
+    onError: (error) => {
+      console.error('Contact form error:', error);
+      toast({
+        variant: "destructive",
+        title: "Er ging iets mis",
+        description: "Je bericht kon niet worden verzonden. Probeer het later opnieuw.",
+      });
+    },
+  });
+
   const onSubmit = (data: ContactFormData) => {
-    // Store form data locally for demo purposes
-    setSubmittedData(data);
-    setIsSubmitted(true);
-    form.reset();
+    contactMutation.mutate(data);
   };
 
   if (isSubmitted) {
@@ -127,7 +156,8 @@ export default function ContactForm() {
                     type="tel"
                     placeholder="06 - 12345678" 
                     className="focus:ring-purple-primary focus:border-purple-primary"
-                    {...field} 
+                    {...field}
+                    value={field.value || ""}
                   />
                 </FormControl>
                 <FormMessage />
@@ -141,7 +171,7 @@ export default function ContactForm() {
             render={({ field }) => (
               <FormItem>
                 <FormLabel className="text-dark-gray">Interesse in pakket</FormLabel>
-                <Select onValueChange={field.onChange} defaultValue={field.value}>
+                <Select onValueChange={field.onChange} defaultValue={field.value || ""}>
                   <FormControl>
                     <SelectTrigger className="focus:ring-purple-primary focus:border-purple-primary">
                       <SelectValue placeholder="Selecteer een pakket" />
@@ -182,9 +212,10 @@ export default function ContactForm() {
         
         <Button 
           type="submit" 
+          disabled={contactMutation.isPending}
           className="w-full bg-purple-primary hover:bg-purple-light mt-6"
         >
-          Verstuur bericht
+          {contactMutation.isPending ? "Bezig met versturen..." : "Verstuur bericht"}
         </Button>
         
         <p className="text-xs text-warm-gray mt-4 text-center">
