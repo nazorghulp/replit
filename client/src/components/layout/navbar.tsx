@@ -18,11 +18,16 @@ export default function Navbar() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="bg-white shadow-sm sticky top-0 z-50">
+    <nav className="bg-purple-primary shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between h-20">
           <div className="flex items-center">
-            <Logo />
+            <Link href="/" className="flex items-center">
+              <div className="w-12 h-12 bg-orange-primary rounded-xl flex items-center justify-center text-white font-bold text-2xl">
+                X
+              </div>
+              <span className="ml-4 text-2xl font-semibold text-white">Xenra Nazorghulp</span>
+            </Link>
           </div>
           
           {/* Desktop Navigation */}
@@ -31,10 +36,10 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`transition-colors duration-200 font-medium ${
+                className={`transition-colors duration-200 font-medium text-lg ${
                   location === item.href
-                    ? "text-purple-primary"
-                    : "text-warm-gray hover:text-purple-primary"
+                    ? "text-orange-primary"
+                    : "text-white hover:text-orange-light"
                 }`}
               >
                 {item.name}
@@ -46,9 +51,9 @@ export default function Navbar() {
           <div className="md:hidden flex items-center">
             <button
               onClick={toggleMenu}
-              className="text-warm-gray hover:text-purple-primary transition-colors duration-200"
+              className="text-white hover:text-orange-light transition-colors duration-200"
             >
-              {isOpen ? <X size={24} /> : <Menu size={24} />}
+              {isOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
           </div>
         </div>
@@ -56,16 +61,16 @@ export default function Navbar() {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="md:hidden bg-white border-t border-border">
-          <div className="px-2 pt-2 pb-3 space-y-1">
+        <div className="md:hidden bg-purple-light border-t border-purple-soft">
+          <div className="px-4 pt-4 pb-6 space-y-2">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className={`block px-3 py-2 transition-colors duration-200 ${
+                className={`block px-4 py-3 rounded-xl text-lg font-medium transition-colors duration-200 ${
                   location === item.href
-                    ? "text-purple-primary font-medium"
-                    : "text-warm-gray hover:text-purple-primary"
+                    ? "text-orange-primary bg-orange-soft"
+                    : "text-white hover:text-orange-light hover:bg-purple-primary"
                 }`}
                 onClick={() => setIsOpen(false)}
               >
