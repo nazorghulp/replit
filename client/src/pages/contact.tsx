@@ -3,11 +3,11 @@ import ContactForm from "@/components/sections/contact-form";
 
 export default function Contact() {
   return (
-    <div className="py-16 bg-white">
+    <div className="py-20 bg-soft-beige">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h1 className="text-3xl lg:text-4xl font-bold text-dark-gray mb-4">Neem contact op</h1>
-          <p className="text-lg text-warm-gray max-w-3xl mx-auto">
+        <div className="text-center mb-16">
+          <h1 className="text-4xl lg:text-5xl font-bold text-dark-gray mb-6">Neem contact op</h1>
+          <p className="text-xl text-warm-gray max-w-4xl mx-auto leading-relaxed">
             Heb je vragen of wil je starten? Stuur ons een bericht of bel ons. 
             We reageren altijd binnen één werkdag.
           </p>
@@ -21,44 +21,44 @@ export default function Contact() {
               className="rounded-2xl shadow-lg w-full h-auto"
             />
             
-            <div className="mt-8 space-y-6">
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-purple-primary bg-opacity-10 rounded-lg flex items-center justify-center mr-4">
-                  <Mail className="w-5 h-5 text-purple-primary" />
+            <div className="mt-10 space-y-8">
+              <div className="flex items-start bg-natural-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 bg-purple-soft rounded-xl flex items-center justify-center mr-5">
+                  <Mail className="w-6 h-6 text-purple-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-dark-gray mb-1">E-mail</h3>
-                  <p className="text-warm-gray">info@nazorghulp.nl</p>
+                  <h3 className="font-semibold text-dark-gray mb-2 text-lg">E-mail</h3>
+                  <p className="text-warm-gray text-lg">info@nazorghulp.nl</p>
                 </div>
               </div>
               
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-orange-primary bg-opacity-10 rounded-lg flex items-center justify-center mr-4">
-                  <MessageSquare className="w-5 h-5 text-orange-primary" />
+              <div className="flex items-start bg-natural-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 bg-orange-soft rounded-xl flex items-center justify-center mr-5">
+                  <MessageSquare className="w-6 h-6 text-orange-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-dark-gray mb-1">WhatsApp Business</h3>
-                  <p className="text-warm-gray">[nummer invoegen]</p>
+                  <h3 className="font-semibold text-dark-gray mb-2 text-lg">WhatsApp Business</h3>
+                  <p className="text-warm-gray text-lg">[nummer invoegen]</p>
                 </div>
               </div>
               
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-purple-primary bg-opacity-10 rounded-lg flex items-center justify-center mr-4">
-                  <Phone className="w-5 h-5 text-purple-primary" />
+              <div className="flex items-start bg-natural-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 bg-purple-soft rounded-xl flex items-center justify-center mr-5">
+                  <Phone className="w-6 h-6 text-purple-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-dark-gray mb-1">Telefoon</h3>
-                  <p className="text-warm-gray">[nummer invoegen]</p>
+                  <h3 className="font-semibold text-dark-gray mb-2 text-lg">Telefoon</h3>
+                  <p className="text-warm-gray text-lg">[nummer invoegen]</p>
                 </div>
               </div>
               
-              <div className="flex items-start">
-                <div className="w-12 h-12 bg-orange-primary bg-opacity-10 rounded-lg flex items-center justify-center mr-4">
-                  <Clock className="w-5 h-5 text-orange-primary" />
+              <div className="flex items-start bg-natural-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 bg-orange-soft rounded-xl flex items-center justify-center mr-5">
+                  <Clock className="w-6 h-6 text-orange-primary" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-dark-gray mb-1">Bereikbaarheid</h3>
-                  <p className="text-warm-gray">
+                  <h3 className="font-semibold text-dark-gray mb-2 text-lg">Bereikbaarheid</h3>
+                  <p className="text-warm-gray text-lg">
                     07:30 tot 17:30<br />
                     Maandag t/m vrijdag
                   </p>

@@ -24,13 +24,17 @@
   --ring: hsl(287, 22%, 49%);
   --radius: 0.75rem;
   
-  /* Custom Xenra colors */
-  --purple-primary: hsl(287, 22%, 49%);
-  --purple-light: hsl(287, 22%, 59%);
-  --orange-primary: hsl(24, 74%, 58%);
-  --orange-light: hsl(37, 91%, 55%);
-  --warm-gray: hsl(210, 7%, 44%);
-  --dark-gray: hsl(210, 11%, 19%);
+  /* Custom Xenra colors - inspired by landelijkplatformnabestaandenzorg.nl */
+  --purple-primary: hsl(280, 35%, 45%);
+  --purple-light: hsl(280, 35%, 65%);
+  --purple-soft: hsl(280, 25%, 85%);
+  --orange-primary: hsl(25, 85%, 55%);
+  --orange-light: hsl(25, 85%, 65%);
+  --orange-soft: hsl(25, 85%, 90%);
+  --warm-gray: hsl(210, 8%, 50%);
+  --dark-gray: hsl(210, 15%, 25%);
+  --soft-beige: hsl(40, 15%, 96%);
+  --natural-white: hsl(40, 25%, 99%);
 }
 
 .dark {
@@ -79,6 +83,10 @@
     color: hsl(var(--purple-light));
   }
   
+  .text-purple-soft {
+    color: hsl(var(--purple-soft));
+  }
+  
   .text-orange-primary {
     color: hsl(var(--orange-primary));
   }
@@ -103,6 +111,10 @@
     background-color: hsl(var(--purple-light));
   }
   
+  .bg-purple-soft {
+    background-color: hsl(var(--purple-soft));
+  }
+  
   .bg-orange-primary {
     background-color: hsl(var(--orange-primary));
   }
@@ -111,12 +123,24 @@
     background-color: hsl(var(--orange-light));
   }
   
+  .bg-orange-soft {
+    background-color: hsl(var(--orange-soft));
+  }
+  
   .bg-warm-gray {
     background-color: hsl(var(--warm-gray));
   }
   
   .bg-dark-gray {
     background-color: hsl(var(--dark-gray));
+  }
+  
+  .bg-soft-beige {
+    background-color: hsl(var(--soft-beige));
+  }
+  
+  .bg-natural-white {
+    background-color: hsl(var(--natural-white));
   }
   
   .border-purple-primary {

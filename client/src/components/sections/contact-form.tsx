@@ -72,28 +72,33 @@ export default function ContactForm() {
 
   if (isSubmitted) {
     return (
-      <div className="bg-green-50 border border-green-200 rounded-2xl p-8">
+      <div className="bg-natural-white border-2 border-purple-soft rounded-3xl p-10 shadow-lg">
         <div className="text-center">
-          <CheckCircle className="w-12 h-12 text-green-500 mx-auto mb-4" />
-          <h3 className="text-xl font-semibold text-green-800 mb-2">Bedankt voor je bericht!</h3>
-          <p className="text-green-700 mb-4">
+          <div className="w-16 h-16 bg-purple-soft rounded-full flex items-center justify-center mx-auto mb-6">
+            <CheckCircle className="w-8 h-8 text-purple-primary" />
+          </div>
+          <h3 className="text-2xl font-semibold text-dark-gray mb-4">Bedankt voor je bericht!</h3>
+          <p className="text-lg text-warm-gray mb-8 leading-relaxed">
             We hebben je bericht ontvangen en nemen binnen één werkdag contact met je op.
           </p>
-          <div className="bg-white rounded-lg p-4 text-left text-sm">
-            <h4 className="font-semibold text-gray-800 mb-2">Ingediende gegevens:</h4>
+          <div className="bg-soft-beige rounded-2xl p-6 text-left">
+            <h4 className="font-semibold text-dark-gray mb-4 text-lg">Ingediende gegevens:</h4>
             {submittedData && (
               <>
-                <p><strong>Naam:</strong> {submittedData.name}</p>
-                <p><strong>E-mail:</strong> {submittedData.email}</p>
-                {submittedData.phone && <p><strong>Telefoon:</strong> {submittedData.phone}</p>}
-                {submittedData.package && <p><strong>Pakket interesse:</strong> {submittedData.package}</p>}
-                <p><strong>Bericht:</strong> {submittedData.message}</p>
+                <p className="text-warm-gray mb-2"><strong className="text-dark-gray">Naam:</strong> {submittedData.name}</p>
+                <p className="text-warm-gray mb-2"><strong className="text-dark-gray">E-mail:</strong> {submittedData.email}</p>
+                {submittedData.phone && <p className="text-warm-gray mb-2"><strong className="text-dark-gray">Telefoon:</strong> {submittedData.phone}</p>}
+                {submittedData.package && <p className="text-warm-gray mb-2"><strong className="text-dark-gray">Pakket interesse:</strong> {submittedData.package}</p>}
+                <p className="text-warm-gray"><strong className="text-dark-gray">Bericht:</strong> {submittedData.message}</p>
               </>
             )}
           </div>
           <Button 
-            onClick={() => setIsSubmitted(false)}
-            className="mt-4 bg-purple-primary hover:bg-purple-light"
+            onClick={() => {
+              setIsSubmitted(false)
+              setSubmittedData(null)
+            }}
+            className="mt-8 bg-purple-primary hover:bg-purple-light text-white px-8 py-3 rounded-xl text-lg font-semibold"
           >
             Nieuw bericht versturen
           </Button>
@@ -104,8 +109,8 @@ export default function ContactForm() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="bg-gray-50 rounded-2xl p-8">
-        <h3 className="text-2xl font-semibold text-dark-gray mb-6">Stuur ons een bericht</h3>
+      <form onSubmit={form.handleSubmit(onSubmit)} className="bg-natural-white rounded-3xl p-10 shadow-lg">
+        <h3 className="text-3xl font-semibold text-dark-gray mb-8 text-center">Stuur ons een bericht</h3>
         
         <div className="space-y-6">
           <FormField
@@ -213,12 +218,12 @@ export default function ContactForm() {
         <Button 
           type="submit" 
           disabled={contactMutation.isPending}
-          className="w-full bg-purple-primary hover:bg-purple-light mt-6"
+          className="w-full bg-purple-primary hover:bg-purple-light mt-8 py-4 rounded-xl text-lg font-semibold text-white"
         >
           {contactMutation.isPending ? "Bezig met versturen..." : "Verstuur bericht"}
         </Button>
         
-        <p className="text-xs text-warm-gray mt-4 text-center">
+        <p className="text-sm text-warm-gray mt-6 text-center leading-relaxed">
           We respecteren je privacy en nemen binnen één werkdag contact met je op.
         </p>
       </form>

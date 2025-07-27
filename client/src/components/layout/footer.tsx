@@ -3,49 +3,49 @@ import Logo from "@/components/ui/logo";
 
 export default function Footer() {
   return (
-    <footer className="bg-dark-gray text-white py-12">
+    <footer className="bg-dark-gray text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-12">
           <div>
-            <div className="mb-4">
+            <div className="mb-6">
               <div className="flex items-center">
-                <div className="w-10 h-10 bg-purple-primary rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                <div className="w-12 h-12 bg-purple-primary rounded-xl flex items-center justify-center text-white font-bold text-xl">
                   X
                 </div>
-                <span className="ml-3 text-xl font-semibold">Xenra Nazorghulp</span>
+                <span className="ml-4 text-2xl font-semibold">Xenra Nazorghulp</span>
               </div>
             </div>
-            <p className="text-gray-300 mb-6">
+            <p className="text-gray-300 mb-8 leading-relaxed text-lg">
               Warme, persoonlijke en professionele begeleiding voor nabestaanden. 
               Wij zijn er om je te helpen met emotionele steun én praktische zaken.
             </p>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <div className="space-y-2 text-gray-300">
-              <p className="flex items-center">
-                <Mail className="w-4 h-4 mr-2" />
+            <h3 className="text-xl font-semibold mb-6">Contact</h3>
+            <div className="space-y-4 text-gray-300">
+              <p className="flex items-center text-lg">
+                <Mail className="w-5 h-5 mr-3" />
                 info@nazorghulp.nl
               </p>
-              <p className="flex items-center">
-                <Clock className="w-4 h-4 mr-2" />
+              <p className="flex items-center text-lg">
+                <Clock className="w-5 h-5 mr-3" />
                 07:30 - 17:30
               </p>
-              <p className="flex items-center">
-                <Calendar className="w-4 h-4 mr-2" />
+              <p className="flex items-center text-lg">
+                <Calendar className="w-5 h-5 mr-3" />
                 Maandag t/m vrijdag
               </p>
             </div>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Onze Pakketten</h3>
-            <div className="space-y-2 text-gray-300">
-              <p>Basis Pakket - €79,99/maand</p>
-              <p>Plus Pakket - €119,99/maand</p>
-              <p>Intensief Pakket - €169,99/maand</p>
-              <p className="text-orange-primary">Per maand opzegbaar</p>
+            <h3 className="text-xl font-semibold mb-6">Onze Pakketten</h3>
+            <div className="space-y-3 text-gray-300">
+              <p className="text-lg">Basis Pakket - €79,99/maand</p>
+              <p className="text-lg">Plus Pakket - €119,99/maand</p>
+              <p className="text-lg">Intensief Pakket - €169,99/maand</p>
+              <p className="text-orange-primary text-lg font-medium">Per maand opzegbaar</p>
             </div>
           </div>
         </div>
