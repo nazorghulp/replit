@@ -21,7 +21,7 @@ export default function Home() {
             <div className="flex justify-center">
               <a 
                 href="/contact" 
-                className="bg-purple-primary text-white px-12 py-5 rounded-2xl font-semibold hover:bg-purple-600 transition-colors duration-300 text-lg shadow-lg"
+                className="bg-orange-primary text-white px-12 py-5 rounded-2xl font-semibold hover:bg-orange-600 transition-colors duration-300 text-lg shadow-lg"
               >
                 Stuur een bericht
               </a>
