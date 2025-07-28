@@ -15,9 +15,9 @@ import Footer from "@/components/layout/footer";
 
 function Router() {
   return (
-    <div className="min-h-screen flex flex-col bg-purple-primary">
+    <div className="min-h-screen bg-purple-primary">
       <Navbar />
-      <main className="flex-1 pt-16">
+      <main className="w-full">
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/over-ons" component={OverOns} />
