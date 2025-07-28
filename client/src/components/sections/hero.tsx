@@ -86,6 +86,15 @@ export default function Hero() {
         </div>
       </section>
       
+      {/* Liggende natuurfoto tussen secties */}
+      <div className="w-full h-32 lg:h-48 overflow-hidden">
+        <img 
+          src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&h=600" 
+          alt="Rustig bospad dat symboliseert het pad door rouw naar heling" 
+          className="w-full h-full object-cover object-center filter brightness-90"
+        />
+      </div>
+      
       {/* Emotionele sectie met foto en tekst */}
       <div className="bg-purple-primary py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
