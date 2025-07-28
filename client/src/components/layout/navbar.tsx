@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
+import logoPath from "@assets/logo web_1753678013397.jpg";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,8 +30,12 @@ export default function Navbar() {
           
           {/* Center Logo */}
           <Link href="/" className="flex items-center">
-            <div className="w-16 h-12 bg-white rounded-lg flex items-center justify-center">
-              <span className="text-purple-primary font-bold text-lg">XENRA</span>
+            <div className="w-20 h-12 bg-white rounded-lg flex items-center justify-center p-1">
+              <img 
+                src={logoPath} 
+                alt="Xenra Nazorg" 
+                className="w-full h-full object-contain"
+              />
             </div>
           </Link>
           
