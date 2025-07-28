@@ -1,4 +1,5 @@
 import { Heart, Shield, Users, MessageCircle, Clock, CheckCircle } from "lucide-react";
+import teamPhotoPath from "@assets/zittend zonder gezicht_1753737536522.png";
 
 export default function OverOns() {
   return (
@@ -25,69 +26,62 @@ export default function OverOns() {
 
           {/* Premium glassmorphism content box */}
           <div className="max-w-6xl mx-auto">
-            <div className="bg-white/95 backdrop-blur-md rounded-3xl p-10 lg:p-16 border border-white/30 shadow-2xl">
-              {/* Decoratieve header met icoon */}
-              <div className="text-center mb-12">
-                <div className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-100 to-orange-100 rounded-full px-8 py-4 mb-8">
-                  <Users className="w-6 h-6 text-purple-primary" />
-                  <span className="text-purple-primary font-semibold text-lg">Ons verhaal</span>
+            <div className="bg-white/95 backdrop-blur-md rounded-3xl overflow-hidden border border-white/30 shadow-2xl">
+              
+              {/* Foto sectie */}
+              <div className="relative h-80 lg:h-96">
+                <img 
+                  src={teamPhotoPath}
+                  alt="Professioneel gesprek tussen begeleider en cliënt, gezichten niet zichtbaar ter bescherming van privacy" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-purple-primary/80 via-purple-primary/40 to-transparent"></div>
+                
+                {/* Overlay tekst */}
+                <div className="absolute bottom-8 left-8 right-8">
+                  <div className="inline-flex items-center gap-3 bg-white/20 backdrop-blur-sm rounded-full px-6 py-3 mb-4">
+                    <Users className="w-5 h-5 text-white" />
+                    <span className="text-white font-semibold">Ons verhaal</span>
+                  </div>
                 </div>
               </div>
 
-              {/* Elegante tekstblokken met iconen */}
-              <div className="space-y-10 text-lg lg:text-xl leading-relaxed">
-                <div className="flex items-start gap-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-purple-primary to-purple-600 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
-                    <Heart className="w-6 h-6 text-white" />
-                  </div>
+              {/* Tekst sectie */}
+              <div className="p-10 lg:p-16">
+                <div className="space-y-8 text-lg lg:text-xl leading-relaxed">
                   <p className="text-warm-gray">
                     Achter Xenra Nazorghulp staat een klein, betrokken team van professionele begeleiders. 
                     We hebben ruime ervaring in het ondersteunen van mensen na het verlies van een dierbare – 
                     <strong className="text-purple-primary">zowel volwassenen als jongeren en kinderen tot 17 jaar</strong>.
                   </p>
-                </div>
 
-                <div className="flex items-start gap-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-orange-primary to-orange-600 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
-                    <Shield className="w-6 h-6 text-white" />
-                  </div>
                   <p className="text-warm-gray">
                     Voor elk kind of volwassene is passende begeleiding beschikbaar. 
                     <strong className="text-orange-primary">Kinderen worden opgevangen door gespecialiseerde begeleiders</strong> die 
                     weten hoe rouw bij jonge mensen anders kan verlopen.
                   </p>
-                </div>
 
-                <div className="flex items-start gap-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-purple-primary to-purple-600 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
-                    <Users className="w-6 h-6 text-white" />
-                  </div>
                   <p className="text-warm-gray">
                     Omdat sommige mensen liever anoniem contact hebben, tonen we op deze website bewust 
                     <strong className="text-purple-primary">geen foto's of namen van onze begeleiders</strong>. 
                     Zo respecteren we ook de privacy van onze cliënten.
                   </p>
-                </div>
 
-                <div className="flex items-start gap-6">
-                  <div className="w-12 h-12 bg-gradient-to-br from-orange-primary to-orange-600 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
-                    <MessageCircle className="w-6 h-6 text-white" />
-                  </div>
                   <p className="text-warm-gray">
                     Of je nu behoefte hebt aan een kort lijntje via WhatsApp of liever belt of mailt – 
                     <strong className="text-orange-primary">wij passen ons aan</strong>. 
                     Jouw tempo, jouw keuze, jouw moment.
                   </p>
                 </div>
-              </div>
 
-              {/* Subtiele decoratieve lijn */}
-              <div className="mt-12 pt-8 border-t border-purple-100">
-                <div className="text-center">
-                  <div className="inline-flex items-center gap-4 text-purple-primary">
-                    <div className="w-2 h-2 bg-purple-primary rounded-full"></div>
-                    <span className="font-medium">Professionele ondersteuning met persoonlijke aandacht</span>
-                    <div className="w-2 h-2 bg-orange-primary rounded-full"></div>
+                {/* Subtiele decoratieve lijn */}
+                <div className="mt-12 pt-8 border-t border-purple-100">
+                  <div className="text-center">
+                    <div className="inline-flex items-center gap-4 text-purple-primary">
+                      <div className="w-2 h-2 bg-purple-primary rounded-full"></div>
+                      <span className="font-medium">Professionele ondersteuning met persoonlijke aandacht</span>
+                      <div className="w-2 h-2 bg-orange-primary rounded-full"></div>
+                    </div>
                   </div>
                 </div>
               </div>
