@@ -86,19 +86,15 @@ export default function Hero() {
         </div>
       </section>
       
-      {/* Liggende natuurfoto tussen secties */}
-      <div className="w-full h-48 lg:h-64 overflow-hidden">
-        <img 
-          src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&h=600" 
-          alt="Rustig bospad dat symboliseert het pad door rouw naar heling" 
-          className="w-full h-full object-cover object-center filter brightness-90"
-        />
-      </div>
-      
-      {/* Hulp aan Kinderen & Jongeren sectie */}
-      <section className="relative py-24 bg-white overflow-hidden">
+      {/* Hulp aan Kinderen & Jongeren sectie met foto achtergrond */}
+      <section 
+        className="relative py-24 overflow-hidden bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&h=1200')`
+        }}
+      >
         {/* Subtiele achtergrond pattern */}
-        <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 opacity-3">
           <div className="absolute top-20 left-20 w-96 h-96 bg-purple-primary rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 right-20 w-72 h-72 bg-orange-primary rounded-full blur-3xl"></div>
         </div>
