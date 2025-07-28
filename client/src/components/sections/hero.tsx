@@ -54,8 +54,9 @@ export default function Hero() {
                   
                   <p>
                     Onze begeleiders zijn er niet om jouw pijn weg te nemen – dat kunnen we niet en dat willen we ook niet. 
-                    Maar we kunnen wel <strong className="text-orange-primary">een veilige ruimte bieden</strong> waar je kunt voelen wat je voelt, 
-                    waar je tranen welkom zijn en waar je stiltes gerespecteerd worden.
+                    Wel bieden we <strong className="text-orange-primary">een veilige ruimte</strong> waar je kunt voelen wat je voelt, 
+                    waar je tranen welkom zijn en waar je stiltes gerespecteerd worden. Daarnaast helpen we je om 
+                    <strong className="text-purple-primary">het verlies een plek te geven</strong> in je leven.
                   </p>
                   
                   <p>
