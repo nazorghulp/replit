@@ -55,7 +55,7 @@ export default function Hero() {
               </div>
               
               {/* Tekst rechts */}
-              <div className="order-1 lg:order-2 text-purple-900 self-center">
+              <div className="order-1 lg:order-2 text-black self-center">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-8 leading-tight">
                   Het is oké om hulp te vragen
                 </h3>
