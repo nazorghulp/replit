@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Heart, Handshake, Baby } from "lucide-react";
+import { Heart, Handshake, Baby, Shield, MessageCircle } from "lucide-react";
 import familyImagePath from "@assets/image_1753725391508.png";
 
 export default function Hero() {
@@ -22,55 +22,69 @@ export default function Hero() {
       </div>
       
       {/* Emotionele sectie ONDER de foto */}
-      <div className="relative bg-gradient-to-b from-purple-primary to-purple-800 py-20 overflow-hidden">
-        {/* Subtiele achtergrond elementen */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 left-10 w-64 h-64 bg-white rounded-full blur-3xl"></div>
-          <div className="absolute bottom-10 right-10 w-48 h-48 bg-orange-primary rounded-full blur-3xl"></div>
+      <section className="relative py-24 bg-white overflow-hidden">
+        {/* Subtiele achtergrond pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-20 left-20 w-96 h-96 bg-purple-primary rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 right-20 w-72 h-72 bg-orange-primary rounded-full blur-3xl"></div>
         </div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-5xl mx-auto">
-            {/* Hoofdtekst in glasmorphism container */}
-            <div className="bg-white/95 backdrop-blur-md rounded-3xl p-12 lg:p-16 shadow-2xl border border-white/30 mb-16">
-              <div className="text-center">
-
-                
-                <h3 className="text-3xl lg:text-4xl font-bold text-dark-gray mb-8 leading-tight">
-                  Je hoeft het niet alleen te dragen
-                </h3>
-                
-                <div className="space-y-6 text-lg lg:text-xl text-warm-gray leading-relaxed">
-                  <p className="text-2xl font-medium text-purple-primary">
-                    Het verlies van een dierbare is een van de zwaarste momenten in een mensenleven. 
-                    Juist dan is het belangrijk dat je niet alles alleen hoeft te doen.
-                  </p>
+          {/* Header Section */}
+          <div className="text-center mb-20">
+            <div className="inline-flex items-center gap-2 bg-purple-100 backdrop-blur-sm rounded-full px-6 py-3 mb-8">
+              <Heart className="w-5 h-5 text-purple-primary" />
+              <span className="text-purple-primary font-medium">Begrip en medeleven</span>
+            </div>
+            
+            <h2 className="text-4xl lg:text-6xl font-bold text-dark-gray mb-8 leading-tight">
+              Je hoeft het niet <span className="text-purple-primary">alleen</span> te dragen
+            </h2>
+            
+            <div className="max-w-5xl mx-auto">
+              <div className="bg-gradient-to-br from-purple-50 to-orange-50 backdrop-blur-md rounded-3xl p-8 lg:p-12 border border-purple-100 shadow-2xl">
+                <div className="space-y-8 text-lg lg:text-xl text-warm-gray leading-relaxed">
+                  <div className="flex items-start gap-4">
+                    <Heart className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
+                    <p className="text-2xl font-medium text-purple-primary">
+                      Het verlies van een dierbare is een van de zwaarste momenten in een mensenleven. 
+                      Juist dan is het belangrijk dat je niet alles alleen hoeft te doen.
+                    </p>
+                  </div>
                   
-                  <p>
-                    Bij Xenra Nazorg begrijpen we de diepte van jouw verdriet. We weten dat elke dag anders kan voelen, 
-                    dat sommige momenten ondraaglijk lijken en dat herinneringen zowel troost als pijn kunnen brengen. 
-                    <strong className="text-purple-primary">Jouw verhaal is uniek, en jouw rouwproces verdient alle respect en tijd die nodig is.</strong>
-                  </p>
+                  <div className="flex items-start gap-4">
+                    <Shield className="w-6 h-6 text-orange-primary mt-1 flex-shrink-0" />
+                    <p>
+                      Bij Xenra Nazorg begrijpen we de diepte van jouw verdriet. We weten dat elke dag anders kan voelen, 
+                      dat sommige momenten ondraaglijk lijken en dat herinneringen zowel troost als pijn kunnen brengen. 
+                      <strong className="text-purple-primary">Jouw verhaal is uniek, en jouw rouwproces verdient alle respect en tijd die nodig is.</strong>
+                    </p>
+                  </div>
                   
-                  <p>
-                    Onze begeleiders zijn er niet om jouw pijn weg te nemen – dat kunnen we niet en dat willen we ook niet. 
-                    Wel bieden we <strong className="text-orange-primary">een veilige ruimte</strong> waar je kunt voelen wat je voelt, 
-                    waar je tranen welkom zijn en waar je stiltes gerespecteerd worden. Daarnaast helpen we je om{" "}
-                    <strong className="text-purple-primary">het verlies een plek te geven</strong> in je leven.
-                  </p>
+                  <div className="flex items-start gap-4">
+                    <MessageCircle className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
+                    <p>
+                      Onze begeleiders zijn er niet om jouw pijn weg te nemen – dat kunnen we niet en dat willen we ook niet. 
+                      Wel bieden we <strong className="text-orange-primary">een veilige ruimte</strong> waar je kunt voelen wat je voelt, 
+                      waar je tranen welkom zijn en waar je stiltes gerespecteerd worden. Daarnaast helpen we je om{" "}
+                      <strong className="text-purple-primary">het verlies een plek te geven</strong> in je leven.
+                    </p>
+                  </div>
                   
-                  <p>
-                    <strong className="text-purple-primary">Xenra Nazorg staat voor warme, professionele begeleiding 
-                    zonder oordeel</strong>. We lopen een stukje mee op jouw pad, in jouw tempo, met jouw verhaal centraal. 
-                    Want ook al voelt het misschien niet zo: je bent sterker dan je denkt, en je verdient alle steun die je nodig hebt.
-                  </p>
+                  <div className="flex items-start gap-4">
+                    <Heart className="w-6 h-6 text-orange-primary mt-1 flex-shrink-0" />
+                    <p>
+                      <strong className="text-purple-primary">Xenra Nazorg staat voor warme, professionele begeleiding 
+                      zonder oordeel</strong>. We lopen een stukje mee op jouw pad, in jouw tempo, met jouw verhaal centraal. 
+                      Want ook al voelt het misschien niet zo: <strong className="text-orange-primary">je bent sterker dan je denkt, en je verdient alle steun die je nodig hebt.</strong>
+                    </p>
+                  </div>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       
       {/* Emotionele sectie met foto en tekst */}
       <div className="bg-purple-primary py-20">
