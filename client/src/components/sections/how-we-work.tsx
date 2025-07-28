@@ -8,7 +8,7 @@ export default function HowWeWork() {
           <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">Hoe wij werken</h2>
           <div className="max-w-4xl mx-auto space-y-6">
             <p className="text-xl text-white leading-relaxed">
-              Bij ons geen lange wachttijden of vaste abonnementen. Jij bepaalt zelf wat je nodig hebt, en wanneer. 
+              Bij ons geen lange wachttijden of vaste abonnementen. Jij bepaalt zelf wat je nodig hebt en wanneer. 
               Onze pakketten zijn per maand af te nemen – aan het einde van elke maand vragen we of je wilt verlengen. 
               Zo houd jij de regie.
             </p>
