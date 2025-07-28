@@ -23,106 +23,71 @@ export default function OverOns() {
             </h1>
           </div>
 
-          {/* Premium content layout */}
-          <div className="max-w-7xl mx-auto">
-            {/* Hoofdtekst in premium glassmorphism blok */}
-            <div className="bg-white/95 backdrop-blur-md rounded-3xl p-8 lg:p-12 border border-white/30 shadow-2xl mb-16">
-              <div className="text-center max-w-4xl mx-auto">
-                <div className="flex justify-center mb-8">
-                  <div className="w-20 h-20 bg-gradient-to-br from-purple-primary to-orange-primary rounded-full flex items-center justify-center shadow-lg">
-                    <Heart className="w-10 h-10 text-white" />
-                  </div>
-                </div>
-                
-                <h2 className="text-2xl lg:text-3xl font-bold text-purple-primary mb-8 leading-relaxed">
-                  Achter Xenra Nazorghulp staat een klein, betrokken team van professionele begeleiders
-                </h2>
-                
-                <p className="text-xl lg:text-2xl text-warm-gray leading-relaxed mb-8">
-                  We hebben ruime ervaring in het ondersteunen van mensen na het verlies van een dierbare – 
-                  <strong className="text-purple-primary"> zowel volwassenen als jongeren en kinderen tot 17 jaar</strong>.
-                </p>
-              </div>
-            </div>
-
-            {/* Vier professionele feature cards */}
-            <div className="grid md:grid-cols-2 gap-8">
-              {/* Card 1: Gespecialiseerde begeleiding */}
-              <div className="group">
-                <div className="bg-white/90 backdrop-blur-md rounded-3xl p-8 lg:p-10 border border-white/40 shadow-xl hover:shadow-2xl hover:bg-white/95 transition-all duration-300 h-full">
-                  <div className="flex items-start gap-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-orange-primary to-orange-light rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                      <Shield className="w-8 h-8 text-white" />
-                    </div>
-                    <div>
-                      <h3 className="text-xl lg:text-2xl font-bold text-purple-primary mb-4">
-                        Gespecialiseerde begeleiding
-                      </h3>
-                      <p className="text-lg text-warm-gray leading-relaxed">
-                        Voor elk kind of volwassene is passende begeleiding beschikbaar. 
-                        <strong className="text-orange-primary">Kinderen worden opgevangen door gespecialiseerde begeleiders</strong> die 
-                        weten hoe rouw bij jonge mensen anders kan verlopen.
-                      </p>
-                    </div>
-                  </div>
+          {/* Premium glassmorphism content box */}
+          <div className="max-w-6xl mx-auto">
+            <div className="bg-white/95 backdrop-blur-md rounded-3xl p-10 lg:p-16 border border-white/30 shadow-2xl">
+              {/* Decoratieve header met icoon */}
+              <div className="text-center mb-12">
+                <div className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-100 to-orange-100 rounded-full px-8 py-4 mb-8">
+                  <Users className="w-6 h-6 text-purple-primary" />
+                  <span className="text-purple-primary font-semibold text-lg">Ons verhaal</span>
                 </div>
               </div>
 
-              {/* Card 2: Privacy en anonimiteit */}
-              <div className="group">
-                <div className="bg-white/90 backdrop-blur-md rounded-3xl p-8 lg:p-10 border border-white/40 shadow-xl hover:shadow-2xl hover:bg-white/95 transition-all duration-300 h-full">
-                  <div className="flex items-start gap-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                      <Users className="w-8 h-8 text-white" />
-                    </div>
-                    <div>
-                      <h3 className="text-xl lg:text-2xl font-bold text-purple-primary mb-4">
-                        Privacy en anonimiteit
-                      </h3>
-                      <p className="text-lg text-warm-gray leading-relaxed">
-                        Omdat sommige mensen liever anoniem contact hebben, tonen we op deze website bewust 
-                        <strong className="text-purple-primary"> geen foto's of namen van onze begeleiders</strong>. 
-                        Zo respecteren we ook de privacy van onze cliënten.
-                      </p>
-                    </div>
+              {/* Elegante tekstblokken met iconen */}
+              <div className="space-y-10 text-lg lg:text-xl leading-relaxed">
+                <div className="flex items-start gap-6">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-primary to-purple-600 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                    <Heart className="w-6 h-6 text-white" />
                   </div>
+                  <p className="text-warm-gray">
+                    Achter Xenra Nazorghulp staat een klein, betrokken team van professionele begeleiders. 
+                    We hebben ruime ervaring in het ondersteunen van mensen na het verlies van een dierbare – 
+                    <strong className="text-purple-primary">zowel volwassenen als jongeren en kinderen tot 17 jaar</strong>.
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-6">
+                  <div className="w-12 h-12 bg-gradient-to-br from-orange-primary to-orange-600 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                    <Shield className="w-6 h-6 text-white" />
+                  </div>
+                  <p className="text-warm-gray">
+                    Voor elk kind of volwassene is passende begeleiding beschikbaar. 
+                    <strong className="text-orange-primary">Kinderen worden opgevangen door gespecialiseerde begeleiders</strong> die 
+                    weten hoe rouw bij jonge mensen anders kan verlopen.
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-6">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-primary to-purple-600 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                    <Users className="w-6 h-6 text-white" />
+                  </div>
+                  <p className="text-warm-gray">
+                    Omdat sommige mensen liever anoniem contact hebben, tonen we op deze website bewust 
+                    <strong className="text-purple-primary">geen foto's of namen van onze begeleiders</strong>. 
+                    Zo respecteren we ook de privacy van onze cliënten.
+                  </p>
+                </div>
+
+                <div className="flex items-start gap-6">
+                  <div className="w-12 h-12 bg-gradient-to-br from-orange-primary to-orange-600 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                    <MessageCircle className="w-6 h-6 text-white" />
+                  </div>
+                  <p className="text-warm-gray">
+                    Of je nu behoefte hebt aan een kort lijntje via WhatsApp of liever belt of mailt – 
+                    <strong className="text-orange-primary">wij passen ons aan</strong>. 
+                    Jouw tempo, jouw keuze, jouw moment.
+                  </p>
                 </div>
               </div>
 
-              {/* Card 3: Flexibele communicatie */}
-              <div className="group md:col-span-2">
-                <div className="bg-white/90 backdrop-blur-md rounded-3xl p-8 lg:p-10 border border-white/40 shadow-xl hover:shadow-2xl hover:bg-white/95 transition-all duration-300">
-                  <div className="flex items-center justify-center mb-6">
-                    <div className="w-20 h-20 bg-gradient-to-br from-orange-primary to-purple-primary rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
-                      <MessageCircle className="w-10 h-10 text-white" />
-                    </div>
-                  </div>
-                  
-                  <div className="text-center max-w-3xl mx-auto">
-                    <h3 className="text-2xl lg:text-3xl font-bold text-purple-primary mb-6">
-                      Jouw tempo, jouw keuze, jouw moment
-                    </h3>
-                    <p className="text-xl text-warm-gray leading-relaxed">
-                      Of je nu behoefte hebt aan een kort lijntje via WhatsApp of liever belt of mailt – 
-                      <strong className="text-orange-primary">wij passen ons aan</strong>. 
-                      De manier van communiceren die voor jou het prettigst voelt, daar gaan we mee aan de slag.
-                    </p>
-                    
-                    {/* Mini contact opties */}
-                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8">
-                      <div className="bg-purple-50 rounded-xl p-4 border border-purple-100">
-                        <MessageCircle className="w-8 h-8 text-purple-primary mx-auto mb-2" />
-                        <p className="text-purple-primary font-semibold">WhatsApp</p>
-                      </div>
-                      <div className="bg-orange-50 rounded-xl p-4 border border-orange-100">
-                        <Heart className="w-8 h-8 text-orange-primary mx-auto mb-2" />
-                        <p className="text-orange-primary font-semibold">Telefonisch</p>
-                      </div>
-                      <div className="bg-purple-50 rounded-xl p-4 border border-purple-100">
-                        <Users className="w-8 h-8 text-purple-primary mx-auto mb-2" />
-                        <p className="text-purple-primary font-semibold">E-mail</p>
-                      </div>
-                    </div>
+              {/* Subtiele decoratieve lijn */}
+              <div className="mt-12 pt-8 border-t border-purple-100">
+                <div className="text-center">
+                  <div className="inline-flex items-center gap-4 text-purple-primary">
+                    <div className="w-2 h-2 bg-purple-primary rounded-full"></div>
+                    <span className="font-medium">Professionele ondersteuning met persoonlijke aandacht</span>
+                    <div className="w-2 h-2 bg-orange-primary rounded-full"></div>
                   </div>
                 </div>
               </div>
