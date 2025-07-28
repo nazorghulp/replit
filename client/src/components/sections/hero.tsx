@@ -22,27 +22,27 @@ export default function Hero() {
       </div>
       
       {/* Emotionele sectie ONDER de foto */}
-      <section className="relative py-24 bg-white overflow-hidden">
+      <section className="relative py-24 bg-gradient-to-b from-purple-primary to-purple-800 overflow-hidden">
         {/* Subtiele achtergrond pattern */}
         <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-20 left-20 w-96 h-96 bg-purple-primary rounded-full blur-3xl"></div>
+          <div className="absolute top-20 left-20 w-96 h-96 bg-white rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 right-20 w-72 h-72 bg-orange-primary rounded-full blur-3xl"></div>
         </div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header Section */}
           <div className="text-center mb-20">
-            <div className="inline-flex items-center gap-2 bg-purple-100 backdrop-blur-sm rounded-full px-6 py-3 mb-8">
-              <Heart className="w-5 h-5 text-purple-primary" />
-              <span className="text-purple-primary font-medium">Begrip en medeleven</span>
+            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 mb-8">
+              <Heart className="w-5 h-5 text-orange-light" />
+              <span className="text-white/90 font-medium">Begrip en medeleven</span>
             </div>
             
-            <h2 className="text-4xl lg:text-6xl font-bold text-dark-gray mb-8 leading-tight">
-              Je hoeft het niet <span className="text-purple-primary">alleen</span> te dragen
+            <h2 className="text-4xl lg:text-6xl font-bold text-white mb-8 leading-tight">
+              Je hoeft het niet <span className="text-orange-light">alleen</span> te dragen
             </h2>
             
             <div className="max-w-5xl mx-auto">
-              <div className="bg-gradient-to-br from-purple-50 to-orange-50 backdrop-blur-md rounded-3xl p-8 lg:p-12 border border-purple-100 shadow-2xl">
+              <div className="bg-white/95 backdrop-blur-md rounded-3xl p-8 lg:p-12 border border-white/30 shadow-2xl">
                 <div className="space-y-8 text-lg lg:text-xl text-warm-gray leading-relaxed">
                   <div className="flex items-start gap-4">
                     <Heart className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
