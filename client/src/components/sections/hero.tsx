@@ -4,7 +4,7 @@ import { Heart, Handshake, Baby } from "lucide-react";
 export default function Hero() {
   return (
     <section 
-      className="relative py-32 lg:py-48 bg-cover bg-center bg-no-repeat -mt-0"
+      className="relative py-32 lg:py-48 bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&h=1200')`
       }}
