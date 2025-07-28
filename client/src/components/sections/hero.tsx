@@ -26,18 +26,10 @@ export default function Hero() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-3xl p-12 lg:p-16 shadow-2xl">
               <div className="text-center">
-                <p className="text-xl lg:text-2xl text-warm-gray leading-relaxed mb-12">
+                <p className="text-xl lg:text-2xl text-warm-gray leading-relaxed">
                   Het verlies van een dierbare is een van de zwaarste momenten in een mensenleven. 
                   Juist dan is het belangrijk dat je niet alles alleen hoeft te doen.
                 </p>
-
-                <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                  <Link href="/diensten">
-                    <button className="border-2 border-purple-primary text-purple-primary px-10 py-5 rounded-2xl font-semibold hover:bg-purple-primary hover:text-white transition-colors duration-300 text-xl shadow-lg">
-                      Bekijk onze pakketten
-                    </button>
-                  </Link>
-                </div>
               </div>
             </div>
           </div>
