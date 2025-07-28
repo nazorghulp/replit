@@ -74,9 +74,18 @@ export default function Hero() {
                   <div className="flex items-start gap-4">
                     <Heart className="w-6 h-6 text-orange-primary mt-1 flex-shrink-0" />
                     <p>
-                      <strong className="text-purple-primary">Xenra Nazorg staat voor warme, professionele begeleiding 
-                      zonder oordeel</strong>. We lopen een stukje mee op jouw pad, in jouw tempo, met jouw verhaal centraal. 
-                      Want ook al voelt het misschien niet zo: <strong className="text-orange-primary">je bent sterker dan je denkt, en je verdient alle steun die je nodig hebt.</strong>
+                      <strong className="text-purple-primary">Je bepaalt het tempo.</strong> Misschien ben je klaar voor diepgaande gesprekken, 
+                      of heb je juist behoefte aan praktische ondersteuning bij de regelzaken. Wellicht wil je samen herinneringen ophalen, 
+                      of zoek je manieren om de herdenking vorm te geven. We volgen jouw behoeften en gaan mee in wat jij nodig hebt.
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-start gap-4">
+                    <Handshake className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
+                    <p>
+                      <strong className="text-orange-primary">Je bent niet alleen.</strong> Hoewel niemand jouw exacte pijn kan begrijpen, 
+                      zijn er mensen die het pad van verlies hebben bewandeld en die je met warmte en expertise willen begeleiden. 
+                      Bij Xenra Nazorg vind je die mensen.
                     </p>
                   </div>
                 </div>
@@ -85,61 +94,6 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      
-      {/* Liggende natuurfoto tussen secties */}
-      <div className="w-full h-48 lg:h-64 overflow-hidden">
-        <img 
-          src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&h=600" 
-          alt="Rustig bospad dat symboliseert het pad door rouw naar heling" 
-          className="w-full h-full object-cover object-center filter brightness-90"
-        />
-      </div>
-      
-      {/* Emotionele sectie met foto en tekst */}
-      <div className="bg-purple-primary py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Donkerpaarse rand met lichtpaarse achtergrond */}
-          <div className="border-4 border-purple-800 rounded-3xl bg-purple-200 p-8 lg:p-12">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-              {/* Foto links */}
-              <div className="order-2 lg:order-1">
-                <div className="rounded-2xl overflow-hidden shadow-2xl">
-                  <img 
-                    src={familyImagePath} 
-                    alt="Moeder met kinderen die steun zoeken na verlies" 
-                    className="w-full h-auto object-cover"
-                  />
-                </div>
-              </div>
-              
-              {/* Tekst rechts */}
-              <div className="order-1 lg:order-2 text-black self-center">
-                <h3 className="text-3xl lg:text-4xl font-bold mb-8 leading-tight">
-                  Het is oké om hulp te vragen
-                </h3>
-                <div className="space-y-6 text-lg lg:text-xl leading-relaxed">
-                  <p>
-                    Verlies doet pijn. Het raakt je diep en verandert je wereld voorgoed. 
-                    Misschien voel je je overweldigd door verdriet, woede, of juist verdoofd. 
-                    Alle gevoelens zijn oké – er is geen 'goede' manier om te rouwen.
-                  </p>
-                  <p>
-                    Bij Xenra Nazorghulp begrijpen we dat elke rouwervaring uniek is. 
-                    We bieden een luisterend oor, praktische ondersteuning en professionele begeleiding 
-                    op momenten dat je dat het hardst nodig hebt.
-                  </p>
-                  <p>
-                    Je hoeft dit niet alleen te dragen. Wij staan klaar om je te helpen, 
-                    in jouw tempo en op jouw manier.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-
       
       {/* Emotionele sectie met foto en tekst */}
       <div className="bg-purple-primary py-20">
