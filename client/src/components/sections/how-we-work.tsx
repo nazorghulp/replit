@@ -22,26 +22,26 @@ export default function HowWeWork() {
           </div>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="text-center bg-natural-white rounded-2xl p-8 shadow-sm">
-            <div className="w-20 h-20 bg-orange-soft rounded-full flex items-center justify-center mx-auto mb-6">
-              <CalendarCheck className="w-10 h-10 text-orange-primary" />
+          <div className="text-center">
+            <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <CalendarCheck className="w-10 h-10 text-white" />
             </div>
-            <h3 className="text-xl font-semibold text-dark-gray mb-4">Direct starten</h3>
-            <p className="text-warm-gray leading-relaxed">Binnen één werkdag krijg je reactie en kun je direct beginnen</p>
+            <h3 className="text-xl font-semibold text-white mb-4">Direct starten</h3>
+            <p className="text-white leading-relaxed">Binnen één werkdag krijg je reactie en kun je direct beginnen</p>
           </div>
-          <div className="text-center bg-natural-white rounded-2xl p-8 shadow-sm">
-            <div className="w-20 h-20 bg-purple-soft rounded-full flex items-center justify-center mx-auto mb-6">
-              <MessageCircle className="w-10 h-10 text-purple-primary" />
+          <div className="text-center">
+            <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <MessageCircle className="w-10 h-10 text-white" />
             </div>
-            <h3 className="text-xl font-semibold text-dark-gray mb-4">Jouw keuze</h3>
-            <p className="text-warm-gray leading-relaxed">WhatsApp, telefoon of beeldbellen - wat voor jou het prettigst voelt</p>
+            <h3 className="text-xl font-semibold text-white mb-4">Jouw keuze</h3>
+            <p className="text-white leading-relaxed">WhatsApp, telefoon of beeldbellen - wat voor jou het prettigst voelt</p>
           </div>
-          <div className="text-center bg-natural-white rounded-2xl p-8 shadow-sm">
-            <div className="w-20 h-20 bg-orange-soft rounded-full flex items-center justify-center mx-auto mb-6">
-              <Clock className="w-10 h-10 text-orange-primary" />
+          <div className="text-center">
+            <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <Clock className="w-10 h-10 text-white" />
             </div>
-            <h3 className="text-xl font-semibold text-dark-gray mb-4">Jouw tempo</h3>
-            <p className="text-warm-gray leading-relaxed">Per maand opzegbaar, geen verplichtingen of automatische incasso</p>
+            <h3 className="text-xl font-semibold text-white mb-4">Jouw tempo</h3>
+            <p className="text-white leading-relaxed">Per maand opzegbaar, geen verplichtingen of automatische incasso</p>
           </div>
         </div>
       </div>
