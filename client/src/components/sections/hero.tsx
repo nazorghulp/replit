@@ -40,40 +40,43 @@ export default function Hero() {
       {/* Emotionele sectie met foto en tekst */}
       <div className="bg-purple-primary py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Foto links */}
-            <div className="order-2 lg:order-1">
-              <div className="rounded-2xl overflow-hidden shadow-2xl">
-                <img 
-                  src={familyImagePath} 
-                  alt="Moeder met kinderen die steun zoeken na verlies" 
-                  className="w-full h-auto object-cover"
-                />
+          {/* Donkerpaarse rand met lichtpaarse achtergrond */}
+          <div className="border-4 border-purple-800 rounded-3xl bg-purple-300 p-8 lg:p-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-stretch">
+              {/* Foto links */}
+              <div className="order-2 lg:order-1 flex">
+                <div className="rounded-2xl overflow-hidden shadow-2xl w-full">
+                  <img 
+                    src={familyImagePath} 
+                    alt="Moeder met kinderen die steun zoeken na verlies" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
-            </div>
-            
-            {/* Tekst rechts */}
-            <div className="order-1 lg:order-2 text-white">
-              <h3 className="text-3xl lg:text-4xl font-bold mb-8 leading-tight">
-                Het is oké om hulp te vragen
-              </h3>
-              <div className="space-y-6 text-lg lg:text-xl leading-relaxed">
-                <p>
-                  Rouw is een natuurlijk proces, maar dat betekent niet dat je het alleen hoeft te doorstaan. 
-                  Het verlies van een dierbare brengt emoties met zich mee die overweldigend kunnen zijn. 
-                  Verdriet, boosheid, eenzaamheid en verwarring zijn allemaal normale reacties.
-                </p>
-                <p>
-                  Bij Xenra Nazorg begrijpen we dat iedereen anders rouwt. Er is geen 'juiste' manier om 
-                  met verlies om te gaan, en er is geen tijdslijn die voor iedereen geldt. Wat wel 
-                  belangrijk is, is dat je de ruimte krijgt om te voelen wat je voelt.
-                </p>
-                <p>
-                  Misschien voel je je schuldig over het zoeken van hulp, of denk je dat je het zelf 
-                  moet kunnen. Maar het tegenovergestelde is waar: het vragen om ondersteuning is een 
-                  teken van moed en zelfzorg. Xenra Nazorg kan een waardevolle rol spelen in jouw 
-                  verwerkingsproces, door je de tools en begeleiding te bieden die je nodig hebt.
-                </p>
+              
+              {/* Tekst rechts */}
+              <div className="order-1 lg:order-2 text-purple-900 flex flex-col justify-center">
+                <h3 className="text-3xl lg:text-4xl font-bold mb-8 leading-tight">
+                  Het is oké om hulp te vragen
+                </h3>
+                <div className="space-y-6 text-lg lg:text-xl leading-relaxed">
+                  <p>
+                    Rouw is een natuurlijk proces, maar dat betekent niet dat je het alleen hoeft te doorstaan. 
+                    Het verlies van een dierbare brengt emoties met zich mee die overweldigend kunnen zijn. 
+                    Verdriet, boosheid, eenzaamheid en verwarring zijn allemaal normale reacties.
+                  </p>
+                  <p>
+                    Bij Xenra Nazorg begrijpen we dat iedereen anders rouwt. Er is geen 'juiste' manier om 
+                    met verlies om te gaan, en er is geen tijdslijn die voor iedereen geldt. Wat wel 
+                    belangrijk is, is dat je de ruimte krijgt om te voelen wat je voelt.
+                  </p>
+                  <p>
+                    Misschien voel je je schuldig over het zoeken van hulp, of denk je dat je het zelf 
+                    moet kunnen. Maar het tegenovergestelde is waar: het vragen om ondersteuning is een 
+                    teken van moed en zelfzorg. Xenra Nazorg kan een waardevolle rol spelen in jouw 
+                    verwerkingsproces, door je de tools en begeleiding te bieden die je nodig hebt.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
