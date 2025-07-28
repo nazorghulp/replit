@@ -1,11 +1,12 @@
 import Hero from "@/components/sections/hero";
-import HowWeWork from "@/components/sections/how-we-work";
+import HowWeWork, { ChildrenYouthHelp } from "@/components/sections/how-we-work";
 
 export default function Home() {
   return (
     <div className="bg-purple-primary">
       <Hero />
       <HowWeWork />
+      <ChildrenYouthHelp />
       
       {/* Plan vandaag nog jouw eerste contactmoment */}
       <section className="py-20 bg-purple-primary">
