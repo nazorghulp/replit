@@ -42,20 +42,20 @@ export default function Hero() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Donkerpaarse rand met lichtpaarse achtergrond */}
           <div className="border-4 border-purple-800 rounded-3xl bg-purple-200 p-8 lg:p-12">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
-              {/* Foto links - beperkte hoogte */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+              {/* Foto links */}
               <div className="order-2 lg:order-1">
                 <div className="rounded-2xl overflow-hidden shadow-2xl">
                   <img 
                     src={familyImagePath} 
                     alt="Moeder met kinderen die steun zoeken na verlies" 
-                    className="w-full h-auto object-cover max-h-96"
+                    className="w-full h-auto object-cover"
                   />
                 </div>
               </div>
               
               {/* Tekst rechts */}
-              <div className="order-1 lg:order-2 text-purple-900">
+              <div className="order-1 lg:order-2 text-purple-900 self-center">
                 <h3 className="text-3xl lg:text-4xl font-bold mb-8 leading-tight">
                   Het is oké om hulp te vragen
                 </h3>
