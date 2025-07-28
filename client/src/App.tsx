@@ -17,7 +17,7 @@ function Router() {
   return (
     <div className="min-h-screen bg-purple-primary">
       <Navbar />
-      <main className="pt-16">
+      <main>
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/over-ons" component={OverOns} />

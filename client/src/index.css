@@ -74,28 +74,21 @@
     background-color: hsl(280, 35%, 45%);
   }
 
-  /* Force navbar and ALL its content to stay fixed */
-  nav, nav *, nav div, nav a, nav span {
+  /* Simple fixed navbar */
+  .fixed-navbar {
     position: fixed !important;
-    transform: none !important;
-  }
-  
-  nav {
     top: 0 !important;
     left: 0 !important;
     right: 0 !important;
-    width: 100% !important;
+    width: 100vw !important;
     z-index: 9999 !important;
-  }
-  
-  /* Reset positioning for navbar content */
-  nav div, nav a, nav span {
-    position: relative !important;
+    background-color: hsl(280, 35%, 45%) !important;
+    height: 64px !important;
   }
   
   /* Ensure content doesn't overlap navbar */
-  main {
-    margin-top: 64px !important;
+  body {
+    padding-top: 64px !important;
   }
 
   h1, h2, h3, h4, h5, h6 {
