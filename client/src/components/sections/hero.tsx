@@ -34,10 +34,7 @@ export default function Hero() {
             {/* Hoofdtekst in glasmorphism container */}
             <div className="bg-white/95 backdrop-blur-md rounded-3xl p-12 lg:p-16 shadow-2xl border border-white/30 mb-16">
               <div className="text-center">
-                <div className="inline-flex items-center gap-2 bg-purple-100 rounded-full px-6 py-3 mb-8">
-                  <Heart className="w-5 h-5 text-purple-primary" />
-                  <span className="text-purple-primary font-medium">Begrip en medeleven</span>
-                </div>
+
                 
                 <h3 className="text-3xl lg:text-4xl font-bold text-dark-gray mb-8 leading-tight">
                   Je hoeft het niet alleen te dragen
@@ -67,31 +64,7 @@ export default function Hero() {
                     Want ook al voelt het misschien niet zo: je bent sterker dan je denkt, en je verdient alle steun die je nodig hebt.
                   </p>
                 </div>
-                
-                {/* Call-to-action */}
-                <div className="mt-12 pt-8 border-t border-purple-100">
-                  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-                    <div className="text-center">
-                      <p className="text-lg text-warm-gray mb-4">
-                        Klaar voor een gesprek? <strong className="text-purple-primary">We luisteren.</strong>
-                      </p>
-                      <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a 
-                          href="/contact" 
-                          className="bg-purple-primary text-white px-8 py-4 rounded-2xl font-semibold hover:bg-purple-600 transition-colors duration-300 text-lg shadow-lg"
-                        >
-                          Plan een gesprek
-                        </a>
-                        <a 
-                          href="mailto:info@nazorghulp.nl" 
-                          className="border-2 border-orange-primary text-orange-primary px-8 py-4 rounded-2xl font-semibold hover:bg-orange-primary hover:text-white transition-colors duration-300 text-lg"
-                        >
-                          Stuur een mail
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
               </div>
             </div>
           </div>
