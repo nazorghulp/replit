@@ -87,13 +87,85 @@ export default function Hero() {
       </section>
       
       {/* Liggende natuurfoto tussen secties */}
-      <div className="w-full h-32 lg:h-48 overflow-hidden">
+      <div className="w-full h-48 lg:h-64 overflow-hidden">
         <img 
           src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&h=600" 
           alt="Rustig bospad dat symboliseert het pad door rouw naar heling" 
           className="w-full h-full object-cover object-center filter brightness-90"
         />
       </div>
+      
+      {/* Hulp aan Kinderen & Jongeren sectie */}
+      <section className="relative py-24 bg-white overflow-hidden">
+        {/* Subtiele achtergrond pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-20 left-20 w-96 h-96 bg-purple-primary rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 right-20 w-72 h-72 bg-orange-primary rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Header Section */}
+          <div className="text-center mb-20">
+            <div className="inline-flex items-center gap-2 bg-purple-100 backdrop-blur-sm rounded-full px-6 py-3 mb-8">
+              <Baby className="w-5 h-5 text-purple-primary" />
+              <span className="text-purple-primary font-medium">Speciale zorg</span>
+            </div>
+            
+            <h2 className="text-4xl lg:text-6xl font-bold text-dark-gray mb-8 leading-tight">
+              Hulp aan <span className="text-purple-primary">Kinderen</span> & Jongeren
+            </h2>
+            
+            <div className="max-w-5xl mx-auto">
+              <div className="bg-gradient-to-br from-purple-50 to-orange-50 backdrop-blur-md rounded-3xl p-8 lg:p-12 border border-purple-100 shadow-2xl">
+                <div className="space-y-8 text-lg lg:text-xl text-warm-gray leading-relaxed">
+                  <div className="flex items-start gap-4">
+                    <Heart className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
+                    <p>
+                      <strong className="text-purple-primary">Rouw raakt ook kinderen</strong> – diep, maar vaak anders dan bij volwassenen. 
+                      Ze begrijpen verlies nog niet altijd volledig en uiten gevoelens op hun eigen manier. Bij Xenra Nazorghulp 
+                      bieden we daarom begeleiding speciaal gericht op <strong className="text-orange-primary">kinderen en jongeren tot 17 jaar</strong>.
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-start gap-4">
+                    <MessageCircle className="w-6 h-6 text-orange-primary mt-1 flex-shrink-0" />
+                    <p>
+                      Veel kinderen/jongeren kiezen in het begin voor <strong className="text-purple-primary">anoniem contact via WhatsApp of e-mail</strong>. 
+                      Dat is helemaal prima. Als ze daar later aan toe zijn, kunnen we ook bellen of beeldbellen. 
+                      <strong className="text-orange-primary">Ze bepalen zelf het tempo.</strong>
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-start gap-4">
+                    <Shield className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
+                    <p>
+                      We werken met een <strong className="text-purple-primary">speciaal behandeltraject</strong>, afgestemd op leeftijd en situatie. 
+                      Wat tijdens de gesprekken wordt gedeeld, blijft tussen het kind en de begeleider. Alleen met toestemming van het kind 
+                      betrekken we ouders of verzorgers.
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-start gap-4">
+                    <Baby className="w-6 h-6 text-orange-primary mt-1 flex-shrink-0" />
+                    <p>
+                      <strong className="text-orange-primary">Mocht er een wachtlijst zijn, dan krijgen kinderen altijd voorrang.</strong> 
+                      Want juist zij verdienen tijdige, veilige en passende ondersteuning als ze te maken krijgen met verlies.
+                    </p>
+                  </div>
+                  
+                  <div className="flex items-start gap-4">
+                    <Handshake className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
+                    <p>
+                      We hebben een <strong className="text-purple-primary">speciaal jeugdpakket</strong> (zie diensten). Ook dit pakket neemt u per maand af 
+                      en als de maand bijna om is, wordt de ouders/verzorgers gevraagd of ze met een maand willen verlengen.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       
       {/* Emotionele sectie met foto en tekst */}
       <div className="bg-purple-primary py-20">
