@@ -68,6 +68,7 @@
     @apply font-sans antialiased text-foreground;
     font-family: 'Inter', sans-serif;
     background-color: hsl(280, 35%, 45%);
+    padding-top: 0 !important;
   }
 
   html {
@@ -86,8 +87,8 @@
     height: 64px !important;
   }
   
-  /* Ensure content doesn't overlap navbar */
-  body {
+  /* Ensure content doesn't overlap navbar - alleen voor main */
+  main {
     padding-top: 64px !important;
   }
 
