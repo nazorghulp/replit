@@ -2,21 +2,21 @@ import { CalendarCheck, MessageCircle, Clock } from "lucide-react";
 
 export default function HowWeWork() {
   return (
-    <section className="py-20 bg-soft-beige">
+    <section className="py-20 bg-purple-primary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-dark-gray mb-6">Hoe wij werken</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">Hoe wij werken</h2>
           <div className="max-w-4xl mx-auto space-y-6">
-            <p className="text-xl text-warm-gray leading-relaxed">
+            <p className="text-xl text-white leading-relaxed">
               Bij ons geen lange wachttijden of vaste abonnementen. Jij bepaalt zelf wat je nodig hebt, en wanneer. 
               Onze pakketten zijn per maand af te nemen – aan het einde van elke maand vragen we of je wilt verlengen. 
               Zo houd jij de regie.
             </p>
-            <p className="text-xl text-warm-gray leading-relaxed">
+            <p className="text-xl text-white leading-relaxed">
               Contact verloopt op de manier die voor jou het prettigst voelt: via (beeld)bellen, WhatsApp of e-mail. 
               Wil je liever wat meer afstand of anoniem blijven? Geen probleem. We passen ons aan jouw tempo en wensen aan.
             </p>
-            <p className="text-xl text-warm-gray leading-relaxed">
+            <p className="text-xl text-white leading-relaxed">
               Of u nou man, vrouw of kind bent, voor iedereen maken wij een passend behandelingstraject.
             </p>
           </div>
