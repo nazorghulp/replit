@@ -45,7 +45,7 @@ export default function Footer() {
               <p className="text-lg">Basis Pakket - €79,99/maand</p>
               <p className="text-lg">Plus Pakket - €119,99/maand</p>
               <p className="text-lg">Intensief Pakket - €169,99/maand</p>
-              <p className="text-orange-primary text-lg font-medium">Per maand opzegbaar</p>
+              <p className="text-lg">Kinderen Pakket - €129,99/maand</p>
             </div>
           </div>
         </div>
