@@ -241,14 +241,7 @@ export default function OverOns() {
             </div>
           </div>
 
-          <div className="mt-12">
-            <a 
-              href="/contact" 
-              className="bg-orange-primary text-white px-12 py-5 rounded-2xl font-semibold hover:bg-orange-600 transition-colors duration-300 text-lg shadow-lg"
-            >
-              Neem contact op
-            </a>
-          </div>
+
         </div>
       </section>
     </div>
