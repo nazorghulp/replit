@@ -350,9 +350,12 @@ export default function PricingPackages() {
                   </h3>
                   
                   {/* Voor wie? beschrijving */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 mb-4 border border-white/20 max-w-3xl mx-auto">
-                    <p className="text-sm text-white/95 leading-relaxed font-medium">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 mb-4 border border-white/20 max-w-4xl mx-auto">
+                    <p className="text-sm text-white/95 leading-relaxed font-medium mb-3">
                       Voor kinderen en jongeren (t/m 17 jaar) die iemand zijn verloren en behoefte hebben aan steun, uitleg of gewoon iemand die écht luistert.
+                    </p>
+                    <p className="text-sm text-white/90 leading-relaxed">
+                      Het kind/jongere bepaald zelf wat voor soort contact er is. Dit kan gewoon via beeldbellen zijn, telefonisch of anoniem via WhatsApp of e-mail. Wij dringen nergens op aan, het gaat erom dat uw kind/jongere zich het prettigst voelt.
                     </p>
                   </div>
                   
