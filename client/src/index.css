@@ -67,12 +67,12 @@
   body {
     @apply font-sans antialiased text-foreground;
     font-family: 'Inter', sans-serif;
-    background-color: hsl(40, 25%, 85%);
+    background-color: hsl(280, 20%, 75%);
     padding-top: 0 !important;
   }
 
   html {
-    background-color: hsl(40, 25%, 85%);
+    background-color: hsl(280, 20%, 75%);
   }
 
   /* Simple fixed navbar */
