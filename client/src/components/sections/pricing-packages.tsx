@@ -7,10 +7,23 @@ export default function PricingPackages() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-dark-gray mb-4">Onze Diensten</h2>
-          <p className="text-lg text-warm-gray max-w-3xl mx-auto mb-6">
-            Alle pakketten zijn per maand opzegbaar. Er zijn geen automatische incasso's; 
-            je ontvangt elke maand een betaalverzoek.
-          </p>
+          <div className="text-lg text-warm-gray max-w-4xl mx-auto mb-6 space-y-4">
+            <p>
+              Bij Xenra Nazorg bieden we toegankelijke en flexibele behandelingen aan nabestaanden van alle leeftijden. 
+              Onze pakketten zijn maandelijks verlengbaar, geen automatische incasso's en geen langdurige verplichtingen.
+            </p>
+            <p>
+              Je beslist zelf maandelijks of je doorgaat en pas dan ontvang je een betaalverzoek.
+            </p>
+            <p>
+              We bieden drie pakketten voor volwassenen – Basis, Plus en Intensief – elk met een afgestemde mix van 
+              geplande behandelingen, WhatsApp- of e-mailcontact en praktische hulp.
+            </p>
+            <p>
+              Voor kinderen t/m 17 jaar hebben we een speciaal behandeltraject, met ruimte voor anoniem contact 
+              en extra aandacht voor hun tempo en beleving.
+            </p>
+          </div>
           <div className="bg-orange-primary bg-opacity-10 rounded-lg p-4 inline-block">
             <p className="text-orange-primary font-medium">
               <Info className="w-4 h-4 inline mr-2" />
