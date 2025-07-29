@@ -84,12 +84,12 @@
     width: 100vw !important;
     z-index: 9999 !important;
     background-color: hsl(280, 35%, 45%) !important;
-    height: 64px !important;
+    height: 80px !important;
   }
   
   /* Ensure content doesn't overlap navbar - alleen voor main */
   main {
-    padding-top: 64px !important;
+    padding-top: 80px !important;
   }
 
   h1, h2, h3, h4, h5, h6 {

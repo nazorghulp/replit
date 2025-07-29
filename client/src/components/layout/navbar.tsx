@@ -29,8 +29,8 @@ export default function Navbar() {
           </div>
           
           {/* Center Logo */}
-          <Link href="/" className="flex items-center">
-            <div className="w-20 h-12 bg-white rounded-lg flex items-center justify-center p-1">
+          <Link href="/" className="flex items-center relative z-20">
+            <div className="w-32 h-20 bg-white rounded-lg flex items-center justify-center p-2 shadow-lg border-2 border-white/20">
               <img 
                 src={logoPath} 
                 alt="Xenra Nazorg" 
