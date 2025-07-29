@@ -333,15 +333,15 @@ export default function PricingPackages() {
           {/* Specialisatie Kinderen - Orange Block met Kinderpakket */}
           <div className="col-span-full mt-16">
             <div className="relative group">
-              {/* Floating background element */}
-              <div className="absolute -inset-6 bg-gradient-to-br from-orange-primary/30 to-orange-light/30 rounded-3xl blur-2xl opacity-60 group-hover:opacity-80 transition-all duration-700"></div>
+              {/* Premium subtle background with enhanced depth */}
+              <div className="absolute -inset-3 bg-gradient-to-br from-orange-primary/15 via-orange-light/10 to-orange-primary/20 rounded-3xl blur-lg opacity-40 group-hover:opacity-60 transition-all duration-700"></div>
               
-              <div className="relative bg-gradient-to-br from-orange-primary via-orange-primary to-orange-light rounded-3xl p-4 lg:p-6 text-white border-2 border-orange-light/50 shadow-3xl hover:shadow-4xl transition-all duration-500 hover:scale-105">
+              <div className="relative bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 rounded-3xl p-6 lg:p-8 text-white border border-orange-400/30 shadow-xl hover:shadow-2xl transition-all duration-500 hover:scale-[1.01] backdrop-blur-sm">
                 {/* Header Section */}
                 <div className="text-center mb-4">
                   {/* Icon */}
-                  <div className="w-12 h-12 bg-white/20 backdrop-blur-xl rounded-full flex items-center justify-center mx-auto mb-3 shadow-2xl group-hover:scale-110 transition-transform duration-500">
-                    <Baby className="w-6 h-6 text-white" />
+                  <div className="w-14 h-14 bg-white/15 backdrop-blur-xl rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg border border-white/20 group-hover:scale-105 transition-transform duration-500">
+                    <Baby className="w-7 h-7 text-white" />
                   </div>
                   
                   {/* Title */}
@@ -350,9 +350,11 @@ export default function PricingPackages() {
                   </h3>
                   
                   {/* Voor wie? beschrijving */}
-                  <p className="text-sm text-white/90 mb-3 max-w-2xl mx-auto leading-relaxed">
-                    Voor kinderen en jongeren (t/m 17 jaar) die iemand zijn verloren en behoefte hebben aan steun, uitleg of gewoon iemand die écht luistert.
-                  </p>
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 mb-4 border border-white/20 max-w-3xl mx-auto">
+                    <p className="text-sm text-white/95 leading-relaxed font-medium">
+                      Voor kinderen en jongeren (t/m 17 jaar) die iemand zijn verloren en behoefte hebben aan steun, uitleg of gewoon iemand die écht luistert.
+                    </p>
+                  </div>
                   
                   {/* Price */}
                   <div className="text-3xl lg:text-4xl font-bold text-white mb-1 drop-shadow-lg">€129,99</div>
@@ -362,21 +364,23 @@ export default function PricingPackages() {
                 {/* Content Grid */}
                 <div className="grid lg:grid-cols-2 gap-4 max-w-4xl mx-auto">
                   {/* Foto */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-3 border border-white/20 flex items-center justify-center">
-                    <img 
-                      src={therapieKindImage} 
-                      alt="Therapie voor kinderen - online sessies"
-                      className="w-full h-auto max-w-xs rounded-xl"
-                    />
+                  <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-4 border border-white/25 flex items-center justify-center shadow-lg">
+                    <div className="rounded-xl overflow-hidden shadow-lg border border-white/20">
+                      <img 
+                        src={therapieKindImage} 
+                        alt="Therapie voor kinderen - online sessies"
+                        className="w-full h-auto max-w-xs object-cover"
+                      />
+                    </div>
                   </div>
                   
                   {/* Wat krijg je? */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-3 border border-white/20">
-                    <h4 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
-                      <CheckCircle className="w-4 h-4" />
+                  <div className="bg-white/15 backdrop-blur-sm rounded-2xl p-4 border border-white/25 shadow-lg">
+                    <h4 className="text-lg font-bold text-white mb-3 flex items-center gap-2 border-b border-white/20 pb-2">
+                      <CheckCircle className="w-5 h-5" />
                       Wat krijg je?
                     </h4>
-                    <div className="space-y-1">
+                    <div className="space-y-2">
                       {[
                         "2x per week gepland contactmoment (30 min)",
                         "Doorlopend WhatsApp/e-mail contact (max 30 berichten/week)",
@@ -387,18 +391,18 @@ export default function PricingPackages() {
                         "Voorrang bij wachttijden",
                         "Kindvriendelijke werkvormen"
                       ].map((feature, index) => (
-                        <div key={index} className="flex items-start gap-2">
-                          <div className="w-3 h-3 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                            <Check className="w-2 h-2 text-white" />
+                        <div key={index} className="flex items-start gap-3 bg-white/10 rounded-lg p-2 border border-white/15">
+                          <div className="w-4 h-4 bg-green-400 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 shadow-sm">
+                            <Check className="w-2.5 h-2.5 text-white" />
                           </div>
-                          <span className="text-white/90 text-xs leading-relaxed">{feature}</span>
+                          <span className="text-white/95 text-xs leading-relaxed font-medium">{feature}</span>
                         </div>
                       ))}
-                      <div className="flex items-start gap-2 pt-1 border-t border-white/20">
-                        <div className="w-3 h-3 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                          <Plus className="w-2 h-2 text-white" />
+                      <div className="flex items-start gap-3 pt-2 border-t border-white/25 bg-white/10 rounded-lg p-2 border border-white/15">
+                        <div className="w-4 h-4 bg-orange-300 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 shadow-sm">
+                          <Plus className="w-2.5 h-2.5 text-white" />
                         </div>
-                        <span className="text-white/90 text-xs leading-relaxed">
+                        <span className="text-white/95 text-xs leading-relaxed font-medium">
                           <strong>Extra sessies:</strong> €19,99 per 30 min
                         </span>
                       </div>
