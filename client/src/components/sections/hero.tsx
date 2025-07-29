@@ -22,7 +22,7 @@ export default function Hero() {
       </div>
       
       {/* Emotionele sectie ONDER de foto */}
-      <section className="relative py-24 bg-gradient-to-b from-purple-primary to-purple-800 overflow-hidden">
+      <section className="relative py-24 bg-gradient-to-b from-orange-soft to-orange-primary overflow-hidden">
         {/* Subtiele achtergrond pattern */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-20 left-20 w-96 h-96 bg-white rounded-full blur-3xl"></div>
