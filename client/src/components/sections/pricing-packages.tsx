@@ -102,7 +102,7 @@ export default function PricingPackages() {
               {/* Floating background element */}
               <div className="absolute -inset-4 bg-gradient-to-br from-purple-primary/20 to-purple-light/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-700"></div>
               
-              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-10 lg:p-12 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:rotate-1 min-h-[700px]">
+              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-8 lg:p-10 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:rotate-1">
                 {/* Premium header with icon */}
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 bg-gradient-to-br from-purple-primary to-purple-light rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-xl group-hover:scale-110 transition-transform duration-500">
@@ -188,7 +188,7 @@ export default function PricingPackages() {
               {/* Floating background element */}
               <div className="absolute -inset-6 bg-gradient-to-br from-orange-primary/30 to-orange-light/30 rounded-3xl blur-2xl opacity-60 group-hover:opacity-80 transition-all duration-700"></div>
               
-              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-10 lg:p-12 border-2 border-orange-primary/50 shadow-3xl hover:shadow-4xl transition-all duration-500 hover:scale-110 hover:-rotate-1 ring-4 ring-orange-primary/20 min-h-[700px]">
+              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-8 lg:p-10 border-2 border-orange-primary/50 shadow-3xl hover:shadow-4xl transition-all duration-500 hover:scale-110 hover:-rotate-1 ring-4 ring-orange-primary/20">
                 {/* Premium header with icon */}
                 <div className="text-center mb-8 pt-4">
                   <div className="w-24 h-24 bg-gradient-to-br from-orange-primary to-orange-light rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-2xl group-hover:scale-125 transition-transform duration-500 relative">
@@ -268,7 +268,7 @@ export default function PricingPackages() {
               {/* Floating background element */}
               <div className="absolute -inset-4 bg-gradient-to-br from-purple-light/20 to-purple-primary/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-700"></div>
               
-              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-10 lg:p-12 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:-rotate-1 min-h-[700px]">
+              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-8 lg:p-10 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:-rotate-1">
                 {/* Premium header with icon */}
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 bg-gradient-to-br from-purple-light to-purple-primary rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-xl group-hover:scale-110 transition-transform duration-500 relative">
