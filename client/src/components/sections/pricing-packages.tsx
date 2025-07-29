@@ -96,7 +96,7 @@ export default function PricingPackages() {
             </div>
           </div>
 
-          <div className="relative grid lg:grid-cols-4 gap-6 lg:gap-8 max-w-8xl mx-auto items-stretch">
+          <div className="relative grid lg:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto items-stretch">
             {/* Basis Pakket - Elevated Glass Design */}
             <div className="group relative">
               {/* Floating background element */}
@@ -329,76 +329,75 @@ export default function PricingPackages() {
             </div>
           </div>
 
-          {/* Kinderen Pakket */}
-          <div className="group relative">
-            {/* Floating background element */}
-            <div className="absolute -inset-6 bg-gradient-to-br from-orange-primary/30 to-orange-light/30 rounded-3xl blur-2xl opacity-60 group-hover:opacity-80 transition-all duration-700"></div>
-            
-            <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-4 lg:p-6 border-2 border-orange-primary/50 shadow-3xl hover:shadow-4xl transition-all duration-500 hover:scale-110 hover:-rotate-1 ring-4 ring-orange-primary/20 min-h-[315px] h-full flex flex-col">
-              {/* Premium header with icon */}
-              <div className="text-center mb-4 pt-2">
-                <div className="w-14 h-14 bg-gradient-to-br from-orange-primary to-orange-light rounded-3xl flex items-center justify-center mx-auto mb-2 shadow-2xl group-hover:scale-125 transition-transform duration-500 relative">
-                  <Baby className="w-7 h-7 text-white" />
-                  <div className="absolute -top-1 -right-1 w-5 h-5 bg-white rounded-full flex items-center justify-center">
-                    <Heart className="w-2 h-2 text-orange-primary" />
-                  </div>
-                </div>
-                
-                <h3 className="text-xl font-bold bg-gradient-to-r from-orange-primary to-orange-light bg-clip-text text-transparent mb-2">
-                  Kinderen Pakket
-                </h3>
-                
-                <div className="relative">
-                  <div className="text-3xl lg:text-4xl font-bold text-orange-primary mb-1">€129,99</div>
-                  <div className="absolute -top-1 -right-1 w-8 h-8 bg-gradient-to-br from-orange-primary to-orange-light rounded-full flex items-center justify-center text-white text-xs font-bold">
-                    ⭐
-                  </div>
-                </div>
-                <p className="text-warm-gray font-medium">per maand</p>
-              </div>
+          {/* Specialisatie Kinderen - Orange Block met Kinderpakket */}
+          <div className="col-span-full mt-16">
+            <div className="relative group">
+              {/* Floating background element */}
+              <div className="absolute -inset-6 bg-gradient-to-br from-orange-primary/30 to-orange-light/30 rounded-3xl blur-2xl opacity-60 group-hover:opacity-80 transition-all duration-700"></div>
               
-              {/* Premium content section */}
-              <div className="space-y-2 flex-grow">
-                <div className="bg-gradient-to-br from-orange-primary/10 to-orange-light/10 rounded-2xl p-3 border border-orange-primary/20">
-                  <h4 className="font-bold text-orange-primary text-lg mb-2 flex items-center gap-2">
-                    <Heart className="w-5 h-5" />
-                    Voor wie?
-                  </h4>
-                  <p className="text-black text-sm leading-relaxed">
-                    Voor kinderen en jongeren (t/m 17 jaar) die iemand zijn verloren en behoefte hebben aan steun, uitleg of gewoon iemand die écht luistert.
-                  </p>
+              <div className="relative bg-gradient-to-br from-orange-primary via-orange-primary to-orange-light rounded-3xl p-8 lg:p-12 text-white border-2 border-orange-light/50 shadow-3xl hover:shadow-4xl transition-all duration-500 hover:scale-105">
+                {/* Header Section */}
+                <div className="text-center mb-8">
+                  {/* Icon */}
+                  <div className="w-24 h-24 bg-white/20 backdrop-blur-xl rounded-full flex items-center justify-center mx-auto mb-6 shadow-2xl group-hover:scale-110 transition-transform duration-500">
+                    <Baby className="w-12 h-12 text-white" />
+                  </div>
+                  
+                  {/* Title */}
+                  <h3 className="text-4xl lg:text-5xl font-bold mb-4 text-white drop-shadow-lg">
+                    Kinderen Pakket
+                  </h3>
+                  
+                  {/* Price */}
+                  <div className="text-6xl lg:text-7xl font-bold text-white mb-2 drop-shadow-lg">€129,99</div>
+                  <p className="text-2xl text-white/90 mb-8">per maand</p>
                 </div>
-                
-                <div className="bg-white/50 rounded-2xl p-3 border border-orange-primary/10">
-                  <h4 className="font-bold text-orange-primary text-lg mb-2 flex items-center gap-2">
-                    <CheckCircle className="w-5 h-5" />
-                    Wat krijg je?
-                  </h4>
-                  <div className="space-y-2">
-                    {[
-                      "2x per week gepland contactmoment (30 min)",
-                      "Doorlopend WhatsApp/e-mail contact (max 30 berichten/week)",
-                      "Kind bepaalt zelf het type contact",
-                      "Speciale begeleiders voor kinderen",
-                      "Behandeltraject aangepast aan leeftijd",
-                      "Vertrouwelijkheid gegarandeerd",
-                      "Voorrang bij wachttijden",
-                      "Kindvriendelijke werkvormen"
-                    ].map((feature, index) => (
-                      <div key={index} className="flex items-start gap-2">
-                        <div className="w-4 h-4 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                          <Check className="w-2 h-2 text-white" />
+
+                {/* Content Grid */}
+                <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                  {/* Voor wie? */}
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                    <h4 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+                      <Heart className="w-6 h-6" />
+                      Voor wie?
+                    </h4>
+                    <p className="text-xl text-white/90 leading-relaxed">
+                      Voor kinderen en jongeren (t/m 17 jaar) die iemand zijn verloren en behoefte hebben aan steun, uitleg of gewoon iemand die écht luistert.
+                    </p>
+                  </div>
+                  
+                  {/* Wat krijg je? */}
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                    <h4 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
+                      <CheckCircle className="w-6 h-6" />
+                      Wat krijg je?
+                    </h4>
+                    <div className="space-y-3">
+                      {[
+                        "2x per week gepland contactmoment (30 min)",
+                        "Doorlopend WhatsApp/e-mail contact (max 30 berichten/week)",
+                        "Kind bepaalt zelf het type contact",
+                        "Speciale begeleiders voor kinderen",
+                        "Behandeltraject aangepast aan leeftijd",
+                        "Vertrouwelijkheid gegarandeerd",
+                        "Voorrang bij wachttijden",
+                        "Kindvriendelijke werkvormen"
+                      ].map((feature, index) => (
+                        <div key={index} className="flex items-start gap-3">
+                          <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                            <Check className="w-3 h-3 text-white" />
+                          </div>
+                          <span className="text-white/90 leading-relaxed">{feature}</span>
                         </div>
-                        <span className="text-black text-xs leading-relaxed">{feature}</span>
+                      ))}
+                      <div className="flex items-start gap-3 pt-3 border-t border-white/20">
+                        <div className="w-6 h-6 bg-white/20 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <Plus className="w-3 h-3 text-white" />
+                        </div>
+                        <span className="text-white/90 leading-relaxed">
+                          <strong>Extra sessies:</strong> €19,99 per 30 min
+                        </span>
                       </div>
-                    ))}
-                    <div className="flex items-start gap-2 pt-2 border-t border-gray-200">
-                      <div className="w-4 h-4 bg-gradient-to-br from-orange-primary to-orange-light rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <Plus className="w-2 h-2 text-white" />
-                      </div>
-                      <span className="text-black text-xs leading-relaxed">
-                        <strong>Extra sessies:</strong> €19,99 per 30 min
-                      </span>
                     </div>
                   </div>
                 </div>
