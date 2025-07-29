@@ -17,7 +17,7 @@ export default function HowWeWork() {
           </h2>
           
           <div className="max-w-5xl mx-auto">
-            <div className="bg-white/20 backdrop-blur-md rounded-3xl p-8 lg:p-12 border border-white/30 shadow-2xl">
+            <div className="bg-white/30 backdrop-blur-md rounded-3xl p-8 lg:p-12 border border-white/40 shadow-2xl">
               <div className="space-y-8 text-lg lg:text-xl text-white/95 leading-relaxed">
                 <div className="flex items-start gap-4">
                   <Shield className="w-6 h-6 text-orange-light mt-1 flex-shrink-0" />
