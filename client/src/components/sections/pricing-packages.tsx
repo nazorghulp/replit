@@ -102,19 +102,19 @@ export default function PricingPackages() {
               {/* Floating background element */}
               <div className="absolute -inset-4 bg-gradient-to-br from-purple-primary/20 to-purple-light/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-700"></div>
               
-              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-6 lg:p-8 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:rotate-1 min-h-[450px] h-full flex flex-col">
+              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-4 lg:p-6 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:rotate-1 min-h-[315px] h-full flex flex-col">
                 {/* Premium header with icon */}
-                <div className="text-center mb-8">
-                  <div className="w-16 h-16 bg-gradient-to-br from-purple-primary to-purple-light rounded-3xl flex items-center justify-center mx-auto mb-4 shadow-xl group-hover:scale-110 transition-transform duration-500">
-                    <Users className="w-8 h-8 text-white" />
+                <div className="text-center mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-primary to-purple-light rounded-3xl flex items-center justify-center mx-auto mb-2 shadow-xl group-hover:scale-110 transition-transform duration-500">
+                    <Users className="w-6 h-6 text-white" />
                   </div>
                   
-                  <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-primary to-purple-light bg-clip-text text-transparent mb-3">
+                  <h3 className="text-xl font-bold bg-gradient-to-r from-purple-primary to-purple-light bg-clip-text text-transparent mb-2">
                     Basis Pakket
                   </h3>
                   
                   <div className="relative">
-                    <div className="text-4xl lg:text-5xl font-bold text-purple-primary mb-2">€79,99</div>
+                    <div className="text-3xl lg:text-4xl font-bold text-purple-primary mb-1">€79,99</div>
                     <div className="absolute -top-2 -right-2 w-8 h-8 bg-orange-primary rounded-full flex items-center justify-center">
                       <span className="text-white text-xs font-bold">€</span>
                     </div>
@@ -123,8 +123,8 @@ export default function PricingPackages() {
                 </div>
                 
                 {/* Premium content section */}
-                <div className="space-y-4 flex-grow">
-                  <div className="bg-purple-primary/10 rounded-2xl p-4">
+                <div className="space-y-2 flex-grow">
+                  <div className="bg-purple-primary/10 rounded-2xl p-3">
                     <h4 className="font-bold text-purple-primary text-lg mb-2 flex items-center gap-2">
                       <Heart className="w-5 h-5" />
                       Voor wie?
@@ -142,7 +142,7 @@ export default function PricingPackages() {
                     <div className="space-y-3">
                       {[
                         "1x per week gepland contactmoment (30 min)",
-                        "Doorlopend WhatsApp/e-mail contact (max 10 vragen/week)",
+                        "Doorlopend WhatsApp/e-mail contact (max 10 berichten/week)",
                         "Reactie binnen 1 uur tijdens kantooruren",
                         "Toegang tot inlogomgeving en e-books"
                       ].map((feature, index) => (
@@ -183,22 +183,22 @@ export default function PricingPackages() {
               {/* Floating background element */}
               <div className="absolute -inset-6 bg-gradient-to-br from-orange-primary/30 to-orange-light/30 rounded-3xl blur-2xl opacity-60 group-hover:opacity-80 transition-all duration-700"></div>
               
-              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-6 lg:p-8 border-2 border-orange-primary/50 shadow-3xl hover:shadow-4xl transition-all duration-500 hover:scale-110 hover:-rotate-1 ring-4 ring-orange-primary/20 min-h-[450px] h-full flex flex-col">
+              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-4 lg:p-6 border-2 border-orange-primary/50 shadow-3xl hover:shadow-4xl transition-all duration-500 hover:scale-110 hover:-rotate-1 ring-4 ring-orange-primary/20 min-h-[315px] h-full flex flex-col">
                 {/* Premium header with icon */}
-                <div className="text-center mb-8 pt-4">
-                  <div className="w-20 h-20 bg-gradient-to-br from-orange-primary to-orange-light rounded-3xl flex items-center justify-center mx-auto mb-4 shadow-2xl group-hover:scale-125 transition-transform duration-500 relative">
-                    <Zap className="w-10 h-10 text-white" />
-                    <div className="absolute -top-2 -right-2 w-6 h-6 bg-white rounded-full flex items-center justify-center">
-                      <Star className="w-3 h-3 text-orange-primary" />
+                <div className="text-center mb-4 pt-2">
+                  <div className="w-14 h-14 bg-gradient-to-br from-orange-primary to-orange-light rounded-3xl flex items-center justify-center mx-auto mb-2 shadow-2xl group-hover:scale-125 transition-transform duration-500 relative">
+                    <Zap className="w-7 h-7 text-white" />
+                    <div className="absolute -top-1 -right-1 w-5 h-5 bg-white rounded-full flex items-center justify-center">
+                      <Star className="w-2 h-2 text-orange-primary" />
                     </div>
                   </div>
                   
-                  <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-primary to-orange-light bg-clip-text text-transparent mb-3">
+                  <h3 className="text-xl font-bold bg-gradient-to-r from-orange-primary to-orange-light bg-clip-text text-transparent mb-2">
                     Plus Pakket
                   </h3>
                   
                   <div className="relative">
-                    <div className="text-4xl lg:text-5xl font-bold text-orange-primary mb-2">€119,99</div>
+                    <div className="text-3xl lg:text-4xl font-bold text-orange-primary mb-1">€119,99</div>
                     <div className="absolute -top-3 -right-3 w-10 h-10 bg-gradient-to-br from-yellow-400 to-orange-400 rounded-full flex items-center justify-center animate-pulse">
                       <Crown className="w-5 h-5 text-white" />
                     </div>
@@ -207,8 +207,8 @@ export default function PricingPackages() {
                 </div>
                 
                 {/* Premium content section */}
-                <div className="space-y-4 flex-grow">
-                  <div className="bg-gradient-to-br from-orange-primary/10 to-orange-light/10 rounded-2xl p-4 border border-orange-primary/20">
+                <div className="space-y-2 flex-grow">
+                  <div className="bg-gradient-to-br from-orange-primary/10 to-orange-light/10 rounded-2xl p-3 border border-orange-primary/20">
                     <h4 className="font-bold text-orange-primary text-lg mb-2 flex items-center gap-2">
                       <Heart className="w-5 h-5" />
                       Voor wie?
@@ -226,7 +226,7 @@ export default function PricingPackages() {
                     <div className="space-y-3">
                       {[
                         "2x per week gepland contactmoment (30 min)",
-                        "Doorlopend WhatsApp/e-mail contact (max 15 vragen/week)",
+                        "Doorlopend WhatsApp/e-mail contact (max 15 berichten/week)",
                         "Reactie binnen 1 uur tijdens kantooruren",
                         "1x per maand sessie over praktische zaken"
                       ].map((feature, index) => (
@@ -258,22 +258,22 @@ export default function PricingPackages() {
               {/* Floating background element */}
               <div className="absolute -inset-4 bg-gradient-to-br from-purple-light/20 to-purple-primary/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-700"></div>
               
-              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-6 lg:p-8 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:-rotate-1 min-h-[450px] h-full flex flex-col">
+              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-4 lg:p-6 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:-rotate-1 min-h-[315px] h-full flex flex-col">
                 {/* Premium header with icon */}
-                <div className="text-center mb-8">
-                  <div className="w-16 h-16 bg-gradient-to-br from-purple-light to-purple-primary rounded-3xl flex items-center justify-center mx-auto mb-4 shadow-xl group-hover:scale-110 transition-transform duration-500 relative">
-                    <Zap className="w-8 h-8 text-white" />
-                    <div className="absolute -top-1 -right-1 w-5 h-5 bg-orange-primary rounded-full flex items-center justify-center">
+                <div className="text-center mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-purple-light to-purple-primary rounded-3xl flex items-center justify-center mx-auto mb-2 shadow-xl group-hover:scale-110 transition-transform duration-500 relative">
+                    <Zap className="w-6 h-6 text-white" />
+                    <div className="absolute -top-1 -right-1 w-4 h-4 bg-orange-primary rounded-full flex items-center justify-center">
                       <span className="text-white text-xs font-bold">⚡</span>
                     </div>
                   </div>
                   
-                  <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-light to-purple-primary bg-clip-text text-transparent mb-3">
+                  <h3 className="text-xl font-bold bg-gradient-to-r from-purple-light to-purple-primary bg-clip-text text-transparent mb-2">
                     Intensief Pakket
                   </h3>
                   
                   <div className="relative">
-                    <div className="text-4xl lg:text-5xl font-bold text-purple-primary mb-2">€169,99</div>
+                    <div className="text-3xl lg:text-4xl font-bold text-purple-primary mb-1">€169,99</div>
                     <div className="absolute -top-2 -right-2 w-8 h-8 bg-purple-light rounded-full flex items-center justify-center">
                       <span className="text-white text-xs font-bold">⚡</span>
                     </div>
@@ -282,8 +282,8 @@ export default function PricingPackages() {
                 </div>
                 
                 {/* Premium content section */}
-                <div className="space-y-4 flex-grow">
-                  <div className="bg-purple-light/10 rounded-2xl p-4">
+                <div className="space-y-2 flex-grow">
+                  <div className="bg-purple-light/10 rounded-2xl p-3">
                     <h4 className="font-bold text-purple-primary text-lg mb-2 flex items-center gap-2">
                       <Heart className="w-5 h-5" />
                       Voor wie?
@@ -301,7 +301,7 @@ export default function PricingPackages() {
                     <div className="space-y-3">
                       {[
                         "3x per week gepland contactmoment (30 min)",
-                        "Doorlopend WhatsApp/e-mail contact (max 20 vragen/week)",
+                        "Doorlopend WhatsApp/e-mail contact (max 20 berichten/week)",
                         "Reactie binnen 30 minuten tijdens kantooruren",
                         "1x per maand sessie over praktische zaken"
                       ].map((feature, index) => (
