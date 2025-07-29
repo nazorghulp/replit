@@ -2,12 +2,7 @@ import { CalendarCheck, MessageCircle, Clock, ArrowRight, Shield, Heart, Baby, H
 
 export default function HowWeWork() {
   return (
-    <section className="relative py-24 bg-gradient-to-br from-purple-900 via-purple-primary to-purple-800 overflow-hidden">
-      {/* Subtle background pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-20 left-20 w-96 h-96 bg-white rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-20 w-72 h-72 bg-orange-primary rounded-full blur-3xl"></div>
-      </div>
+    <section className="relative py-24 bg-purple-primary overflow-hidden">
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
