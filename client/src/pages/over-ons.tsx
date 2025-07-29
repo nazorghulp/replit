@@ -13,12 +13,7 @@ export default function OverOns() {
         </div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 mb-8">
-              <Users className="w-5 h-5 text-orange-light" />
-              <span className="text-white/90 font-medium">Ons team</span>
-            </div>
-            
+          <div className="text-center mb-16">            
             <h1 className="text-4xl lg:text-6xl font-bold text-white mb-8 leading-tight">
               Wie zijn <span className="text-orange-light">wij</span>?
             </h1>
