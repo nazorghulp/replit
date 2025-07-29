@@ -15,8 +15,20 @@ export default function Navbar() {
     <nav className="fixed-navbar shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
         <div className="flex justify-between items-center h-full">
-          {/* Left Navigation */}
-          <div className="hidden md:flex items-center space-x-6">
+          {/* Left Logo */}
+          <Link href="/" className="flex items-center relative z-20">
+            <div className="w-40 h-16 bg-white rounded-lg flex items-center justify-center p-1 shadow-lg border-2 border-white/20">
+              <img 
+                src={logoPath} 
+                alt="Xenra Nazorg" 
+                className="w-full h-full object-contain"
+                style={{ clipPath: 'inset(15% 10% 15% 10%)' }}
+              />
+            </div>
+          </Link>
+          
+          {/* Right Navigation - All menu items */}
+          <div className="hidden md:flex items-center space-x-8">
             <Link href="/" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
               HOME
             </Link>
@@ -26,21 +38,6 @@ export default function Navbar() {
             <Link href="/diensten" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
               DIENSTEN
             </Link>
-          </div>
-          
-          {/* Center Logo */}
-          <Link href="/" className="flex items-center relative z-20">
-            <div className="w-32 h-20 bg-white rounded-lg flex items-center justify-center p-2 shadow-lg border-2 border-white/20">
-              <img 
-                src={logoPath} 
-                alt="Xenra Nazorg" 
-                className="w-full h-full object-contain"
-              />
-            </div>
-          </Link>
-          
-          {/* Right Navigation */}
-          <div className="hidden md:flex items-center space-x-6">
             <Link href="/faq" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
               F.A.Q.
             </Link>
