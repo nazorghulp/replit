@@ -41,9 +41,6 @@ export default function Navbar() {
           
           {/* Right Navigation */}
           <div className="hidden md:flex items-center space-x-6">
-            <Link href="/kinderen" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
-              KINDEREN
-            </Link>
             <Link href="/faq" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
               F.A.Q.
             </Link>
@@ -76,9 +73,6 @@ export default function Navbar() {
             </Link>
             <Link href="/diensten" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
               DIENSTEN
-            </Link>
-            <Link href="/kinderen" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
-              KINDEREN
             </Link>
             <Link href="/faq" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
               F.A.Q.
