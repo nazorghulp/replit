@@ -25,9 +25,9 @@
   --radius: 0.75rem;
   
   /* Custom Xenra colors - inspired by landelijkplatformnabestaandenzorg.nl */
-  --purple-primary: hsl(280, 25%, 55%);
-  --purple-light: hsl(280, 25%, 70%);
-  --purple-soft: hsl(280, 20%, 85%);
+  --purple-primary: hsl(280, 20%, 75%);
+  --purple-light: hsl(280, 15%, 85%);
+  --purple-soft: hsl(280, 10%, 92%);
   --orange-primary: hsl(25, 85%, 55%);
   --orange-light: hsl(25, 85%, 65%);
   --orange-soft: hsl(25, 85%, 90%);
@@ -67,12 +67,12 @@
   body {
     @apply font-sans antialiased text-foreground;
     font-family: 'Inter', sans-serif;
-    background-color: hsl(280, 25%, 55%);
+    background-color: hsl(280, 20%, 75%);
     padding-top: 0 !important;
   }
 
   html {
-    background-color: hsl(280, 25%, 55%);
+    background-color: hsl(280, 20%, 75%);
   }
 
   /* Simple fixed navbar */
