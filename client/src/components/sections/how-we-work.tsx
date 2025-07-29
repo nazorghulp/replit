@@ -40,7 +40,7 @@ export default function HowWeWork() {
                 <div className="flex items-start gap-4">
                   <Heart className="w-6 h-6 text-orange-light mt-1 flex-shrink-0" />
                   <p>
-                    Of u nou <strong className="text-white">man, vrouw of kind</strong> bent, voor iedereen maken wij een 
+                    Of u nu een <strong className="text-white">man, vrouw of kind</strong> bent, voor iedereen maken wij een 
                     <strong className="text-orange-light"> passend behandelingstraject</strong>.
                   </p>
                 </div>
