@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Check, Plus, Info, Sparkles, Heart, Shield, Clock, MessageCircle, Star, Zap, Crown, Users, Baby, CheckCircle } from "lucide-react";
+import therapieKindImage from "@assets/therapie kind_1753803329995.png";
 
 export default function PricingPackages() {
   return (
@@ -363,7 +364,7 @@ export default function PricingPackages() {
                   {/* Foto */}
                   <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-3 border border-white/20 flex items-center justify-center">
                     <img 
-                      src="/attached_assets/therapie kind_1753803329995.png" 
+                      src={therapieKindImage} 
                       alt="Therapie voor kinderen - online sessies"
                       className="w-full h-auto max-w-xs rounded-xl"
                     />
