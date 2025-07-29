@@ -3,13 +3,13 @@ import HowWeWork, { ChildrenYouthHelp } from "@/components/sections/how-we-work"
 
 export default function Home() {
   return (
-    <div className="bg-purple-primary">
+    <div className="bg-orange-soft">
       <Hero />
       <HowWeWork />
       <ChildrenYouthHelp />
       
       {/* Plan vandaag nog jouw eerste contactmoment */}
-      <section className="py-20 bg-purple-primary">
+      <section className="py-20 bg-orange-soft">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-purple-100 rounded-3xl p-12 shadow-xl border border-purple-200">
             <h2 className="text-3xl lg:text-4xl font-bold text-purple-primary mb-6">
