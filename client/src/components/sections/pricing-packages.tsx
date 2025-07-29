@@ -96,13 +96,13 @@ export default function PricingPackages() {
             </div>
           </div>
 
-          <div className="relative grid lg:grid-cols-3 gap-8 lg:gap-12">
+          <div className="relative grid lg:grid-cols-3 gap-6 lg:gap-8 max-w-8xl mx-auto">
             {/* Basis Pakket - Elevated Glass Design */}
             <div className="group relative">
               {/* Floating background element */}
               <div className="absolute -inset-4 bg-gradient-to-br from-purple-primary/20 to-purple-light/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-700"></div>
               
-              <div className="relative bg-white/80 backdrop-blur-xl rounded-3xl p-8 lg:p-10 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:rotate-1">
+              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-10 lg:p-12 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:rotate-1 min-h-[700px]">
                 {/* Premium header with icon */}
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 bg-gradient-to-br from-purple-primary to-purple-light rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-xl group-hover:scale-110 transition-transform duration-500">
@@ -129,13 +129,13 @@ export default function PricingPackages() {
                       <Heart className="w-5 h-5" />
                       Voor wie?
                     </h4>
-                    <p className="text-dark-gray leading-relaxed">
+                    <p className="text-black leading-relaxed">
                       Voor mensen die vooral behoefte hebben aan een luisterend oor en af en toe advies.
                     </p>
                   </div>
                   
                   <div className="space-y-4">
-                    <h4 className="font-bold text-dark-gray text-lg flex items-center gap-2">
+                    <h4 className="font-bold text-black text-lg flex items-center gap-2">
                       <Sparkles className="w-5 h-5 text-orange-primary" />
                       Wat krijg je?
                     </h4>
@@ -150,14 +150,14 @@ export default function PricingPackages() {
                           <div className="w-6 h-6 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                             <Check className="w-3 h-3 text-white" />
                           </div>
-                          <span className="text-dark-gray leading-relaxed">{feature}</span>
+                          <span className="text-black leading-relaxed">{feature}</span>
                         </div>
                       ))}
                       <div className="flex items-start gap-3 pt-2 border-t border-gray-200">
                         <div className="w-6 h-6 bg-gradient-to-br from-orange-primary to-orange-light rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                           <Plus className="w-3 h-3 text-white" />
                         </div>
-                        <span className="text-dark-gray leading-relaxed">
+                        <span className="text-black leading-relaxed">
                           <strong>Extra sessies:</strong> €19,99 per 30 min
                         </span>
                       </div>
@@ -188,7 +188,7 @@ export default function PricingPackages() {
               {/* Floating background element */}
               <div className="absolute -inset-6 bg-gradient-to-br from-orange-primary/30 to-orange-light/30 rounded-3xl blur-2xl opacity-60 group-hover:opacity-80 transition-all duration-700"></div>
               
-              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-8 lg:p-10 border-2 border-orange-primary/50 shadow-3xl hover:shadow-4xl transition-all duration-500 hover:scale-110 hover:-rotate-1 ring-4 ring-orange-primary/20">
+              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-10 lg:p-12 border-2 border-orange-primary/50 shadow-3xl hover:shadow-4xl transition-all duration-500 hover:scale-110 hover:-rotate-1 ring-4 ring-orange-primary/20 min-h-[700px]">
                 {/* Premium header with icon */}
                 <div className="text-center mb-8 pt-4">
                   <div className="w-24 h-24 bg-gradient-to-br from-orange-primary to-orange-light rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-2xl group-hover:scale-125 transition-transform duration-500 relative">
@@ -218,13 +218,13 @@ export default function PricingPackages() {
                       <Heart className="w-5 h-5" />
                       Voor wie?
                     </h4>
-                    <p className="text-dark-gray leading-relaxed">
+                    <p className="text-black leading-relaxed">
                       Voor mensen die regelmatig begeleiding willen en behoefte hebben aan extra advies.
                     </p>
                   </div>
                   
                   <div className="space-y-4">
-                    <h4 className="font-bold text-dark-gray text-lg flex items-center gap-2">
+                    <h4 className="font-bold text-black text-lg flex items-center gap-2">
                       <Sparkles className="w-5 h-5 text-orange-primary" />
                       Wat krijg je?
                     </h4>
@@ -239,14 +239,14 @@ export default function PricingPackages() {
                           <div className="w-6 h-6 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                             <Check className="w-3 h-3 text-white" />
                           </div>
-                          <span className="text-dark-gray leading-relaxed">{feature}</span>
+                          <span className="text-black leading-relaxed">{feature}</span>
                         </div>
                       ))}
                       <div className="flex items-start gap-3 pt-2 border-t border-orange-200">
                         <div className="w-6 h-6 bg-gradient-to-br from-orange-primary to-orange-light rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                           <Plus className="w-3 h-3 text-white" />
                         </div>
-                        <span className="text-dark-gray leading-relaxed">
+                        <span className="text-black leading-relaxed">
                           <strong>Extra sessies:</strong> €17,49 per 30 min
                         </span>
                       </div>
@@ -268,7 +268,7 @@ export default function PricingPackages() {
               {/* Floating background element */}
               <div className="absolute -inset-4 bg-gradient-to-br from-purple-light/20 to-purple-primary/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-700"></div>
               
-              <div className="relative bg-white/80 backdrop-blur-xl rounded-3xl p-8 lg:p-10 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:-rotate-1">
+              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-10 lg:p-12 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:-rotate-1 min-h-[700px]">
                 {/* Premium header with icon */}
                 <div className="text-center mb-8">
                   <div className="w-20 h-20 bg-gradient-to-br from-purple-light to-purple-primary rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-xl group-hover:scale-110 transition-transform duration-500 relative">
@@ -298,13 +298,13 @@ export default function PricingPackages() {
                       <Heart className="w-5 h-5" />
                       Voor wie?
                     </h4>
-                    <p className="text-dark-gray leading-relaxed">
+                    <p className="text-black leading-relaxed">
                       Voor nabestaanden die intensieve begeleiding nodig hebben.
                     </p>
                   </div>
                   
                   <div className="space-y-4">
-                    <h4 className="font-bold text-dark-gray text-lg flex items-center gap-2">
+                    <h4 className="font-bold text-black text-lg flex items-center gap-2">
                       <Sparkles className="w-5 h-5 text-orange-primary" />
                       Wat krijg je?
                     </h4>
@@ -319,14 +319,14 @@ export default function PricingPackages() {
                           <div className="w-6 h-6 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                             <Check className="w-3 h-3 text-white" />
                           </div>
-                          <span className="text-dark-gray leading-relaxed">{feature}</span>
+                          <span className="text-black leading-relaxed">{feature}</span>
                         </div>
                       ))}
                       <div className="flex items-start gap-3 pt-2 border-t border-gray-200">
                         <div className="w-6 h-6 bg-gradient-to-br from-orange-primary to-orange-light rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                           <Plus className="w-3 h-3 text-white" />
                         </div>
-                        <span className="text-dark-gray leading-relaxed">
+                        <span className="text-black leading-relaxed">
                           <strong>Extra sessies:</strong> €14,49 per 30 min
                         </span>
                       </div>
