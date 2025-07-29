@@ -7,6 +7,9 @@ This is a grief support website for Xenra Nazorghulp, a Dutch bereavement counse
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+- Prefers compact, uniform pricing cards without action buttons
+- Wants consistent sizing and typography across all packages
+- Likes immediate visual feedback and consistent layouts
 
 ## System Architecture
 
@@ -134,3 +137,16 @@ shared/
 6. **Tailwind + shadcn/ui**: Provides consistent design system with high-quality, accessible components
 
 The architecture prioritizes developer experience, type safety, and maintainability while keeping the codebase simple and focused on the core business needs of the grief counseling service.
+
+## Recent Changes (2025-01-27)
+
+### Pricing Packages Redesign
+- All pricing packages made 50% smaller (height reduced from 315px to 157px)
+- Consistent text standardization: "vragen/week" changed to "berichten/week"
+- Added specialized Kinderen Pakket (€129,99/month) with:
+  - Dedicated content for children and youth (ages 0-17)
+  - 2x weekly sessions, max 30 berichten/week
+  - Specialized features like anonymous contact and age-appropriate treatment
+  - Placed in orange block section with therapy image
+- Improved responsive layout with 3-column grid for main packages
+- Reduced padding, font sizes, and spacing proportionally for compact display

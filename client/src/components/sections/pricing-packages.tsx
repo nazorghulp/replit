@@ -348,6 +348,11 @@ export default function PricingPackages() {
                     Kinderen Pakket
                   </h3>
                   
+                  {/* Voor wie? beschrijving */}
+                  <p className="text-sm text-white/90 mb-3 max-w-2xl mx-auto leading-relaxed">
+                    Voor kinderen en jongeren (t/m 17 jaar) die iemand zijn verloren en behoefte hebben aan steun, uitleg of gewoon iemand die écht luistert.
+                  </p>
+                  
                   {/* Price */}
                   <div className="text-3xl lg:text-4xl font-bold text-white mb-1 drop-shadow-lg">€129,99</div>
                   <p className="text-lg text-white/90 mb-4">per maand</p>
@@ -355,15 +360,13 @@ export default function PricingPackages() {
 
                 {/* Content Grid */}
                 <div className="grid lg:grid-cols-2 gap-4 max-w-4xl mx-auto">
-                  {/* Voor wie? */}
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-3 border border-white/20">
-                    <h4 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
-                      <Heart className="w-4 h-4" />
-                      Voor wie?
-                    </h4>
-                    <p className="text-sm text-white/90 leading-relaxed">
-                      Voor kinderen en jongeren (t/m 17 jaar) die iemand zijn verloren en behoefte hebben aan steun, uitleg of gewoon iemand die écht luistert.
-                    </p>
+                  {/* Foto */}
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-3 border border-white/20 flex items-center justify-center">
+                    <img 
+                      src="/attached_assets/therapie kind_1753803329995.png" 
+                      alt="Therapie voor kinderen - online sessies"
+                      className="w-full h-auto max-w-xs rounded-xl"
+                    />
                   </div>
                   
                   {/* Wat krijg je? */}
