@@ -214,7 +214,7 @@ export default function PricingPackages() {
                   </h3>
                   
                   <div className="relative">
-                    <div className="text-2xl lg:text-3xl font-bold text-purple-primary mb-1">€79,99</div>
+                    <div className="text-2xl lg:text-3xl font-bold text-purple-primary mb-1">€99,99</div>
                     <div className="absolute -top-2 -right-2 w-8 h-8 bg-orange-primary rounded-full flex items-center justify-center">
                       <span className="text-white text-xs font-bold">€</span>
                     </div>
@@ -298,7 +298,7 @@ export default function PricingPackages() {
                   </h3>
                   
                   <div className="relative">
-                    <div className="text-2xl lg:text-3xl font-bold text-orange-primary mb-1">€119,99</div>
+                    <div className="text-2xl lg:text-3xl font-bold text-orange-primary mb-1">€139,99</div>
                     <div className="absolute -top-3 -right-3 w-10 h-10 bg-gradient-to-br from-yellow-400 to-orange-400 rounded-full flex items-center justify-center animate-pulse">
                       <Crown className="w-5 h-5 text-white" />
                     </div>
@@ -373,7 +373,7 @@ export default function PricingPackages() {
                   </h3>
                   
                   <div className="relative">
-                    <div className="text-2xl lg:text-3xl font-bold text-purple-primary mb-1">€169,99</div>
+                    <div className="text-2xl lg:text-3xl font-bold text-purple-primary mb-1">€189,99</div>
                     <div className="absolute -top-2 -right-2 w-8 h-8 bg-purple-light rounded-full flex items-center justify-center">
                       <span className="text-white text-xs font-bold">⚡</span>
                     </div>
@@ -459,7 +459,7 @@ export default function PricingPackages() {
                   </div>
                   
                   {/* Price */}
-                  <div className="text-3xl lg:text-4xl font-bold text-white mb-1 drop-shadow-lg">€129,99</div>
+                  <div className="text-3xl lg:text-4xl font-bold text-white mb-1 drop-shadow-lg">€149,99</div>
                   <p className="text-lg text-white/90 mb-4">per maand</p>
                 </div>
 
