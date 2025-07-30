@@ -308,8 +308,8 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-bold text-dark-gray mb-4">Jarenlange Ervaring</h3>
               <p className="text-warm-gray leading-relaxed">
-                Hilko Verdult en ons team hebben jaren ervaring in nazorg 
-                en begeleiding van mensen in rouw.
+                Ons team heeft jarenlange ervaring in professionele nazorg 
+                en begeleiding van mensen die verlies hebben ervaren.
               </p>
             </div>
 
