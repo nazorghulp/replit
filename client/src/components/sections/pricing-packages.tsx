@@ -42,7 +42,6 @@ export default function PricingPackages() {
                     alt="Familie ondersteuning - Warme begeleiding voor nabestaanden"
                     className="w-full h-[300px] object-cover transition-transform duration-700 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-purple-primary/20 via-transparent to-transparent"></div>
                 </div>
                 
                 {/* Second Image */}
@@ -52,7 +51,6 @@ export default function PricingPackages() {
                     alt="Online therapie sessie - Flexibele ondersteuning op maat"
                     className="w-full h-[300px] object-cover transition-transform duration-700 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-orange-primary/20 via-transparent to-transparent"></div>
                 </div>
                 
                 {/* Floating accent card */}
