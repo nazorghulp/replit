@@ -21,7 +21,7 @@ const faqData = [
       },
       {
         question: "Kan ik extra sessies bijboeken als ik meer ondersteuning nodig heb?",
-        answer: "Ja, bij elk pakket kun je altijd extra individuele sessies bijboeken tegen een vast tarief van €45 per sessie. Dit geeft je de flexibiliteit om in moeilijke periodes extra ondersteuning te krijgen zonder van pakket te hoeven wisselen."
+        answer: "Ja, bij elk pakket kun je altijd extra individuele sessies bijboeken. Dit geeft je de flexibiliteit om in moeilijke periodes extra ondersteuning te krijgen zonder van pakket te hoeven wisselen. Voor meer informatie over tarieven verwijzen we je naar onze diensten pagina."
       }
     ]
   },
