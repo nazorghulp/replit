@@ -66,13 +66,7 @@ export default function Diensten() {
               </div>
             </div>
 
-            {/* Scroll down indicator */}
-            <div className="flex flex-col items-center">
-              <p className="text-white/80 mb-4">Ontdek onze pakketten</p>
-              <div className="w-6 h-10 border-2 border-white/40 rounded-full flex justify-center animate-bounce">
-                <div className="w-1 h-3 bg-white/60 rounded-full mt-2"></div>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
