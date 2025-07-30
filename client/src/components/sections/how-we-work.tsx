@@ -114,7 +114,10 @@ export default function HowWeWork() {
 export function ChildrenYouthHelp() {
   return (
     <section 
-      className="relative py-24 overflow-hidden bg-yellow-100"
+      className="relative py-24 overflow-hidden"
+      style={{
+        background: 'linear-gradient(135deg, #f4e09d 0%, #e8d68a 100%)'
+      }}
     >
       {/* Subtiele achtergrond pattern */}
       <div className="absolute inset-0 opacity-3">
