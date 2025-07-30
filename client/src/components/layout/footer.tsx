@@ -9,10 +9,7 @@ export default function Footer() {
           <div>
             <div className="mb-6">
               <div className="flex items-center">
-                <div className="w-12 h-12 bg-purple-primary rounded-xl flex items-center justify-center text-white font-bold text-xl">
-                  X
-                </div>
-                <span className="ml-4 text-2xl font-semibold">Xenra Nazorghulp</span>
+                <span className="text-2xl font-semibold text-gray-700">Xenra Nazorghulp</span>
               </div>
             </div>
             <p className="text-gray-700 mb-8 leading-relaxed text-sm">
@@ -22,7 +19,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-6">Contact</h3>
+            <h3 className="text-lg font-semibold mb-6 text-gray-700">Contact</h3>
             <div className="space-y-3 text-gray-700">
               <p className="flex items-center text-sm">
                 <Mail className="w-4 h-4 mr-3" />
@@ -40,7 +37,7 @@ export default function Footer() {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-6">Onze Pakketten</h3>
+            <h3 className="text-lg font-semibold mb-6 text-gray-700">Onze Pakketten</h3>
             <div className="space-y-2 text-gray-700">
               <p className="text-sm">Basis Pakket - €79,99/maand</p>
               <p className="text-sm">Plus Pakket - €119,99/maand</p>
