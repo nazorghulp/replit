@@ -109,14 +109,14 @@ export default function PricingPackages() {
                 </div>
 
                 {/* Call to action highlight */}
-                <div className="bg-gradient-to-r from-purple-primary to-orange-primary rounded-2xl p-6 text-white shadow-xl">
+                <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 border border-white/50 shadow-xl">
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center">
+                    <div className="w-12 h-12 bg-gradient-to-br from-purple-primary to-orange-primary rounded-xl flex items-center justify-center">
                       <Heart className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <p className="text-xl font-semibold mb-1">Kortom: bij ons sta je er nooit alleen voor.</p>
-                      <p className="text-white/90">We zijn er écht, precies wanneer jij ons nodig hebt.</p>
+                      <p className="text-xl font-semibold mb-1 text-purple-primary">Kortom: bij ons sta je er nooit alleen voor.</p>
+                      <p className="text-warm-gray">We zijn er écht, precies wanneer jij ons nodig hebt.</p>
                     </div>
                   </div>
                 </div>
