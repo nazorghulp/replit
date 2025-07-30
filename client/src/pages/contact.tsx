@@ -140,7 +140,7 @@ export default function Contact() {
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-white" />
-                    <span className="text-white/90">Rustig tempo gesprek</span>
+                    <span className="text-white/90">Bellen wanneer jij wilt</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <CheckCircle className="w-5 h-5 text-white" />
