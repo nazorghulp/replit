@@ -44,6 +44,13 @@ export default function Navbar() {
             <Link href="/contact" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
               CONTACT
             </Link>
+            {/* Phone Number */}
+            <a 
+              href="tel:085-401-92-65" 
+              className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide border-l border-white/30 pl-8"
+            >
+              Bel 085 - 401 92 65
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -77,6 +84,16 @@ export default function Navbar() {
             <Link href="/contact" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
               CONTACT
             </Link>
+            {/* Phone Number for Mobile */}
+            <div className="border-t border-purple-soft/30 pt-4 mt-4">
+              <a 
+                href="tel:085-401-92-65" 
+                className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200 text-center"
+                onClick={() => setIsOpen(false)}
+              >
+                Bel 085 - 401 92 65
+              </a>
+            </div>
           </div>
         </div>
       )}
