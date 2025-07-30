@@ -105,7 +105,7 @@ export default function HowWeWork() {
               
               <h3 className="text-2xl font-bold text-dark-gray mb-4 text-center">Jouw tempo</h3>
               <p className="text-warm-gray leading-relaxed text-center text-lg">
-                Per maand opzegbaar, <strong className="text-orange-primary">geen verplichtingen</strong> of automatische incasso
+                Per maand verlengbaar, <strong className="text-orange-primary">geen verplichtingen</strong> of automatische incasso
               </p>
             </div>
           </div>
