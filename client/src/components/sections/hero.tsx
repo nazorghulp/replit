@@ -13,7 +13,6 @@ export default function Hero() {
         }}
       >
         <div className="text-center text-white">
-          <p className="text-lg lg:text-xl mb-4 font-light tracking-wide uppercase">Welkom bij</p>
           <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
             <span className="block">Nazorg voor Nabestaanden</span>
             <span className="block text-orange-light">Xenra Nazorghulp</span>
