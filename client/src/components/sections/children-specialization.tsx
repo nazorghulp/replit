@@ -18,7 +18,7 @@ export default function ChildrenSpecialization() {
           en hersteltempo. Sessies duren langer en zijn speelser en rustiger opgebouwd.
         </p>
         <div className="bg-purple-800 text-white px-8 py-3 rounded-lg font-medium inline-block shadow-lg border-2 border-purple-900">
-          Meer informatie over kinderbegeleiding
+          Neem contact met ons op voor meer informatie
         </div>
       </div>
     </div>
