@@ -35,50 +35,35 @@ export default function Hero() {
             <div className="max-w-5xl mx-auto">
               <div className="bg-white/95 backdrop-blur-md rounded-3xl p-8 lg:p-12 border border-white/30 shadow-2xl">
                 <div className="space-y-8 text-lg lg:text-xl text-warm-gray leading-relaxed">
-                  <div className="flex items-start gap-4">
-                    <Heart className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
-                    <p className="text-2xl font-medium text-purple-primary">
-                      Het verlies van een dierbare is een van de zwaarste momenten in een mensenleven. 
-                      Juist dan is het belangrijk dat je niet alles alleen hoeft te doen.
-                    </p>
-                  </div>
+                  <p className="text-2xl font-medium text-purple-primary">
+                    Het verlies van een dierbare is een van de zwaarste momenten in een mensenleven. 
+                    Juist dan is het belangrijk dat je niet alles alleen hoeft te doen.
+                  </p>
                   
-                  <div className="flex items-start gap-4">
-                    <Shield className="w-6 h-6 text-orange-primary mt-1 flex-shrink-0" />
-                    <p className="text-lg lg:text-xl">
-                      Bij Xenra Nazorg begrijpen we de diepte van jouw verdriet. We weten dat elke dag anders kan voelen, 
-                      dat sommige momenten ondraaglijk lijken en dat herinneringen zowel troost als pijn kunnen brengen. 
-                      Jouw verhaal is uniek, en jouw rouwproces verdient alle respect en tijd die nodig is.
-                    </p>
-                  </div>
+                  <p className="text-lg lg:text-xl">
+                    Bij Xenra Nazorg begrijpen we de diepte van jouw verdriet. We weten dat elke dag anders kan voelen, 
+                    dat sommige momenten ondraaglijk lijken en dat herinneringen zowel troost als pijn kunnen brengen. 
+                    Jouw verhaal is uniek, en jouw rouwproces verdient alle respect en tijd die nodig is.
+                  </p>
                   
-                  <div className="flex items-start gap-4">
-                    <MessageCircle className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
-                    <p className="text-lg lg:text-xl">
-                      Onze begeleiders zijn er niet om jouw pijn weg te nemen – dat kunnen we niet en dat willen we ook niet. 
-                      Wel bieden we een veilige ruimte waar je kunt voelen wat je voelt, 
-                      waar je tranen welkom zijn en waar je stiltes gerespecteerd worden. Daarnaast helpen we je om{" "}
-                      het verlies een plek te geven in je leven.
-                    </p>
-                  </div>
+                  <p className="text-lg lg:text-xl">
+                    Onze begeleiders zijn er niet om jouw pijn weg te nemen – dat kunnen we niet en dat willen we ook niet. 
+                    Wel bieden we een veilige ruimte waar je kunt voelen wat je voelt, 
+                    waar je tranen welkom zijn en waar je stiltes gerespecteerd worden. Daarnaast helpen we je om{" "}
+                    het verlies een plek te geven in je leven.
+                  </p>
                   
-                  <div className="flex items-start gap-4">
-                    <Heart className="w-6 h-6 text-orange-primary mt-1 flex-shrink-0" />
-                    <p className="text-lg lg:text-xl">
-                      Je bepaalt het tempo. Misschien ben je klaar voor diepgaande gesprekken, 
-                      of heb je juist behoefte aan praktische ondersteuning bij de regelzaken. Wellicht wil je samen herinneringen ophalen, 
-                      of zoek je manieren om de herdenking vorm te geven. We volgen jouw behoeften en gaan mee in wat jij nodig hebt.
-                    </p>
-                  </div>
+                  <p className="text-lg lg:text-xl">
+                    Je bepaalt het tempo. Misschien ben je klaar voor diepgaande gesprekken, 
+                    of heb je juist behoefte aan praktische ondersteuning bij de regelzaken. Wellicht wil je samen herinneringen ophalen, 
+                    of zoek je manieren om de herdenking vorm te geven. We volgen jouw behoeften en gaan mee in wat jij nodig hebt.
+                  </p>
                   
-                  <div className="flex items-start gap-4">
-                    <Handshake className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
-                    <p className="text-lg lg:text-xl">
-                      Je bent niet alleen. Hoewel niemand jouw exacte pijn kan begrijpen, 
-                      zijn er mensen die het pad van verlies hebben bewandeld en die je met warmte en expertise willen begeleiden. 
-                      Bij Xenra Nazorg vind je die mensen.
-                    </p>
-                  </div>
+                  <p className="text-lg lg:text-xl">
+                    Je bent niet alleen. Hoewel niemand jouw exacte pijn kan begrijpen, 
+                    zijn er mensen die het pad van verlies hebben bewandeld en die je met warmte en expertise willen begeleiden. 
+                    Bij Xenra Nazorg vind je die mensen.
+                  </p>
                 </div>
               </div>
             </div>
