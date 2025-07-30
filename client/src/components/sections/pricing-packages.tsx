@@ -34,7 +34,7 @@ export default function PricingPackages() {
             
             <div className="relative grid lg:grid-cols-2 gap-12 items-center">
               {/* Left Images Section */}
-              <div className="relative lg:order-1 space-y-6 -mt-8">
+              <div className="relative lg:order-1 space-y-6 -mt-16">
                 {/* First Image */}
                 <div className="relative overflow-hidden rounded-3xl shadow-2xl group">
                   <img 
