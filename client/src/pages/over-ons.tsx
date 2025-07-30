@@ -63,7 +63,7 @@ export default function OverOns() {
                   </p>
 
                   <p className="text-warm-gray">
-                    Of je nu behoefte hebt aan een kort lijntje via WhatsApp of liever belt of mailt – 
+                    Of je nu behoefte hebt aan een kort lijntje via WhatsApp of liever belt of mailt, 
                     <strong className="text-orange-primary">wij passen ons aan</strong>. 
                     Jouw tempo, jouw keuze, jouw moment.
                   </p>
