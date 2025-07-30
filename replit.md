@@ -138,15 +138,26 @@ shared/
 
 The architecture prioritizes developer experience, type safety, and maintainability while keeping the codebase simple and focused on the core business needs of the grief counseling service.
 
-## Recent Changes (2025-01-27)
+## Recent Changes (2025-01-30)
 
-### Pricing Packages Redesign
-- All pricing packages made 50% smaller (height reduced from 315px to 157px)
-- Consistent text standardization: "vragen/week" changed to "berichten/week"
-- Added specialized Kinderen Pakket (€129,99/month) with:
-  - Dedicated content for children and youth (ages 0-17)
-  - 2x weekly sessions, max 30 berichten/week
-  - Specialized features like anonymous contact and age-appropriate treatment
-  - Placed in orange block section with therapy image
-- Improved responsive layout with 3-column grid for main packages
-- Reduced padding, font sizes, and spacing proportionally for compact display
+### Professional F.A.Q. Page Redesign
+- Created stunning hero section with professional background image and overlay effects
+- Restructured FAQ content into 3 professional categories:
+  - Praktische Zaken (Clock icon) - payments, contracts, booking
+  - Privacy & Veiligheid (Shield icon) - confidentiality, anonymity, data protection  
+  - Begeleiding & Werkwijze (MessageCircle icon) - children support, online services, methodology
+- Enhanced answers with comprehensive, detailed explanations
+- Modern card-based layout with gradient backgrounds and hover effects
+- Added glassmorphism contact section with multiple communication options
+- Professional iconography and visual hierarchy throughout
+
+### Children Section Improvements
+- Button text updated to "Neem contact met ons op voor meer informatie"
+- Enhanced button visibility with dark purple background and border
+- Replaced Baby icons with Users icons throughout website for better representation
+- Maintained sand-yellow background with improved contrast
+
+### Terminology Updates
+- "abonnementen" → "overeenkomsten" 
+- "opzegbaar" → "verlengbaar"
+- Enhanced professional language consistency
