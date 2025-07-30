@@ -105,7 +105,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="bg-white text-green-600 px-6 py-3 rounded-xl font-semibold text-center">
+                <div className="bg-white text-green-800 px-6 py-3 rounded-xl font-bold text-center text-lg">
                   06-38 07 42 96
                 </div>
               </div>
@@ -148,7 +148,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="bg-white text-purple-primary px-6 py-3 rounded-xl font-semibold text-center">
+                <div className="bg-white text-purple-800 px-6 py-3 rounded-xl font-bold text-center text-lg">
                   085 - 401 92 65
                 </div>
               </div>
@@ -190,7 +190,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="bg-white text-orange-primary px-6 py-3 rounded-xl font-semibold text-center">
+                <div className="bg-white text-orange-800 px-6 py-3 rounded-xl font-bold text-center text-lg">
                   info@nazorghulp.nl
                 </div>
               </div>
