@@ -18,12 +18,6 @@ export default function PricingPackages() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Header with Premium Animation */}
         <div className="text-center mb-20">
-          <div className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-primary/10 to-orange-primary/10 backdrop-blur-sm rounded-full px-8 py-4 mb-8 border border-white/30 shadow-lg">
-            <Sparkles className="w-6 h-6 text-orange-primary animate-pulse" />
-            <span className="text-purple-primary font-semibold text-lg">Premium Nazorgdiensten</span>
-            <Heart className="w-6 h-6 text-purple-primary animate-pulse delay-300" />
-          </div>
-          
           <h2 className="text-5xl lg:text-7xl font-bold bg-gradient-to-r from-purple-primary via-purple-light to-orange-primary bg-clip-text text-transparent mb-8 leading-tight">
             Onze Diensten
           </h2>
