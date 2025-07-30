@@ -37,11 +37,7 @@ export default function Hero() {
               <span className="text-white/90 font-medium">Begrip en medeleven</span>
             </div>
             
-            <div className="bg-black/40 backdrop-blur-sm rounded-2xl px-8 py-6 mb-8 inline-block">
-              <h2 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
-                Je hoeft het niet <span className="text-orange-light">alleen</span> te dragen
-              </h2>
-            </div>
+
             
             <div className="max-w-5xl mx-auto">
               <div className="bg-white/95 backdrop-blur-md rounded-3xl p-8 lg:p-12 border border-white/30 shadow-2xl">
@@ -100,6 +96,15 @@ export default function Hero() {
       {/* Emotionele sectie met foto en tekst */}
       <div className="bg-purple-primary py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Verplaatste kop */}
+          <div className="text-center mb-12">
+            <div className="bg-black/40 backdrop-blur-sm rounded-2xl px-8 py-6 inline-block">
+              <h2 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
+                Je hoeft het niet <span className="text-orange-light">alleen</span> te dragen
+              </h2>
+            </div>
+          </div>
+          
           {/* Donkerpaarse rand met lichtpaarse achtergrond */}
           <div className="border-4 border-purple-800 rounded-3xl bg-purple-200 p-8 lg:p-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
