@@ -1,6 +1,8 @@
 import { Heart, Shield, Users, MessageCircle, Clock, CheckCircle, Sparkles, Star } from "lucide-react";
 import teamPhotoPath from "@assets/zittend zonder gezicht_1753737536522.png";
 import therapiePhotoPath from "@assets/therapie kind_1753803329995.png";
+import therapySessionPath from "@assets/zittend zonder gezicht_1753905740860.png";
+import childTherapyPath from "@assets/therapie kind 2_1753905937844.png";
 
 export default function OverOns() {
   return (
@@ -81,12 +83,9 @@ export default function OverOns() {
             <div className="relative">
               <div className="relative overflow-hidden rounded-3xl shadow-2xl">
                 <img 
-                  src="https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814051_1280.jpg"
+                  src={therapySessionPath}
                   alt="Rustige gesprekssetting met professionele begeleider"
                   className="w-full h-[350px] object-cover"
-                  onError={(e) => {
-                    e.currentTarget.src = "https://via.placeholder.com/600x350/6B46C1/FFFFFF?text=Therapie+Gesprek";
-                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-purple-primary/60 to-transparent"></div>
               </div>
@@ -132,12 +131,9 @@ export default function OverOns() {
             <div className="relative lg:order-2">
               <div className="relative overflow-hidden rounded-3xl shadow-2xl">
                 <img 
-                  src="https://cdn.pixabay.com/photo/2019/10/14/17/11/therapy-4550576_1280.jpg"
+                  src={childTherapyPath}
                   alt="Begeleiding en ondersteuning in therapeutische omgeving"
                   className="w-full h-[350px] object-cover"
-                  onError={(e) => {
-                    e.currentTarget.src = "https://via.placeholder.com/600x350/FB923C/FFFFFF?text=Begeleiding";
-                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-tl from-orange-primary/60 to-transparent"></div>
               </div>
