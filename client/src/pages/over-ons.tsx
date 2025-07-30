@@ -1,5 +1,6 @@
 import { Heart, Shield, Users, MessageCircle, Clock, CheckCircle, Sparkles, Star } from "lucide-react";
 import teamPhotoPath from "@assets/zittend zonder gezicht_1753737536522.png";
+import therapiePhotoPath from "@assets/therapie kind_1753803329995.png";
 
 export default function OverOns() {
   return (
@@ -80,7 +81,7 @@ export default function OverOns() {
             <div className="relative">
               <div className="relative overflow-hidden rounded-2xl shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+                  src={therapiePhotoPath}
                   alt="Rustige gesprekssetting met professionele begeleider"
                   className="w-full h-[280px] object-cover"
                 />
@@ -128,7 +129,7 @@ export default function OverOns() {
             <div className="relative lg:order-2">
               <div className="relative overflow-hidden rounded-2xl shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+                  src={teamPhotoPath}
                   alt="Begeleiding en ondersteuning in therapeutische omgeving"
                   className="w-full h-[280px] object-cover"
                 />
