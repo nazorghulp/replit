@@ -31,14 +31,7 @@ export default function Hero() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header Section */}
-          <div className="text-center mb-20">
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 mb-8">
-              <Heart className="w-5 h-5 text-orange-light" />
-              <span className="text-white/90 font-medium">Begrip en medeleven</span>
-            </div>
-            
-
-            
+          <div className="text-center mb-20">            
             <div className="max-w-5xl mx-auto">
               <div className="bg-white/95 backdrop-blur-md rounded-3xl p-8 lg:p-12 border border-white/30 shadow-2xl">
                 <div className="space-y-8 text-lg lg:text-xl text-warm-gray leading-relaxed">
