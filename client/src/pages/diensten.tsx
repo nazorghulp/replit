@@ -50,7 +50,7 @@ export default function Diensten() {
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
                 <Shield className="w-8 h-8 text-orange-light mx-auto mb-3" />
                 <h3 className="text-lg font-semibold text-white mb-2">Flexibel & Veilig</h3>
-                <p className="text-white/80 text-sm">Maandelijks opzegbaar, volledige privacy</p>
+                <p className="text-white/80 text-sm">Maandelijks verlengbaar, volledige privacy</p>
               </div>
               
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">

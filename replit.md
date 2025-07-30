@@ -157,7 +157,22 @@ The architecture prioritizes developer experience, type safety, and maintainabil
 - Replaced Baby icons with Users icons throughout website for better representation
 - Maintained sand-yellow background with improved contrast
 
+### New Hero Sections Added (2025-01-30)
+- **Over Ons Page**: Added stunning hero section with "Ons verhaal van zorg" theme
+  - Professional background image of counseling session
+  - Floating particles animation and gradient overlay effects
+  - Emotional header with Heart icon and descriptive subtitle
+  - Large title "Wie Zijn Wij?" with orange accent
+  - All existing content preserved and positioned below hero
+
+- **Diensten Page**: Created spectacular hero section for services
+  - Title "Passende Begeleiding Voor Elke Situatie" 
+  - Three feature highlight cards: Flexibel & Veilig, Alle Leeftijden, Persoonlijk
+  - Therapy/counseling background image with consistent styling
+  - Same floating particles and gradient overlay as other pages
+  - Complete preservation of existing pricing packages and children content
+
 ### Terminology Updates
 - "abonnementen" → "overeenkomsten" 
-- "opzegbaar" → "verlengbaar"
+- "opzegbaar" → "verlengbaar" (consistently applied across all pages)
 - Enhanced professional language consistency
