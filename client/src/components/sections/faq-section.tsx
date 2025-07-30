@@ -61,7 +61,7 @@ const faqData = [
       },
       {
         question: "Hoeveel ervaring heeft Xenra Nazorghulp met rouwbegeleiding?",
-        answer: "Xenra Nazorghulp is opgericht door Hilko Verdult, die jarenlange ervaring heeft in nazorg en professionele begeleiding van nabestaanden. Onze begeleiders zijn gespecialiseerd in rouwverwerking en hebben uitgebreide training in het begeleiden van mensen in verlies en rouw. We combineren professionele expertise met een warme, persoonlijke benadering."
+        answer: "Xenra Nazorghulp heeft jarenlange ervaring in nazorg en professionele begeleiding van nabestaanden. Onze begeleiders zijn gespecialiseerd in rouwverwerking en hebben uitgebreide training in het begeleiden van mensen in verlies en rouw. We combineren professionele expertise met een warme, persoonlijke benadering."
       }
     ]
   }
