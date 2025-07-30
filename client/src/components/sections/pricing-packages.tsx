@@ -2,6 +2,7 @@ import { Link } from "wouter";
 import { Check, Plus, Info, Sparkles, Heart, Shield, Clock, MessageCircle, Star, Zap, Crown, Users, CheckCircle, ArrowRight, Target, TrendingUp } from "lucide-react";
 import therapieKindImage from "@assets/therapie kind_1753803329995.png";
 import familyImagePath from "@assets/gezin zonder man 2_1753906889142.png";
+import therapyImagePath from "@assets/therapie 2_1753907123918.png";
 
 export default function PricingPackages() {
   return (
@@ -32,15 +33,26 @@ export default function PricingPackages() {
             <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-purple-primary/10 to-transparent rounded-full blur-3xl"></div>
             
             <div className="relative grid lg:grid-cols-2 gap-12 items-center">
-              {/* Left Image Section */}
-              <div className="relative lg:order-1">
+              {/* Left Images Section */}
+              <div className="relative lg:order-1 space-y-6">
+                {/* First Image */}
                 <div className="relative overflow-hidden rounded-3xl shadow-2xl group">
                   <img 
                     src={familyImagePath}
                     alt="Familie ondersteuning - Warme begeleiding voor nabestaanden"
-                    className="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="w-full h-[300px] object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-purple-primary/20 via-transparent to-transparent"></div>
+                </div>
+                
+                {/* Second Image */}
+                <div className="relative overflow-hidden rounded-3xl shadow-2xl group">
+                  <img 
+                    src={therapyImagePath}
+                    alt="Online therapie sessie - Flexibele ondersteuning op maat"
+                    className="w-full h-[300px] object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-orange-primary/20 via-transparent to-transparent"></div>
                 </div>
                 
                 {/* Floating accent card */}
@@ -74,47 +86,27 @@ export default function PricingPackages() {
                 {/* Content blocks with beautiful styling */}
                 <div className="space-y-6">
                   <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl transition-all duration-300">
-                    <div className="flex items-start gap-4">
-                      <div className="w-10 h-10 bg-gradient-to-br from-red-400 to-red-500 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
-                        <Clock className="w-5 h-5 text-white" />
-                      </div>
-                      <p className="text-warm-gray leading-relaxed">
-                        Veel mensen die rouwen worden doorverwezen naar een eerstelijns psycholoog. Vaak betekent dit één sessie van drie kwartier per week, met wachttijden die kunnen oplopen tot maanden. Tussen die afspraken zit veel tijd waarin je er alleen voor staat. Dat kan zwaar voelen, zeker in een periode waarin het verdriet je soms overspoelt.
-                      </p>
-                    </div>
+                    <p className="text-warm-gray leading-relaxed">
+                      Veel mensen die rouwen worden doorverwezen naar een eerstelijns psycholoog. Vaak betekent dit één sessie van drie kwartier per week, met wachttijden die kunnen oplopen tot maanden. Tussen die afspraken zit veel tijd waarin je er alleen voor staat. Dat kan zwaar voelen, zeker in een periode waarin het verdriet je soms overspoelt.
+                    </p>
                   </div>
 
                   <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl transition-all duration-300">
-                    <div className="flex items-start gap-4">
-                      <div className="w-10 h-10 bg-gradient-to-br from-orange-primary to-orange-light rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
-                        <MessageCircle className="w-5 h-5 text-white" />
-                      </div>
-                      <p className="text-warm-gray leading-relaxed">
-                        Bij Xenra Nazorghulp doen we het anders. Onze pakketten zijn betaalbaar en bieden veel meer contactmomenten dan een klassiek traject. Je kiest zelf hoeveel contact je wilt: één, twee of drie keer per week. En dat kan op de manier die voor jou prettig voelt – via WhatsApp, e-mail, (beeld)bellen of een combinatie daarvan.
-                      </p>
-                    </div>
+                    <p className="text-warm-gray leading-relaxed">
+                      Bij Xenra Nazorghulp doen we het anders. Onze pakketten zijn betaalbaar en bieden veel meer contactmomenten dan een klassiek traject. Je kiest zelf hoeveel contact je wilt: één, twee of drie keer per week. En dat kan op de manier die voor jou prettig voelt – via WhatsApp, e-mail, (beeld)bellen of een combinatie daarvan.
+                    </p>
                   </div>
 
                   <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl transition-all duration-300">
-                    <div className="flex items-start gap-4">
-                      <div className="w-10 h-10 bg-gradient-to-br from-purple-primary to-purple-light rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
-                        <TrendingUp className="w-5 h-5 text-white" />
-                      </div>
-                      <p className="text-warm-gray leading-relaxed">
-                        Onze ervaring is dat deze intensievere en flexibele aanpak sneller werkt. Rouw komt in golven, en die komen niet altijd netjes op de dag dat je een afspraak hebt. Door vaker contact te hebben, kunnen we direct inspelen op wat er op dat moment speelt.
-                      </p>
-                    </div>
+                    <p className="text-warm-gray leading-relaxed">
+                      Onze ervaring is dat deze intensievere en flexibele aanpak sneller werkt. Rouw komt in golven, en die komen niet altijd netjes op de dag dat je een afspraak hebt. Door vaker contact te hebben, kunnen we direct inspelen op wat er op dat moment speelt.
+                    </p>
                   </div>
 
                   <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl transition-all duration-300">
-                    <div className="flex items-start gap-4">
-                      <div className="w-10 h-10 bg-gradient-to-br from-green-400 to-green-500 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
-                        <Shield className="w-5 h-5 text-white" />
-                      </div>
-                      <p className="text-warm-gray leading-relaxed">
-                        Ook belangrijk: we werken niet vanuit een strak protocol, maar passen het traject aan op jouw situatie. We nemen de tijd om jou en je verhaal te leren kennen. Dat zorgt voor een vertrouwensband, en juist die band maakt dat je de stappen kunt zetten die nodig zijn om verder te komen.
-                      </p>
-                    </div>
+                    <p className="text-warm-gray leading-relaxed">
+                      Ook belangrijk: we werken niet vanuit een strak protocol, maar passen het traject aan op jouw situatie. We nemen de tijd om jou en je verhaal te leren kennen. Dat zorgt voor een vertrouwensband, en juist die band maakt dat je de stappen kunt zetten die nodig zijn om verder te komen.
+                    </p>
                   </div>
                 </div>
 
