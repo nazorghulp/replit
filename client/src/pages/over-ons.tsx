@@ -71,7 +71,7 @@ export default function OverOns() {
             </h2>
             
             <p className="text-xl text-warm-gray max-w-3xl mx-auto leading-relaxed">
-              <strong>Bij Xenra Nazorghulp geloven we dat rouw geen lineair proces is. Iedereen beleeft het op zijn of haar eigen manier.</strong> Daarom werken wij met behandeltrajecten die volledig zijn afgestemd op de situatie, het tempo en de wensen van de persoon die we begeleiden.
+              Bij Xenra Nazorghulp geloven we dat rouw geen lineair proces is. Iedereen beleeft het op zijn of haar eigen manier. Daarom werken wij met behandeltrajecten die volledig zijn afgestemd op de situatie, het tempo en de wensen van de persoon die we begeleiden.
             </p>
           </div>
 
