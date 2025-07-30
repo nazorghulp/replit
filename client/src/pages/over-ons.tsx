@@ -29,8 +29,7 @@ export default function OverOns() {
         structuredData={structuredData}
       />
       
-      <div>
-        {/* New Hero Section - Similar to Contact Page */}
+      {/* New Hero Section - Similar to Contact Page */}
       <section className="relative overflow-hidden">
         <div 
           className="relative h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center"

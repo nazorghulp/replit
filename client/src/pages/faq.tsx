@@ -43,7 +43,6 @@ export default function FAQ() {
         url="https://nazorg.nl/faq"
         structuredData={structuredData}
       />
-    <div>
       {/* Hero Section with Professional Image */}
       <section className="relative">
         <div 

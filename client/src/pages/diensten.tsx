@@ -70,7 +70,6 @@ export default function Diensten() {
         url="https://nazorg.nl/diensten"
         structuredData={structuredData}
       />
-    <div>
       {/* Hero Section - Beautiful Header */}
       <section className="relative overflow-hidden">
         <div 

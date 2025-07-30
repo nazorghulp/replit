@@ -33,7 +33,6 @@ export default function Contact() {
         url="https://nazorg.nl/contact"
         structuredData={structuredData}
       />
-    <div>
       {/* Hero Section - Emotional Journey Start */}
       <section className="relative overflow-hidden">
         <div 
