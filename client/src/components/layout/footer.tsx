@@ -39,10 +39,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-6 text-gray-700">Onze Pakketten</h3>
             <div className="space-y-2 text-gray-700">
-              <p className="text-sm">Basis Pakket - €79,99/maand</p>
-              <p className="text-sm">Plus Pakket - €119,99/maand</p>
-              <p className="text-sm">Intensief Pakket - €169,99/maand</p>
-              <p className="text-sm">Kinderen Pakket - €129,99/maand</p>
+              <p className="text-sm">Basis Pakket - €99,99/maand</p>
+              <p className="text-sm">Plus Pakket - €139,99/maand</p>
+              <p className="text-sm">Intensief Pakket - €189,99/maand</p>
+              <p className="text-sm">Kinderen Pakket - €149,99/maand</p>
             </div>
           </div>
         </div>
