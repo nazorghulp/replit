@@ -4,9 +4,14 @@ import therapieKindImage from "@assets/therapie kind_1753803329995.png";
 
 export default function PricingPackages() {
   return (
-    <section className="relative py-24 overflow-hidden">
+    <section 
+      className="relative py-24 overflow-hidden"
+      style={{
+        background: 'linear-gradient(135deg, #f4e09d 0%, #e8d68a 100%)'
+      }}
+    >
       {/* Elegant gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-purple-50 to-orange-50"></div>
+      <div className="absolute inset-0 opacity-20"></div>
       
       {/* Floating decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
