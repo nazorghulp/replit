@@ -31,7 +31,7 @@ export default function Navbar() {
           <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2">
             <a 
               href="tel:085-401-92-65" 
-              className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide"
+              className="text-white hover:text-orange-light font-bold text-lg uppercase tracking-wide transition-colors duration-200"
             >
               Bel 085 - 401 92 65
             </a>
