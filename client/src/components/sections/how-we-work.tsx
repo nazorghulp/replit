@@ -27,7 +27,7 @@ export default function HowWeWork() {
                 <div className="flex items-start gap-4">
                   <Shield className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
                   <p>
-                    Bij ons <strong className="text-purple-primary">geen lange wachttijden</strong> of vaste abonnementen. 
+                    Bij ons <strong className="text-purple-primary">geen lange wachttijden</strong> of vaste overeenkomsten. 
                     Jij bepaalt zelf wat je nodig hebt en wanneer. Onze pakketten zijn per maand af te nemen – 
                     aan het einde van elke maand vragen we of je wilt verlengen. <strong className="text-orange-primary">Zo houd jij de regie.</strong>
                   </p>
