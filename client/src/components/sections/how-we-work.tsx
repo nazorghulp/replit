@@ -2,46 +2,51 @@ import { CalendarCheck, MessageCircle, Clock, ArrowRight, Shield, Heart, Baby, H
 
 export default function HowWeWork() {
   return (
-    <section className="relative py-24 bg-purple-primary overflow-hidden">
+    <section 
+      className="relative py-24 overflow-hidden"
+      style={{
+        background: 'linear-gradient(135deg, #f4e09d 0%, #e8d68a 100%)'
+      }}
+    >
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}
         <div className="text-center mb-20">
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3 mb-8">
-            <Heart className="w-5 h-5 text-orange-light" />
-            <span className="text-white/90 font-medium">Onze werkwijze</span>
+          <div className="inline-flex items-center gap-2 bg-purple-100 backdrop-blur-sm rounded-full px-6 py-3 mb-8">
+            <Heart className="w-5 h-5 text-purple-primary" />
+            <span className="text-purple-primary font-medium">Onze werkwijze</span>
           </div>
           
-          <h2 className="text-4xl lg:text-6xl font-bold text-white mb-8 leading-tight">
-            Hoe wij <span className="text-orange-light">werken</span>
+          <h2 className="text-4xl lg:text-6xl font-bold text-dark-gray mb-8 leading-tight">
+            Hoe wij <span className="text-purple-primary">werken</span>
           </h2>
           
           <div className="max-w-5xl mx-auto">
-            <div className="bg-black/60 backdrop-blur-md rounded-3xl p-8 lg:p-12 border border-white/50 shadow-2xl">
-              <div className="space-y-8 text-lg lg:text-xl text-white/95 leading-relaxed">
+            <div className="bg-gradient-to-br from-purple-50 to-orange-50 backdrop-blur-md rounded-3xl p-8 lg:p-12 border border-purple-100 shadow-2xl">
+              <div className="space-y-8 text-lg lg:text-xl text-warm-gray leading-relaxed">
                 <div className="flex items-start gap-4">
-                  <Shield className="w-6 h-6 text-orange-light mt-1 flex-shrink-0" />
+                  <Shield className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
                   <p>
-                    Bij ons <strong className="text-white">geen lange wachttijden</strong> of vaste abonnementen. 
+                    Bij ons <strong className="text-purple-primary">geen lange wachttijden</strong> of vaste abonnementen. 
                     Jij bepaalt zelf wat je nodig hebt en wanneer. Onze pakketten zijn per maand af te nemen – 
-                    aan het einde van elke maand vragen we of je wilt verlengen. <strong className="text-orange-light">Zo houd jij de regie.</strong>
+                    aan het einde van elke maand vragen we of je wilt verlengen. <strong className="text-orange-primary">Zo houd jij de regie.</strong>
                   </p>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <MessageCircle className="w-6 h-6 text-orange-light mt-1 flex-shrink-0" />
+                  <MessageCircle className="w-6 h-6 text-orange-primary mt-1 flex-shrink-0" />
                   <p>
-                    Contact verloopt op de manier die voor jou het prettigst voelt: via <strong className="text-white">(beeld)bellen, 
+                    Contact verloopt op de manier die voor jou het prettigst voelt: via <strong className="text-purple-primary">(beeld)bellen, 
                     WhatsApp of e-mail</strong>. Wil je liever wat meer afstand of anoniem blijven? Geen probleem. 
                     We passen ons aan jouw tempo en wensen aan.
                   </p>
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <Heart className="w-6 h-6 text-orange-light mt-1 flex-shrink-0" />
+                  <Heart className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
                   <p>
-                    Of u nu een <strong className="text-white">man, vrouw of kind</strong> bent, voor iedereen maken wij een 
-                    <strong className="text-orange-light"> passend behandelingstraject</strong>.
+                    Of u nu een <strong className="text-purple-primary">man, vrouw of kind</strong> bent, voor iedereen maken wij een 
+                    <strong className="text-orange-primary"> passend behandelingstraject</strong>.
                   </p>
                 </div>
               </div>
@@ -52,7 +57,7 @@ export default function HowWeWork() {
         {/* Features Grid */}
         <div className="grid md:grid-cols-3 gap-8 lg:gap-12">
           <div className="group">
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-lg hover:shadow-2xl hover:bg-white/15 transition-all duration-300 h-full">
+            <div className="bg-white/80 backdrop-blur-md rounded-2xl p-8 border border-purple-100 shadow-lg hover:shadow-2xl hover:bg-white/90 transition-all duration-300 h-full">
               <div className="relative">
                 <div className="w-16 h-16 bg-gradient-to-br from-orange-primary to-orange-light rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                   <CalendarCheck className="w-8 h-8 text-white" />
@@ -62,15 +67,15 @@ export default function HowWeWork() {
                 </div>
               </div>
               
-              <h3 className="text-2xl font-bold text-white mb-4 text-center">Direct starten</h3>
-              <p className="text-white/90 leading-relaxed text-center text-lg">
-                Binnen <strong className="text-orange-light">één werkdag</strong> krijg je reactie en kun je direct beginnen
+              <h3 className="text-2xl font-bold text-dark-gray mb-4 text-center">Direct starten</h3>
+              <p className="text-warm-gray leading-relaxed text-center text-lg">
+                Binnen <strong className="text-orange-primary">één werkdag</strong> krijg je reactie en kun je direct beginnen
               </p>
             </div>
           </div>
 
           <div className="group">
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-lg hover:shadow-2xl hover:bg-white/15 transition-all duration-300 h-full">
+            <div className="bg-white/80 backdrop-blur-md rounded-2xl p-8 border border-purple-100 shadow-lg hover:shadow-2xl hover:bg-white/90 transition-all duration-300 h-full">
               <div className="relative">
                 <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                   <MessageCircle className="w-8 h-8 text-white" />
@@ -80,15 +85,15 @@ export default function HowWeWork() {
                 </div>
               </div>
               
-              <h3 className="text-2xl font-bold text-white mb-4 text-center">Jouw keuze</h3>
-              <p className="text-white/90 leading-relaxed text-center text-lg">
-                <strong className="text-orange-light">WhatsApp, telefoon of beeldbellen</strong> - wat voor jou het prettigst voelt
+              <h3 className="text-2xl font-bold text-dark-gray mb-4 text-center">Jouw keuze</h3>
+              <p className="text-warm-gray leading-relaxed text-center text-lg">
+                <strong className="text-purple-primary">WhatsApp, telefoon of beeldbellen</strong> - wat voor jou het prettigst voelt
               </p>
             </div>
           </div>
 
           <div className="group">
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-lg hover:shadow-2xl hover:bg-white/15 transition-all duration-300 h-full">
+            <div className="bg-white/80 backdrop-blur-md rounded-2xl p-8 border border-purple-100 shadow-lg hover:shadow-2xl hover:bg-white/90 transition-all duration-300 h-full">
               <div className="relative">
                 <div className="w-16 h-16 bg-gradient-to-br from-orange-primary to-orange-light rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
                   <Clock className="w-8 h-8 text-white" />
@@ -98,9 +103,9 @@ export default function HowWeWork() {
                 </div>
               </div>
               
-              <h3 className="text-2xl font-bold text-white mb-4 text-center">Jouw tempo</h3>
-              <p className="text-white/90 leading-relaxed text-center text-lg">
-                Per maand opzegbaar, <strong className="text-orange-light">geen verplichtingen</strong> of automatische incasso
+              <h3 className="text-2xl font-bold text-dark-gray mb-4 text-center">Jouw tempo</h3>
+              <p className="text-warm-gray leading-relaxed text-center text-lg">
+                Per maand opzegbaar, <strong className="text-orange-primary">geen verplichtingen</strong> of automatische incasso
               </p>
             </div>
           </div>
