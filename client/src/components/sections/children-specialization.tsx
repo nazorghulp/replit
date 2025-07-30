@@ -17,7 +17,7 @@ export default function ChildrenSpecialization() {
           Voor kinderen tot 17 jaar bieden we begeleiding die speciaal is afgestemd op hun leeftijd 
           en hersteltempo. Sessies duren langer en zijn speelser en rustiger opgebouwd.
         </p>
-        <div className="bg-purple-primary text-white px-8 py-3 rounded-lg font-medium inline-block">
+        <div className="bg-purple-800 text-white px-8 py-3 rounded-lg font-medium inline-block shadow-lg border-2 border-purple-900">
           Meer informatie over kinderbegeleiding
         </div>
       </div>
