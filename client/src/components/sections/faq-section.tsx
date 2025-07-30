@@ -13,7 +13,7 @@ const faqData = [
       },
       {
         question: "Hoe werkt de betaling en welke kosten zijn er?",
-        answer: "Je ontvangt elke maand een duidelijk betaalverzoek per e-mail. Er is geen automatische incasso, zodat je volledig de controle houdt. Onze pakketten variëren van €79,99 tot €129,99 per maand. Er zijn geen verborgen kosten, opstartkosten of administratiekosten. Je betaalt alleen voor de maanden dat je gebruik maakt van onze diensten."
+        answer: "Je ontvangt elke maand een duidelijk betaalverzoek per e-mail. Er is geen automatische incasso, zodat je volledig de controle houdt. We hebben verschillende pakketten beschikbaar die aansluiten bij jouw specifieke behoeften. Er zijn geen verborgen kosten, opstartkosten of administratiekosten. Je betaalt alleen voor de maanden dat je gebruik maakt van onze diensten."
       },
       {
         question: "Kan ik per maand stoppen of ben ik gebonden aan een contract?",
