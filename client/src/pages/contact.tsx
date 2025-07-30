@@ -1,10 +1,38 @@
 import { Mail, MessageSquare, Phone, Clock, Heart, Star, Shield, ArrowRight, CheckCircle, Users, Calendar, Send, Globe, Sparkles } from "lucide-react";
 import { useState } from "react";
+import HeadMeta from "@/components/seo/head-meta";
 
 export default function Contact() {
   const [hoveredCard, setHoveredCard] = useState<string | null>(null);
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Xenra Nazorghulp",
+    "description": "Neem direct contact op voor rouwbegeleiding",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Xenra Nazorghulp",
+      "telephone": "085-401 92 65",
+      "email": "info@nazorg.nl",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "085-401 92 65",
+        "contactType": "customer service",
+        "availableLanguage": "Dutch"
+      }
+    }
+  };
+
   return (
+    <div>
+      <HeadMeta 
+        title="Contact Xenra Nazorghulp - Neem direct contact op"
+        description="Bel, mail of vul het formulier in. We reageren zeer kort. WhatsApp, telefoon of e-mail - kies wat voor jou prettig voelt."
+        keywords="contact nazorg, contact rouwbegeleiding, telefoonnummer rouwbegeleiding, WhatsApp nazorg"
+        url="https://nazorg.nl/contact"
+        structuredData={structuredData}
+      />
     <div>
       {/* Hero Section - Emotional Journey Start */}
       <section className="relative overflow-hidden">

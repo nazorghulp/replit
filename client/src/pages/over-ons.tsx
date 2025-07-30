@@ -3,11 +3,34 @@ import teamPhotoPath from "@assets/zittend zonder gezicht_1753737536522.png";
 import therapiePhotoPath from "@assets/therapie kind_1753803329995.png";
 import therapySessionNew from "@assets/zittend zonder gezicht_1753905740860.png";
 import childTherapyNew from "@assets/therapie kind 2_1753905937844.png";
+import HeadMeta from "@/components/seo/head-meta";
 
 export default function OverOns() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "Over Xenra Nazorghulp",
+    "description": "Ervaren begeleiding bij verlies. Ons team van begeleiders helpt volwassenen en kinderen hun verlies te verwerken.",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "Xenra Nazorghulp",
+      "description": "Professionele nazorg en rouwbegeleiding",
+      "serviceArea": "Nederland"
+    }
+  };
+
   return (
     <div>
-      {/* New Hero Section - Similar to Contact Page */}
+      <HeadMeta 
+        title="Over Xenra Nazorghulp - Ervaren begeleiding bij verlies"
+        description="Ons team van begeleiders helpt volwassenen en kinderen hun verlies te verwerken. Professionele nazorg met jarenlange ervaring in rouwbegeleiding."
+        keywords="rouwbegeleiding team, nazorg ervaring, begeleiding verlies, professionele nazorg"
+        url="https://nazorg.nl/over-ons"
+        structuredData={structuredData}
+      />
+      
+      <div>
+        {/* New Hero Section - Similar to Contact Page */}
       <section className="relative overflow-hidden">
         <div 
           className="relative h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center"

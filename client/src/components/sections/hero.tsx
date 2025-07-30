@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Heart, Handshake, Users, Shield, MessageCircle } from "lucide-react";
+import { Heart, Handshake, Users, Shield, MessageCircle, ArrowRight } from "lucide-react";
 import familyImagePath from "@assets/image_1753725391508.png";
 
 export default function Hero() {
@@ -13,10 +13,10 @@ export default function Hero() {
         }}
       >
         <div className="text-center text-white">
-          <h2 className="text-lg lg:text-xl mb-4 font-light tracking-wide uppercase">Welkom bij</h2>
+          <p className="text-lg lg:text-xl mb-4 font-light tracking-wide uppercase">Welkom bij</p>
           <h1 className="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
-            <span className="block">XENRA</span>
-            <span className="block text-orange-light">NAZORGHULP</span>
+            <span className="block">Nazorg voor Nabestaanden</span>
+            <span className="block text-orange-light">Xenra Nazorghulp</span>
           </h1>
         </div>
       </div>
@@ -64,6 +64,22 @@ export default function Hero() {
                     zijn er mensen die het pad van verlies hebben bewandeld en die je met warmte en expertise willen begeleiden. 
                     Bij Xenra Nazorg vind je die mensen.
                   </p>
+                </div>
+                
+                {/* CTA Buttons */}
+                <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
+                  <Link 
+                    href="/diensten" 
+                    className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-orange-primary hover:bg-orange-600 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                  >
+                    Bekijk Onze Pakketten
+                  </Link>
+                  <Link 
+                    href="/contact" 
+                    className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-purple-primary bg-white hover:bg-purple-50 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl border-2 border-purple-primary transform hover:-translate-y-1"
+                  >
+                    Neem Contact Op
+                  </Link>
                 </div>
               </div>
             </div>
@@ -119,6 +135,17 @@ export default function Hero() {
                     teken van moed en zelfzorg. Xenra Nazorg kan een waardevolle rol spelen in jouw 
                     verwerkingsproces, door je de tools en begeleiding te bieden die je nodig hebt.
                   </p>
+                </div>
+                
+                {/* Internal Link to Services */}
+                <div className="mt-8">
+                  <Link 
+                    href="/diensten" 
+                    className="inline-flex items-center text-purple-600 hover:text-purple-800 font-semibold text-lg group transition-colors duration-300"
+                  >
+                    Ontdek onze begeleidingspakketten
+                    <ArrowRight className="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300" />
+                  </Link>
                 </div>
               </div>
             </div>

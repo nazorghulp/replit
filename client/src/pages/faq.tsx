@@ -1,8 +1,48 @@
 import FAQSection from "@/components/sections/faq-section";
 import { HelpCircle, MessageCircle, Phone, Mail, Clock, Shield } from "lucide-react";
+import HeadMeta from "@/components/seo/head-meta";
 
 export default function FAQ() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Hoe snel kan ik starten met de begeleiding?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Zo snel mogelijk na je aanmelding nemen we contact met je op voor een vrijblijvend kennismakingsgesprek."
+        }
+      },
+      {
+        "@type": "Question", 
+        "name": "Hoe werkt rouwbegeleiding online?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Onze begeleiding kan volledig online plaatsvinden via videogesprekken, telefonisch contact en berichtuitwisseling."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Worden kinderen en jongeren ook begeleid?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, we zijn gespecialiseerd in nazorgbegeleiding voor kinderen en jongeren tot 17 jaar."
+        }
+      }
+    ]
+  };
+
   return (
+    <div>
+      <HeadMeta 
+        title="Veelgestelde vragen over nazorg en rouwbegeleiding"
+        description="Vind antwoorden op vragen over onze pakketten, kosten en werkwijze. Alles over rouwbegeleiding online en voor kinderen."
+        keywords="veelgestelde vragen rouwbegeleiding, hoe werkt rouwbegeleiding online, rouwbegeleiding kinderen vragen, nazorg vragen"
+        url="https://nazorg.nl/faq"
+        structuredData={structuredData}
+      />
     <div>
       {/* Hero Section with Professional Image */}
       <section className="relative">

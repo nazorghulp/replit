@@ -1,9 +1,75 @@
 import PricingPackages from "@/components/sections/pricing-packages";
 import ChildrenSpecialization from "@/components/sections/children-specialization";
 import { Heart, Package, Sparkles, Star, Shield, Users } from "lucide-react";
+import HeadMeta from "@/components/seo/head-meta";
 
 export default function Diensten() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Nazorg en rouwbegeleiding pakketten",
+    "description": "Kies wat bij jou past - van basis tot intensieve rouwbegeleiding",
+    "provider": {
+      "@type": "Organization",
+      "name": "Xenra Nazorghulp"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Rouwbegeleiding Pakketten",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Basis Pakket",
+            "description": "Rouwbegeleiding basis ondersteuning"
+          },
+          "price": "99.99",
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service", 
+            "name": "Plus Pakket",
+            "description": "Uitgebreide rouwbegeleiding"
+          },
+          "price": "139.99",
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Intensief Pakket", 
+            "description": "Intensieve rouwbegeleiding"
+          },
+          "price": "189.99",
+          "priceCurrency": "EUR"
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Kinderen Pakket",
+            "description": "Rouwbegeleiding speciaal voor kinderen"
+          },
+          "price": "149.99",
+          "priceCurrency": "EUR"
+        }
+      ]
+    }
+  };
+
   return (
+    <div>
+      <HeadMeta 
+        title="Nazorg en rouwbegeleiding pakketten - Kies wat bij jou past"
+        description="Van basis tot intensieve rouwbegeleiding. Flexibele pakketten zonder wachtlijst voor volwassenen en kinderen. Maandelijks opzegbaar."
+        keywords="rouwbegeleiding pakketten, nazorg pakketten, rouwbegeleiding kinderen, rouwbegeleiding zonder wachtlijst, rouwbegeleiding prijs"
+        url="https://nazorg.nl/diensten"
+        structuredData={structuredData}
+      />
     <div>
       {/* Hero Section - Beautiful Header */}
       <section className="relative overflow-hidden">
