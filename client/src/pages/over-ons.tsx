@@ -1,10 +1,61 @@
-import { Heart, Shield, Users, MessageCircle, Clock, CheckCircle } from "lucide-react";
+import { Heart, Shield, Users, MessageCircle, Clock, CheckCircle, Sparkles, Star } from "lucide-react";
 import teamPhotoPath from "@assets/zittend zonder gezicht_1753737536522.png";
 
 export default function OverOns() {
   return (
-    <div className="bg-purple-primary">
-      {/* Hero Section */}
+    <div>
+      {/* New Hero Section - Similar to Contact Page */}
+      <section className="relative overflow-hidden">
+        <div 
+          className="relative h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center"
+          style={{
+            backgroundImage: `linear-gradient(135deg, rgba(91, 33, 182, 0.8), rgba(251, 146, 60, 0.6)), url('https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&h=1200')`
+          }}
+        >
+          {/* Floating particles effect */}
+          <div className="absolute inset-0 overflow-hidden">
+            {[...Array(25)].map((_, i) => (
+              <div
+                key={i}
+                className="absolute w-2 h-2 bg-white/20 rounded-full animate-pulse"
+                style={{
+                  left: `${Math.random() * 100}%`,
+                  top: `${Math.random() * 100}%`,
+                  animationDelay: `${Math.random() * 4}s`,
+                  animationDuration: `${3 + Math.random() * 2}s`
+                }}
+              />
+            ))}
+          </div>
+
+          <div className="relative z-10 text-center text-white max-w-5xl mx-auto px-6">
+            <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-full px-8 py-4 mb-8">
+              <Heart className="w-6 h-6 text-orange-light animate-pulse" />
+              <span className="text-white/95 font-medium text-lg">Ons verhaal van zorg</span>
+            </div>
+            
+            <h1 className="text-5xl lg:text-7xl font-bold mb-8 leading-tight">
+              Wie Zijn <span className="text-orange-light">Wij</span>?
+            </h1>
+            
+            <p className="text-xl lg:text-2xl text-white/90 leading-relaxed mb-12 max-w-4xl mx-auto">
+              Een toegewijd team van professionals dat begrijpt wat je doormaakt. 
+              We combineren jarenlange ervaring met warme, persoonlijke begeleiding voor elke leeftijd.
+            </p>
+
+            {/* Scroll down indicator */}
+            <div className="flex flex-col items-center">
+              <p className="text-white/80 mb-4">Ontdek ons verhaal</p>
+              <div className="w-6 h-10 border-2 border-white/40 rounded-full flex justify-center animate-bounce">
+                <div className="w-1 h-3 bg-white/60 rounded-full mt-2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="bg-purple-primary">
+      {/* Original Hero Section - Now Secondary */}
       <section className="relative py-24 overflow-hidden">
         {/* Subtiele achtergrond pattern */}
         <div className="absolute inset-0 opacity-5">
@@ -14,9 +65,9 @@ export default function OverOns() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">            
-            <h1 className="text-4xl lg:text-6xl font-bold text-white mb-8 leading-tight">
-              Wie zijn <span className="text-orange-light">wij</span>?
-            </h1>
+            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-8 leading-tight">
+              Ons <span className="text-orange-light">Team</span>
+            </h2>
           </div>
 
           {/* Premium glassmorphism content box */}
@@ -236,10 +287,9 @@ export default function OverOns() {
               <p className="text-white/80">Op jouw tempo</p>
             </div>
           </div>
-
-
         </div>
       </section>
+      </div>
     </div>
   );
 }
