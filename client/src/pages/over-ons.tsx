@@ -146,7 +146,7 @@ export default function OverOns() {
 
           {/* Final Message */}
           <div className="text-center">
-            <div className="bg-purple-primary rounded-3xl p-12 text-white shadow-2xl">
+            <div className="bg-slate-800 rounded-3xl p-12 text-white shadow-2xl">
               <h3 className="text-3xl font-bold mb-6">Het doel van ons traject</h3>
               <p className="text-xl leading-relaxed mb-6 max-w-4xl mx-auto">
                 Naarmate het traject vordert, verschuift de focus. We kijken vooruit: hoe kun je, met het verlies 
