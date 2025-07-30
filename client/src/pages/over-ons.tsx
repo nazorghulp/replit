@@ -55,54 +55,44 @@ export default function OverOns() {
       </section>
 
       {/* Behandeltraject Section */}
-      <section className="relative py-24 bg-gradient-to-br from-slate-50 to-purple-50 overflow-hidden">
+      <section className="relative py-16 bg-gradient-to-br from-slate-50 to-purple-50 overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-10 right-20 w-72 h-72 bg-orange-primary/20 rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 left-10 w-96 h-96 bg-purple-primary/10 rounded-full blur-3xl"></div>
         </div>
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section Header */}
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-3 bg-purple-primary/10 backdrop-blur-sm rounded-full px-8 py-4 mb-6">
-              <Heart className="w-6 h-6 text-purple-primary animate-pulse" />
-              <span className="text-purple-primary font-medium text-lg">Onze werkwijze</span>
-            </div>
-            
-            <h2 className="text-4xl lg:text-5xl font-bold text-purple-primary mb-6 leading-tight">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-purple-primary mb-4 leading-tight">
               Hoe wij werken met een <span className="text-orange-primary">behandeltraject</span>
             </h2>
             
-            <p className="text-xl text-warm-gray max-w-3xl mx-auto leading-relaxed">
-              Bij Xenra Nazorghulp geloven we dat rouw geen lineair proces is. Iedereen beleeft het op zijn of haar eigen manier.
+            <p className="text-lg text-warm-gray max-w-2xl mx-auto leading-relaxed">
+              <strong>Bij Xenra Nazorghulp geloven we dat rouw geen lineair proces is. Iedereen beleeft het op zijn of haar eigen manier.</strong> Daarom werken wij met behandeltrajecten die volledig zijn afgestemd op de situatie, het tempo en de wensen van de persoon die we begeleiden.
             </p>
           </div>
 
           {/* Content Grid */}
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+          <div className="grid lg:grid-cols-2 gap-8 items-center mb-12">
             {/* Left Image */}
             <div className="relative">
-              <div className="relative overflow-hidden rounded-3xl shadow-2xl">
+              <div className="relative overflow-hidden rounded-2xl shadow-xl">
                 <img 
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
                   alt="Rustige gesprekssetting met professionele begeleider"
-                  className="w-full h-[400px] object-cover"
+                  className="w-full h-[280px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-purple-primary/60 to-transparent"></div>
-                <div className="absolute bottom-6 left-6">
-                  <div className="bg-white/20 backdrop-blur-sm rounded-2xl px-6 py-3">
-                    <p className="text-white font-semibold">Fase 1: Veiligheid & Vertrouwen</p>
-                  </div>
-                </div>
               </div>
             </div>
 
             {/* Right Content */}
-            <div className="space-y-6">
-              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/50">
-                <h3 className="text-2xl font-bold text-purple-primary mb-4">Eerste fase: Rust brengen</h3>
-                <p className="text-warm-gray leading-relaxed mb-4">
+            <div className="space-y-4">
+              <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-white/50">
+                <h3 className="text-xl font-bold text-purple-primary mb-3">Eerste fase: Rust brengen</h3>
+                <p className="text-warm-gray leading-relaxed mb-3">
                   In de eerste fase van het traject richten we ons vooral op veiligheid en vertrouwen. 
                   Veel mensen die zich aanmelden, zitten op dat moment diep in de put. Ze voelen zich 
                   overweldigd door emoties en hebben het gevoel dat de wereld om hen heen is ingestort.
@@ -116,12 +106,12 @@ export default function OverOns() {
           </div>
 
           {/* Second Row - Reversed */}
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
+          <div className="grid lg:grid-cols-2 gap-8 items-center mb-12">
             {/* Left Content */}
-            <div className="space-y-6 lg:order-1">
-              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/50">
-                <h3 className="text-2xl font-bold text-orange-primary mb-4">Stap voor stap verder</h3>
-                <p className="text-warm-gray leading-relaxed mb-4">
+            <div className="space-y-4 lg:order-1">
+              <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-white/50">
+                <h3 className="text-xl font-bold text-orange-primary mb-3">Stap voor stap verder</h3>
+                <p className="text-warm-gray leading-relaxed mb-3">
                   Vanuit dat fundament bouwen we stap voor stap verder. We helpen om de pijn en het verlies 
                   niet weg te stoppen, maar juist te erkennen. Dat is vaak confronterend, maar het is ook 
                   de enige manier om te voorkomen dat verdriet later als een boemerang terugkomt.
@@ -136,34 +126,29 @@ export default function OverOns() {
 
             {/* Right Image */}
             <div className="relative lg:order-2">
-              <div className="relative overflow-hidden rounded-3xl shadow-2xl">
+              <div className="relative overflow-hidden rounded-2xl shadow-xl">
                 <img 
                   src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
                   alt="Begeleiding en ondersteuning in therapeutische omgeving"
-                  className="w-full h-[400px] object-cover"
+                  className="w-full h-[280px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-tl from-orange-primary/60 to-transparent"></div>
-                <div className="absolute bottom-6 right-6">
-                  <div className="bg-white/20 backdrop-blur-sm rounded-2xl px-6 py-3">
-                    <p className="text-white font-semibold">Fase 2: Erkenning & Verwerking</p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
 
           {/* Final Message */}
           <div className="text-center">
-            <div className="bg-gradient-to-r from-purple-primary to-orange-primary rounded-3xl p-12 text-white shadow-2xl">
-              <h3 className="text-3xl font-bold mb-6">Het doel van ons traject</h3>
-              <p className="text-xl leading-relaxed mb-6 max-w-4xl mx-auto">
+            <div className="bg-gradient-to-r from-purple-primary to-orange-primary rounded-2xl p-8 text-white shadow-xl">
+              <h3 className="text-2xl font-bold mb-4">Het doel van ons traject</h3>
+              <p className="text-lg leading-relaxed mb-4 max-w-3xl mx-auto">
                 Naarmate het traject vordert, verschuift de focus. We kijken vooruit: hoe kun je, met het verlies 
                 als onderdeel van je leven, weer grip krijgen op je dagelijks bestaan? Samen werken we aan het 
                 hervinden van energie, zelfvertrouwen en zingeving.
               </p>
-              <div className="bg-white/20 backdrop-blur-sm rounded-2xl p-6 inline-block">
-                <p className="text-lg font-medium">
-                  <strong>Het doel is nooit dat iemand zijn dierbare vergeet.</strong> Verlies hoort bij het leven en mag er zijn. 
+              <div className="bg-white/20 backdrop-blur-sm rounded-xl p-4 inline-block">
+                <p className="text-base">
+                  Het doel is nooit dat iemand zijn dierbare vergeet. Verlies hoort bij het leven en mag er zijn. 
                   Wel willen we bereiken dat mensen hun verdriet een plek kunnen geven, zodat ze op een gezonde manier verder kunnen. 
                   Niet door het los te laten, maar door het mee te nemen op een manier die draaglijk is.
                 </p>
