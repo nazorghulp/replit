@@ -172,6 +172,30 @@ The architecture prioritizes developer experience, type safety, and maintainabil
   - Same floating particles and gradient overlay as other pages
   - Complete preservation of existing pricing packages and children content
 
+### Navigation and UX Improvements (2025-01-30)
+- **Header Enhancement**: Added phone number "Bel 085 - 401 92 65" to purple header
+  - Positioned centrally between logo and menu for optimal visibility
+  - Increased font size and weight for better prominence
+  - Added direct tel: link functionality for mobile users
+  - Consistent styling across desktop and mobile views
+
+### Homepage Refinements (2025-01-30)
+- **Content Reorganization**: Moved main heading "Je hoeft het niet alleen te dragen" to better position
+- **Visual Cleanup**: Removed "Begrip en medeleven" badge for cleaner design
+- **Typography Standardization**: Unified text styling in main content block
+  - Removed bold formatting except for opening paragraph
+  - Eliminated icon decorations for minimalist approach
+  - Maintained professional hierarchy and readability
+
+### Over Ons Page Content Enhancement (2025-01-30)
+- **Treatment Process Section**: Added comprehensive "behandeltraject" explanation
+  - Detailed methodology covering two-phase approach
+  - Professional imagery showcasing therapy sessions
+  - Authentic photos from user assets successfully integrated
+  - Clean layout with alternating content/image structure
+- **Text Consistency**: Standardized formatting throughout page content
+- **Visual Polish**: Removed gradient overlays that obscured images
+
 ### Terminology Updates
 - "abonnementen" → "overeenkomsten" 
 - "opzegbaar" → "verlengbaar" (consistently applied across all pages)
