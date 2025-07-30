@@ -81,7 +81,7 @@ export default function OverOns() {
             <div className="relative">
               <div className="relative overflow-hidden rounded-2xl shadow-xl">
                 <img 
-                  src={therapiePhotoPath}
+                  src="https://images.unsplash.com/photo-1516302752625-fcc3c50ae61f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
                   alt="Rustige gesprekssetting met professionele begeleider"
                   className="w-full h-[280px] object-cover"
                 />
@@ -129,7 +129,7 @@ export default function OverOns() {
             <div className="relative lg:order-2">
               <div className="relative overflow-hidden rounded-2xl shadow-xl">
                 <img 
-                  src={teamPhotoPath}
+                  src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
                   alt="Begeleiding en ondersteuning in therapeutische omgeving"
                   className="w-full h-[280px] object-cover"
                 />
