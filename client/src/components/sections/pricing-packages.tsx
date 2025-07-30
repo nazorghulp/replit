@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { Check, Plus, Info, Sparkles, Heart, Shield, Clock, MessageCircle, Star, Zap, Crown, Users, Baby, CheckCircle } from "lucide-react";
+import { Check, Plus, Info, Sparkles, Heart, Shield, Clock, MessageCircle, Star, Zap, Crown, Users, CheckCircle } from "lucide-react";
 import therapieKindImage from "@assets/therapie kind_1753803329995.png";
 
 export default function PricingPackages() {
@@ -341,7 +341,7 @@ export default function PricingPackages() {
                 <div className="text-center mb-4">
                   {/* Icon */}
                   <div className="w-14 h-14 bg-white/15 backdrop-blur-xl rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg border border-white/20 group-hover:scale-105 transition-transform duration-500">
-                    <Baby className="w-7 h-7 text-white" />
+                    <Users className="w-7 h-7 text-white" />
                   </div>
                   
                   {/* Title */}

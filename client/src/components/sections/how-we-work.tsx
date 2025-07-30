@@ -1,4 +1,4 @@
-import { CalendarCheck, MessageCircle, Clock, ArrowRight, Shield, Heart, Baby, Handshake } from "lucide-react";
+import { CalendarCheck, MessageCircle, Clock, ArrowRight, Shield, Heart, Users, Handshake } from "lucide-react";
 
 export default function HowWeWork() {
   return (
@@ -134,7 +134,7 @@ export function ChildrenYouthHelp() {
         {/* Header Section */}
         <div className="text-center mb-20">
           <div className="inline-flex items-center gap-2 bg-purple-100 backdrop-blur-sm rounded-full px-6 py-3 mb-8">
-            <Baby className="w-5 h-5 text-purple-primary" />
+            <Users className="w-5 h-5 text-purple-primary" />
             <span className="text-purple-primary font-medium">Speciale zorg</span>
           </div>
           
@@ -173,7 +173,7 @@ export function ChildrenYouthHelp() {
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <Baby className="w-6 h-6 text-orange-primary mt-1 flex-shrink-0" />
+                  <Users className="w-6 h-6 text-orange-primary mt-1 flex-shrink-0" />
                   <p>
                     <strong className="text-orange-primary">Mocht er een wachtlijst zijn, dan krijgen kinderen altijd voorrang.</strong> 
                     Want juist zij verdienen tijdige, veilige en passende ondersteuning als ze te maken krijgen met verlies.
