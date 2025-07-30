@@ -87,7 +87,6 @@ export default function OverOns() {
                   alt="Rustige gesprekssetting met professionele begeleider"
                   className="w-full h-[350px] object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-tr from-purple-primary/60 to-transparent"></div>
               </div>
             </div>
 
@@ -135,7 +134,6 @@ export default function OverOns() {
                   alt="Begeleiding en ondersteuning in therapeutische omgeving"
                   className="w-full h-[350px] object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-tl from-orange-primary/60 to-transparent"></div>
               </div>
             </div>
           </div>
