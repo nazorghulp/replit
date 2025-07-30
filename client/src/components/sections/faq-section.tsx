@@ -9,7 +9,7 @@ const faqData = [
     questions: [
       {
         question: "Hoe snel kan ik starten met de begeleiding?",
-        answer: "Binnen één werkdag na je aanmelding nemen we contact met je op voor een vrijblijvend kennismakingsgesprek. We begrijpen dat je in een moeilijke periode zit en willen je zo snel mogelijk de ondersteuning bieden die je nodig hebt. Na het intakegesprek kunnen we direct beginnen met de begeleiding."
+        answer: "Zo snel mogelijk na je aanmelding nemen we contact met je op voor een vrijblijvend kennismakingsgesprek. We begrijpen dat je in een moeilijke periode zit en willen je zo snel mogelijk de ondersteuning bieden die je nodig hebt. Na het intakegesprek kunnen we direct beginnen met de begeleiding."
       },
       {
         question: "Hoe werkt de betaling en welke kosten zijn er?",
