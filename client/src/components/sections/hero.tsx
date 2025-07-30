@@ -45,27 +45,27 @@ export default function Hero() {
                   
                   <div className="flex items-start gap-4">
                     <Shield className="w-6 h-6 text-orange-primary mt-1 flex-shrink-0" />
-                    <p>
+                    <p className="text-lg lg:text-xl">
                       Bij Xenra Nazorg begrijpen we de diepte van jouw verdriet. We weten dat elke dag anders kan voelen, 
                       dat sommige momenten ondraaglijk lijken en dat herinneringen zowel troost als pijn kunnen brengen. 
-                      <strong className="text-purple-primary">Jouw verhaal is uniek, en jouw rouwproces verdient alle respect en tijd die nodig is.</strong>
+                      Jouw verhaal is uniek, en jouw rouwproces verdient alle respect en tijd die nodig is.
                     </p>
                   </div>
                   
                   <div className="flex items-start gap-4">
                     <MessageCircle className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
-                    <p>
+                    <p className="text-lg lg:text-xl">
                       Onze begeleiders zijn er niet om jouw pijn weg te nemen – dat kunnen we niet en dat willen we ook niet. 
-                      Wel bieden we <strong className="text-orange-primary">een veilige ruimte</strong> waar je kunt voelen wat je voelt, 
+                      Wel bieden we een veilige ruimte waar je kunt voelen wat je voelt, 
                       waar je tranen welkom zijn en waar je stiltes gerespecteerd worden. Daarnaast helpen we je om{" "}
-                      <strong className="text-purple-primary">het verlies een plek te geven</strong> in je leven.
+                      het verlies een plek te geven in je leven.
                     </p>
                   </div>
                   
                   <div className="flex items-start gap-4">
                     <Heart className="w-6 h-6 text-orange-primary mt-1 flex-shrink-0" />
-                    <p>
-                      <strong className="text-purple-primary">Je bepaalt het tempo.</strong> Misschien ben je klaar voor diepgaande gesprekken, 
+                    <p className="text-lg lg:text-xl">
+                      Je bepaalt het tempo. Misschien ben je klaar voor diepgaande gesprekken, 
                       of heb je juist behoefte aan praktische ondersteuning bij de regelzaken. Wellicht wil je samen herinneringen ophalen, 
                       of zoek je manieren om de herdenking vorm te geven. We volgen jouw behoeften en gaan mee in wat jij nodig hebt.
                     </p>
@@ -73,8 +73,8 @@ export default function Hero() {
                   
                   <div className="flex items-start gap-4">
                     <Handshake className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
-                    <p>
-                      <strong className="text-orange-primary">Je bent niet alleen.</strong> Hoewel niemand jouw exacte pijn kan begrijpen, 
+                    <p className="text-lg lg:text-xl">
+                      Je bent niet alleen. Hoewel niemand jouw exacte pijn kan begrijpen, 
                       zijn er mensen die het pad van verlies hebben bewandeld en die je met warmte en expertise willen begeleiden. 
                       Bij Xenra Nazorg vind je die mensen.
                     </p>
