@@ -51,15 +51,11 @@ export default function OverOns() {
                   </p>
 
                   <p className="text-warm-gray">
-                    Voor elk kind of volwassene is passende begeleiding beschikbaar. 
-                    <strong className="text-orange-primary">Kinderen worden opgevangen door gespecialiseerde begeleiders</strong> die 
-                    weten hoe rouw bij jonge mensen anders kan verlopen.
+                    Voor elk kind of volwassene is passende begeleiding beschikbaar. <strong className="text-orange-primary">Kinderen worden opgevangen door gespecialiseerde begeleiders</strong> die weten hoe rouw bij jonge mensen anders kan verlopen.
                   </p>
 
                   <p className="text-warm-gray">
-                    Omdat sommige mensen liever anoniem contact hebben, tonen we op deze website bewust 
-                    <strong className="text-purple-primary">geen foto's of namen van onze begeleiders</strong>. 
-                    Zo respecteren we ook de privacy van onze cliënten.
+                    Omdat sommige mensen liever anoniem contact hebben, tonen we op deze website bewust <strong className="text-purple-primary">geen foto's of namen van onze begeleiders</strong>. Zo respecteren we ook de privacy van onze cliënten.
                   </p>
 
                   <p className="text-warm-gray">
