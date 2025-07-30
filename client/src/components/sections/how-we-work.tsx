@@ -114,10 +114,7 @@ export default function HowWeWork() {
 export function ChildrenYouthHelp() {
   return (
     <section 
-      className="relative py-24 overflow-hidden bg-cover bg-center bg-no-repeat"
-      style={{
-        backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&h=1200')`
-      }}
+      className="relative py-24 overflow-hidden bg-yellow-100"
     >
       {/* Subtiele achtergrond pattern */}
       <div className="absolute inset-0 opacity-3">
