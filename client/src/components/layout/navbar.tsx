@@ -27,6 +27,16 @@ export default function Navbar() {
             </div>
           </Link>
           
+          {/* Center Phone Number */}
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2">
+            <a 
+              href="tel:085-401-92-65" 
+              className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide"
+            >
+              Bel 085 - 401 92 65
+            </a>
+          </div>
+          
           {/* Right Navigation - All menu items */}
           <div className="hidden md:flex items-center space-x-8">
             <Link href="/" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
@@ -44,13 +54,6 @@ export default function Navbar() {
             <Link href="/contact" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
               CONTACT
             </Link>
-            {/* Phone Number */}
-            <a 
-              href="tel:085-401-92-65" 
-              className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide border-l border-white/30 pl-8"
-            >
-              Bel 085 - 401 92 65
-            </a>
           </div>
 
           {/* Mobile menu button */}
