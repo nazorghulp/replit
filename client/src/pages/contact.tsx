@@ -105,13 +105,9 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <a 
-                  href="https://wa.me/31612345678?text=Hallo,%20ik%20zou%20graag%20informatie%20willen%20over%20nazorgbegeleiding"
-                  className="inline-flex items-center gap-2 bg-white text-green-600 px-6 py-3 rounded-xl font-semibold hover:bg-gray-50 transition-colors"
-                >
-                  Open WhatsApp
-                  <ArrowRight className="w-5 h-5" />
-                </a>
+                <div className="bg-white text-green-600 px-6 py-3 rounded-xl font-semibold text-center">
+                  06-38 07 42 96
+                </div>
               </div>
               
               {/* Background decoration */}
@@ -152,13 +148,9 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <a 
-                  href="tel:+31612345678"
-                  className="inline-flex items-center gap-2 bg-white text-purple-primary px-6 py-3 rounded-xl font-semibold hover:bg-gray-50 transition-colors"
-                >
-                  Bel direct
-                  <Phone className="w-5 h-5" />
-                </a>
+                <div className="bg-white text-purple-primary px-6 py-3 rounded-xl font-semibold text-center">
+                  085 - 401 92 65
+                </div>
               </div>
               
               <div className="absolute top-0 right-0 w-40 h-40 bg-white/5 rounded-full -translate-y-20 translate-x-20"></div>
@@ -198,13 +190,9 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <a 
-                  href="mailto:info@nazorghulp.nl?subject=Informatie over nazorgbegeleiding&body=Hallo,%0D%0A%0D%0AIk zou graag meer informatie willen over jullie nazorgbegeleiding.%0D%0A%0D%0AMet vriendelijke groet,"
-                  className="inline-flex items-center gap-2 bg-white text-orange-primary px-6 py-3 rounded-xl font-semibold hover:bg-gray-50 transition-colors"
-                >
-                  Stuur e-mail
-                  <Send className="w-5 h-5" />
-                </a>
+                <div className="bg-white text-orange-primary px-6 py-3 rounded-xl font-semibold text-center">
+                  info@nazorghulp.nl
+                </div>
               </div>
               
               <div className="absolute top-0 right-0 w-36 h-36 bg-white/10 rounded-full -translate-y-18 translate-x-18"></div>
@@ -366,20 +354,14 @@ export default function Contact() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <a 
-              href="https://wa.me/31612345678?text=Hallo,%20ik%20zou%20graag%20informatie%20willen%20over%20nazorgbegeleiding"
-              className="inline-flex items-center gap-3 bg-white text-purple-primary px-8 py-4 rounded-2xl font-bold text-lg hover:bg-gray-50 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105"
-            >
+            <div className="inline-flex items-center gap-3 bg-white text-purple-primary px-8 py-4 rounded-2xl font-bold text-lg shadow-xl">
               <MessageSquare className="w-6 h-6" />
-              Start WhatsApp Gesprek
-            </a>
-            <a 
-              href="tel:+31612345678"
-              className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm text-white border-2 border-white/30 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white/20 transition-all duration-300"
-            >
+              WhatsApp: 06-38 07 42 96
+            </div>
+            <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm text-white border-2 border-white/30 px-8 py-4 rounded-2xl font-bold text-lg">
               <Phone className="w-6 h-6" />
-              Bel Direct
-            </a>
+              Bellen: 085 - 401 92 65
+            </div>
           </div>
         </div>
       </section>
