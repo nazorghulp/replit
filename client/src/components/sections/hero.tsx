@@ -119,17 +119,6 @@ export default function Hero() {
                     verwerkingsproces, door je de tools en begeleiding te bieden die je nodig hebt.
                   </p>
                 </div>
-                
-                {/* Internal Link to Services */}
-                <div className="mt-8">
-                  <Link 
-                    href="/diensten" 
-                    className="inline-flex items-center text-purple-600 hover:text-purple-800 font-semibold text-lg group transition-colors duration-300"
-                  >
-                    Ontdek onze begeleidingspakketten
-                    <ArrowRight className="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300" />
-                  </Link>
-                </div>
               </div>
             </div>
           </div>
