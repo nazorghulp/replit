@@ -64,22 +64,6 @@ export default function Hero() {
                     Bij Xenra Nazorg vind je die mensen.
                   </p>
                 </div>
-                
-                {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
-                  <Link 
-                    href="/diensten" 
-                    className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-orange-primary hover:bg-orange-600 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-                  >
-                    Bekijk Onze Pakketten
-                  </Link>
-                  <Link 
-                    href="/contact" 
-                    className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-purple-primary bg-white hover:bg-purple-50 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl border-2 border-purple-primary transform hover:-translate-y-1"
-                  >
-                    Neem Contact Op
-                  </Link>
-                </div>
               </div>
             </div>
           </div>
