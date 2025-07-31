@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-full">
           {/* Left Logo */}
           <Link href="/" className="flex items-center relative z-20">
-            <div className="w-40 h-16 bg-white rounded-lg flex items-center justify-center p-1 shadow-lg border-2 border-white/20">
+            <div className="w-32 sm:w-36 md:w-40 h-12 sm:h-14 md:h-16 bg-white rounded-lg flex items-center justify-center p-1 shadow-lg border-2 border-white/20">
               <img 
                 src={logoPath} 
                 alt="Xenra Nazorg" 
@@ -28,12 +28,22 @@ export default function Navbar() {
           </Link>
           
           {/* Center Phone Number */}
-          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2">
+          <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2">
             <a 
               href="tel:085-401-92-65" 
-              className="text-white hover:text-orange-light font-bold text-lg uppercase tracking-wide transition-colors duration-200"
+              className="text-white hover:text-orange-light font-bold text-base lg:text-lg uppercase tracking-wide transition-colors duration-200"
             >
               Bel 085 - 401 92 65
+            </a>
+          </div>
+          
+          {/* Mobile Phone Number */}
+          <div className="block lg:hidden">
+            <a 
+              href="tel:085-401-92-65" 
+              className="text-white hover:text-orange-light font-bold text-sm transition-colors duration-200"
+            >
+              085 - 401 92 65
             </a>
           </div>
           

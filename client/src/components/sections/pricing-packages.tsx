@@ -19,22 +19,22 @@ export default function PricingPackages() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Hero Header with Premium Animation */}
-        <div className="text-center mb-20">
-          <h2 className="text-5xl lg:text-7xl font-bold bg-gradient-to-r from-purple-primary via-purple-light to-orange-primary bg-clip-text text-transparent mb-8 leading-tight">
+        <div className="text-center mb-12 sm:mb-16 lg:mb-20">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold bg-gradient-to-r from-purple-primary via-purple-light to-orange-primary bg-clip-text text-transparent mb-6 sm:mb-8 leading-tight">
             Onze Diensten
           </h2>
         </div>
 
         {/* Waarom onze aanpak beter werkt - Spectacular Section */}
-        <div className="relative mb-24">
-          <div className="bg-gradient-to-br from-white via-purple-50/50 to-orange-50/30 rounded-[3rem] p-8 lg:p-16 shadow-2xl border border-white/60 backdrop-blur-sm overflow-hidden">
+        <div className="relative mb-16 sm:mb-20 lg:mb-24">
+          <div className="bg-gradient-to-br from-white via-purple-50/50 to-orange-50/30 rounded-2xl sm:rounded-3xl lg:rounded-[3rem] p-4 sm:p-6 md:p-8 lg:p-16 shadow-2xl border border-white/60 backdrop-blur-sm overflow-hidden">
             {/* Decorative elements */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-orange-primary/10 to-transparent rounded-full blur-3xl"></div>
             <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-purple-primary/10 to-transparent rounded-full blur-3xl"></div>
             
-            <div className="relative grid lg:grid-cols-2 gap-12 items-center">
+            <div className="relative grid lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
               {/* Left Images Section */}
-              <div className="relative lg:order-1 space-y-6 -mt-16">
+              <div className="relative lg:order-1 space-y-4 sm:space-y-6 -mt-8 sm:-mt-12 lg:-mt-16">
                 {/* First Image */}
                 <div className="relative overflow-hidden rounded-3xl shadow-2xl group">
                   <img 
@@ -196,25 +196,25 @@ export default function PricingPackages() {
             </div>
           </div>
 
-          <div className="relative grid lg:grid-cols-3 gap-6 lg:gap-8 max-w-6xl mx-auto items-stretch">
+          <div className="relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 max-w-6xl mx-auto items-stretch">
             {/* Basis Pakket - Elevated Glass Design */}
             <div className="group relative">
               {/* Floating background element */}
               <div className="absolute -inset-4 bg-gradient-to-br from-purple-primary/20 to-purple-light/20 rounded-3xl blur-xl opacity-0 group-hover:opacity-100 transition-all duration-700"></div>
               
-              <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl p-2 lg:p-3 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:rotate-1 min-h-[157px] h-full flex flex-col">
+              <div className="relative bg-white/90 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-3 sm:p-4 lg:p-3 border border-white/60 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:rotate-1 min-h-[157px] h-full flex flex-col">
                 {/* Premium header with icon */}
                 <div className="text-center mb-2">
                   <div className="w-8 h-8 bg-gradient-to-br from-purple-primary to-purple-light rounded-3xl flex items-center justify-center mx-auto mb-1 shadow-xl group-hover:scale-110 transition-transform duration-500">
                     <Users className="w-4 h-4 text-white" />
                   </div>
                   
-                  <h3 className="text-lg font-bold bg-gradient-to-r from-purple-primary to-purple-light bg-clip-text text-transparent mb-1">
+                  <h3 className="text-base sm:text-lg font-bold bg-gradient-to-r from-purple-primary to-purple-light bg-clip-text text-transparent mb-1">
                     Basis Pakket
                   </h3>
                   
                   <div className="relative">
-                    <div className="text-2xl lg:text-3xl font-bold text-purple-primary mb-1">€99,99</div>
+                    <div className="text-xl sm:text-2xl lg:text-3xl font-bold text-purple-primary mb-1">€99,99</div>
                     <div className="absolute -top-2 -right-2 w-8 h-8 bg-orange-primary rounded-full flex items-center justify-center">
                       <span className="text-white text-xs font-bold">€</span>
                     </div>
