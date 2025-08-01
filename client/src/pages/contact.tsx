@@ -372,8 +372,8 @@ export default function Contact() {
         </div>
         
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
-          <h2 className="text-4xl lg:text-6xl font-bold mb-8 leading-tight">
-            Je Bent <span className="text-orange-light">Niet Alleen</span>
+          <h2 className="text-4xl lg:text-6xl font-bold mb-8 leading-tight text-white">
+            Je Bent <span className="text-orange-300">Niet Alleen</span>
           </h2>
           <p className="text-xl lg:text-2xl text-white/90 mb-12 leading-relaxed">
             Die eerste stap voelt misschien groot, maar hij brengt je dichter bij genezing. 
