@@ -80,28 +80,28 @@ export default function Navbar() {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="md:hidden bg-purple-primary/95 backdrop-blur-sm border-t border-purple-soft shadow-xl">
+        <div className="md:hidden bg-purple-900 border-t border-purple-soft shadow-xl">
           <div className="px-4 pt-4 pb-6 space-y-2">
-            <Link href="/" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
+            <Link href="/" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-800 transition-colors duration-200" onClick={() => setIsOpen(false)}>
               HOME
             </Link>
-            <Link href="/over-ons" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
+            <Link href="/over-ons" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-800 transition-colors duration-200" onClick={() => setIsOpen(false)}>
               OVER ONS
             </Link>
-            <Link href="/diensten" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
+            <Link href="/diensten" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-800 transition-colors duration-200" onClick={() => setIsOpen(false)}>
               DIENSTEN
             </Link>
-            <Link href="/faq" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
+            <Link href="/faq" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-800 transition-colors duration-200" onClick={() => setIsOpen(false)}>
               F.A.Q.
             </Link>
-            <Link href="/contact" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
+            <Link href="/contact" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-800 transition-colors duration-200" onClick={() => setIsOpen(false)}>
               CONTACT
             </Link>
             {/* Phone Number for Mobile */}
             <div className="border-t border-purple-soft/30 pt-4 mt-4">
               <a 
                 href="tel:085-401-92-65" 
-                className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200 text-center"
+                className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-800 transition-colors duration-200 text-center"
                 onClick={() => setIsOpen(false)}
               >
                 Bel 085 - 401 92 65
