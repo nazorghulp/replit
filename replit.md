@@ -8,6 +8,8 @@ Preferred communication style: Simple, everyday language.
 - Prefers compact, uniform pricing cards without action buttons
 - Wants consistent sizing and typography across all packages
 - Likes immediate visual feedback and consistent layouts
+- Successfully deployed website to nazorg.nl using mijnhost hosting
+- Website includes dark mobile hamburger menu for better readability
 
 ## System Architecture
 The application employs a modern full-stack architecture, separating frontend and backend concerns.
@@ -53,8 +55,10 @@ The design emphasizes a professional and empathetic aesthetic.
 - **Contact Form**: Collects user submissions with name, email, phone, package preference, and message.
 - **Information Pages**: Dedicated sections for "About Us," "Services," and "FAQ."
 - **SEO Optimization**: Comprehensive meta tags, structured data (JSON-LD for LocalBusiness, FAQPage, Service), sitemap, robots.txt, canonical URLs, and alt texts.
-- **Analytics Integration**: Google Tag Manager for tracking.
+- **Analytics Integration**: Google Tag Manager for tracking (GTM-PGCV5HH4).
 - **SPA Routing**: `.htaccess` configuration for proper client-side routing on Apache servers.
+- **Mobile Optimization**: Dark hamburger menu with solid background for improved readability.
+- **Live Deployment**: Successfully deployed to nazorg.nl with all features functional.
 
 ## External Dependencies
 
