@@ -80,7 +80,7 @@ export default function Navbar() {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="md:hidden bg-purple-light border-t border-purple-soft">
+        <div className="md:hidden bg-purple-primary/95 backdrop-blur-sm border-t border-purple-soft shadow-xl">
           <div className="px-4 pt-4 pb-6 space-y-2">
             <Link href="/" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-primary transition-colors duration-200" onClick={() => setIsOpen(false)}>
               HOME
