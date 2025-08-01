@@ -277,3 +277,19 @@ The architecture prioritizes developer experience, type safety, and maintainabil
 - ✅ All pages working (Home, Over Ons, Diensten, FAQ, Contact)
 - ✅ Production build ready for mijnhost upload
 - ✅ Documentation provided for easy deployment
+
+## SPA Routing Fix (2025-08-01)
+
+### Apache .htaccess Configuration
+- **Problem Resolved**: 404 errors when refreshing pages (e.g., /contact)
+- **Solution**: Added .htaccess file with URL rewriting rules
+- **Apache Rewrite Rules**: All non-existing files redirect to index.html
+- **SPA Support**: Client-side routing now works perfectly on Apache hosting
+- **Performance**: Added compression and caching headers
+- **Hosting Compatibility**: Optimized for mijnhost cPanel/Apache environment
+
+### Technical Implementation
+- `.htaccess` file created in `dist/public/` directory
+- URL rewriting enables deep linking to all SPA routes
+- Static asset caching for improved performance
+- Compression enabled for faster loading times
