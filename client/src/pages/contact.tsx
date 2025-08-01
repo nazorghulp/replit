@@ -372,20 +372,20 @@ export default function Contact() {
         </div>
         
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
-          <h2 className="text-4xl lg:text-6xl font-bold mb-8 leading-tight text-white">
-            Je Bent <span className="text-orange-300">Niet Alleen</span>
+          <h2 className="text-4xl lg:text-6xl font-bold mb-8 leading-tight" style={{ color: '#ffffff' }}>
+            Je Bent <span style={{ color: '#fb923c' }}>Niet Alleen</span>
           </h2>
-          <p className="text-xl lg:text-2xl text-white/90 mb-12 leading-relaxed">
+          <p className="text-xl lg:text-2xl mb-12 leading-relaxed" style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
             Die eerste stap voelt misschien groot, maar hij brengt je dichter bij genezing. 
             Wij lopen graag een stukje van de weg met je mee.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <div className="inline-flex items-center gap-3 bg-white text-purple-primary px-8 py-4 rounded-2xl font-bold text-lg shadow-xl">
+            <div className="inline-flex items-center gap-3 bg-white px-8 py-4 rounded-2xl font-bold text-lg shadow-xl" style={{ color: '#5b21b6' }}>
               <MessageSquare className="w-6 h-6" />
               WhatsApp: 06-38 07 42 96
             </div>
-            <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm text-white border-2 border-white/30 px-8 py-4 rounded-2xl font-bold text-lg">
+            <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border-2 border-white/30 px-8 py-4 rounded-2xl font-bold text-lg" style={{ color: '#ffffff' }}>
               <Phone className="w-6 h-6" />
               Bellen: 085 - 401 92 65
             </div>
