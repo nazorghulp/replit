@@ -1,21 +1,36 @@
-# 🔧 404 Probleem Opgelost!
+# 🔧 .HTACCESS BESTAND ONTBREEKT
 
-## Wat was het probleem?
-Single Page Applications (SPA's) zoals deze website werken met client-side routing. Wanneer je een pagina herlaadt op `/contact`, zoekt de server naar een fysiek bestand `/contact` dat niet bestaat.
+## Probleem geïdentificeerd:
+Je website bestanden staan correct in `public_html`, maar het `.htaccess` bestand is niet zichtbaar.
 
-## De oplossing: .htaccess bestand
-✅ `.htaccess` bestand toegevoegd aan `dist/public/`
-✅ Apache rewrite rules geconfigureerd
-✅ Alle routes worden doorgestuurd naar `index.html`
-✅ Performance optimalisaties toegevoegd
+## Waarom zie je het .htaccess bestand niet?
+Het `.htaccess` bestand begint met een punt, waardoor het "verborgen" is in de meeste file managers.
 
-## Wat doet het .htaccess bestand?
-- **URL Rewriting**: Alle niet-bestaande bestanden worden doorgestuurd naar index.html
-- **SPA Support**: Client-side routing werkt nu perfect
-- **Performance**: Compressie en caching ingesteld
-- **SEO Friendly**: Alle pagina's blijven toegankelijk
+## Oplossing in DirectAdmin:
 
-## Voor mijnhost upload:
-Het `.htaccess` bestand moet samen met alle andere bestanden naar `public_html/` geüpload worden.
+### Stap 1: Toon verborgen bestanden
+1. Zoek naar een **"View"** of **"Settings"** knop in je File Manager
+2. Zoek naar optie: **"Show hidden files"** of **"Show dotfiles"**
+3. Vink deze aan
 
-**Belangrijk**: Controleer dat je hosting provider Apache gebruikt (dit doet mijnhost wel!)
+### Stap 2: Als je nog steeds geen .htaccess ziet
+1. Klik op **"New File"** knop
+2. Maak een nieuw bestand aan met naam: `.htaccess`
+3. Kopieer deze inhoud erin:
+
+```
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.html [QSA,L]
+```
+
+### Stap 3: Test de website
+1. Ga naar nazorghulp.nl/over-ons
+2. Herlaad de pagina
+3. Controleer of je nog 404 errors krijgt
+
+## Het .htaccess bestand is ESSENTIEEL voor:
+- Doorsturen van alle routes naar index.html
+- Oplossen van 404 errors bij page refresh
+- Correct functioneren van je Single Page Application
