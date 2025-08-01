@@ -1,295 +1,75 @@
 # Xenra Nazorghulp - Grief Support Website
 
 ## Overview
-
-This is a grief support website for Xenra Nazorghulp, a Dutch bereavement counseling service. It's a full-stack application built with React frontend and Express backend, designed to provide information about their services and allow potential clients to get in touch.
+This project is a full-stack grief support website for Xenra Nazorghulp, a Dutch bereavement counseling service. It provides information about their services and facilitates client contact. The business vision is to offer accessible and comprehensive grief support, leveraging a modern online presence to reach a wider audience and streamline client engagement.
 
 ## User Preferences
-
 Preferred communication style: Simple, everyday language.
 - Prefers compact, uniform pricing cards without action buttons
 - Wants consistent sizing and typography across all packages
 - Likes immediate visual feedback and consistent layouts
 
 ## System Architecture
-
-The application follows a modern full-stack architecture with clear separation between frontend and backend concerns.
+The application employs a modern full-stack architecture, separating frontend and backend concerns.
 
 ### Frontend Architecture
 - **Framework**: React 18 with TypeScript
-- **Routing**: Wouter for client-side routing
-- **Styling**: Tailwind CSS with custom design system
-- **UI Components**: Radix UI primitives with shadcn/ui components
-- **State Management**: TanStack Query for server state management
+- **Routing**: Wouter
+- **Styling**: Tailwind CSS with a custom design system, leveraging Radix UI primitives and shadcn/ui components.
+- **State Management**: TanStack Query
 - **Forms**: React Hook Form with Zod validation
-- **Build Tool**: Vite for development and bundling
+- **Build Tool**: Vite
 
 ### Backend Architecture
-- **Runtime**: Node.js with Express server
+- **Runtime**: Node.js with Express
 - **Language**: TypeScript with ES modules
-- **Database**: PostgreSQL with Drizzle ORM (implemented 2025-01-27)
-- **Database Provider**: Neon Database (@neondatabase/serverless)
+- **Database**: PostgreSQL with Drizzle ORM
+- **Database Provider**: Neon Database
 - **Session Storage**: PostgreSQL-based sessions (connect-pg-simple)
-- **Data Storage**: DatabaseStorage class with contact form submissions
+- **Data Storage**: Custom `DatabaseStorage` class for contact form submissions.
 
 ### Development Architecture
-- **Monorepo Structure**: Shared schemas and types between frontend and backend
-- **Development Server**: Vite dev server with Express middleware integration
-- **Build Process**: Separate builds for client (Vite) and server (esbuild)
+- **Monorepo Structure**: Shared schemas and types between frontend and backend.
+- **Development Server**: Vite dev server integrated with Express middleware.
+- **Build Process**: Separate builds for client (Vite) and server (esbuild).
 
-## Key Components
+### Key Architectural Decisions
+- **Monorepo with Shared Types**: Ensures type safety and reduces duplication.
+- **Drizzle ORM**: Chosen for type-safe database operations.
+- **Vite + Express Integration**: Optimizes development experience and production flexibility.
+- **Session-based Authentication**: For simplicity and security.
+- **Tailwind + shadcn/ui**: Provides a consistent, accessible design system.
 
-### Frontend Structure
-```
-client/
-├── src/
-│   ├── components/
-│   │   ├── layout/        # Navigation and footer components
-│   │   ├── sections/      # Page-specific sections
-│   │   └── ui/           # Reusable UI components (shadcn/ui)
-│   ├── pages/            # Route components
-│   ├── hooks/            # Custom React hooks
-│   └── lib/              # Utilities and configurations
-```
+### UI/UX Decisions
+The design emphasizes a professional and empathetic aesthetic.
+- **Color Scheme**: Utilizes a palette that includes purple, sand-yellow, and orange accents for branding.
+- **Templates**: Consistent hero sections across pages with background images, floating particles, and gradient overlays.
+- **Layout**: Card-based layouts for content like FAQs and pricing packages.
+- **Typography**: Standardized font sizing and weighting for readability.
+- **Iconography**: Uses Lucide React and relevant icons (e.g., clock, shield, message circle, heart) to enhance visual communication.
+- **Responsiveness**: Fully responsive design for mobile, tablet, and desktop, including adaptive navigation, content layouts, and image scaling.
 
-### Backend Structure
-```
-server/
-├── index.ts              # Main server entry point
-├── routes.ts             # API route definitions
-├── storage.ts            # Data access layer
-└── vite.ts              # Vite integration for development
-```
-
-### Shared Structure
-```
-shared/
-└── schema.ts             # Database schema and type definitions
-```
-
-## Data Flow
-
-### Database Schema
-- **Users Table**: Basic user authentication schema with username/password
-- **Contacts Table**: Stores contact form submissions with name, email, phone, package preference, and message
-- **Schema Definition**: Uses Drizzle ORM with Zod validation schemas
-- **Type Safety**: Shared types between frontend and backend via TypeScript
-- **Storage**: DatabaseStorage implementation replaces MemStorage for persistent data
-
-### API Architecture
-- **RESTful Design**: All API routes prefixed with `/api`
-- **Storage Interface**: Abstract storage layer supporting both memory and database implementations
-- **Request Logging**: Comprehensive logging of API requests with timing and response data
-
-### Frontend Data Management
-- **TanStack Query**: Handles server state, caching, and synchronization
-- **Custom Query Client**: Configured with authentication handling and error management
-- **Form Validation**: Zod schemas for client-side validation matching backend expectations
+### Feature Specifications
+- **Contact Form**: Collects user submissions with name, email, phone, package preference, and message.
+- **Information Pages**: Dedicated sections for "About Us," "Services," and "FAQ."
+- **SEO Optimization**: Comprehensive meta tags, structured data (JSON-LD for LocalBusiness, FAQPage, Service), sitemap, robots.txt, canonical URLs, and alt texts.
+- **Analytics Integration**: Google Tag Manager for tracking.
+- **SPA Routing**: `.htaccess` configuration for proper client-side routing on Apache servers.
 
 ## External Dependencies
 
-### Frontend Dependencies
-- **UI Framework**: React with extensive Radix UI component library
-- **Styling**: Tailwind CSS with custom design tokens
-- **Icons**: Lucide React for consistent iconography
-- **Date Handling**: date-fns for date manipulation
-- **Carousel**: Embla Carousel for interactive components
+### Frontend
+- **UI Framework**: React, Radix UI, shadcn/ui
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Date Handling**: date-fns
+- **Carousel**: Embla Carousel
 
-### Backend Dependencies
-- **Database**: Neon PostgreSQL with Drizzle ORM
-- **Authentication**: Session-based with PostgreSQL storage
-- **Development**: Replit-specific plugins for development environment
+### Backend
+- **Database**: Neon PostgreSQL
+- **ORM**: Drizzle ORM
+- **Session Management**: connect-pg-simple
 
 ### Build & Development
-- **Bundling**: Vite for frontend, esbuild for backend
-- **TypeScript**: Full type safety across the stack
-- **Development Tools**: Custom Vite plugins for Replit integration
-
-## Deployment Strategy
-
-### Production Build
-1. **Frontend Build**: Vite builds optimized React application to `dist/public`
-2. **Backend Build**: esbuild compiles TypeScript server to `dist/index.js`
-3. **Static Serving**: Express serves built frontend assets in production
-
-### Development Workflow
-- **Hot Reload**: Vite HMR for frontend development
-- **TypeScript Compilation**: Real-time type checking across the stack
-- **Database Migrations**: Drizzle Kit for schema management
-
-### Environment Configuration
-- **Database Connection**: Uses `DATABASE_URL` environment variable
-- **Development Mode**: Automatic Vite integration in development
-- **Production Mode**: Optimized static asset serving
-
-### Key Architectural Decisions
-
-1. **Monorepo with Shared Types**: Chosen to maintain type safety between frontend and backend while avoiding code duplication
-
-2. **Drizzle ORM**: Selected for type-safe database operations and excellent TypeScript integration
-
-3. **Memory Storage Fallback**: Implements storage interface pattern allowing development without database setup
-
-4. **Vite + Express Integration**: Provides optimal development experience while maintaining production flexibility
-
-5. **Session-based Authentication**: Uses PostgreSQL sessions for simplicity and security
-
-6. **Tailwind + shadcn/ui**: Provides consistent design system with high-quality, accessible components
-
-The architecture prioritizes developer experience, type safety, and maintainability while keeping the codebase simple and focused on the core business needs of the grief counseling service.
-
-## Recent Changes (2025-01-30)
-
-### Professional F.A.Q. Page Redesign
-- Created stunning hero section with professional background image and overlay effects
-- Restructured FAQ content into 3 professional categories:
-  - Praktische Zaken (Clock icon) - payments, contracts, booking
-  - Privacy & Veiligheid (Shield icon) - confidentiality, anonymity, data protection  
-  - Begeleiding & Werkwijze (MessageCircle icon) - children support, online services, methodology
-- Enhanced answers with comprehensive, detailed explanations
-- Modern card-based layout with gradient backgrounds and hover effects
-- Added glassmorphism contact section with multiple communication options
-- Professional iconography and visual hierarchy throughout
-
-### Children Section Improvements
-- Button text updated to "Neem contact met ons op voor meer informatie"
-- Enhanced button visibility with dark purple background and border
-- Replaced Baby icons with Users icons throughout website for better representation
-- Maintained sand-yellow background with improved contrast
-
-### New Hero Sections Added (2025-01-30)
-- **Over Ons Page**: Added stunning hero section with "Ons verhaal van zorg" theme
-  - Professional background image of counseling session
-  - Floating particles animation and gradient overlay effects
-  - Emotional header with Heart icon and descriptive subtitle
-  - Large title "Wie Zijn Wij?" with orange accent
-  - All existing content preserved and positioned below hero
-
-- **Diensten Page**: Created spectacular hero section for services
-  - Title "Passende Begeleiding Voor Elke Situatie" 
-  - Three feature highlight cards: Flexibel & Veilig, Alle Leeftijden, Persoonlijk
-  - Therapy/counseling background image with consistent styling
-  - Same floating particles and gradient overlay as other pages
-  - Complete preservation of existing pricing packages and children content
-
-### Navigation and UX Improvements (2025-01-30)
-- **Header Enhancement**: Added phone number "Bel 085 - 401 92 65" to purple header
-  - Positioned centrally between logo and menu for optimal visibility
-  - Increased font size and weight for better prominence
-  - Added direct tel: link functionality for mobile users
-  - Consistent styling across desktop and mobile views
-
-### Homepage Refinements (2025-01-30)
-- **Content Reorganization**: Moved main heading "Je hoeft het niet alleen te dragen" to better position
-- **Visual Cleanup**: Removed "Begrip en medeleven" badge for cleaner design
-- **Typography Standardization**: Unified text styling in main content block
-  - Removed bold formatting except for opening paragraph
-  - Eliminated icon decorations for minimalist approach
-  - Maintained professional hierarchy and readability
-
-### Over Ons Page Content Enhancement (2025-01-30)
-- **Treatment Process Section**: Added comprehensive "behandeltraject" explanation
-  - Detailed methodology covering two-phase approach
-  - Professional imagery showcasing therapy sessions
-  - Authentic photos from user assets successfully integrated
-  - Clean layout with alternating content/image structure
-- **Text Consistency**: Standardized formatting throughout page content
-- **Visual Polish**: Removed gradient overlays that obscured images
-
-### Terminology Updates
-- "abonnementen" → "overeenkomsten" 
-- "opzegbaar" → "verlengbaar" (consistently applied across all pages)
-- Enhanced professional language consistency
-
-## SEO Optimization Implementation (2025-01-30)
-
-### Complete SEO Overhaul
-- **SEO Components**: Created comprehensive HeadMeta component for dynamic meta tags
-- **Structured Data**: Implemented JSON-LD schema markup for all pages (LocalBusiness, FAQPage, Service)
-- **Meta Optimization**: All pages now have optimized titles, descriptions, and keywords
-- **Open Graph**: Complete Facebook and Twitter meta tags for social sharing
-- **Sitemap & Robots**: Created sitemap.xml and robots.txt for search engine crawling
-- **Canonical URLs**: Proper canonical links for all pages
-- **Alt Texts**: All images now have SEO-optimized alt attributes
-
-### Page-Specific SEO Features
-- **Homepage**: LocalBusiness schema with service catalog, main landing page optimization
-- **Diensten**: Service schema with pricing data, structured offer catalog
-- **FAQ**: FAQPage schema with question/answer markup for rich snippets
-- **Contact**: ContactPage schema with business contact information
-- **Over Ons**: AboutPage schema with organization details
-
-### Technical SEO Improvements
-- **Site Structure**: Clear H1/H2/H3 hierarchy across all pages
-- **Internal Linking**: Strategic links between relevant pages (Services → Contact → FAQ)
-- **Loading Speed**: Optimized meta loading and structured data implementation
-- **Mobile SEO**: Responsive design with proper viewport configuration
-
-### Target Keywords Implementation
-- Primary: "nazorg nabestaanden", "rouwbegeleiding", "kinderen rouw verwerken"
-- Long-tail: "rouwbegeleiding zonder wachtlijst", "nazorg begeleiding na overlijden ouder"
-- Local: Integration ready for "rouwbegeleiding Nederland" terms
-- Service-specific: Detailed keyword mapping per package type
-
-## Google Tag Manager Implementation (2025-01-30)
-
-### Analytics Integration Complete
-- **Google Tag Manager**: Implemented GTM-PGCV5HH4 container ID
-- **Head Section**: GTM script added at top of <head> for optimal loading
-- **Body Section**: Noscript fallback added immediately after <body> opening
-- **Tracking Ready**: Full visitor tracking, conversion tracking, and event monitoring enabled
-- **Professional Setup**: Proper implementation following Google's best practices for e-commerce/service websites
-
-## Mobile & Tablet Optimization (2025-01-31)
-
-### Complete Responsive Design Implementation
-- **Hero Section**: Responsive text sizes and padding for all screen sizes
-- **Navigation**: Logo scaling and mobile phone number display optimization
-- **Hamburger Menu**: Fully functional mobile navigation with smooth transitions
-- **Pricing Cards**: Responsive grid layout (1 column mobile, 2 tablet, 3 desktop)
-- **Footer**: Grid layout optimized for smaller screens
-- **Viewport**: Enhanced mobile experience with proper zoom settings
-- **Scroll Behavior**: Automatic scroll-to-top on page navigation
-- **Touch Optimization**: Mobile-friendly interactions and tap targets
-
-## Production Deployment Ready (2025-01-31)
-
-### Build & Deployment Preparation
-- **Production Build**: Complete static build generated in `dist/public/`
-- **File Structure**: Optimized for cPanel/mijnhost hosting environment
-- **Assets**: All images, CSS, and JavaScript properly bundled and optimized
-- **SEO Files**: Sitemap.xml and robots.txt ready for search engines
-- **Performance**: Minified CSS (106KB) and JavaScript (377KB) for fast loading
-- **Documentation**: Complete deployment instructions and upload checklist created
-
-### Hosting Ready Files
-- `index.html` - Main website file with all SEO and analytics
-- `sitemap.xml` - SEO sitemap for search engine indexing
-- `robots.txt` - Search engine crawling instructions
-- `assets/` - Optimized CSS, JavaScript, and image files (12 total files)
-- Total website size: ~16MB (primarily high-quality therapy images)
-
-### Final Status
-- ✅ Website completely functional and tested
-- ✅ Mobile/tablet responsive design implemented
-- ✅ SEO optimization complete
-- ✅ Google Analytics tracking active
-- ✅ All pages working (Home, Over Ons, Diensten, FAQ, Contact)
-- ✅ Production build ready for mijnhost upload
-- ✅ Documentation provided for easy deployment
-
-## SPA Routing Fix (2025-08-01)
-
-### Apache .htaccess Configuration
-- **Problem Resolved**: 404 errors when refreshing pages (e.g., /contact)
-- **Solution**: Added .htaccess file with URL rewriting rules
-- **Apache Rewrite Rules**: All non-existing files redirect to index.html
-- **SPA Support**: Client-side routing now works perfectly on Apache hosting
-- **Performance**: Added compression and caching headers
-- **Hosting Compatibility**: Optimized for mijnhost cPanel/Apache environment
-
-### Technical Implementation
-- `.htaccess` file created in `dist/public/` directory
-- URL rewriting enables deep linking to all SPA routes
-- Static asset caching for improved performance
-- Compression enabled for faster loading times
+- **Bundling**: Vite, esbuild
+- **Type Checking**: TypeScript
