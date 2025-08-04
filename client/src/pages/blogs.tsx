@@ -15,32 +15,52 @@ interface BlogPost {
   isPinned?: boolean;
 }
 
-// Sample blog data - eerste blog wordt gepinned (vast)
+// Blog data - eerste blog wordt gepinned (vast)
 const blogPosts: BlogPost[] = [
   {
     id: "1",
-    title: "Verwelkoming op onze Blog - Samen door het Rouwproces",
-    excerpt: "Welkom op de blog van Xenra Nazorghulp. Hier delen we waardevolle inzichten, verhalen en praktische tips voor nabestaanden die door het rouwproces gaan. Rouw is een persoonlijke reis die iedereen anders ervaart.",
+    title: "Welkom bij Xenra Nazorghulp – Rouw kent geen script",
+    excerpt: "Bij Xenra Nazorghulp geloven we dat rouw geen handleiding volgt. Er is geen 'standaardtraject' dat begint bij verdriet en eindigt bij verwerking. Iedereen beleeft verlies op zijn eigen manier. Soms heftig, soms stil. Soms direct, en soms… pas een jaar later, midden in de supermarkt bij het zien van een blik bruine bonen dat aan oma doet denken.",
     content: `
-      <p>Welkom op de blog van Xenra Nazorghulp. Hier delen we waardevolle inzichten, verhalen en praktische tips voor nabestaanden die door het rouwproces gaan. Rouw is een persoonlijke reis die iedereen anders ervaart.</p>
-      
-      <p>In onze blog vind je:</p>
-      <ul>
-        <li><strong>Praktische Tips:</strong> Concrete adviezen voor het omgaan met dagelijkse uitdagingen tijdens het rouwproces</li>
-        <li><strong>Persoonlijke Verhalen:</strong> Inspirerende verhalen van mensen die hun eigen rouwproces hebben doorlopen</li>
-        <li><strong>Professionele Inzichten:</strong> Adviezen van onze ervaren rouwbegeleiders</li>
-        <li><strong>Seizoensgebonden Ondersteuning:</strong> Speciale aandacht voor moeilijke periodes zoals feestdagen en jubilea</li>
-      </ul>
-      
-      <p>Ons doel is om je te ondersteunen met herkenbare informatie en een gevoel van verbondenheid. Je staat er niet alleen voor. Bij Xenra Nazorghulp begrijpen we dat rouw tijd nodig heeft en dat iedereen zijn eigen tempo heeft.</p>
-      
-      <p>Heb je vragen naar aanleiding van een blog artikel? Neem gerust contact met ons op. We zijn er om je te helpen op jouw unieke reis door het rouwproces.</p>
-      
-      <p><em>Met warme groeten,<br/>Het team van Xenra Nazorghulp</em></p>
+      <p>Bij Xenra Nazorghulp geloven we dat rouw geen handleiding volgt. Er is geen "standaardtraject" dat begint bij verdriet en eindigt bij verwerking. Iedereen beleeft verlies op zijn eigen manier. Soms heftig, soms stil. Soms direct, en soms… pas een jaar later, midden in de supermarkt bij het zien van een blik bruine bonen dat aan oma doet denken.</p>
+
+      <p>Wij zijn er voor al die vormen van rouw. Voor de ouder die worstelt met schuldgevoelens na een overlijden. Voor het kind dat niet begrijpt waarom iedereen "doorgaat met leven". Voor de volwassene die ineens in paniek raakt bij het horen van een liedje. En ja — zelfs voor de persoon die zich afvraagt of het oké is om blij te zijn ná een begrafenis.</p>
+
+      <p>Xenra Nazorghulp is opgezet om een laagdrempelige, persoonlijke en flexibele vorm van begeleiding te bieden. Geen wachtlijsten. Geen volle wachtkamers. Geen verwijzingen. Bij ons kun je gewoon beginnen. Via WhatsApp, telefoon of beeldbellen. Op jouw manier. In jouw tempo.</p>
+
+      <h3>Wat doen we?</h3>
+      <p>We bieden begeleiding op maat, op afstand en afgestemd op de behoefte van de klant. Voor volwassenen werken we met maandpakketten — van één keer per week contact tot intensievere begeleiding.</p>
+
+      <p>Voor kinderen en jongeren hebben we ook een maatpakket en maken we een eigen plan, waarbij ze indien gewenst anoniem contact kunnen houden met hun vaste begeleider.</p>
+
+      <p>We werken met vaste contactmomenten, korte lijnen en praktische middelen zoals op maat gemaakt behandelplan, rouwkalenders en opdrachten die passen bij de situatie van de klant.</p>
+
+      <p>Soms praten we over verlies. Soms juist niet. Soms gaat het gesprek over hoe je je brood weer proeft zonder schuldgevoel. Of over wat je zegt als iemand vraagt: "Ben je er al een beetje overheen?" Bij Xenra mag alles besproken worden — ook de dingen die je denkt dat 'niet normaal' zijn om te voelen.</p>
+
+      <h3>Waarom een blog-pagina?</h3>
+      <p>De wereld van rouw is vaak stil. Onzichtbaar. En tegelijkertijd leeft het overal.</p>
+
+      <p>Met deze blog willen we die stilte een beetje doorbreken. Niet met grote theorieën of belerende teksten, maar met verhalen. Verhalen van mensen zoals jij en ik. Verhalen over gemis, verwarring, troost, en soms zelfs een glimlach.</p>
+
+      <p>Elke blog geeft een inkijkje in situaties die wij in onze begeleiding tegenkomen. Niet om in de schijnwerpers te staan, maar om te laten zien: je bent niet gek. En je bent zeker niet alleen.</p>
+
+      <h3>Wat je moet weten over de verhalen</h3>
+      <p>Alle namen, leeftijden en situaties in onze blogs zijn aangepast om de privacy van onze klanten te waarborgen. Soms combineren we meerdere ervaringen tot één verhaal. Soms veranderen we het decor, het geslacht of de leeftijd.</p>
+
+      <p>Wat altijd echt blijft, is de emotie, de worsteling en de stapjes vooruit. We doen dit met zorg en toestemming, en waar mogelijk in overleg. Want vertrouwelijkheid is voor ons geen regel, maar een vanzelfsprekendheid.</p>
+
+      <h3>En jij?</h3>
+      <p>Misschien herken je jezelf in de verhalen. Misschien juist niet. Misschien ben je op zoek naar hulp — voor jezelf, of voor iemand anders. Misschien lees je dit gewoon uit nieuwsgierigheid.</p>
+
+      <p>Wat je reden ook is: je bent welkom. En als jij ooit tegen iets aanloopt — groot of klein — weet dan dat je bij Xenra Nazorghulp terecht kunt. Ook als het gaat om dingen waarvan je denkt: "Zal ik me hier nou echt druk om maken?"</p>
+
+      <p><strong>Dat is precies waarom we bestaan.</strong></p>
+
+      <p><em>Welkom bij Xenra Nazorg.</em></p>
     `,
     author: "Xenra Team",
     date: "5 Augustus 2025",
-    readTime: "3 min",
+    readTime: "5 min",
     image: "/api/placeholder/800/400",
     isPinned: true
   }
