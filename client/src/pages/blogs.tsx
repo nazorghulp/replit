@@ -82,58 +82,65 @@ function BlogCard({ post }: { post: BlogPost }) {
         </div>
       )}
       
-      {/* Blog Image */}
-      <div className="relative h-64 overflow-hidden">
-        <img 
-          src={post.image} 
-          alt={post.title}
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-        <div className="absolute bottom-4 left-6 right-6">
-          <div className="flex items-center text-white text-sm">
-            <span className="flex items-center space-x-1">
-              <Calendar size={16} />
-              <span>{post.date}</span>
-            </span>
-          </div>
-        </div>
-      </div>
-
-      {/* Blog Content */}
+      {/* Blog Content with Side-by-Side Layout */}
       <div className="p-8">
-        <h2 className="text-2xl md:text-3xl font-bold text-purple-primary mb-4 leading-tight">
-          {post.title}
-        </h2>
-        
-        {/* Preview Content */}
-        <div className="text-gray-700 leading-relaxed mb-6">
-          {!isExpanded ? (
-            <>
-              <p className="mb-4">{post.excerpt}</p>
-              <button
-                onClick={toggleExpansion}
-                className="inline-flex items-center space-x-2 text-orange-primary hover:text-orange-dark font-semibold transition-colors duration-200 group"
-              >
-                <span>lees verder</span>
-                <ChevronDown size={20} className="group-hover:translate-y-1 transition-transform duration-200" />
-              </button>
-            </>
-          ) : (
-            <>
-              <div 
-                className="prose prose-lg max-w-none mb-6"
-                dangerouslySetInnerHTML={{ __html: post.content }}
+        <div className="flex flex-col lg:flex-row gap-8">
+          {/* Blog Image - Left Side on Desktop */}
+          <div className="lg:w-1/3 flex-shrink-0">
+            <div className="relative h-64 lg:h-80 overflow-hidden rounded-xl">
+              <img 
+                src={post.image} 
+                alt={post.title}
+                className="w-full h-full object-cover"
               />
-              <button
-                onClick={toggleExpansion}
-                className="inline-flex items-center space-x-2 text-orange-primary hover:text-orange-dark font-semibold transition-colors duration-200 group"
-              >
-                <span>inklapppen</span>
-                <ChevronUp size={20} className="group-hover:-translate-y-1 transition-transform duration-200" />
-              </button>
-            </>
-          )}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+              <div className="absolute bottom-4 left-4 right-4">
+                <div className="flex items-center text-white text-sm">
+                  <span className="flex items-center space-x-1">
+                    <Calendar size={16} />
+                    <span>{post.date}</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Text Content - Right Side on Desktop */}
+          <div className="lg:w-2/3">
+            <h2 className="text-2xl md:text-3xl font-bold text-purple-primary mb-4 leading-tight">
+              {post.title}
+            </h2>
+            
+            {/* Preview Content */}
+            <div className="text-gray-700 leading-relaxed">
+              {!isExpanded ? (
+                <>
+                  <p className="mb-4">{post.excerpt}</p>
+                  <button
+                    onClick={toggleExpansion}
+                    className="inline-flex items-center space-x-2 text-orange-primary hover:text-orange-dark font-semibold transition-colors duration-200 group"
+                  >
+                    <span>lees verder</span>
+                    <ChevronDown size={20} className="group-hover:translate-y-1 transition-transform duration-200" />
+                  </button>
+                </>
+              ) : (
+                <>
+                  <div 
+                    className="prose prose-lg max-w-none mb-6"
+                    dangerouslySetInnerHTML={{ __html: post.content }}
+                  />
+                  <button
+                    onClick={toggleExpansion}
+                    className="inline-flex items-center space-x-2 text-orange-primary hover:text-orange-dark font-semibold transition-colors duration-200 group"
+                  >
+                    <span>inklapppen</span>
+                    <ChevronUp size={20} className="group-hover:-translate-y-1 transition-transform duration-200" />
+                  </button>
+                </>
+              )}
+            </div>
+          </div>
         </div>
       </div>
     </article>
