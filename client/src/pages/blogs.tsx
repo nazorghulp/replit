@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp, Clock, User, Calendar, BookOpen, Sparkles } from "lucide-react";
 import HeadMeta from "@/components/seo/head-meta";
+import blogImagePath from "@assets/gezin zonder man 2_1754326544869.png";
 
 // Blog data interface
 interface BlogPost {
@@ -61,7 +62,7 @@ const blogPosts: BlogPost[] = [
     author: "Xenra Team",
     date: "5 Augustus 2025",
     readTime: "5 min",
-    image: "/api/placeholder/800/400",
+    image: blogImagePath,
     isPinned: true
   }
 ];
@@ -82,8 +83,13 @@ function BlogCard({ post }: { post: BlogPost }) {
       )}
       
       {/* Blog Image */}
-      <div className="relative h-64 bg-gradient-to-r from-purple-primary to-purple-soft">
-        <div className="absolute inset-0 bg-black/20"></div>
+      <div className="relative h-64 overflow-hidden">
+        <img 
+          src={post.image} 
+          alt={post.title}
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
         <div className="absolute bottom-4 left-6 right-6">
           <div className="flex items-center space-x-4 text-white text-sm">
             <span className="flex items-center space-x-1">
