@@ -27,8 +27,8 @@ export default function Navbar() {
             </div>
           </Link>
           
-          {/* Center Phone Number */}
-          <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2">
+          {/* Center Phone Number - moved slightly left for BLOGS menu item */}
+          <div className="hidden lg:block absolute left-1/2 transform -translate-x-20">
             <a 
               href="tel:085-401-92-65" 
               className="text-white hover:text-orange-light font-bold text-base lg:text-lg uppercase tracking-wide transition-colors duration-200"
@@ -48,7 +48,7 @@ export default function Navbar() {
           </div>
           
           {/* Right Navigation - All menu items */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             <Link href="/" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
               HOME
             </Link>
@@ -57,6 +57,9 @@ export default function Navbar() {
             </Link>
             <Link href="/diensten" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
               DIENSTEN
+            </Link>
+            <Link href="/blogs" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
+              BLOGS
             </Link>
             <Link href="/faq" className="text-white hover:text-orange-light font-medium text-sm uppercase tracking-wide">
               F.A.Q.
@@ -90,6 +93,9 @@ export default function Navbar() {
             </Link>
             <Link href="/diensten" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-800 transition-colors duration-200" onClick={() => setIsOpen(false)}>
               DIENSTEN
+            </Link>
+            <Link href="/blogs" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-800 transition-colors duration-200" onClick={() => setIsOpen(false)}>
+              BLOGS
             </Link>
             <Link href="/faq" className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-800 transition-colors duration-200" onClick={() => setIsOpen(false)}>
               F.A.Q.

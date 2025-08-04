@@ -9,6 +9,7 @@ import Home from "@/pages/home";
 import OverOns from "@/pages/over-ons";
 import Diensten from "@/pages/diensten";
 import Kinderen from "@/pages/kinderen";
+import Blogs from "@/pages/blogs";
 import FAQ from "@/pages/faq";
 import Contact from "@/pages/contact";
 import Navbar from "@/components/layout/navbar";
@@ -30,6 +31,7 @@ function Router() {
           <Route path="/over-ons" component={OverOns} />
           <Route path="/diensten" component={Diensten} />
           <Route path="/kinderen" component={Kinderen} />
+          <Route path="/blogs" component={Blogs} />
           <Route path="/faq" component={FAQ} />
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />
