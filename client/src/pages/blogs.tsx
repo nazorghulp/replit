@@ -60,7 +60,7 @@ const blogPosts: BlogPost[] = [
       <p><em>Welkom bij Xenra Nazorg.</em></p>
     `,
     author: "Xenra Team",
-    date: "5 Augustus 2025",
+    date: "Juli 2025",
     readTime: "5 min",
     image: blogImagePath,
     isPinned: true
@@ -91,18 +91,10 @@ function BlogCard({ post }: { post: BlogPost }) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
         <div className="absolute bottom-4 left-6 right-6">
-          <div className="flex items-center space-x-4 text-white text-sm">
+          <div className="flex items-center text-white text-sm">
             <span className="flex items-center space-x-1">
               <Calendar size={16} />
               <span>{post.date}</span>
-            </span>
-            <span className="flex items-center space-x-1">
-              <Clock size={16} />
-              <span>{post.readTime}</span>
-            </span>
-            <span className="flex items-center space-x-1">
-              <User size={16} />
-              <span>{post.author}</span>
             </span>
           </div>
         </div>
