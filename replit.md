@@ -59,7 +59,7 @@ The design emphasizes a professional and empathetic aesthetic.
 - **SPA Routing**: `.htaccess` configuration for proper client-side routing on Apache servers.
 - **Mobile Optimization**: Dark hamburger menu with solid background for improved readability.
 - **Live Deployment**: Successfully deployed to nazorg.nl with all features functional.
-- **Blog Functionality**: Complete blog system with pinned first blog and chronological ordering for new posts. Side-by-side layout with photos, expandable content, and "lees verder" functionality.
+- **Blog Functionality**: Complete blog system with pinned first blog and chronological ordering for new posts. Side-by-side layout with photos, expandable content, "lees verder" functionality, and standard homepage link (www.nazorghulp.nl) under each expanded blog.
 
 ## External Dependencies
 
