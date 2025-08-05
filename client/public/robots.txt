@@ -1,10 +1,21 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://nazorg.nl/sitemap.xml
+# Important pages - explicitly allow
+Allow: /diensten
+Allow: /over-ons
+Allow: /faq
+Allow: /contact
+Allow: /blogs
 
-# Disallow admin or development paths (if any)
+# Block unnecessary paths
 Disallow: /admin/
 Disallow: /.git/
 Disallow: /node_modules/
+Disallow: /*.tar.gz$
+
+# Sitemap location
+Sitemap: https://nazorg.nl/sitemap.xml
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1
