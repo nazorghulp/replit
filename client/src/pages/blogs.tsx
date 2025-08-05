@@ -131,20 +131,20 @@ function BlogCard({ post }: { post: BlogPost }) {
       
       {/* Blog Content with Side-by-Side Layout */}
       <div className="p-8">
-        <div className="flex flex-col lg:flex-row gap-8">
-          {/* Blog Image - Left Side on Desktop */}
-          <div className="lg:w-1/3 flex-shrink-0">
-            <div className="relative h-64 lg:h-80 overflow-hidden rounded-xl">
+        <div className="flex flex-col md:flex-row gap-6">
+          {/* Blog Image - Left Side */}
+          <div className="md:w-1/3 flex-shrink-0">
+            <div className="relative h-48 md:h-64 overflow-hidden rounded-xl">
               <img 
                 src={post.image} 
                 alt={post.title}
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-              <div className="absolute bottom-4 left-4 right-4">
-                <div className="flex items-center text-white text-sm">
+              <div className="absolute bottom-3 left-3 right-3">
+                <div className="flex items-center text-white text-xs">
                   <span className="flex items-center space-x-1">
-                    <Calendar size={16} />
+                    <Calendar size={14} />
                     <span>{post.date}</span>
                   </span>
                 </div>
@@ -152,14 +152,14 @@ function BlogCard({ post }: { post: BlogPost }) {
             </div>
           </div>
 
-          {/* Text Content - Right Side on Desktop */}
-          <div className="lg:w-2/3">
-            <h2 className="text-2xl md:text-3xl font-bold text-purple-primary mb-4 leading-tight">
+          {/* Text Content - Right Side */}
+          <div className="md:w-2/3">
+            <h2 className="text-xl md:text-2xl font-bold text-purple-primary mb-3 leading-tight">
               {post.title}
             </h2>
             
             {/* Preview Content */}
-            <div className="text-gray-700 leading-relaxed">
+            <div className="text-gray-700 leading-relaxed text-sm md:text-base">
               {!isExpanded ? (
                 <>
                   <p className="mb-4">{post.excerpt}</p>
@@ -168,13 +168,13 @@ function BlogCard({ post }: { post: BlogPost }) {
                     className="inline-flex items-center space-x-2 text-orange-primary hover:text-orange-dark font-semibold transition-colors duration-200 group"
                   >
                     <span>lees verder</span>
-                    <ChevronDown size={20} className="group-hover:translate-y-1 transition-transform duration-200" />
+                    <ChevronDown size={18} className="group-hover:translate-y-1 transition-transform duration-200" />
                   </button>
                 </>
               ) : (
                 <>
                   <div 
-                    className="prose prose-lg max-w-none mb-6"
+                    className="prose prose-sm md:prose-base max-w-none mb-6"
                     dangerouslySetInnerHTML={{ __html: post.content }}
                   />
                   <button
@@ -182,7 +182,7 @@ function BlogCard({ post }: { post: BlogPost }) {
                     className="inline-flex items-center space-x-2 text-orange-primary hover:text-orange-dark font-semibold transition-colors duration-200 group"
                   >
                     <span>inklapppen</span>
-                    <ChevronUp size={20} className="group-hover:-translate-y-1 transition-transform duration-200" />
+                    <ChevronUp size={18} className="group-hover:-translate-y-1 transition-transform duration-200" />
                   </button>
                 </>
               )}
