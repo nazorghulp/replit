@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ChevronDown, ChevronUp, Clock, User, Calendar, BookOpen, Sparkles } from "lucide-react";
 import HeadMeta from "@/components/seo/head-meta";
 import blogImagePath from "@assets/gezin zonder man 2_1754326544869.png";
+import secondBlogImagePath from "@assets/image_1754353490936.png";
 
 // Blog data interface
 interface BlogPost {
@@ -109,7 +110,7 @@ const blogPosts: BlogPost[] = [
     author: "Xenra Team",
     date: "Juli 2025",
     readTime: "5 min",
-    image: blogImagePath,
+    image: secondBlogImagePath,
     isPinned: false
   }
 ];
