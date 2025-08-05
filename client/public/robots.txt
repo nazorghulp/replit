@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
+# Sitemap
 Sitemap: https://nazorg.nl/sitemap.xml
+
+# Disallow admin or development paths (if any)
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /node_modules/
