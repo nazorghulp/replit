@@ -3,12 +3,17 @@ RewriteEngine On
 
 # Ensure XML files are served with correct MIME type
 <Files "sitemap.xml">
+    ForceType application/xml
     Header set Content-Type "application/xml; charset=utf-8"
 </Files>
 
 <Files "robots.txt">
+    ForceType text/plain
     Header set Content-Type "text/plain; charset=utf-8"
 </Files>
+
+# Add MIME type for XML files
+AddType application/xml .xml
 
 # Handle client-side routing for React SPA
 RewriteCond %{REQUEST_FILENAME} !-f
