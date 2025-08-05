@@ -270,8 +270,9 @@ export default function Blogs() {
     "@context": "https://schema.org",
     "@type": "Blog",
     "name": "Xenra Nazorghulp Blog",
-    "description": "Inzichten, tips en verhalen over het rouwproces",
+    "description": "Persoonlijke verhalen en inzichten over rouwbegeleiding en verliesverwerking",
     "url": "https://nazorg.nl/blogs",
+    "inLanguage": "nl-NL",
     "publisher": {
       "@type": "Organization",
       "name": "Xenra Nazorghulp"

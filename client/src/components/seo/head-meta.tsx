@@ -14,7 +14,7 @@ export default function HeadMeta({
   title, 
   description, 
   keywords = '',
-  image = '/og-image.jpg',
+  image = 'https://nazorg.nl/assets/logo%20web_1753678013397-D2Ku1MAC.jpg',
   url = '',
   type = 'website',
   structuredData
