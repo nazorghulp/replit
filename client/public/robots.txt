@@ -15,7 +15,7 @@ Disallow: /node_modules/
 Disallow: /*.tar.gz$
 
 # Sitemap location
-Sitemap: https://nazorg.nl/sitemap.xml
+Sitemap: https://nazorghulp.nl/sitemap.xml
 
 # Crawl delay (optional - helps prevent server overload)
 Crawl-delay: 1
