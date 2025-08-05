@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ChevronDown, ChevronUp, Clock, User, Calendar, BookOpen, Sparkles } from "lucide-react";
+import { ChevronDown, ChevronUp, Clock, User, Calendar, BookOpen, Sparkles, Home } from "lucide-react";
 import HeadMeta from "@/components/seo/head-meta";
 import blogImagePath from "@assets/gezin zonder man 2_1754326544869.png";
 import secondBlogImagePath from "@assets/image_1754353490936.png";
@@ -243,6 +243,18 @@ function BlogCard({ post }: { post: BlogPost }) {
                     className="prose prose-sm md:prose-base max-w-none mb-6"
                     dangerouslySetInnerHTML={{ __html: post.content }}
                   />
+                  
+                  {/* Homepage Link */}
+                  <div className="mb-6 p-4 bg-gray-50 rounded-lg border-l-4 border-orange-primary">
+                    <a 
+                      href="/"
+                      className="inline-flex items-center space-x-2 text-purple-primary hover:text-orange-primary font-semibold transition-colors duration-200 group"
+                    >
+                      <Home size={18} className="group-hover:scale-110 transition-transform duration-200" />
+                      <span>www.nazorghulp.nl</span>
+                    </a>
+                  </div>
+                  
                   <button
                     onClick={toggleExpansion}
                     className="inline-flex items-center space-x-2 text-orange-primary hover:text-orange-dark font-semibold transition-colors duration-200 group"
