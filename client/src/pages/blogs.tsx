@@ -3,6 +3,7 @@ import { ChevronDown, ChevronUp, Clock, User, Calendar, BookOpen, Sparkles } fro
 import HeadMeta from "@/components/seo/head-meta";
 import blogImagePath from "@assets/gezin zonder man 2_1754326544869.png";
 import secondBlogImagePath from "@assets/image_1754353490936.png";
+import thirdBlogImagePath from "@assets/image_1754354797503.png";
 
 // Blog data interface
 interface BlogPost {
@@ -111,6 +112,70 @@ const blogPosts: BlogPost[] = [
     date: "Juli 2025",
     readTime: "5 min",
     image: secondBlogImagePath,
+    isPinned: false
+  },
+  {
+    id: "3",
+    title: "\"Ik wil helemaal niks\" – een meisje, een scherm en een stille verbinding",
+    excerpt: "Soms komt hulp niet binnen via een schoolpsycholoog, een verwijzing of een intakegesprek. Soms komt het binnen via een appje, geen naam, geen gezicht en geen druk. Gewoon een scherm en de vrijheid om te reageren — of niet. Dat was het begin van ons contact met haar.",
+    content: `
+      <p>Soms komt hulp niet binnen via een schoolpsycholoog, een verwijzing of een intakegesprek. Soms komt het binnen via een appje, geen naam, geen gezicht en geen druk. Gewoon een scherm en de vrijheid om te reageren — of niet.</p>
+
+      <p>Dat was het begin van ons contact met haar. We noemen haar hier Laura, ze was dertien jaar en volledig op slot sinds haar vader onverwacht overleed.</p>
+
+      <h3>Alles en iedereen was fout</h3>
+      <p>Laura was volgens haar moeder altijd een gevoelig kind geweest. Stil, maar niet gesloten en serieus, maar warm. Tot het moment waarop haar vader, haar held, van de ene op de andere dag niet meer thuiskwam.</p>
+
+      <p>Van verdriet was op het eerste gezicht nauwelijks sprake. In plaats daarvan kwam er boosheid. Laura was áltijd boos. Op haar moeder, op school, op vriendinnen die iets verkeerd zeiden of op zichzelf.</p>
+
+      <p>"Ze schreeuwt, slaat met deuren, weigert naar school te gaan," vertelde haar moeder later. "Ik ben met school, huisarts, de praktijkondersteuner en jeugdzorg in gesprek… maar hoe harder ik aan de bel trek, hoe harder zij zich afsluit."</p>
+
+      <p>De moeder wilde dat Laura professionele hulp zou krijgen. Maar Laura wilde niks, "Ze zei letterlijk: 'Als je iemand naar me toe stuurt, praat ik nooit meer.'" En dat meende ze.</p>
+
+      <h3>Vanuit wanhoop kwam ze bij Xenra</h3>
+      <p>De moeder vond ons via internet en ze bekeek de website van Xenra Nazorghulp en merkte dat we ook op afstand werken — via WhatsApp, zonder verplicht sessies. Ze stuurde ons een lange mail, vol frustratie en verdriet. Niet voor zichzelf — maar omdat ze haar dochter niet meer herkende.</p>
+
+      <p>"Ik weet niet of dit mag, of dit werkt… maar kunnen jullie contact leggen met haar, zonder dat ze weet wie of wat jullie zijn?". We stelden voor om het volledig anoniem te doen. Geen openlijke sessies, geen 'dit is Xenra', gewoon neutraal, een anoniem appmaatje.</p>
+
+      <p>Een onbekende die niks van haar wilde, maar wél altijd bereikbaar was. We gaven geen valse informatie, maar zeiden ook niet wie we waren. Alleen dat we 'iemand' waren die even naast haar wilde staan. Dat ze niks hoefde. Alleen lezen was al oké.</p>
+
+      <h3>De stilte die maanden duurde</h3>
+      <p>We stuurden een eerste bericht, toen nog één en een derde. Niet dwingend, geen vragen. Gewoon korte berichtjes: "Ik weet dat je geen zin hebt in mensen. Maar soms is het oké als iemand gewoon even stil bij je zit."</p>
+
+      <p>Dagen gingen voorbij en weken verstreken. We hadden afgesproken: we sturen alleen om de paar dagen iets, nooit opdringerig maar wel trouw. Een keer stuurden we: "Soms is het fijn als iemand even niks zegt, maar wél blijft."</p>
+
+      <p>En toen, uit het niets, kwam er een antwoord: "Je bent irritant, maar minder irritant dan de rest.". Het was het begin.</p>
+
+      <h3>Stap voor stap, in haar tempo</h3>
+      <p>Na die eerste reactie bleef het stil, echter wij stopten niet. Steeds weer kleine berichtjes, soms iets over hoe moeilijk boosheid is en een andere keer iets luchtigs. Soms een vraag: "Wat zou jij doen als je even onzichtbaar kon zijn?"</p>
+
+      <p>Langzaam veranderde de toon van haar berichten. Eerst alleen korte woorden en toen wat zinnen. Later kwamen de emoticons. En toen, ineens, stuurde ze: "Ik weet niet waarom ik nog leef. Maar ik wil niet dood zijn. Alleen gewoon weg."</p>
+
+      <p>We schrokken niet, dat was belangrijk. We gingen er niet bovenop zitten en gingen geen zwaar gesprek aan. Wel gaven we erkenning en vooral: blijven, blijven, blijven. We luisterden en gaven woorden waar zij ze nog niet had. Vingen haar woede op zonder terug te slaan en toen ze ineens vroeg: "Wie ben jij eigenlijk?" zeiden we: "Ik ben iemand die het oké vindt dat jij je niet oké voelt, iemand die even blijft. Meer hoef je niet te weten.". Ze accepteerde het.</p>
+
+      <h3>De eerste barstjes</h3>
+      <p>Na een paar maanden vertelde haar moeder dat het gedrag van Laura begon te veranderen. Niet ineens, maar geleidelijk. Ze wilde zelf naar school, ze schold minder en er kwamen momenten waarop ze haar moeder zelfs een knuffel gaf, zomaar, uit zichzelf.</p>
+
+      <p>En op een dag stuurde ze ons: "Ik denk dat ik het een beetje kan, niet praten over alles. Maar wel snappen dat ik niet gek ben."</p>
+
+      <p>Ze begon vragen te stellen. Over rouw, over boosheid, over waarom mensen zeggen dat het 'beter wordt', terwijl dat nergens op slaat. We gaven geen grote antwoorden, alleen kleine stukjes houvast. "Je hoeft het niet beter te maken. Alleen leefbaar."</p>
+
+      <h3>Een relatie zonder gezicht, maar met vertrouwen</h3>
+      <p>Uiteindelijk bouwden we een band op, zonder onze echte namen te delen en zonder dat zij wist wie wij waren. En dat hoefde ook niet, voor haar was het genoeg dat we er waren. Op haar tempo, zonder oordeel en zonder plan.</p>
+
+      <p>Langzaam kreeg ze woorden voor wat ze voelde. Ze durfde te zeggen: "Ik ben bang dat ik ook ga verdwijnen." en kon daarna lachen om haar eigen opmerking. We leerden haar niks nieuws, maar we hielpen haar herinneren dat emoties ruimte mogen hebben, ook als je dertien bent en boos bent op de hele wereld.</p>
+
+      <h3>De les van Laura</h3>
+      <p>Wat Laura ons liet zien, is dat begeleiding niet altijd begint met een intakeformulier of een zorgplan. Soms begint het met een berichtje zonder afzender, zonder eisen en zonder verwachtingen.</p>
+
+      <p>Dat is waarom we bij Xenra Nazorghulp ook dit soort trajecten doen. Niet alles hoeft in hokjes te passen en zeker niet als het gaat om kinderen en jongeren die rouwen op hun eigen, ongrijpbare manier.</p>
+
+      <p>We zien het als onze taak om erbij te zijn, desnoods in stilte en desnoods anoniem. Zolang het maar bijdraagt aan dat ene doel: dat iemand op een dag zegt, zoals Laura zei: "Het is nog steeds rot. Maar ik ben niet meer alleen."</p>
+    `,
+    author: "Xenra Team",
+    date: "Augustus 2025",
+    readTime: "7 min",
+    image: thirdBlogImagePath,
     isPinned: false
   }
 ];
