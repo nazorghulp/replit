@@ -283,7 +283,7 @@ export default function Blogs() {
     "@type": "Blog",
     "name": "Xenra Nazorghulp Blog",
     "description": "Persoonlijke verhalen en inzichten over rouwbegeleiding en verliesverwerking",
-    "url": "https://nazorg.nl/blogs",
+    "url": "https://nazorghulp.nl/blogs",
     "inLanguage": "nl-NL",
     "publisher": {
       "@type": "Organization",
@@ -297,7 +297,7 @@ export default function Blogs() {
         title="Blogs & Verhalen - Xenra Nazorghulp"
         description="Ontdek waardevolle artikelen, persoonlijke verhalen en professionele inzichten die je kunnen helpen tijdens je rouwproces. Praktische ondersteuning en verbondenheid."
         keywords="rouwbegeleiding blog, nazorg verhalen, rouw tips, verlies verwerken, rouwproces inzichten"
-        url="https://nazorg.nl/blogs"
+        url="https://nazorghulp.nl/blogs"
         structuredData={structuredData}
       />
       
