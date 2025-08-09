@@ -1,11 +1,16 @@
 User-agent: *
 Allow: /
 
-# Important pages - explicitly allow
+# Important pages - explicitly allow and prioritize
+Allow: /
 Allow: /diensten
 Allow: /over-ons
 Allow: /faq
 Allow: /contact
+Allow: /blogs
+
+# Force crawl of blogs page specifically
+User-agent: Googlebot
 Allow: /blogs
 
 # Block unnecessary paths
@@ -13,6 +18,7 @@ Disallow: /admin/
 Disallow: /.git/
 Disallow: /node_modules/
 Disallow: /*.tar.gz$
+Disallow: /attached_assets/
 
 # Sitemap location
 Sitemap: https://nazorghulp.nl/sitemap.xml
