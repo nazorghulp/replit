@@ -2,8 +2,22 @@ import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertContactSchema } from "@shared/schema";
+import path from "path";
+import fs from "fs";
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  // Serve specific HTML for blogs route for SEO (only in production)
+  if (process.env.NODE_ENV === "production") {
+    app.get("/blogs", (req, res) => {
+      const blogsPath = path.resolve(import.meta.dirname, "public", "blogs.html");
+      if (fs.existsSync(blogsPath)) {
+        res.sendFile(blogsPath);
+      } else {
+        // Fallback to regular SPA handling
+        res.redirect("/");
+      }
+    });
+  }
   // Contact form submission
   app.post("/api/contacts", async (req, res) => {
     try {
