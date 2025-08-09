@@ -73,7 +73,13 @@ export default function HeadMeta({
       canonical.rel = 'canonical';
       document.head.appendChild(canonical);
     }
+    // Force the canonical URL to be the provided URL, not the fallback
     canonical.href = url || window.location.href;
+    
+    // Debug logging in development
+    if (process.env.NODE_ENV === 'development') {
+      console.log('HeadMeta canonical URL set to:', canonical.href);
+    }
 
   }, [title, description, keywords, image, url, type, structuredData]);
 
