@@ -1,0 +1,35 @@
+COMPLETE WEBSITE DOWNLOAD - OPLOSSING
+
+PROBLEEM: TAR bestanden werken niet in browser
+OPLOSSING: GZIP compressed bestanden gemaakt
+
+BESCHIKBARE DOWNLOADS:
+======================
+
+1. xenra-website-productie.tar.gz (2.4MB)
+2. xenra-complete.tgz (2.4MB)
+
+BEIDE BEVATTEN DEZELFDE COMPLETE WEBSITE:
+- index.html (productieversie)
+- blogs.html 
+- .htaccess (alle SEO fixes!)
+- robots.txt
+- sitemap.xml  
+- assets/ map (alle afbeeldingen + JS/CSS)
+
+UPLOAD INSTRUCTIES:
+===================
+1. Download één van de .tar.gz of .tgz bestanden
+2. Pak uit op je computer (WinRAR, 7-Zip kunnen dit)
+3. Upload ALLE uitgepakte bestanden naar public_html/
+4. Overschrijf alle oude bestanden
+5. Test website
+
+VERWACHT RESULTAAT:
+===================
+- Geen witte pagina meer
+- Alle functionaliteit werkt
+- SEO fixes behouden
+- Snelle laadtijden
+
+Probeer één van deze downloads!
