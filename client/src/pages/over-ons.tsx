@@ -1,8 +1,8 @@
 import { Heart, Shield, Users, MessageCircle, Clock, CheckCircle, Sparkles, Star } from "lucide-react";
-import teamPhotoPath from "@assets/zittend zonder gezicht_1753737536522_optimized.png";
-import therapiePhotoPath from "@assets/therapie kind_1753803329995_optimized.png";
-import therapySessionNew from "@assets/zittend zonder gezicht_1753905740860_optimized.png";
-import childTherapyNew from "@assets/therapie kind 2_1753905937844_optimized.png";
+import teamPhotoPath from "@assets/zittend zonder gezicht_1753737536522_web_optimized.png";
+import therapiePhotoPath from "@assets/therapie kind_1753803329995_web_optimized.png";
+import therapySessionNew from "@assets/zittend zonder gezicht_1753905740860_web_optimized.png";
+import childTherapyNew from "@assets/therapie kind 2_1753905937844_web_optimized.png";
 import HeadMeta from "@/components/seo/head-meta";
 
 export default function OverOns() {

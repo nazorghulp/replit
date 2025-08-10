@@ -1,8 +1,8 @@
 import { Link } from "wouter";
 import { Check, Plus, Info, Sparkles, Heart, Shield, Clock, MessageCircle, Star, Zap, Crown, Users, CheckCircle, ArrowRight, Target, TrendingUp } from "lucide-react";
-import therapieKindImage from "@assets/therapie kind_1753803329995_optimized.png";
-import familyImagePath from "@assets/gezin zonder man 2_1753906889142_optimized.png";
-import therapyImagePath from "@assets/therapie 2_1753907123918_optimized.png";
+import therapieKindImage from "@assets/therapie kind_1753803329995_web_optimized.png";
+import familyImagePath from "@assets/gezin zonder man 2_1753906889142_web_optimized.png";
+import therapyImagePath from "@assets/therapie 2_1753907123918_web_optimized.png";
 
 export default function PricingPackages() {
   return (

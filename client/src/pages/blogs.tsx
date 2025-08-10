@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { ChevronDown, ChevronUp, Clock, User, Calendar, BookOpen, Sparkles, Home } from "lucide-react";
 import HeadMeta from "@/components/seo/head-meta";
-import blogImagePath from "@assets/gezin zonder man 2_1754326544869_optimized.png";
-import secondBlogImagePath from "@assets/image_1754353490936_optimized.png";
-import thirdBlogImagePath from "@assets/image_1754354797503_optimized.png";
+import blogImagePath from "@assets/gezin zonder man 2_1754326544869_web_optimized.png";
+import secondBlogImagePath from "@assets/image_1754353490936_web_optimized.png";
+import thirdBlogImagePath from "@assets/image_1754354797503_web_optimized.png";
 
 // Blog data interface
 interface BlogPost {
