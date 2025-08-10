@@ -1,0 +1,7 @@
+PROBLEEM: blogs.html verwijst naar /src/main.tsx (development)
+OPLOSSING: Verwijst nu naar /assets/index-DWLrQCAJ.js (productie)
+
+DOWNLOAD: blogs-FIXED.html
+UPLOAD ALS: blogs.html
+
+DIT LOST HET REFRESH PROBLEEM OP.
