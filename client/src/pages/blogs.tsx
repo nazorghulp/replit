@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ChevronDown, ChevronUp, Clock, User, Calendar, BookOpen, Sparkles, Home } from "lucide-react";
 import HeadMeta from "@/components/seo/head-meta";
 import blogImagePath from "@assets/gezin zonder man 2_1754326544869_optimized.png";
+import marjanBlogImagePath from "@assets/marjan-verhaal.png";
 import secondBlogImagePath from "@assets/image_1754353490936_optimized.png";
 import thirdBlogImagePath from "@assets/image_1754354797503_optimized.png";
 
@@ -69,6 +70,78 @@ const blogPosts: BlogPost[] = [
   },
   {
     id: "2",
+    title: "\"Een leven in uren\" – het verhaal van Marjan",
+    excerpt: "Een huwelijk met tijdtekort. Marjan (47) en Peter (49) waren al meer dan twintig jaar getrouwd. Peter was ondernemer in hart en nieren, een workaholic in de puurste vorm. Zes dagen per week werkte hij van 's ochtends zeven uur tot soms tien uur 's avonds.",
+    content: `
+      <h3>Een huwelijk met tijdtekort</h3>
+      <p>Marjan (47) en Peter (49) waren al meer dan twintig jaar getrouwd. In die jaren hadden ze al veel meegemaakt: een klein appartement, de eerste jaren van financiële krapte, het opbouwen van een bedrijf, de eerste successen.</p>
+
+      <p>Peter was ondernemer in hart en nieren. Niet zo'n ondernemer die het ook rustig aan kon doen, hij was een workaholic in de puurste vorm. Zes dagen per week werkte hij van 's ochtends zeven uur tot soms tien uur 's avonds. En dat zonder pauze, zonder avondwandeling of zonder zomaar eens samen op de bank zitten.</p>
+
+      <p>Eten deed hij vaak op kantoor, met een stapel papieren naast zijn bord. Als Marjan vroeg of hij op tijd thuis kwam, was het antwoord meestal voorspelbaar: "Als ik dat doe, ligt het werk morgen nog hoger opgestapeld."</p>
+
+      <p>Marjan probeerde het soms voorzichtig aan te kaarten. Ze miste hem, ze miste de man met wie ze ooit lange fietstochten maakte, die spontaan een terrasje pakte. Maar die gesprekken liepen bijna altijd uit op ruzie. "Je eet er toch ook van?" en "Wie betaalt jouw kleren?" Het waren harde woorden, maar ze kwamen van een man die nooit leerde stilstaan. Een man die dacht dat liefde tonen hetzelfde was als zorgen voor een volle koelkast en een veilig dak boven hun hoofd.</p>
+
+      <h3>Kleine momenten, groot geluk</h3>
+      <p>Toch hield Marjan intens veel van Peter. Juist omdat ze wist dat achter die harde werkmentaliteit een man zat die haar, op zijn manier, liefhad. In de schaarse vrije uren, vaak op zondagmiddag, deden ze kleine dingen. Samen koken, een film kijken of een wandeling in het park. Die momenten waren zeldzaam, maar Marjan koesterde ze.</p>
+
+      <p>Ze had stiekem de hoop dat Peter ooit tot het inzicht zou komen dat het leven meer was dan facturen en vergaderingen. Dat hij op een dag tegen haar zou zeggen: "Weet je wat? Ik neem vrij. Gewoon, omdat ik bij je wil zijn.", maar dat moment kwam nooit.</p>
+
+      <h3>Februari – het eerste teken</h3>
+      <p>Het was een koude ochtend in februari. Peter was al vroeg vertrokken, zoals altijd. Om iets na tienen ging de telefoon. Marjan zag de naam van een collega van Peter in het scherm. Dat was ongewoon. "Marjan, je moet meteen komen, Peter is onwel geworden. Hij is onderweg naar het ziekenhuis."</p>
+
+      <p>Toen ze hem eindelijk zag, lag hij bleek en aangesloten op allerlei slangen in een ziekenhuisbed. De arts vertelde dat hij een hartaanval had gehad en dat het kantje boord was geweest. Hij moest gedotterd worden en kreeg later ook nog een bypass-operatie. De oorzaak? Jarenlange stress, weinig rust, te veel werken, slechte eetgewoonten. Het was een confronterende lijst.</p>
+
+      <h3>Een belofte… half gebroken</h3>
+      <p>Na enkele weken revalidatie kwam Peter thuis. Hij zei dat hij het rustiger aan zou doen, hij zou minder gaan werken en beter op zichzelf letten. In het begin leek het te lukken, Marjan zag hem vaker aan tafel en hij ging zelfs een keer mee wandelen, zonder telefoon in zijn zak.</p>
+
+      <p>Maar de oude patronen zijn hardnekkig en na een paar weken begon hij weer langer te werken. Eerst tot zes uur en later weer tot acht uur. Marjan voelde een mengeling van frustratie en bezorgdheid. Ze wilde hem vasthouden, hem beschermen tegen zichzelf. Maar hij wuifde haar zorgen weg. "Ik let wel op," zei hij dan.</p>
+
+      <h3>Juli – de tweede slag</h3>
+      <p>Op een warme dag in juli gebeurde het ondenkbare. Peter was op kantoor toen hij zich opnieuw onwel voelde. De ambulance was snel ter plaatse, maar deze keer mocht het niet baten. Nog voordat Marjan hem kon zien, was hij overleden aan een tweede, fatale hartaanval.</p>
+
+      <p>Het nieuws sloeg in als een mokerslag. Marjan was op slag weduwe. Alle ruzies, alle gesprekken die ze nog wilden voeren, alle stille hoop op een ander leven samen, in één seconde was het weg.</p>
+
+      <h3>De eerste weken – een leeg huis</h3>
+      <p>De dagen na zijn overlijden waren een waas van telefoontjes, regelzaken, en een onwerkelijk gevoel. Marjan liep door hun huis en zag overal sporen van Peters leven: zijn jasje over de stoel, zijn halfgelezen krant, het koffiekopje op het aanrecht.</p>
+
+      <p>De avonden waren het ergst, waar ze vroeger de hoop had dat hij misschien nog binnen zou komen lopen, wist ze nu zeker dat de stoel naast haar leeg zou blijven.</p>
+
+      <h3>Het contact met Xenra Nazorg</h3>
+      <p>Na een paar weken vond Marjan de moed om hulp te zoeken. Ze kwam online op onze website terecht en stuurde een kort bericht: "Mijn man is net overleden. Ik weet niet hoe ik hiermee om moet gaan."</p>
+
+      <p>Binnen een dag spraken we elkaar telefonisch. Niet om haar direct te overladen met vragen, maar om te luisteren, om te horen waar ze tegenaan liep. Marjan gaf aan dat ze het moeilijk vond om over Peter te praten met familie, omdat ze bang was dat ze hem steeds moesten verdedigen tegen opmerkingen als "Hij had ook minder moeten werken." Ze wilde steun zonder oordeel.</p>
+
+      <h3>De begeleiding – stap voor stap</h3>
+      <p>We begonnen met wekelijkse online sessies en enkele berichten tussendoor, als zij daar behoefte aan had, gericht op rouwverwerking maar ook op de dagelijkse praktische uitdagingen.</p>
+
+      <p>Rouwen is niet alleen verdriet om het gemis; het is ook leren omgaan met de leegte die het verlies achterlaat in de structuur van je leven.</p>
+
+      <p>Met Marjan werkten we onder andere aan:</p>
+      <ul>
+        <li>Het doorbreken van de stilte in huis op een manier die haar goed deed.</li>
+        <li>Het vinden van nieuwe rituelen op momenten die vroeger door Peter werden ingevuld.</li>
+        <li>Het herkennen en accepteren van schuldgevoelens ("Had ik hem harder moeten pushen om te stoppen?").</li>
+      </ul>
+
+      <h3>Terug naar het leven</h3>
+      <p>Het was geen snel proces, er waren dagen dat Marjan vooruit leek te gaan, om vervolgens weer hard terug te vallen. Rouw kent geen rechte lijn. Maar langzaam, heel langzaam, vond ze een manier om Peters plek in haar hart te behouden, zonder dat het haar verlamde.</p>
+
+      <p>Ze begon op zondag, hun oude vrije dag samen, een wandeling te maken. Soms alleen, soms met een vriendin. Ze ging weer koken voor zichzelf. Kleine stappen, maar ze betekenden veel.</p>
+
+      <h3>Een boodschap</h3>
+      <p>Marjan deelde later met ons dat de begeleiding haar niet alleen door het ergste verdriet hielp, maar ook leerde dat liefde niet altijd betekent dat je elkaar elke dag ziet. Soms betekent het dat je elkaar op je eigen manier loslaat, maar toch bij je draagt.</p>
+
+      <p>En terwijl haar verhaal uniek is, zit er een boodschap in die veel mensen zullen herkennen: Het leven is meer dan werken. En tijd samen is niet oneindig.</p>
+    `,
+    author: "Xenra Team",
+    date: "Augustus 2025",
+    readTime: "7 min",
+    image: marjanBlogImagePath,
+    isPinned: false
+  },
+  {
+    id: "4",
     title: "Een kopje koffie voor twee, over rouw op leeftijd en hoe we toch nabij konden zijn",
     excerpt: "Ze waren zussen, maar eigenlijk meer dan dat. Maatjes, kameraden en vertrouwde elkaars zwijgen net zo goed als elkaars verhalen. Mevrouw Catharina was 78 toen haar oudere zus overleed. 81 was ze geworden. Niet onverwacht, maar daarom niet minder hard.",
     content: `
@@ -115,7 +188,7 @@ const blogPosts: BlogPost[] = [
     isPinned: false
   },
   {
-    id: "3",
+    id: "5",
     title: "\"Ik wil helemaal niks\", een meisje, een scherm en een stille verbinding",
     excerpt: "Soms komt hulp niet binnen via een schoolpsycholoog, een verwijzing of een intakegesprek. Soms komt het binnen via een appje, geen naam, geen gezicht en geen druk. Gewoon een scherm en de vrijheid om te reageren, of niet. Dat was het begin van ons contact met haar.",
     content: `
