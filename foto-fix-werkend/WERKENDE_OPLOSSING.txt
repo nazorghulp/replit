@@ -1,0 +1,22 @@
+WERKENDE FOTO FIX OPLOSSING
+
+PROBLEEM WAS:
+- index-BBfyA879.js was niet correct geüpload naar server
+- Server gaf HTML terug in plaats van JavaScript
+- Daarom lege paarse pagina
+
+OPLOSSING:
+✓ blogs.html teruggezet naar werkende index-Dga3g2N7.js
+✓ Nieuwe geoptimaliseerde foto behouden
+✓ Nu zou het moeten werken
+
+UPLOAD:
+1. blogs.html → hoofdmap nazorghulp.nl (overschrijven)
+2. man_1754850552660-CMLYJKBe.png → /assets/ map
+
+RESULTAAT:
+- Werkende blogs pagina
+- Betere foto kwaliteit (142KB)
+- Geen lege paarse pagina meer
+
+TEST: ga naar nazorghulp.nl/blogs en refresh
