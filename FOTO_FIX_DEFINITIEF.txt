@@ -1,0 +1,16 @@
+FOTO FIX - DEFINITIEVE OPLOSSING
+
+PROBLEEM GEVONDEN:
+- Code verwijst naar: man_1754850552660.png
+- Server heeft: man_1754850552660-CMLYJKBe.png (met hash)
+- Dit veroorzaakt verkeerde foto display
+
+OPLOSSING:
+1. Scherpe foto gekopieerd naar juiste naam
+2. Nieuwe production build gemaakt
+3. Upload alleen blogs.html (verwijst nu naar juiste foto)
+
+RESULTAAT: 
+- blogs.html gebruikt nu correcte foto zonder hash
+- Foto wordt scherp getoond op website
+- Geen cache problemen meer
