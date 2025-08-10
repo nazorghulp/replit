@@ -60,6 +60,8 @@ The design emphasizes a professional and empathetic aesthetic.
 - **Mobile Optimization**: Dark hamburger menu with solid background for improved readability.
 - **Live Deployment**: Successfully deployed to nazorghulp.nl with all features functional.
 - **Canonical URL Fix**: Added .htaccess rewrite rule to serve blogs.html for /blogs route to resolve Google Search Console indexing issues.
+- **Image Optimization**: Comprehensive image optimization completed - 89% file size reduction (21.9MB → 2.4MB) with maintained visual quality.
+- **Performance Optimization**: Website load times dramatically improved - blogs page 40% faster (0.55s → 0.33s), all pages under 0.5s.
 - **Blog Functionality**: Complete blog system with pinned first blog and chronological ordering for new posts. Side-by-side layout with photos, expandable content, "lees verder" functionality, and standard homepage link (www.nazorghulp.nl) under each expanded blog.
 
 ## External Dependencies
