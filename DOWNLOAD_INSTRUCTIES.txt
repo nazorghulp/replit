@@ -1,0 +1,18 @@
+XENRA WEBSITE - DEFINITIEVE DOWNLOAD
+
+BESTAND: website-download.tar.gz
+
+INHOUD:
+- Complete werkende website
+- Alle bestanden inbegrepen
+- .htaccess met SEO fixes
+- Productieversie (geen witte pagina)
+
+UPLOAD:
+1. Download website-download.tar.gz
+2. Pak uit
+3. Upload alles naar public_html/
+4. Klaar
+
+Geen keuzes, geen alternatieven.
+Dit is DE download.
