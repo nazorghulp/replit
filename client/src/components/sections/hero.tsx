@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { Heart, Handshake, Users, Shield, MessageCircle, ArrowRight } from "lucide-react";
-import familyImagePath from "@assets/image_1753725391508.png";
+import familyImagePath from "@assets/image_1753725391508_optimized.png";
 
 export default function Hero() {
   return (
