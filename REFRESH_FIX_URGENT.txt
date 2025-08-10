@@ -1,0 +1,32 @@
+URGENTE REFRESH FIX
+
+PROBLEEM:
+1. Bij klik op blogs: cache toont oude foto
+2. Bij refresh /blogs: lege paarse pagina (JavaScript file niet gevonden)
+
+OORZAAK:
+- Browser cache houdt oude bestanden vast
+- .htaccess redirect naar blogs.html werkt niet goed
+- Nieuwe JavaScript file niet op juiste locatie
+
+SNELLE OPLOSSING:
+
+1. CONTROLEER BESTANDEN OP SERVER:
+   - Is index-BBfyA879.js aanwezig in /assets/ map?
+   - Is man_1754850552660-CMLYJKBe.png aanwezig in /assets/ map?
+
+2. CACHE LEGEN:
+   - Druk Ctrl+F5 (force refresh)
+   - Of browser cache handmatig legen
+
+3. .HTACCESS SIMPEL HOUDEN:
+   Vervang .htaccess met alleen deze regels:
+
+RewriteEngine On
+RewriteRule ^blogs/?$ /blogs.html [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/blogs.html$
+RewriteRule . /index.html [L]
+
+TEST NA ELKE STAP!

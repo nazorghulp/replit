@@ -1,0 +1,24 @@
+SIMPELE .HTACCESS VOOR NAZORGHULP.NL
+
+Kopieer deze code en vervang je hele .htaccess:
+
+RewriteEngine On
+
+# Redirect /blogs to blogs.html
+RewriteRule ^blogs/?$ /blogs.html [L]
+
+# SPA routing - send everything else to index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/blogs.html$
+RewriteRule . /index.html [L]
+
+# Browser caching
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType application/javascript "access plus 1 hour"
+ExpiresByType text/css "access plus 1 hour" 
+ExpiresByType image/png "access plus 1 day"
+</IfModule>
+
+BELANGRIJK: Test na upload met Ctrl+F5!
