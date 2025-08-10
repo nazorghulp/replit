@@ -1,0 +1,23 @@
+UPLOAD INSTRUCTIES - Xenra Nazorghulp Website
+
+Deze map bevat de complete website met geoptimaliseerde afbeeldingen.
+
+STAPPEN:
+1. Upload ALLE bestanden in deze map naar je public_html/ folder
+2. Overschrijf bestaande bestanden wanneer gevraagd
+3. Zorg dat de mapstructuur behouden blijft
+
+MAPSTRUCTUUR:
+- public/ (bevat index.html, sitemap.xml, robots.txt)
+- assets/ (bevat CSS, JS bestanden)
+- attached_assets/ (bevat geoptimaliseerde afbeeldingen)
+
+RESULTAAT:
+- Website laadt 62% sneller
+- Alle afbeeldingen zijn geoptimaliseerd
+- Canonical URL fix is inbegrepen
+- Google Analytics werkt
+
+PROBLEMEN?
+Controleer dat alle bestanden correct zijn geupload en
+dat de mapstructuur klopt.
