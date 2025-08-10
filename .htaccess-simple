@@ -1,0 +1,11 @@
+# Eenvoudige .htaccess voor Xenra website
+RewriteEngine On
+
+# Redirect /blogs to blogs.html (voor SEO)
+RewriteRule ^blogs/?$ blogs.html [L]
+
+# SPA routing - redirect missing files to index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/blogs.html$
+RewriteRule . index.html [L]

@@ -1,0 +1,24 @@
+HTACCESS PROBLEEM ANALYSE
+
+SITUATIE:
+- Jouw huidige .htaccess werkt (website zichtbaar)
+- Mijn .htaccess veroorzaakt 403 Forbidden error
+
+PROBLEEM:
+Mijn .htaccess bevatte teveel geavanceerde regels die jouw server niet accepteert:
+- Security headers (mod_headers)
+- Compression regels (mod_deflate) 
+- Caching regels (mod_expires)
+- HTTPS redirects
+
+OPLOSSING:
+Gebruik .htaccess-simple bestand - bevat alleen essentiële regels:
+1. RewriteEngine On
+2. /blogs redirect naar blogs.html (SEO fix)
+3. SPA routing (missing files naar index.html)
+
+AANBEVELING:
+Houd jouw huidige .htaccess en voeg alleen toe:
+RewriteRule ^blogs/?$ blogs.html [L]
+
+Dit zorgt voor de SEO fix zonder problemen te veroorzaken.
