@@ -1,0 +1,14 @@
+REFRESH PROBLEEM OPLOSSING
+
+Het probleem zit in blogs.html, niet in .htaccess!
+
+Je huidige blogs.html verwijst naar:
+/src/main.tsx (development bestand)
+
+Maar het moet verwijzen naar:
+/assets/index-Dga3g2N7.js (production bestand)
+
+OPLOSSING:
+Upload de nieuwe blogs.html uit deze map naar nazorghulp.nl
+
+Dan werkt de /blogs refresh weer.
