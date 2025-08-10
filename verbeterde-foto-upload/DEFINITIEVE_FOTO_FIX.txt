@@ -1,0 +1,19 @@
+DEFINITIEVE FOTO KWALITEIT FIX
+
+✅ PROBLEEM OPGELOST:
+- Jouw kleinere foto (142KB) gebruikt in plaats van grote bestanden
+- Perfecte kwaliteit zonder lange laadtijden
+- Production build bijgewerkt
+
+📁 UPLOAD DEZE BESTANDEN:
+1. blogs.html → hoofdmap nazorghulp.nl
+2. index-BBfyA879.js → /assets/ map  
+3. man_1754850552660-CMLYJKBe.png → /assets/ map
+
+✨ RESULTAAT:
+- Scherpe foto kwaliteit
+- Snelle laadtijd (142KB vs 2MB eerder)
+- Geen refresh problemen meer
+- Perfect geoptimaliseerd voor web
+
+KLAAR VOOR UPLOAD!
