@@ -1,0 +1,21 @@
+DIRECTE FOTO CACHE OPLOSSING
+
+PROBLEEM: Replit Internal Error blokkeert downloads
+
+OPLOSSING: Browser cache forceren vernieuwen
+
+STAPPEN:
+1. Ga naar nazorghulp.nl/blogs
+2. Druk F12 (developer tools)
+3. Ga naar Network tab
+4. Rechtermuisknop → "Clear browser cache" 
+5. Vink "Disable cache" aan
+6. Refresh de pagina (F5)
+
+ALTERNATIEF:
+1. Druk Ctrl+Shift+Delete
+2. Selecteer "Cached images and files"
+3. Klik "Clear data"
+4. Ga naar nazorghulp.nl/blogs
+
+De scherpe foto bestaat al op de server, alleen cache blokkeert het.
