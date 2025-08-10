@@ -1,0 +1,27 @@
+COMPLETE .HTACCESS UITLEG
+
+PROBLEEM OPGELOST:
+- Forward slashes toegevoegd aan redirects (blogs refresh fix)
+- Alle regels die jouw server accepteert behouden
+- Geen 403 errors meer
+
+VERSCHIL MET VORIGE VERSIE:
+- Regel 10: /blogs.html (was blogs.html)
+- Regel 18: /index.html (was index.html)
+- Plus extra SEO en security regels die wel werken
+
+INBEGREPEN FUNCTIONALITEIT:
+✅ Blogs refresh fix
+✅ SEO canonical URL redirect  
+✅ React SPA routing
+✅ HTTPS redirect (als beschikbaar)
+✅ Trailing slash removal
+✅ Basic file security
+✅ MIME type ondersteuning
+
+GEEN PROBLEMATISCHE MODULES:
+❌ mod_headers (veroorzaakte 403)
+❌ mod_deflate (veroorzaakte 403)  
+❌ mod_expires (veroorzaakte 403)
+
+Upload .htaccess-compleet voor alle functionaliteit zonder errors.
