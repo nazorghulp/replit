@@ -65,6 +65,7 @@ The design emphasizes a professional and empathetic aesthetic.
 - **Blog Functionality**: Complete blog system with pinned first blog and chronological ordering for new posts. Side-by-side layout with photos, expandable content, "lees verder" functionality, and standard homepage link (www.nazorghulp.nl) under each expanded blog.
 - **Production Build Fix**: Resolved white page issue by providing proper production build instead of development React setup. Website now loads correctly with compiled JavaScript/CSS.
 - **Apache Configuration**: Simplified .htaccess to essential rules only (SEO redirect + SPA routing) due to server limitations with advanced modules.
+- **Blogs Refresh Fix**: Resolved blogs page refresh issue by ensuring blogs.html references production assets (/assets/index-DWLrQCAJ.js) instead of development files (/src/main.tsx). All pages now refresh correctly.
 
 ## External Dependencies
 
