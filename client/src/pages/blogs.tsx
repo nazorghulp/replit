@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ChevronDown, ChevronUp, Clock, User, Calendar, BookOpen, Sparkles, Home } from "lucide-react";
 import HeadMeta from "@/components/seo/head-meta";
 import blogImagePath from "@assets/gezin zonder man 2_1754326544869_optimized.png";
-import marjanBlogImagePath from "@assets/man_1754850552660.png";
+import marjanBlogImagePath from "@assets/marjan-scherp-2024.png";
 import secondBlogImagePath from "@assets/image_1754353490936_optimized.png";
 import thirdBlogImagePath from "@assets/image_1754354797503_optimized.png";
 

@@ -1,0 +1,13 @@
+LAATSTE KANS - NIEUWE FOTO NAAM
+
+PROBLEEM: Cache blokkeert oude foto naam
+
+OPLOSSING: Compleet nieuwe naam
+- Oude: man_1754850552660-CMLYJKBe.png  
+- Nieuw: marjan-scherp-2024-CMLYJKBe.png
+
+UPLOAD:
+1. marjan-scherp-2024-CMLYJKBe.png naar /assets/
+2. blogs.html naar root
+
+Browser ziet nieuwe naam = laadt nieuwe foto
