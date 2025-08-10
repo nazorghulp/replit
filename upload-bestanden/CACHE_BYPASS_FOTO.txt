@@ -1,0 +1,18 @@
+FOTO CACHE PROBLEEM OPLOSSING
+
+PROBLEEM:
+Browser toont nog steeds oude foto vanwege cache
+
+OPLOSSING:
+Upload marjan-foto-vers.png naar /assets/ map
+
+WAAROM NIEUWE NAAM:
+- Andere bestandsnaam = browser download nieuwe foto
+- Bypass van cache probleem
+- Zelfde scherpe foto als preview
+
+STAPPEN:
+1. Upload marjan-foto-vers.png naar nazorghulp.nl/assets/
+2. Verander in code de foto verwijzing naar nieuwe naam
+
+Dan zou de scherpe foto moeten verschijnen.
