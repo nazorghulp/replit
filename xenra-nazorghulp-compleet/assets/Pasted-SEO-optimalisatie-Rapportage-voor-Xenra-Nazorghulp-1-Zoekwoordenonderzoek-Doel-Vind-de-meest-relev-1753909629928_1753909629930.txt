@@ -1,0 +1,103 @@
+SEO-optimalisatie Rapportage voor Xenra Nazorghulp
+1. Zoekwoordenonderzoek
+Doel: Vind de meest relevante zoekwoorden met hoog zoekvolume en lage concurrentie.
+
+Acties:
+
+Gebruik tools als Google Keyword Planner of Ubersuggest.
+
+Focus op kernwoorden zoals nazorg nabestaanden, rouwbegeleiding, kinderen rouw verwerken, rouw support online, rouwbegeleiding zonder wachtlijst.
+
+Creëer ook long-tail zoekwoorden: hoe help ik mijn kind met rouw, nazorg begeleiding na overlijden ouder.
+
+Integreer zoekwoorden op een natuurlijke manier in de content.
+
+2. Technische SEO
+Snelheid optimaliseren:
+
+Afbeeldingen comprimeren (WebP-formaat gebruiken).
+
+Onnodige scripts en plugins verwijderen.
+
+Caching activeren.
+
+Mobielvriendelijk:
+
+Check via Google Mobile-Friendly Test.
+
+Zorg voor duidelijke CTA-knoppen en goed leesbare tekst op mobiel.
+
+Interne linkstructuur:
+
+Voeg links toe tussen relevante pagina’s (bv. Diensten → Intakeformulier → Contact).
+
+Gebruik duidelijke ankerteksten.
+
+Sitemaps & Robots.txt:
+
+Update XML-sitemap en dien deze in bij Google Search Console.
+
+Robots.txt controleren om crawlproblemen te voorkomen.
+
+3. Contentoptimalisatie
+Titels & Meta-descriptions:
+
+Elke pagina een unieke titel (max 60 karakters) en meta-description (max 160 karakters) met zoekwoorden.
+
+H1, H2, H3-structuur:
+
+Zorg voor 1 H1 per pagina met hoofdzoekwoord.
+
+Gebruik H2/H3 voor subonderwerpen.
+
+Contentkwaliteit:
+
+Minimaal 500 woorden per pagina.
+
+Vermijd duplicatie.
+
+Voeg interne links, bulletpoints, en call-to-actions toe.
+
+Visuele content:
+
+Afbeeldingen voorzien van alt-teksten met zoekwoorden.
+
+4. Backlinks en Autoriteit
+Vraag relevante partners (bv. uitvaartondernemers, rouwfora) om een link naar Xenra Nazorghulp.
+
+Publiceer waardevolle blogs of artikelen die makkelijk gedeeld worden.
+
+Gebruik lokale bedrijvengidsen (bijv. Google Business Profile, De Telefoongids).
+
+5. Lokale SEO
+Claim en optimaliseer je Google Business Profile.
+
+Voeg bedrijfsinformatie toe op platforms als Yelp, Foursquare en sociale media.
+
+Gebruik lokale zoekwoorden: rouwbegeleiding Groningen, nazorg Drenthe.
+
+6. Monitoring & Rapportage
+Koppel de website aan Google Analytics en Google Search Console.
+
+Monitor:
+
+Organisch verkeer.
+
+Click-through-rates van titels en meta-descriptions.
+
+Zoekwoordposities.
+
+Conversiepercentages (intakes, contactaanvragen).
+
+Communicatie voor de AI-assistent
+De AI moet:
+
+Elke pagina scannen op zoekwoordgebruik en structuur.
+
+Missende titels/meta-descriptions aanvullen met de gekozen zoekwoorden.
+
+Interne links en CTA’s strategisch plaatsen.
+
+Suggesties doen voor nieuwe content (bv. FAQ’s of blogartikelen).
+
+Resultaten wekelijks rapporteren met een overzicht van verbeterpunten.
