@@ -1,0 +1,11 @@
+# Werkende .htaccess voor Xenra (zonder problematische regels)
+RewriteEngine On
+
+# Redirect /blogs to serve blogs.html (SEO fix)
+RewriteRule ^blogs/?$ blogs.html [L]
+
+# SPA routing voor React
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/blogs.html$
+RewriteRule . index.html [L]
