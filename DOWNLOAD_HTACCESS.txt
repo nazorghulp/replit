@@ -1,0 +1,14 @@
+HTACCESS DOWNLOAD BESCHIKBAAR
+
+BESTANDEN OM TE DOWNLOADEN:
+1. .htaccess-DOWNLOAD
+2. htaccess-xenra.txt
+
+BEIDE ZIJN HETZELFDE BESTAND
+
+NA DOWNLOAD:
+1. Hernoem naar .htaccess
+2. Upload naar public_html/
+3. Blogs refresh probleem opgelost
+
+INHOUD: Complete werkende .htaccess met blogs fix
