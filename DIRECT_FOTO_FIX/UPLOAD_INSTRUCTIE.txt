@@ -1,0 +1,10 @@
+DIRECTE FOTO FIX - UPLOAD BEIDE BESTANDEN
+
+1. Upload man_1754850552660-CMLYJKBe.png naar: /assets/
+2. Upload blogs.html naar: / (root)
+
+Dit vervangt beide:
+- De oude wazig foto met scherpe foto
+- De blogs.html met correcte verwijzingen
+
+Resultaat: Scherpe Marjan foto direct zichtbaar
