@@ -1,0 +1,41 @@
+DIRECTE CODE OPLOSSING - GEEN DOWNLOAD NODIG
+
+STAP 1: Maak bestand marjan-scherp-2024-CMLYJKBe.png
+- Gebruik de scherpe foto die je al hebt
+- Hernoem naar: marjan-scherp-2024-CMLYJKBe.png
+- Upload naar /assets/ map
+
+STAP 2: Vervang blogs.html met onderstaande code:
+
+==== BEGIN BLOGS.HTML ====
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-03J97NDRR2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-03J97NDRR2');
+    </script>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>Nazorg voor nabestaanden - Xenra Nazorghulp</title>
+    <meta name="description" content="Directe begeleiding bij verlies. Kies je eigen pakket zonder wachtlijst - ook voor kinderen. Professionele nazorg en rouwbegeleiding op jouw tempo." />
+    <link rel="canonical" href="https://nazorghulp.nl" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-DLucd6vk.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C_K6ViLG.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
+==== EINDE BLOGS.HTML ====
+
+RESULTAAT:
+- Nieuwe foto naam omzeilt alle cache
+- Scherpe Marjan foto wordt direct getoond
