@@ -1,0 +1,24 @@
+CACHE PROBLEEM OPLOSSING
+
+Het probleem is dat browsers de oude bestanden vasthouden in cache.
+
+OPLOSSING 1 - FORCE BROWSER REFRESH:
+1. Ga naar nazorghulp.nl/blogs
+2. Druk Ctrl+Shift+R (hard refresh)
+3. Of F12 → Network tab → "Disable cache" aanvinken
+4. Dan refresh
+
+OPLOSSING 2 - BESTAND NAMEN WIJZIGEN:
+Hernoem de nieuwe bestanden met een unieke naam:
+- index-BBfyA879.js → index-BBfyA879-v2.js  
+- Update blogs.html om naar de nieuwe naam te verwijzen
+
+OPLOSSING 3 - CACHE HEADERS AANPASSEN:
+Voeg toe aan .htaccess (na regel 53):
+
+# Cache busting voor nieuwe bestanden
+<FilesMatch "\.(js|css|png)$">
+    Header set Cache-Control "max-age=3600, must-revalidate"
+</FilesMatch>
+
+TEST: Probeer eerst een hard refresh (Ctrl+Shift+R)

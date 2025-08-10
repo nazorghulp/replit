@@ -1,0 +1,15 @@
+# Voeg deze regels toe aan je .htaccess VOOR de browser caching sectie:
+
+# Cache busting voor nieuwe bestanden
+<IfModule mod_rewrite.c>
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^assets/(.*)$ /assets/$1?v=20250810 [L,QSA]
+</IfModule>
+
+# Dan blijft je bestaande browser caching sectie:
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+    # etc...
+</IfModule>
