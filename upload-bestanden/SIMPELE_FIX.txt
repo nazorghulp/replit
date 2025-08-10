@@ -1,0 +1,20 @@
+EENVOUDIGE REFRESH FIX
+
+PROBLEEM:
+- Nieuwe bestanden werden niet correct geüpload
+- JavaScript/foto bestanden geven HTML terug
+
+OPLOSSING:
+Upload alleen blogs.html naar hoofdmap nazorghulp.nl
+
+DIT BESTAND:
+- Verwijst naar werkende JavaScript file (index-Dga3g2N7.js)
+- Lost refresh probleem op
+- Gebruikt bestaande bestanden op server
+
+RESULTAAT:
+✓ /blogs refresh werkt weer
+✓ Geen lege paarse pagina
+✓ Gebruikt alleen bestanden die al werken
+
+Voor foto verbetering kunnen we later een andere aanpak proberen.
