@@ -1,0 +1,26 @@
+UPLOAD INSTRUCTIES - Marjan Blog Fix
+
+PROBLEEM: Internal Error bij downloaden van grote mappen
+
+OPLOSSING: Download bestanden apart en upload handmatig
+
+STAP 1: Download deze bestanden:
+- blogs.html (nieuwe versie met Marjan blog)
+- index.html 
+- htaccess-werkend.txt (hernoem naar .htaccess)
+
+STAP 2: Download uit js-css map:
+- index-Dga3g2N7.js (upload naar /assets/)
+- index-C_K6ViLG.css (upload naar /assets/)
+
+STAP 3: Download uit marjan-foto map:
+- marjan-verhaal-BLm01KUH.png (upload naar /assets/)
+
+UPLOAD LOCATIES:
+- index.html, blogs.html, .htaccess → hoofdmap nazorghulp.nl
+- JavaScript, CSS, foto → /assets/ map
+
+RESULTAAT:
+- Marjan blog zichtbaar
+- /blogs refresh werkt weer
+- Geen Internal Error
