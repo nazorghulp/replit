@@ -3,6 +3,7 @@ import { ChevronDown, ChevronUp, Clock, User, Calendar, BookOpen, Sparkles, Home
 import HeadMeta from "@/components/seo/head-meta";
 import blogImagePath from "@assets/gezin zonder man 2_1754326544869_optimized.png";
 import marjanBlogImagePath from "@assets/marjan-scherp-2024.png";
+import sanneBlogImagePath from "@assets/sanne-blog-foto.png";
 import secondBlogImagePath from "@assets/image_1754353490936_optimized.png";
 import thirdBlogImagePath from "@assets/image_1754354797503_optimized.png";
 
@@ -70,6 +71,100 @@ const blogPosts: BlogPost[] = [
   },
   {
     id: "2",
+    title: "\"De stilte na het lachen\" – Het verhaal van Sanne",
+    excerpt: "Het was een druilerige dinsdagmiddag in november, de lucht hing zwaar, alsof hij op elk moment zou scheuren. Binnen, in een klein rijtjeshuis in een rustige woonwijk, rook het nog naar warme chocolademelk. Het geluid van kinderstemmen had er die ochtend nog geklonken, toen twee zussen giechelend hun schoenen zochten om op tijd naar school te gaan. Nu was het stil. Onwerkelijk stil.",
+    content: `
+      <p>Het was een druilerige dinsdagmiddag in november, de lucht hing zwaar, alsof hij op elk moment zou scheuren. Binnen, in een klein rijtjeshuis in een rustige woonwijk, rook het nog naar warme chocolademelk. Het geluid van kinderstemmen had er die ochtend nog geklonken, toen twee zussen giechelend hun schoenen zochten om op tijd naar school te gaan.</p>
+
+      <p>Nu was het stil. Onwerkelijk stil.</p>
+
+      <p>Sanne, zestien jaar oud, zat roerloos aan de keukentafel. Haar handen omklemden een mok, maar de chocolademelk was allang koud. Haar ogen staarden naar één plek op het tafelblad, een vlek in het hout die er al jaren zat. Ze hoorde haar moeder praten, ergens in de verte, maar de woorden kwamen niet meer aan.</p>
+
+      <p>Een paar uur eerder was alles ingestort.</p>
+
+      <h3>De dag van het ongeluk</h3>
+      <p>Het was een gewone dag geweest, haar jongere zusje, Fleur, elf jaar, had bij een vriendin gespeeld. Een vrolijk, levendig meisje dat altijd alles vertelde in honderd woorden per minuut.</p>
+
+      <p>Ze zou rond vijf uur thuis zijn en Sanne had zich verheugd op hun vaste ritueel: samen op de bank, warme dekens en een serie die ze eigenlijk nog niet mocht kijken van hun ouders, maar waar ze stiekem samen toch aan begonnen waren.</p>
+
+      <p>De bel ging niet en het geluid van de sleutel in het slot bleef uit.</p>
+
+      <p>In plaats daarvan klonk de telefoon, haar vader nam op. Eerst stil, toen gefluister en toen dat ene geluid dat Sanne nooit meer zou vergeten: een diepe, rauwe kreet van pure wanhoop.</p>
+
+      <p>Een automobilist had niet op tijd geremd. Fleur stak de straat over en…</p>
+
+      <p>Het volgende wat Sanne zich herinnerde was dat ze in de auto zat. Haar moeder hield haar hand vast maar Sanne voelde niets. Geen tranen, geen woorden, alleen een leegte die dreigde haar op te slokken.</p>
+
+      <h3>De eerste dagen: verstikking</h3>
+      <p>De dagen na het ongeluk verliepen in een waas. Er kwamen veel mensen over de vloer, schalen met eten, buren die te hulp schoten, maar Sanne hoorde nauwelijks wat er werd gezegd.</p>
+
+      <p>Haar kamer voelde kil, alles herinnerde haar aan Fleur: het dekbed dat naar haar rook, de schoenen die nog in de gang stonden, een elastiekje dat op haar bureau lag.</p>
+
+      <p>Sanne's ouders deden hun best om haar te troosten, maar zaten zelf gevangen in hun eigen verdriet. Elke poging tot gesprek eindigde in stilte of in tranen. Er was geen houvast.</p>
+
+      <p>Ze ging niet meer naar school en haar telefoon lag ongebruikt naast haar bed. Alleen soms, diep in de nacht, scrolde ze gedachteloos door oude foto's en filmpjes van haar zusje. Soms glimlachte ze even en soms trok het verdriet haar zo hard naar beneden dat ze letterlijk naar adem moest happen.</p>
+
+      <h3>Het zoeken naar hulp</h3>
+      <p>Na een week of drie, waarin de dagen in elkaar overliepen, begon de spanning in huis te groeien. Sanne reageerde kortaf of helemaal niet en haar ouders, bang om haar kwijt te raken, voelden zich machteloos.</p>
+
+      <p>Op een avond, terwijl haar vader al naar bed was, zat haar moeder achter de laptop. Ze typte zoekwoorden in die ze liever niet hardop wilde zeggen: rouwtherapie kinderen, online hulp na overlijden, rouwbegeleiding tieners.</p>
+
+      <p>Zo kwam ze op de website van Xenra Nazorg terecht en de woorden op de pagina leken precies te omschrijven waar hun gezin in zat: rauw verdriet, verlies dat alles verlamt en de mogelijkheid om niet alleen als ouder, maar ook als kind hulp te krijgen, juist als je geen zin hebt om ergens heen te gaan.</p>
+
+      <p>De volgende ochtend vertelde ze Sanne erover en Sanne haalde haar schouders op. "Het zal toch niks helpen." Maar er zat een kleine aarzeling in haar stem en haar moeder greep die kans.</p>
+
+      <h3>De eerste stap</h3>
+      <p>We maakten kennis via een videogesprek en Sanne zat erbij, hoodie over haar hoofd en nauwelijks oogcontact. Toch liet ze ons binnen, al was het voorzichtig.</p>
+
+      <p>We stelden geen lange vragen. Geen zware woorden. Gewoon: "Hoe gaat het nu, op dit moment?". Haar antwoord was simpel: "K*t."</p>
+
+      <p>Dat was genoeg om te beginnen. In overleg met Sanne en haar ouders besloten we de therapie rustig en flexibel op te bouwen: sommige sessies met het hele gezin, andere alleen met haar.</p>
+
+      <p>Daarnaast spraken we af dat ze ons altijd kon appen, ook 's avonds. Geen automatische berichten, maar echte, menselijke reacties, soms binnen een minuut, soms midden in de nacht.</p>
+
+      <h3>De appgesprekken: een lifeline</h3>
+      <p>In het begin kwamen er vooral korte, droge antwoorden terug:</p>
+      <p>"Hoi."<br>"Ik haat dit."<br>"Waarom zij?"</p>
+
+      <p>Soms bleef het stil en soms stuurde ze drie berichten achter elkaar. Het maakte niet uit, we reageerden altijd. Soms met een tegenvraag, soms gewoon met: "Ik lees je."</p>
+
+      <p>Langzaam groeide er vertrouwen. Ze begon te vertellen over de schuldgevoelens die haar wakker hielden: dat ze die middag eigenlijk met Fleur mee had willen gaan, maar had gekozen om thuis te blijven. "Misschien was het dan niet gebeurd," schreef ze.</p>
+
+      <p>We hielpen haar om te begrijpen dat schuldgevoel een wrede schaduw is van rouw, dat het niets te maken had met de werkelijkheid, maar alles met het verlangen om de uitkomst te veranderen.</p>
+
+      <h3>Samen en apart</h3>
+      <p>Met haar ouders werkten we aan manieren om het gesprek open te houden zonder elkaar te verstikken. We oefenden met luisteren zonder meteen advies te geven en met Sanne zelf gingen we dieper in op haar herinneringen aan Fleur, niet om de pijn te vergroten, maar om de liefde en verbondenheid levend te houden.</p>
+
+      <p>Er waren sessies waarin niemand sprak. Alleen samen zijn, soms in stilte, was al genoeg.</p>
+
+      <p>Andere keren lachten we onverwachts om een grappig verhaal over Fleur. Dan schrok Sanne bijna van zichzelf, alsof lachen verraad was. We stelden haar gerust: ook in rouw mag er licht zijn.</p>
+
+      <h3>De omslagmomenten</h3>
+      <p>Na een paar maanden merkten haar ouders dat ze weer soms muziek luisterde. Dat ze weer eens naar buiten ging zonder dat iemand het vroeg.</p>
+
+      <p>Het echte keerpunt kwam op een avond in mei. Ze stuurde een appje: "Ik wil morgen misschien iets vertellen wat ik nog nooit gezegd heb."</p>
+
+      <p>De volgende dag, in een één-op-één sessie, kwam het eruit. Hoe bang ze was geweest om haar zusje te vergeten. Hoe ze zichzelf dwong om elke herinnering vast te houden, uit angst dat de liefde zou verdwijnen.</p>
+
+      <p>We spraken over hoe liefde niet verdwijnt met de dood en dat herinneringen vervagen, maar dat de band blijft, anders, maar aanwezig.</p>
+
+      <h3>Nog steeds onderweg</h3>
+      <p>Het is nu bijna een jaar later en Sanne is inmiddels 17, maar voelt soms ouder. De rauwheid is minder scherp, maar de leegte blijft. Ze gaat weer naar school, heeft weer wat contact met vriendinnen, maar er zijn dagen dat alles te zwaar voelt.</p>
+
+      <p>We zijn er nog steeds via de app en met één op één gesprekken. Niet omdat rouw een project is dat je afrondt, maar omdat het leven met verlies leren leven een langzaam proces is.</p>
+
+      <p>Haar ouders zeggen dat ze Xenra Nazorg zien als een reddingslijn, niet alleen voor hun dochter, maar ook voor henzelf.</p>
+
+      <p>En zo blijft Sanne, stap voor stap, lopen op een weg die ze nooit had willen kennen.<br>Maar ze loopt hem niet meer alleen.</p>
+    `,
+    author: "Xenra Team",
+    date: "Augustus 2025",
+    readTime: "6 min",
+    image: sanneBlogImagePath,
+    isPinned: false
+  },
+  {
+    id: "3",
     title: "\"Een leven in uren\" – het verhaal van Marjan",
     excerpt: "Een huwelijk met tijdtekort. Marjan (47) en Peter (49) waren al meer dan twintig jaar getrouwd. Peter was ondernemer in hart en nieren, een workaholic in de puurste vorm. Zes dagen per week werkte hij van 's ochtends zeven uur tot soms tien uur 's avonds.",
     content: `
@@ -141,7 +236,7 @@ const blogPosts: BlogPost[] = [
     isPinned: false
   },
   {
-    id: "4",
+    id: "5",
     title: "Een kopje koffie voor twee, over rouw op leeftijd en hoe we toch nabij konden zijn",
     excerpt: "Ze waren zussen, maar eigenlijk meer dan dat. Maatjes, kameraden en vertrouwde elkaars zwijgen net zo goed als elkaars verhalen. Mevrouw Catharina was 78 toen haar oudere zus overleed. 81 was ze geworden. Niet onverwacht, maar daarom niet minder hard.",
     content: `
