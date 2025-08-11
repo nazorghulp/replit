@@ -236,7 +236,7 @@ const blogPosts: BlogPost[] = [
     isPinned: false
   },
   {
-    id: "5",
+    id: "4",
     title: "Een kopje koffie voor twee, over rouw op leeftijd en hoe we toch nabij konden zijn",
     excerpt: "Ze waren zussen, maar eigenlijk meer dan dat. Maatjes, kameraden en vertrouwde elkaars zwijgen net zo goed als elkaars verhalen. Mevrouw Catharina was 78 toen haar oudere zus overleed. 81 was ze geworden. Niet onverwacht, maar daarom niet minder hard.",
     content: `
