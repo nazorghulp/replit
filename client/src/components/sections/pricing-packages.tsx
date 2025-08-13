@@ -230,7 +230,7 @@ export default function PricingPackages() {
                       Voor wie?
                     </h4>
                     <p className="text-black text-xs leading-relaxed">
-                      Voor mensen die vooral behoefte hebben aan een luisterend oor en af en toe advies.
+                      Voor mensen die éénmaal per week een therapiesessie willen en daarnaast af en toe behoefte hebben aan een luisterend oor of advies.
                     </p>
                   </div>
                   
@@ -314,7 +314,7 @@ export default function PricingPackages() {
                       Voor wie?
                     </h4>
                     <p className="text-black text-xs leading-relaxed">
-                      Voor mensen die regelmatig begeleiding willen en behoefte hebben aan extra advies.
+                      Voor mensen die tweemaal per week een therapiesessie willen en daarnaast meer behoefte hebben aan een luisterend oor of advies.
                     </p>
                   </div>
                   
@@ -389,7 +389,7 @@ export default function PricingPackages() {
                       Voor wie?
                     </h4>
                     <p className="text-black text-xs leading-relaxed">
-                      Voor nabestaanden die intensieve begeleiding nodig hebben.
+                      Voor mensen die nu veel behoefte hebben wat meer therapie en doorlopend contact.
                     </p>
                   </div>
                   
