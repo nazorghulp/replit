@@ -185,7 +185,7 @@ export default function ContactForm() {
                   <SelectContent>
                     <SelectItem value="basis">Basis Pakket - €99,99</SelectItem>
                     <SelectItem value="plus">Plus Pakket - €139,99</SelectItem>
-                    <SelectItem value="intensief">Intensief Pakket - €189,99</SelectItem>
+                    <SelectItem value="intensief">Intensief Pakket - €169,99</SelectItem>
                     <SelectItem value="kinderen">Specialisatie Kinderen</SelectItem>
                     <SelectItem value="vraag">Ik heb een vraag</SelectItem>
                   </SelectContent>

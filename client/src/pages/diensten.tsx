@@ -44,7 +44,7 @@ export default function Diensten() {
             "name": "Intensief Pakket", 
             "description": "Intensieve rouwbegeleiding"
           },
-          "price": "189.99",
+          "price": "169.99",
           "priceCurrency": "EUR"
         },
         {

@@ -373,7 +373,7 @@ export default function PricingPackages() {
                   </h3>
                   
                   <div className="relative">
-                    <div className="text-2xl lg:text-3xl font-bold text-purple-primary mb-1">€189,99</div>
+                    <div className="text-2xl lg:text-3xl font-bold text-purple-primary mb-1">€169,99</div>
                     <div className="absolute -top-2 -right-2 w-8 h-8 bg-purple-light rounded-full flex items-center justify-center">
                       <span className="text-white text-xs font-bold">⚡</span>
                     </div>
@@ -389,7 +389,7 @@ export default function PricingPackages() {
                       Voor wie?
                     </h4>
                     <p className="text-black text-xs leading-relaxed">
-                      Voor mensen die nu veel behoefte hebben wat meer therapie en doorlopend contact.
+                      Voor mensen die meer intensief therapie nodig hebben.
                     </p>
                   </div>
                   
@@ -400,8 +400,8 @@ export default function PricingPackages() {
                     </h4>
                     <div className="space-y-3">
                       {[
-                        "3x per week gepland contactmoment (30 min)",
-                        "Doorlopend WhatsApp/e-mail contact (max 20 berichten/week)",
+                        "2x per week gepland contactmoment (30 min)",
+                        "Doorlopend WhatsApp/e-mail contact (max 30 berichten/week)",
                         "Reactie binnen 30 minuten tijdens kantooruren",
                         "1x per maand sessie over praktische zaken"
                       ].map((feature, index) => (
