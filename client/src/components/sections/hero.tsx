@@ -40,28 +40,30 @@ export default function Hero() {
                   </p>
                   
                   <p>
-                    Bij Xenra Nazorg begrijpen we de diepte van jouw verdriet. We weten dat elke dag anders kan voelen, 
-                    dat sommige momenten ondraaglijk lijken en dat herinneringen zowel troost als pijn kunnen brengen. 
-                    Jouw verhaal is uniek, en jouw rouwproces verdient alle respect en tijd die nodig is.
+                    De leegte die achterblijft kan overweldigend zijn. Soms voelt het alsof je verdwaald bent 
+                    in je eigen emoties – verdriet, gemis, misschien boosheid – en je niet weet waar je moet beginnen.
                   </p>
                   
                   <p>
-                    Onze begeleiders zijn er niet om jouw pijn weg te nemen – dat kunnen we niet en dat willen we ook niet. 
-                    Wel bieden we een veilige ruimte waar je kunt voelen wat je voelt, 
-                    waar je tranen welkom zijn en waar je stiltes gerespecteerd worden. Daarnaast helpen we je om{" "}
-                    het verlies een plek te geven in je leven.
+                    Bij Xenra Nazorg bieden we niet alleen een luisterend oor, maar professionele online therapie 
+                    door ervaren psychologen, gespecialiseerd in rouw. We begrijpen dat rouwen geen rechte lijn is: 
+                    de ene dag lukt het je om te praten, de andere dag voelt elke stap te zwaar.
                   </p>
                   
                   <p>
-                    Je bepaalt het tempo. Misschien ben je klaar voor diepgaande gesprekken, 
-                    of heb je juist behoefte aan praktische ondersteuning bij de regelzaken. Wellicht wil je samen herinneringen ophalen, 
-                    of zoek je manieren om de herdenking vorm te geven. We volgen jouw behoeften en gaan mee in wat jij nodig hebt.
+                    In onze sessies krijg je een veilige plek waar je mag voelen wat je voelt. 
+                    Waar tranen, stilte en boosheid net zo welkom zijn als herinneringen en glimlachen. 
+                    Samen werken we stap voor stap aan het vinden van houvast in een wereld die plotseling veranderd is.
                   </p>
                   
                   <p>
-                    Je bent niet alleen. Hoewel niemand jouw exacte pijn kan begrijpen, 
-                    zijn er mensen die het pad van verlies hebben bewandeld en die je met warmte en expertise willen begeleiden. 
-                    Bij Xenra Nazorg vind je die mensen.
+                    Of je nu behoefte hebt aan diepgaande therapeutische gesprekken, begeleiding bij dagelijkse uitdagingen, 
+                    of steun bij herdenkingsmomenten – wij stemmen alles af op jouw tempo en jouw verhaal.
+                  </p>
+                  
+                  <p>
+                    Je hoeft dit niet alleen te dragen. Wij lopen met je mee, bieden steun op de momenten dat het zwaar is 
+                    en reiken de handvatten aan om verder te kunnen, zonder dat je hoeft los te laten.
                   </p>
                 </div>
               </div>
