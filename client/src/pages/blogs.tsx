@@ -368,7 +368,7 @@ function BlogCard({ post }: { post: BlogPost }) {
         <div className="flex flex-col md:flex-row gap-6">
           {/* Blog Image - Left Side */}
           <div className="md:w-1/3 flex-shrink-0">
-            <div className="relative h-12 md:h-16 overflow-hidden rounded-xl">
+            <div className={`relative overflow-hidden rounded-xl ${post.isPinned ? 'h-7 md:h-10' : 'h-12 md:h-16'}`}>
               <img 
                 src={post.image} 
                 alt={post.title}
