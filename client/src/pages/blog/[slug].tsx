@@ -31,18 +31,16 @@ export default function BlogPost() {
 
   return (
     <>
-      <head>
-        <BlogMeta 
-          title={blog.metaTitle}
-          description={blog.metaDescription}
-          image={blog.image}
-          alt={blog.alt}
-          slug={blog.slug}
-          publishedDate={blog.publishedDate}
-          author={blog.author}
-          tags={blog.tags}
-        />
-      </head>
+      <BlogMeta 
+        title={blog.metaTitle}
+        description={blog.metaDescription}
+        image={blog.image}
+        alt={blog.alt}
+        slug={blog.slug}
+        publishedDate={blog.publishedDate}
+        author={blog.author}
+        tags={blog.tags}
+      />
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-orange-50">
         {/* Hero Section */}
