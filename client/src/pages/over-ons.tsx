@@ -10,7 +10,7 @@ export default function OverOns() {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     "name": "Over Xenra Nazorghulp",
-    "description": "Ervaren begeleiding bij verlies. Ons team van begeleiders helpt volwassenen en kinderen hun verlies te verwerken.",
+    "description": "Ervaren begeleiding bij verlies. Ons team van psychologen en begeleiders helpt volwassenen en kinderen hun verlies te verwerken.",
     "mainEntity": {
       "@type": "Organization",
       "name": "Xenra Nazorghulp",
@@ -23,7 +23,7 @@ export default function OverOns() {
     <div>
       <HeadMeta 
         title="Over Xenra Nazorghulp - Ervaren begeleiding bij verlies"
-        description="Ons team van begeleiders helpt volwassenen en kinderen hun verlies te verwerken. Professionele nazorg met jarenlange ervaring in rouwbegeleiding."
+        description="Ons team van psychologen en begeleiders helpt volwassenen en kinderen hun verlies te verwerken. Professionele nazorg met jarenlange ervaring in rouwbegeleiding."
         keywords="rouwbegeleiding team, nazorg ervaring, begeleiding verlies, professionele nazorg"
         url="https://nazorg.nl/over-ons"
         structuredData={structuredData}
@@ -223,7 +223,7 @@ export default function OverOns() {
               <div className="p-10 lg:p-16">
                 <div className="space-y-8 text-lg lg:text-xl leading-relaxed">
                   <p className="text-warm-gray">
-                    Achter Xenra Nazorghulp staat een klein, betrokken team van professionele begeleiders. 
+                    Achter Xenra Nazorghulp staat een klein, betrokken team van professionele psychologen en begeleiders. 
                     We hebben ruime ervaring in het ondersteunen van mensen na het verlies van een dierbare – 
                     <strong className="text-purple-primary">zowel volwassenen als jongeren en kinderen tot 17 jaar</strong>.
                   </p>
@@ -233,7 +233,7 @@ export default function OverOns() {
                   </p>
 
                   <p className="text-warm-gray">
-                    Omdat sommige mensen liever anoniem contact hebben, tonen we op deze website bewust <strong className="text-purple-primary">geen foto's of namen van onze begeleiders</strong>. Zo respecteren we ook de privacy van onze cliënten.
+                    Omdat sommige mensen liever anoniem contact hebben, tonen we op deze website bewust <strong className="text-purple-primary">geen foto's of namen van onze psychologen en begeleiders</strong>. Zo respecteren we ook de privacy van onze cliënten.
                   </p>
 
                   <p className="text-warm-gray">
