@@ -4,12 +4,8 @@ import HeadMeta from "@/components/seo/head-meta";
 import { blogPosts } from "@/data/blog-posts";
 
 export default function BlogsOverview() {
-  // Sort blogs: pinned first, then by date (newest first)
-  const sortedBlogs = [...blogPosts].sort((a, b) => {
-    if (a.isPinned && !b.isPinned) return -1;
-    if (!a.isPinned && b.isPinned) return 1;
-    return new Date(b.publishedDate).getTime() - new Date(a.publishedDate).getTime();
-  });
+  // Keep blogs in the exact order from blog-posts.ts - no sorting needed
+  const sortedBlogs = blogPosts;
 
   return (
     <>
@@ -57,12 +53,12 @@ export default function BlogsOverview() {
                   key={blog.id}
                   className={`relative group ${index === 0 && blog.isPinned ? 'lg:col-span-full' : ''}`}
                 >
-                  {/* Pinned badge for first blog */}
-                  {blog.isPinned && index === 0 && (
+                  {/* Pinned badges */}
+                  {blog.isPinned && (
                     <div className="absolute -top-4 left-6 z-10">
                       <div className="bg-gradient-to-r from-orange-primary to-orange-light text-white px-4 py-2 rounded-full text-sm font-bold shadow-xl flex items-center gap-2">
                         <span className="w-2 h-2 bg-white rounded-full animate-pulse"></span>
-                        WELKOMSTVERHAAL
+                        {blog.slug === "welkom-bij-xenra-nazorghulp-rouw-kent-geen-script" ? "WELKOMSTVERHAAL" : "UITGELICHT"}
                       </div>
                     </div>
                   )}
