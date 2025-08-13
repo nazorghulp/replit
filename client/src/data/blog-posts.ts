@@ -142,8 +142,8 @@ export const blogPosts: BlogPost[] = [
       <p>Bij Xenra Nazorghulp begrijpen we dat jongeren anders rouwen dan volwassenen. We bieden daarom speciale begeleiding aan voor kinderen en tieners tot 18 jaar, altijd afgestemd op hun eigen tempo en behoeften.</p>
     `,
     author: "Xenra Team",
-    date: "December 2024",
-    publishedDate: "2024-12-15",
+    date: "November 2024", 
+    publishedDate: "2024-11-15",
     readTime: "8 min",
     image: sanneBlogImagePath,
     alt: "Jonge vrouw in rouw - ondersteuning voor jongeren die een verlies hebben meegemaakt",

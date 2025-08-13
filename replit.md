@@ -62,7 +62,7 @@ The design emphasizes a professional and empathetic aesthetic.
 - **Canonical URL Fix**: Added .htaccess rewrite rule to serve blogs.html for /blogs route to resolve Google Search Console indexing issues.
 - **Image Optimization**: Comprehensive image optimization completed - 89% file size reduction (21.9MB → 2.4MB) with maintained visual quality.
 - **Performance Optimization**: Website load times dramatically improved - blogs page 40% faster (0.55s → 0.33s), all pages under 0.5s.
-- **Blog Functionality**: Complete blog system with pinned first blog and chronological ordering for new posts. Side-by-side layout with photos, expandable content, "lees verder" functionality, and standard homepage link (www.nazorghulp.nl) under each expanded blog.
+- **Blog Functionality**: Complete blog system with 5 individual SEO-optimized blog pages (/blogs/slug structure), each with H1/H2/H3 headings, meta tags, Open Graph, and structured data. Comprehensive blog restructuring completed with all stories migrated to separate pages for better Google indexing.
 - **Production Build Fix**: Resolved white page issue by providing proper production build instead of development React setup. Website now loads correctly with compiled JavaScript/CSS.
 - **Apache Configuration**: Simplified .htaccess to essential rules only (SEO redirect + SPA routing) due to server limitations with advanced modules.
 - **Blogs Refresh Fix**: Resolved blogs page refresh issue by ensuring blogs.html references production assets (/assets/index-DWLrQCAJ.js) instead of development files (/src/main.tsx). All pages now refresh correctly.
