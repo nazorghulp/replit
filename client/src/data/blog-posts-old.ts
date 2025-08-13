@@ -23,7 +23,7 @@ export interface BlogPost {
   publishedDate: string;
 }
 
-// Blog data - FINALE VOLGORDE: Welkom (vast), Ik wil helemaal niks (uitgelicht vast), Sanne omhoog, Marjan, Koffie
+// Blog data with SEO optimization - Updated order
 export const blogPosts: BlogPost[] = [
   {
     id: "1",
