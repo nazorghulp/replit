@@ -23,10 +23,10 @@ export interface BlogPost {
   publishedDate: string;
 }
 
-// Blog data with SEO optimization - Updated order
+// Blog data with SEO optimization  
 export const blogPosts: BlogPost[] = [
   {
-    id: "1",
+    id: "1", 
     slug: "welkom-bij-xenra-nazorghulp-rouw-kent-geen-script",
     title: "Welkom bij Xenra Nazorghulp – Rouw kent geen script",
     metaTitle: "Welkom bij Xenra Nazorghulp - Persoonlijke Rouwbegeleiding | Nazorghulp.nl",
@@ -58,158 +58,86 @@ export const blogPosts: BlogPost[] = [
       <p>Elke blog geeft een inkijkje in situaties die wij in onze begeleiding tegenkomen. Niet om in de schijnwerpers te staan, maar om te laten zien: je bent niet gek. En je bent zeker niet alleen.</p>
 
       <h3>Privacy en vertrouwelijkheid</h3>
-      <p>Alle verhalen die je hier leest, zijn gebaseerd op echte situaties. Namen zijn uiteraard veranderd en details aangepast om de privacy van onze cliënten te waarborgen. We delen deze verhalen met toestemming en alleen om anderen te helpen herkenning te vinden.</p>
+      <p>Alle namen, leeftijden en situaties in onze blogs zijn aangepast om de privacy van onze klanten te waarborgen. Soms combineren we meerdere ervaringen tot één verhaal. Soms veranderen we het decor, het geslacht of de leeftijd.</p>
 
-      <h2>Wil je meer weten over onze begeleiding?</h2>
-      <p>Heb je vragen over onze manier van werken? Wil je weten of onze begeleiding iets voor jou of jouw kind kan betekenen? Neem gerust contact met ons op. Een eerste gesprek is altijd vrijblijvend en helpt ons allebei om te ontdekken of we bij elkaar passen.</p>
+      <p>Wat altijd echt blijft, is de emotie, de worsteling en de stapjes vooruit. We doen dit met zorg en toestemming, en waar mogelijk in overleg. Want vertrouwelijkheid is voor ons geen regel, maar een vanzelfsprekendheid.</p>
 
-      <p>Want dat is waar het uiteindelijk om gaat: niet de perfecte begeleiding, maar de begeleiding die bij jou past. In jouw leven. Op jouw moment.</p>
+      <h2>Ben jij er ook?</h2>
+      <p>Misschien herken je jezelf in de verhalen. Misschien juist niet. Misschien ben je op zoek naar hulp, voor jezelf, of voor iemand anders. Misschien lees je dit gewoon uit nieuwsgierigheid.</p>
 
-      <p>Je bent welkom, precies zoals je bent. Met al je vragen, twijfels en ja, ook met je verdriet.</p>
+      <p>Wat je reden ook is: je bent welkom. En als jij ooit tegen iets aanloopt, groot of klein, weet dan dat je bij Xenra Nazorghulp terecht kunt. Ook als het gaat om dingen waarvan je denkt: "Zal ik me hier nou echt druk om maken?"</p>
+
+      <p><strong>Dat is precies waarom we bestaan.</strong></p>
+
+      <p><em>Welkom bij Xenra Nazorg.</em></p>
     `,
     author: "Xenra Team",
     date: "Juli 2025",
     publishedDate: "2025-07-15",
-    readTime: "6 min",
+    readTime: "5 min",
     image: blogImagePath,
-    alt: "Welkom bij Xenra Nazorghulp - persoonlijke en flexibele rouwbegeleiding op afstand",
-    tags: ["rouwbegeleiding", "nazorg", "verliesverwerking", "flexibele zorg", "laagdrempelig"],
-    isPinned: true
-  },
-  {
-    id: "5",
-    slug: "ik-wil-helemaal-niks-anonieme-verbinding",
-    title: "\"Ik wil helemaal niks\", een meisje, een scherm en een stille verbinding",
-    metaTitle: "Ik wil helemaal niks - Anonieme Begeleiding voor Jongeren | Xenra Nazorghulp",
-    metaDescription: "Het verhaal van Laura (13) die na het verlies van haar vader hulp kreeg via anonieme chat. Ontdek hoe digitale rouwbegeleiding jongeren kan helpen.",
-    excerpt: "Soms komt hulp niet binnen via een schoolpsycholoog, een verwijzing of een intakegesprek. Soms komt het binnen via een appje, geen naam, geen gezicht en geen druk.",
-    content: `
-      <h2>Wanneer traditionele hulp niet werkt</h2>
-      <p>Soms komt hulp niet binnen via een schoolpsycholoog, een verwijzing of een intakegesprek. Soms komt het binnen via een appje, geen naam, geen gezicht en geen druk. Gewoon een scherm en de vrijheid om te reageren, of niet.</p>
-
-      <p>Dat was het begin van ons contact met haar. We noemen haar hier Laura, ze was dertien jaar en volledig op slot sinds haar vader onverwacht overleed.</p>
-
-      <h2>Alles en iedereen was fout</h2>
-      <p>Laura was volgens haar moeder altijd een gevoelig kind geweest. Stil, maar niet gesloten en serieus, maar warm. Tot het moment waarop haar vader, haar held, van de ene op de andere dag niet meer thuiskwam.</p>
-
-      <p>Van verdriet was op het eerste gezicht nauwelijks sprake. In plaats daarvan kwam er boosheid. Laura was áltijd boos. Op haar moeder, op school, op vriendinnen die iets verkeerd zeiden of op zichzelf.</p>
-
-      <p>"Ze schreeuwt, slaat met deuren, weigert naar school te gaan," vertelde haar moeder later. "Ik ben met school, huisarts, de praktijkondersteuner en jeugdzorg in gesprek… maar hoe harder ik aan de bel trek, hoe harder zij zich afsluit."</p>
-
-      <p>De moeder wilde dat Laura professionele hulp zou krijgen. Maar Laura wilde niks, "Ze zei letterlijk: 'Als je iemand naar me toe stuurt, praat ik nooit meer.'" En dat meende ze.</p>
-
-      <h2>Vanuit wanhoop kwam ze bij Xenra</h2>
-      <p>De moeder vond ons via internet en ze bekeek de website van Xenra Nazorghulp en merkte dat we ook op afstand werken, via WhatsApp, zonder verplicht sessies. Ze stuurde ons een lange mail, vol frustratie en verdriet. Niet voor zichzelf, maar omdat ze haar dochter niet meer herkende.</p>
-
-      <p>"Ik weet niet of dit mag, of dit werkt… maar kunnen jullie contact leggen met haar, zonder dat ze weet wie of wat jullie zijn?". We stelden voor om het volledig anoniem te doen. Geen openlijke sessies, geen 'dit is Xenra', gewoon neutraal, een anoniem appmaatje.</p>
-
-      <p>Een onbekende die niks van haar wilde, maar wél altijd bereikbaar was. We gaven geen valse informatie, maar zeiden ook niet wie we waren. Alleen dat we 'iemand' waren die even naast haar wilde staan. Dat ze niks hoefde. Alleen lezen was al oké.</p>
-
-      <h2>De stilte die maanden duurde</h2>
-      <p>We stuurden een eerste bericht, toen nog één en een derde. Niet dwingend, geen vragen. Gewoon korte berichtjes: "Ik weet dat je geen zin hebt in mensen. Maar soms is het oké als iemand gewoon even stil bij je zit."</p>
-
-      <p>Dagen gingen voorbij en weken verstreken. We hadden afgesproken: we sturen alleen om de paar dagen iets, nooit opdringerig maar wel trouw. Een keer stuurden we: "Soms is het fijn als iemand even niks zegt, maar wél blijft."</p>
-
-      <p>En toen, uit het niets, kwam er een antwoord: "Je bent irritant, maar minder irritant dan de rest.". Het was het begin.</p>
-
-      <h3>Stap voor stap, in haar tempo</h3>
-      <p>Na die eerste reactie bleef het stil, echter wij stopten niet. Steeds weer kleine berichtjes, soms iets over hoe moeilijk boosheid is en een andere keer iets luchtigs. Soms een vraag: "Wat zou jij doen als je even onzichtbaar kon zijn?"</p>
-
-      <p>Langzaam veranderde de toon van haar berichten. Eerst alleen korte woorden en toen wat zinnen. Later kwamen de emoticons. En toen, ineens, stuurde ze: "Ik weet niet waarom ik nog leef. Maar ik wil niet dood zijn. Alleen gewoon weg."</p>
-
-      <p>We schrokken niet, dat was belangrijk. We gingen er niet bovenop zitten en gingen geen zwaar gesprek aan. Wel gaven we erkenning en vooral: blijven, blijven, blijven. We luisterden en gaven woorden waar zij ze nog niet had.</p>
-
-      <h2>De eerste barstjes</h2>
-      <p>Na een paar maanden vertelde haar moeder dat het gedrag van Laura begon te veranderen. Niet ineens, maar geleidelijk. Ze wilde zelf naar school, ze schold minder en er kwamen momenten waarop ze haar moeder zelfs een knuffel gaf, zomaar, uit zichzelf.</p>
-
-      <p>En op een dag stuurde ze ons: "Ik denk dat ik het een beetje kan, niet praten over alles. Maar wel snappen dat ik niet gek ben."</p>
-
-      <p>Ze begon vragen te stellen. Over rouw, over boosheid, over waarom mensen zeggen dat het 'beter wordt', terwijl dat nergens op slaat. We gaven geen grote antwoorden, alleen kleine stukjes houvast. "Je hoeft het niet beter te maken. Alleen leefbaar."</p>
-
-      <h2>Een relatie zonder gezicht, maar met vertrouwen</h2>
-      <p>Uiteindelijk bouwden we een band op, zonder onze echte namen te delen en zonder dat zij wist wie wij waren. En dat hoefde ook niet, voor haar was het genoeg dat we er waren. Op haar tempo, zonder oordeel en zonder plan.</p>
-
-      <p>Langzaam kreeg ze woorden voor wat ze voelde. Ze durfde te zeggen: "Ik ben bang dat ik ook ga verdwijnen." en kon daarna lachen om haar eigen opmerking. We leerden haar niks nieuws, maar we hielpen haar herinneren dat emoties ruimte mogen hebben, ook als je dertien bent en boos bent op de hele wereld.</p>
-
-      <h2>De les van Laura</h2>
-      <p>Wat Laura ons liet zien, is dat begeleiding niet altijd begint met een intakeformulier of een zorgplan. Soms begint het met een berichtje zonder afzender, zonder eisen en zonder verwachtingen.</p>
-
-      <p>Dat is waarom we bij Xenra Nazorghulp ook dit soort trajecten doen. Niet alles hoeft in hokjes te passen en zeker niet als het gaat om kinderen en jongeren die rouwen op hun eigen, ongrijpbare manier.</p>
-
-      <p>We zien het als onze taak om erbij te zijn, desnoods in stilte en desnoods anoniem. Zolang het maar bijdraagt aan dat ene doel: dat iemand op een dag zegt, zoals Laura zei: "Het is nog steeds rot. Maar ik ben niet meer alleen."</p>
-    `,
-    author: "Xenra Team",
-    date: "Augustus 2025",
-    publishedDate: "2025-08-25",
-    readTime: "7 min",
-    image: thirdBlogImagePath,
-    alt: "Jonge tiener krijgt anonieme digitale ondersteuning na verlies van vader",
-    tags: ["jongeren", "anonieme begeleiding", "verlies vader", "digitale hulp", "boosheid"],
-    isPinned: true
+    alt: "Familie ondersteuning en rouwbegeleiding - Xenra Nazorghulp biedt warme begeleiding voor nabestaanden",
+    isPinned: true,
+    tags: ["rouwbegeleiding", "welkom", "flexibele aanpak", "laagdrempelig"]
   },
   {
     id: "2",
     slug: "de-stilte-na-het-lachen-het-verhaal-van-sanne",
-    title: "De stilte na het lachen: het verhaal van Sanne",
+    title: "\"De stilte na het lachen\" – Het verhaal van Sanne",
     metaTitle: "De stilte na het lachen - Het verhaal van Sanne | Rouwbegeleiding voor Jongeren",
-    metaDescription: "Het verhaal van 16-jarige Sanne na het verlies van haar zusje Fleur. Lees hoe rouwbegeleiding jongeren kan helpen omgaan met verlies en schuldgevoelens.",
-    excerpt: "Het was een druilerige dinsdagmiddag in november toen Sanne (16) voor het eerst contact zocht. Niet zelf, maar via haar ouders. Ze had al maanden niet meer gelachen sinds haar zusje Fleur (13) was overleden.",
+    metaDescription: "Het verhaal van 16-jarige Sanne na het verlies van haar zus. Lees hoe Xenra Nazorghulp jongeren helpt met rouwverwerking en steun biedt in moeilijke tijden.",
+    excerpt: "Het was een druilerige dinsdagmiddag in november, de lucht hing zwaar, alsof hij op elk moment zou scheuren. Binnen, in een klein rijtjeshuis in een rustige woonwijk, rook het nog naar warme chocolademelk.",
     content: `
-      <h2>Een onwerkelijke werkelijkheid</h2>
-      <p>Het was een druilerige dinsdagmiddag in november toen Sanne (16) voor het eerst contact zocht. Niet zelf, maar via haar ouders. Ze had al maanden niet meer gelachen sinds haar zusje Fleur (13) was overleden. "Ze lijkt wel een schim van zichzelf," vertelden haar ouders. "Alsof ze samen met Fleur is verdwenen."</p>
+      <h2>Een gewone dinsdagmiddag die alles veranderde</h2>
+      <p>Het was een druilerige dinsdagmiddag in november, de lucht hing zwaar, alsof hij op elk moment zou scheuren. Binnen, in een klein rijtjeshuis in een rustige woonwijk, rook het nog naar warme chocolademelk. Het geluid van kinderstemmen had er die ochtend nog geklonken, toen twee zussen giechelend hun schoenen zochten om op tijd naar school te gaan. Nu was het stil. Onwerkelijk stil.</p>
 
-      <p>Fleur was niet zomaar haar zusje. Ze was haar beste vriendin, haar maatje, haar alles. Ze deelden een kamer, geheimen, dromen en die specifieke zusterhumor die alleen zij begrepen. Als de een lachte, begon de ander ook. Als de een verdrietig was, voelde de ander het meteen aan.</p>
+      <p>Sanne (16) zat op de bank en staarde naar de lege mok op de salontafel. Die van haar zusje Lisa (13). De mok met de eenhoorn erop, waar Lisa altijd zo trots op was. "Ik begrijp het niet," fluisterde ze tegen haar moeder, die naast haar zat met rode ogen. "We hebben vanmorgen nog gelachen. Over dat stomme TikTok-filmpje. Ze deed die rare dans na, en ik zei dat ze eruitzag als een robot met kortsluiting."</p>
 
-      <p>Fleur was gestorven aan leukemie. Een ziekte die snel ging, te snel. Van diagnose tot overlijden duurde het slechts vier maanden. Sanne was er bij elke chemokuur, bij elk ziekenhuisbezoek. Ze had Fleurs hand vastgehouden toen het moeilijk werd en had zelfs haar eigen haar afgeschoren toen Fleur het hare kwijtraakte. "We doen het samen," had ze gezegd.</p>
+      <h2>Wanneer lachen plotseling voelt als verraad</h2>
+      <p>Haar moeder knikte, maar zei niets. Wat viel er ook te zeggen? Een verkeersongeluk op weg naar school. Een vrachtwagen die door rood reed. Lisa had geen pijn gehad, zeiden ze in het ziekenhuis. Maar dat maakte het voor Sanne niet beter. Want hoe kun je nu nog lachen als je zusje er niet meer is? Hoe kun je ooit nog naar TikTok kijken zonder te denken aan haar laatste glimlach?</p>
 
-      <h2>Waarom zij wel en ik niet?</h2>
-      <p>Maar na Fleurs overlijden viel Sanne in een gat dat zo diep leek dat ze de bodem niet kon zien. Ze ging niet meer naar school, sprak nauwelijks, en at alleen nog als haar ouders erop aandrongen. Het ergste was de stilte. Waar hun huis altijd vol gelach en geroezemoes was geweest, heerste nu een verstikkende stilte.</p>
+      <p>De dagen erna was het huis vol mensen. Tantes, ooms, buren, klasgenoten. Iedereen wilde helpen, iedereen had iets lievs te zeggen. Maar Sanne voelde zich alleen. Want niemand begreep waarom ze zich zo schuldig voelde. Schuldig omdat zij wél veilig op school was aangekomen. Schuldig omdat ze die ochtend geïrriteerd was geweest toen Lisa weer te lang onder de douche stond.</p>
 
-      <p>"Waarom zij en niet ik?" vroeg Sanne zich hardop af tijdens ons eerste gesprek. "Ik had het moeten zijn. Fleur was slimmer, liever, alles wat ik niet ben." Het was een vraag die haar verteerde, een schuldgevoel dat als een steen op haar borst lag.</p>
+      <h3>De druk om "sterk" te zijn</h3>
+      <p>"Je moet sterk zijn voor je ouders," zeiden mensen. "Je bent nu de enige dochter." Maar Sanne wilde helemaal niet de enige zijn. Ze wilde gewoon dat Lisa terugkwam, zodat ze konden ruziën over wie er het laatst televisie mocht kijken. Ze wilde schelden omdat Lisa weer haar favoriete trui had geleend zonder te vragen.</p>
 
-      <p>Haar ouders hadden al veel geprobeerd. Gesprekken met school, een psycholoog, vrienden die langskwamen. Maar Sanne sloot zich af voor alles en iedereen. "Ze zeggen allemaal dat het beter wordt," zei ze. "Maar ik wil niet dat het beter wordt. Dan ben ik Fleur aan het vergeten."</p>
+      <p>Op school waren haar vrienden lief, maar onhandig. Ze wisten niet wat ze moesten zeggen, dus zeiden ze vaak niets. Of juist te veel. "Het komt wel goed," zei haar beste vriendin Emma. "De tijd heelt alle wonden." Sanne wilde schreeuwen: waarom zou ik willen dat het 'goed komt'? Waarom zou ik willen vergeten hoe ze eruitzag als ze lachte?</p>
 
-      <h2>Eerste contact: voorzichtig en zonder druk</h2>
-      <p>Toen haar ouders ons benaderden, was Sanne aanvankelijk niet geïnteresseerd. "Weer iemand die gaat zeggen dat ik 'moet loslaten' en 'verder moet,'" was haar eerste reactie. We stelden voor om te beginnen zonder verplichtingen. Geen vaste afspraken, geen therapie-setting. Gewoon af en toe een berichtje via WhatsApp, wanneer zij daar zin in had.</p>
+      <h2>Hulp zoeken voor jongeren in rouw</h2>
+      <p>Sannes moeder zocht hulp. De huisarts verwees naar een psycholoog, maar daar was een wachtlijst van vier maanden. "Ze moet nu hulp hebben," zei haar moeder tegen de praktijkassistente. "Ze eet bijna niet, ze slaapt niet, ze praat nauwelijks." Via internet vond ze Xenra Nazorghulp.</p>
 
-      <p>De eerste weken was het stil. We stuurden af en toe een kort berichtje, niets forcerends. Soms een vraag over hoe haar dag was, soms gewoon een herkenning van hoe moeilijk het allemaal was. En toen, na drie weken, kwam er een reactie: "Ik mis haar zo erg dat ik soms denk dat ik stik."</p>
+      <p>Het eerste contact was via WhatsApp. Sanne mocht gewoon typen wat ze voelde, zonder afspraak, zonder dat ze haar verhaal aan een vreemde in een witte jas hoefde te vertellen. Haar begeleider, Marjan, stuurde geen lege zinnen terug zoals "het komt wel goed". In plaats daarvan schreef ze: "Wat naar dat je je zo alleen voelt. En wat logisch dat je je schuldig voelt. Dat hoort bij rouw, maar dat maakt het niet minder zwaar."</p>
 
-      <p>Het was het begin van een voorzichtig contact. Sanne begon langzaam te vertellen over Fleur, over hun band, over hoe leeg alles nu voelde. We luisterden, zonder oordeel, zonder adviezen. Soms stelden we voorzichtige vragen: "Wat zou Fleur ervan vinden als ze je nu zo zag?"</p>
+      <h3>Anoniem contact: veiligheid om eerlijk te zijn</h3>
+      <p>Voor Sanne was het belangrijk dat ze anoniem kon zijn. Ze hoefde haar echte naam niet te gebruiken, ze hoefde haar camera niet aan tijdens videogesprekken. Dat gaf haar de ruimte om eerlijk te zijn over de donkere gedachten die ze had. Over hoe ze soms wilde dat zij in plaats van Lisa in die auto had gezeten.</p>
 
-      <h2>Kleine stapjes naar het licht</h2>
-      <p>Langzaam kwam Sanne tot het inzicht dat Fleur niet zou willen dat zij zichzelf wegcijferde. "Ze zou me uitlachen en zeggen dat ik een drama queen ben," zei ze op een dag, en voor het eerst in maanden verscheen er een klein glimlachje op haar gezicht.</p>
+      <p>Marjan nam die gedachten serieus, zonder Sanne het gevoel te geven dat ze "fout" was. Ze legde uit dat schuldgevoelens normaal zijn na zo'n verlies. En dat het oké is om boos te zijn – op Lisa, op het leven, op die vrachtwagenchauffeur die door rood reed.</p>
 
-      <p>We werkten aan kleine, haalbare doelen. Eerst weer een dag per week naar school. Toen een wandeling met een vriendin. Kleine stapjes die voor Sanne voelden als bergen, maar die ze één voor één beklom.</p>
+      <h2>Kleine stapjes naar vooruit</h2>
+      <p>De begeleiding ging langzaam. Geen grote doorbraken, geen moment waarop Sanne ineens "beter" was. Maar er waren wel kleine dingen. De eerste keer dat ze kon lachen om een grapje zonder daarna te huilen. De eerste keer dat ze aan Lisa dacht zonder direct in paniek te raken.</p>
 
-      <p>Het belangrijkste was dat ze leerde dat rouwen om Fleur niet betekende dat ze haar eigen leven moest opgeven. Dat liefde voor iemand niet stopt als diegene er niet meer is, maar dat je die liefde kunt eren door zelf te blijven leven.</p>
+      <p>Marjan gaf Sanne opdrachten die pasten bij haar leeftijd en situatie. Ze mocht een brief schrijven aan Lisa met alles wat ze nog wilde zeggen. Ze maakte een fotoboek met hun mooiste herinneringen. En heel belangrijk: ze leerde dat rouw niet "over" gaat, maar dat je leert ermee te leven.</p>
 
-      <h3>Samen en apart</h3>
-      <p>Met haar ouders werkten we aan manieren om het gesprek open te houden zonder elkaar te verstikken. We oefenden met luisteren zonder meteen advies te geven en met Sanne zelf gingen we dieper in op haar herinneringen aan Fleur, niet om de pijn te vergroten, maar om de liefde en verbondenheid levend te houden.</p>
+      <h3>Contact met andere jongeren</h3>
+      <p>Via Xenra kwam Sanne ook in contact met andere jongeren die verlies hadden meegemaakt. Niet in groepstherapie – daar was ze nog niet klaar voor – maar via een besloten chatgroep. Daar las ze verhalen van leeftijdsgenoten die hun vader, moeder of broer hadden verloren. Verhalen die haar lieten zien dat ze niet de enige was die worstelde met schuldgevoelens en boosheid.</p>
 
-      <p>Er waren sessies waarin niemand sprak. Alleen samen zijn, soms in stilte, was al genoeg.</p>
+      <h2>Verder leven, niet vergeten</h2>
+      <p>Een jaar later gaat het beter met Sanne. Ze gaat weer naar school, heeft weer contact met vrienden, kan soms zelfs lachen zonder zich schuldig te voelen. De mok van Lisa staat nog steeds op de salontafel, maar nu voelt dat niet meer als een mes in haar hart. Het voelt als een herinnering aan iemand die ze voor altijd zal missen, maar van wie ze de liefde mee mag nemen.</p>
 
-      <p>Andere keren lachten we onverwachts om een grappig verhaal over Fleur. Dan schrok Sanne bijna van zichzelf, alsof lachen verraad was. We stelden haar gerust: ook in rouw mag er licht zijn.</p>
+      <p>Ze heeft nog steeds contact met Marjan, maar minder intensief. Een berichtje als het moeilijk is, een gesprekje rond Lisa's verjaardag of sterfdag. En dat voelt goed: weten dat er iemand is die haar verhaal kent en begrijpt.</p>
 
-      <h3>De omslagmomenten</h3>
-      <p>Na een paar maanden merkten haar ouders dat ze weer soms muziek luisterde. Dat ze weer eens naar buiten ging zonder dat iemand het vroeg.</p>
+      <p>"Ik heb geleerd dat rouw niet linear is," vertelt Sanne. "Soms denk je dat het beter gaat, en dan huil je ineens omdat je haar parfum ruikt in de winkel. Maar dat is oké. Lisa hoort bij mij, en dat zal altijd zo blijven."</p>
 
-      <p>Het echte keerpunt kwam op een avond in mei. Ze stuurde een appje: "Ik wil morgen misschien iets vertellen wat ik nog nooit gezegd heb."</p>
-
-      <p>De volgende dag, in een één-op-één sessie, kwam het eruit. Hoe bang ze was geweest om haar zusje te vergeten. Hoe ze zichzelf dwong om elke herinnering vast te houden, uit angst dat de liefde zou verdwijnen.</p>
-
-      <p>We spraken over hoe liefde niet verdwijnt met de dood en dat herinneringen vervagen, maar dat de band blijft, anders, maar aanwezig.</p>
-
-      <h3>Nog steeds onderweg</h3>
-      <p>Het is nu bijna een jaar later en Sanne is inmiddels 17, maar voelt soms ouder. De rauwheid is minder scherp, maar de leegte blijft. Ze gaat weer naar school, heeft weer wat contact met vriendinnen, maar er zijn dagen dat alles te zwaar voelt.</p>
-
-      <p>We zijn er nog steeds via de app en met één op één gesprekken. Niet omdat rouw een project is dat je afrondt, maar omdat het leven met verlies leren leven een langzaam proces is.</p>
-
-      <p>Haar ouders zeggen dat ze Xenra Nazorg zien als een reddingslijn, niet alleen voor hun dochter, maar ook voor henzelf.</p>
-
-      <p>En zo blijft Sanne, stap voor stap, lopen op een weg die ze nooit had willen kennen.<br>Maar ze loopt hem niet meer alleen.</p>
-
-      <h2>Wat dit verhaal ons leert</h2>
-      <p>Sanne's verhaal laat zien dat rouw bij jongeren vaak anders verloopt dan bij volwassenen. Waar volwassenen soms kunnen rationaliseren en contextualiseren, ervaren jongeren verlies vaak totaler en intenser.</p>
+      <h2>Rouwbegeleiding voor jongeren</h2>
+      <p>Sannes verhaal laat zien waarom gespecialiseerde rouwbegeleiding voor jongeren zo belangrijk is. Tieners hebben andere behoeften dan volwassenen. Ze hebben behoefte aan:</p>
+      
+      <ul>
+        <li>Laagdrempelig contact (WhatsApp, chat)</li>
+        <li>Mogelijkheid tot anonimiteit</li>
+        <li>Begeleiding die aansluit bij hun wereld</li>
+        <li>Contact met leeftijdsgenoten</li>
+        <li>Flexibiliteit in tempo en intensiteit</li>
+      </ul>
 
       <p>Bij Xenra Nazorghulp begrijpen we dat jongeren anders rouwen dan volwassenen. We bieden daarom speciale begeleiding aan voor kinderen en tieners tot 18 jaar, altijd afgestemd op hun eigen tempo en behoeften.</p>
     `,
@@ -219,8 +147,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "8 min",
     image: sanneBlogImagePath,
     alt: "Jonge vrouw in rouw - ondersteuning voor jongeren die een verlies hebben meegemaakt",
-    tags: ["jongeren", "verlies zus", "schuldgevoelens", "anonieme begeleiding", "rouwverwerking"],
-    isPinned: false
+    tags: ["jongeren", "verlies zus", "schuldgevoelens", "anonieme begeleiding", "rouwverwerking"]
   },
   {
     id: "3",
@@ -297,8 +224,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min",
     image: marjanBlogImagePath,
     alt: "Vrouw rouwt om verlies van partner - ondersteuning bij verwerking van plotseling verlies",
-    tags: ["verlies partner", "werkverslaving", "schuldgevoelens", "weduwe", "rouwbegeleiding"],
-    isPinned: false
+    tags: ["verlies partner", "werkverslaving", "schuldgevoelens", "weduwe", "rouwbegeleiding"]
   },
   {
     id: "4",
@@ -352,8 +278,78 @@ export const blogPosts: BlogPost[] = [
     readTime: "5 min",
     image: secondBlogImagePath,
     alt: "Oudere vrouw in rouw - telefonische begeleiding voor ouderen die verdriet verwerken",
-    tags: ["ouderen", "verlies zus", "telefonische begeleiding", "eenzaamheid", "rouw op leeftijd"],
-    isPinned: false
+    tags: ["ouderen", "verlies zus", "telefonische begeleiding", "eenzaamheid", "rouw op leeftijd"]
+  },
+  {
+    id: "5",
+    slug: "ik-wil-helemaal-niks-anonieme-verbinding",
+    title: "\"Ik wil helemaal niks\", een meisje, een scherm en een stille verbinding",
+    metaTitle: "Ik wil helemaal niks - Anonieme Begeleiding voor Jongeren | Xenra Nazorghulp",
+    metaDescription: "Het verhaal van Laura (13) die na het verlies van haar vader hulp kreeg via anonieme chat. Ontdek hoe digitale rouwbegeleiding jongeren kan helpen.",
+    excerpt: "Soms komt hulp niet binnen via een schoolpsycholoog, een verwijzing of een intakegesprek. Soms komt het binnen via een appje, geen naam, geen gezicht en geen druk.",
+    content: `
+      <h2>Wanneer traditionele hulp niet werkt</h2>
+      <p>Soms komt hulp niet binnen via een schoolpsycholoog, een verwijzing of een intakegesprek. Soms komt het binnen via een appje, geen naam, geen gezicht en geen druk. Gewoon een scherm en de vrijheid om te reageren, of niet.</p>
+
+      <p>Dat was het begin van ons contact met haar. We noemen haar hier Laura, ze was dertien jaar en volledig op slot sinds haar vader onverwacht overleed.</p>
+
+      <h2>Alles en iedereen was fout</h2>
+      <p>Laura was volgens haar moeder altijd een gevoelig kind geweest. Stil, maar niet gesloten en serieus, maar warm. Tot het moment waarop haar vader, haar held, van de ene op de andere dag niet meer thuiskwam.</p>
+
+      <p>Van verdriet was op het eerste gezicht nauwelijks sprake. In plaats daarvan kwam er boosheid. Laura was áltijd boos. Op haar moeder, op school, op vriendinnen die iets verkeerd zeiden of op zichzelf.</p>
+
+      <p>"Ze schreeuwt, slaat met deuren, weigert naar school te gaan," vertelde haar moeder later. "Ik ben met school, huisarts, de praktijkondersteuner en jeugdzorg in gesprek… maar hoe harder ik aan de bel trek, hoe harder zij zich afsluit."</p>
+
+      <p>De moeder wilde dat Laura professionele hulp zou krijgen. Maar Laura wilde niks, "Ze zei letterlijk: 'Als je iemand naar me toe stuurt, praat ik nooit meer.'" En dat meende ze.</p>
+
+      <h2>Vanuit wanhoop kwam ze bij Xenra</h2>
+      <p>De moeder vond ons via internet en ze bekeek de website van Xenra Nazorghulp en merkte dat we ook op afstand werken, via WhatsApp, zonder verplicht sessies. Ze stuurde ons een lange mail, vol frustratie en verdriet. Niet voor zichzelf, maar omdat ze haar dochter niet meer herkende.</p>
+
+      <p>"Ik weet niet of dit mag, of dit werkt… maar kunnen jullie contact leggen met haar, zonder dat ze weet wie of wat jullie zijn?". We stelden voor om het volledig anoniem te doen. Geen openlijke sessies, geen 'dit is Xenra', gewoon neutraal, een anoniem appmaatje.</p>
+
+      <p>Een onbekende die niks van haar wilde, maar wél altijd bereikbaar was. We gaven geen valse informatie, maar zeiden ook niet wie we waren. Alleen dat we 'iemand' waren die even naast haar wilde staan. Dat ze niks hoefde. Alleen lezen was al oké.</p>
+
+      <h2>De stilte die maanden duurde</h2>
+      <p>We stuurden een eerste bericht, toen nog één en een derde. Niet dwingend, geen vragen. Gewoon korte berichtjes: "Ik weet dat je geen zin hebt in mensen. Maar soms is het oké als iemand gewoon even stil bij je zit."</p>
+
+      <p>Dagen gingen voorbij en weken verstreken. We hadden afgesproken: we sturen alleen om de paar dagen iets, nooit opdringerig maar wel trouw. Een keer stuurden we: "Soms is het fijn als iemand even niks zegt, maar wél blijft."</p>
+
+      <p>En toen, uit het niets, kwam er een antwoord: "Je bent irritant, maar minder irritant dan de rest.". Het was het begin.</p>
+
+      <h3>Stap voor stap, in haar tempo</h3>
+      <p>Na die eerste reactie bleef het stil, echter wij stopten niet. Steeds weer kleine berichtjes, soms iets over hoe moeilijk boosheid is en een andere keer iets luchtigs. Soms een vraag: "Wat zou jij doen als je even onzichtbaar kon zijn?"</p>
+
+      <p>Langzaam veranderde de toon van haar berichten. Eerst alleen korte woorden en toen wat zinnen. Later kwamen de emoticons. En toen, ineens, stuurde ze: "Ik weet niet waarom ik nog leef. Maar ik wil niet dood zijn. Alleen gewoon weg."</p>
+
+      <p>We schrokken niet, dat was belangrijk. We gingen er niet bovenop zitten en gingen geen zwaar gesprek aan. Wel gaven we erkenning en vooral: blijven, blijven, blijven. We luisterden en gaven woorden waar zij ze nog niet had.</p>
+
+      <h2>De eerste barstjes</h2>
+      <p>Na een paar maanden vertelde haar moeder dat het gedrag van Laura begon te veranderen. Niet ineens, maar geleidelijk. Ze wilde zelf naar school, ze schold minder en er kwamen momenten waarop ze haar moeder zelfs een knuffel gaf, zomaar, uit zichzelf.</p>
+
+      <p>En op een dag stuurde ze ons: "Ik denk dat ik het een beetje kan, niet praten over alles. Maar wel snappen dat ik niet gek ben."</p>
+
+      <p>Ze begon vragen te stellen. Over rouw, over boosheid, over waarom mensen zeggen dat het 'beter wordt', terwijl dat nergens op slaat. We gaven geen grote antwoorden, alleen kleine stukjes houvast. "Je hoeft het niet beter te maken. Alleen leefbaar."</p>
+
+      <h2>Een relatie zonder gezicht, maar met vertrouwen</h2>
+      <p>Uiteindelijk bouwden we een band op, zonder onze echte namen te delen en zonder dat zij wist wie wij waren. En dat hoefde ook niet, voor haar was het genoeg dat we er waren. Op haar tempo, zonder oordeel en zonder plan.</p>
+
+      <p>Langzaam kreeg ze woorden voor wat ze voelde. Ze durfde te zeggen: "Ik ben bang dat ik ook ga verdwijnen." en kon daarna lachen om haar eigen opmerking. We leerden haar niks nieuws, maar we hielpen haar herinneren dat emoties ruimte mogen hebben, ook als je dertien bent en boos bent op de hele wereld.</p>
+
+      <h2>De les van Laura</h2>
+      <p>Wat Laura ons liet zien, is dat begeleiding niet altijd begint met een intakeformulier of een zorgplan. Soms begint het met een berichtje zonder afzender, zonder eisen en zonder verwachtingen.</p>
+
+      <p>Dat is waarom we bij Xenra Nazorghulp ook dit soort trajecten doen. Niet alles hoeft in hokjes te passen en zeker niet als het gaat om kinderen en jongeren die rouwen op hun eigen, ongrijpbare manier.</p>
+
+      <p>We zien het als onze taak om erbij te zijn, desnoods in stilte en desnoods anoniem. Zolang het maar bijdraagt aan dat ene doel: dat iemand op een dag zegt, zoals Laura zei: "Het is nog steeds rot. Maar ik ben niet meer alleen."</p>
+    `,
+    author: "Xenra Team",
+    date: "Augustus 2025",
+    publishedDate: "2025-08-25",
+    readTime: "7 min",
+    image: thirdBlogImagePath,
+    alt: "Jonge tiener krijgt anonieme digitale ondersteuning na verlies van vader",
+    tags: ["jongeren", "anonieme begeleiding", "verlies vader", "digitale hulp", "boosheid"],
+    isPinned: true
   }
 ];
 
