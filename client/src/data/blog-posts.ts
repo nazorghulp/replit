@@ -33,6 +33,8 @@ export const blogPosts: BlogPost[] = [
     metaDescription: "Ontdek Xenra Nazorghulp: flexibele en laagdrempelige rouwbegeleiding zonder wachtlijsten. Voor volwassenen en kinderen, op jouw manier en in jouw tempo.",
     excerpt: "Bij Xenra Nazorghulp geloven we dat rouw geen handleiding volgt. Er is geen 'standaardtraject' dat begint bij verdriet en eindigt bij verwerking. Iedereen beleeft verlies op zijn eigen manier.",
     content: `
+      <h1>Welkom bij Xenra Nazorghulp: Rouw kent geen script</h1>
+      
       <h2>Wat betekent rouwbegeleiding bij Xenra?</h2>
       <p>Bij Xenra Nazorghulp geloven we dat rouw geen handleiding volgt. Er is geen "standaardtraject" dat begint bij verdriet en eindigt bij verwerking. Iedereen beleeft verlies op zijn eigen manier. Soms heftig, soms stil. Soms direct, en soms… pas een jaar later, midden in de supermarkt bij het zien van een blik bruine bonen dat aan oma doet denken.</p>
 
@@ -84,6 +86,8 @@ export const blogPosts: BlogPost[] = [
     metaDescription: "Het verhaal van Laura (13) die na het verlies van haar vader hulp kreeg via anonieme chat. Ontdek hoe digitale rouwbegeleiding jongeren kan helpen.",
     excerpt: "Soms komt hulp niet binnen via een schoolpsycholoog, een verwijzing of een intakegesprek. Soms komt het binnen via een appje, geen naam, geen gezicht en geen druk.",
     content: `
+      <h1>Ik wil helemaal niks: Laura's verhaal over anonieme verbinding</h1>
+      
       <h2>Wanneer traditionele hulp niet werkt</h2>
       <p>Soms komt hulp niet binnen via een schoolpsycholoog, een verwijzing of een intakegesprek. Soms komt het binnen via een appje, geen naam, geen gezicht en geen druk. Gewoon een scherm en de vrijheid om te reageren, of niet.</p>
 
@@ -155,6 +159,8 @@ export const blogPosts: BlogPost[] = [
     metaDescription: "Het verhaal van 16-jarige Sanne na het verlies van haar zusje Fleur. Lees hoe rouwbegeleiding jongeren kan helpen omgaan met verlies en schuldgevoelens.",
     excerpt: "Het was een druilerige dinsdagmiddag in november, de lucht hing zwaar, alsof hij op elk moment zou scheuren. Het verhaal van Sanne na het verlies van haar zusje Fleur.",
     content: `
+      <h1>Het verhaal van Sanne: Van verlies naar herstel</h1>
+      
       <p>Het was een druilerige dinsdagmiddag in november, de lucht hing zwaar, alsof hij op elk moment zou scheuren. Binnen, in een klein rijtjeshuis in een rustige woonwijk, rook het nog naar warme chocolademelk. Het geluid van kinderstemmen had er die ochtend nog geklonken, toen twee zussen giechelend hun schoenen zochten om op tijd naar school te gaan.</p>
 
       <p>Nu was het stil. Onwerkelijk stil.</p>
@@ -162,6 +168,8 @@ export const blogPosts: BlogPost[] = [
       <p>Sanne, zestien jaar oud, zat roerloos aan de keukentafel. Haar handen omklemden een mok, maar de chocolademelk was allang koud. Haar ogen staarden naar één plek op het tafelblad, een vlek in het hout die er al jaren zat. Ze hoorde haar moeder praten, ergens in de verte, maar de woorden kwamen niet meer aan.</p>
 
       <p>Een paar uur eerder was alles ingestort.</p>
+
+      <h2>Het ongeluk en de eerste reacties</h2>
 
       <h3>De dag van het ongeluk</h3>
       <p>Het was een gewone dag geweest, haar jongere zusje, Fleur, elf jaar, had bij een vriendin gespeeld. Een vrolijk, levendig meisje dat altijd alles vertelde in honderd woorden per minuut.</p>
@@ -185,6 +193,8 @@ export const blogPosts: BlogPost[] = [
 
       <p>Ze ging niet meer naar school en haar telefoon lag ongebruikt naast haar bed. Alleen soms, diep in de nacht, scrolde ze gedachteloos door oude foto's en filmpjes van haar zusje. Soms glimlachte ze even en soms trok het verdriet haar zo hard naar beneden dat ze letterlijk naar adem moest happen.</p>
 
+      <h2>De zoektocht naar ondersteuning</h2>
+
       <h3>Het zoeken naar hulp</h3>
       <p>Na een week of drie, waarin de dagen in elkaar overliepen, begon de spanning in huis te groeien. Sanne reageerde kortaf of helemaal niet en haar ouders, bang om haar kwijt te raken, voelden zich machteloos.</p>
 
@@ -203,6 +213,8 @@ export const blogPosts: BlogPost[] = [
 
       <p>Daarnaast spraken we af dat ze ons altijd kon appen, ook 's avonds. Geen automatische berichten, maar echte, menselijke reacties, soms binnen een minuut, soms midden in de nacht.</p>
 
+      <h2>Het begeleidingsproces</h2>
+
       <h3>De appgesprekken: een lifeline</h3>
       <p>In het begin kwamen er vooral korte, droge antwoorden terug:</p>
       <p>"Hoi."<br>"Ik haat dit."<br>"Waarom zij?"</p>
@@ -219,6 +231,8 @@ export const blogPosts: BlogPost[] = [
       <p>Er waren sessies waarin niemand sprak. Alleen samen zijn, soms in stilte, was al genoeg.</p>
 
       <p>Andere keren lachten we onverwachts om een grappig verhaal over Fleur. Dan schrok Sanne bijna van zichzelf, alsof lachen verraad was. We stelden haar gerust: ook in rouw mag er licht zijn.</p>
+
+      <h2>Vooruitgang en acceptatie</h2>
 
       <h3>De omslagmomenten</h3>
       <p>Na een paar maanden merkten haar ouders dat ze weer soms muziek luisterde. Dat ze weer eens naar buiten ging zonder dat iemand het vroeg.</p>
