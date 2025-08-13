@@ -229,7 +229,7 @@ export default function OverOns() {
                   </p>
 
                   <p className="text-warm-gray">
-                    Voor elk kind of volwassene is passende begeleiding beschikbaar. <strong className="text-orange-primary">Kinderen worden opgevangen door gespecialiseerde begeleiders</strong> die weten hoe rouw bij jonge mensen anders kan verlopen.
+                    Voor elk kind of volwassene is passende begeleiding beschikbaar. <strong className="text-orange-primary">Kinderen worden opgevangen door gespecialiseerde psychologen en begeleiders</strong> die weten hoe rouw bij jonge mensen anders kan verlopen.
                   </p>
 
                   <p className="text-warm-gray">
@@ -295,7 +295,7 @@ export default function OverOns() {
                 
                 <h3 className="text-2xl font-bold text-white mb-4 text-center">Gespecialiseerde zorg</h3>
                 <p className="text-white/90 leading-relaxed text-center">
-                  Aparte begeleiders voor kinderen en volwassenen, elk met specifieke expertise
+                  Aparte psychologen en begeleiders voor kinderen en volwassenen, elk met specifieke expertise
                 </p>
               </div>
             </div>
