@@ -66,6 +66,8 @@ The design emphasizes a professional and empathetic aesthetic.
 - **Production Build Fix**: Resolved white page issue by providing proper production build instead of development React setup. Website now loads correctly with compiled JavaScript/CSS.
 - **Apache Configuration**: Simplified .htaccess to essential rules only (SEO redirect + SPA routing) due to server limitations with advanced modules.
 - **Blogs Refresh Fix**: Resolved blogs page refresh issue by ensuring blogs.html references production assets (/assets/index-DWLrQCAJ.js) instead of development files (/src/main.tsx). All pages now refresh correctly.
+- **Phone Number Transparency**: Added "(lokaal tarief)" to all phone number displays (navbar desktop/mobile, hamburger menu, contact page) for cost transparency and user trust.
+- **Homepage Visual Break**: Added custom-generated peaceful landscape image between text sections on homepage to create visual pause in long text blocks, improving readability and user experience.
 
 ## External Dependencies
 
