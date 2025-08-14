@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import { Heart, Handshake, Users, Shield, MessageCircle, ArrowRight } from "lucide-react";
 import familyImagePath from "@assets/image_1753725391508_optimized.png";
+import breakImagePath from "@assets/generated_images/Peaceful_healing_landscape_break_53864a0f.png";
 
 export default function Hero() {
   return (
@@ -49,6 +50,15 @@ export default function Hero() {
                     door ervaren psychologen, gespecialiseerd in rouw. We begrijpen dat rouwen geen rechte lijn is: 
                     de ene dag lukt het je om te praten, de andere dag voelt elke stap te zwaar.
                   </p>
+                  
+                  {/* Rustgevende break afbeelding */}
+                  <div className="my-8 -mx-6 sm:-mx-8 lg:-mx-12">
+                    <img 
+                      src={breakImagePath} 
+                      alt="Rustgevend landschap als visuele pauze" 
+                      className="w-full h-24 sm:h-32 lg:h-40 object-cover rounded-xl shadow-lg"
+                    />
+                  </div>
                   
                   <p>
                     In onze sessies krijg je een veilige plek waar je mag voelen wat je voelt. 
