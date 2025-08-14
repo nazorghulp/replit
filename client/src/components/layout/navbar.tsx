@@ -31,9 +31,10 @@ export default function Navbar() {
           <div className="hidden lg:block absolute left-1/2 transform -translate-x-20">
             <a 
               href="tel:085-401-92-65" 
-              className="text-white hover:text-orange-light font-bold text-base lg:text-lg uppercase tracking-wide transition-colors duration-200"
+              className="text-white hover:text-orange-light font-bold text-base lg:text-lg uppercase tracking-wide transition-colors duration-200 flex flex-col items-center"
             >
-              Bel 085 - 401 92 65
+              <span>Bel 085 - 401 92 65</span>
+              <span className="text-xs font-normal lowercase">(lokaal tarief)</span>
             </a>
           </div>
           
@@ -41,9 +42,10 @@ export default function Navbar() {
           <div className="block lg:hidden">
             <a 
               href="tel:085-401-92-65" 
-              className="text-white hover:text-orange-light font-bold text-sm transition-colors duration-200"
+              className="text-white hover:text-orange-light font-bold text-sm transition-colors duration-200 flex flex-col items-center"
             >
-              085 - 401 92 65
+              <span>085 - 401 92 65</span>
+              <span className="text-xs font-normal">(lokaal tarief)</span>
             </a>
           </div>
           
@@ -110,7 +112,8 @@ export default function Navbar() {
                 className="block px-4 py-3 rounded-xl text-lg font-medium text-white hover:text-orange-light hover:bg-purple-800 transition-colors duration-200 text-center"
                 onClick={() => setIsOpen(false)}
               >
-                Bel 085 - 401 92 65
+                <span className="block">Bel 085 - 401 92 65</span>
+                <span className="text-sm font-normal">(lokaal tarief)</span>
               </a>
             </div>
           </div>

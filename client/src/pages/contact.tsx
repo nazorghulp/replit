@@ -176,7 +176,8 @@ export default function Contact() {
                 </div>
 
                 <div className="bg-white text-purple-800 px-6 py-3 rounded-xl font-bold text-center text-lg">
-                  085 - 401 92 65
+                  <div>085 - 401 92 65</div>
+                  <div className="text-sm font-normal">(lokaal tarief)</div>
                 </div>
               </div>
               
