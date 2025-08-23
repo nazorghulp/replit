@@ -11,7 +11,7 @@ export default function Diensten() {
     "description": "Kies wat bij jou past - van basis tot intensieve rouwbegeleiding",
     "provider": {
       "@type": "Organization",
-      "name": "Kazenra Nederland"
+      "name": "Cenra Nederland"
     },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",

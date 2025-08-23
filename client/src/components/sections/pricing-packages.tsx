@@ -91,7 +91,7 @@ export default function PricingPackages() {
 
                   <div className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 border border-white/50 shadow-lg hover:shadow-xl transition-all duration-300">
                     <p className="text-warm-gray leading-relaxed">
-                      Bij Kazenra Nederland doen we het anders. Onze pakketten zijn betaalbaar en bieden veel meer contactmomenten dan een klassiek traject. Je kiest zelf hoeveel contact je wilt: één, twee of drie keer per week. En dat kan op de manier die voor jou prettig voelt – via WhatsApp, e-mail, (beeld)bellen of een combinatie daarvan.
+                      Bij Cenra Nederland doen we het anders. Onze pakketten zijn betaalbaar en bieden veel meer contactmomenten dan een klassiek traject. Je kiest zelf hoeveel contact je wilt: één, twee of drie keer per week. En dat kan op de manier die voor jou prettig voelt – via WhatsApp, e-mail, (beeld)bellen of een combinatie daarvan.
                     </p>
                   </div>
 
@@ -137,7 +137,7 @@ export default function PricingPackages() {
                       <Shield className="w-6 h-6 text-white" />
                     </div>
                     <p className="text-lg text-dark-gray leading-relaxed">
-                      Bij Kazenra Nederland bieden we <strong className="text-purple-primary">toegankelijke en flexibele behandelingen</strong> aan nabestaanden van alle leeftijden. 
+                      Bij Cenra Nederland bieden we <strong className="text-purple-primary">toegankelijke en flexibele behandelingen</strong> aan nabestaanden van alle leeftijden. 
                       Onze pakketten zijn maandelijks verlengbaar, geen automatische incasso's en geen langdurige verplichtingen.
                     </p>
                   </div>

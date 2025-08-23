@@ -32,12 +32,12 @@ export default function HeadMeta({
       { property: 'og:image', content: image },
       { property: 'og:url', content: url },
       { property: 'og:type', content: type },
-      { property: 'og:site_name', content: 'Kazenra Nederland' },
+      { property: 'og:site_name', content: 'Cenra Nederland' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: title },
       { name: 'twitter:description', content: description },
       { name: 'twitter:image', content: image },
-      { name: 'author', content: 'Kazenra Nederland' },
+      { name: 'author', content: 'Cenra Nederland' },
       { name: 'robots', content: 'index, follow' }
     ];
 

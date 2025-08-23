@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="mb-6">
               <div className="flex items-center">
-                <span className="text-2xl font-semibold text-gray-700">Kazenra Nederland</span>
+                <span className="text-2xl font-semibold text-gray-700">Cenra Nederland</span>
               </div>
             </div>
             <p className="text-gray-700 mb-8 leading-relaxed text-sm">
