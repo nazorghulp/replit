@@ -24,14 +24,14 @@ interface BlogPost {
 const blogPosts: BlogPost[] = [
   {
     id: "1",
-    title: "Welkom bij Xenra Nazorghulp – Rouw kent geen script",
-    excerpt: "Bij Xenra Nazorghulp geloven we dat rouw geen handleiding volgt. Er is geen 'standaardtraject' dat begint bij verdriet en eindigt bij verwerking. Iedereen beleeft verlies op zijn eigen manier. Soms heftig, soms stil. Soms direct, en soms… pas een jaar later, midden in de supermarkt bij het zien van een blik bruine bonen dat aan oma doet denken.",
+    title: "Welkom bij Cenra Nederland – Rouw kent geen script",
+    excerpt: "Bij Cenra Nederland geloven we dat rouw geen handleiding volgt. Er is geen 'standaardtraject' dat begint bij verdriet en eindigt bij verwerking. Iedereen beleeft verlies op zijn eigen manier. Soms heftig, soms stil. Soms direct, en soms… pas een jaar later, midden in de supermarkt bij het zien van een blik bruine bonen dat aan oma doet denken.",
     content: `
-      <p>Bij Xenra Nazorghulp geloven we dat rouw geen handleiding volgt. Er is geen "standaardtraject" dat begint bij verdriet en eindigt bij verwerking. Iedereen beleeft verlies op zijn eigen manier. Soms heftig, soms stil. Soms direct, en soms… pas een jaar later, midden in de supermarkt bij het zien van een blik bruine bonen dat aan oma doet denken.</p>
+      <p>Bij Cenra Nederland geloven we dat rouw geen handleiding volgt. Er is geen "standaardtraject" dat begint bij verdriet en eindigt bij verwerking. Iedereen beleeft verlies op zijn eigen manier. Soms heftig, soms stil. Soms direct, en soms… pas een jaar later, midden in de supermarkt bij het zien van een blik bruine bonen dat aan oma doet denken.</p>
 
       <p>Wij zijn er voor al die vormen van rouw. Voor de ouder die worstelt met schuldgevoelens na een overlijden. Voor het kind dat niet begrijpt waarom iedereen "doorgaat met leven". Voor de volwassene die ineens in paniek raakt bij het horen van een liedje. En ja, zelfs voor de persoon die zich afvraagt of het oké is om blij te zijn ná een begrafenis.</p>
 
-      <p>Xenra Nazorghulp is opgezet om een laagdrempelige, persoonlijke en flexibele vorm van begeleiding te bieden. Geen wachtlijsten. Geen volle wachtkamers. Geen verwijzingen. Bij ons kun je gewoon beginnen. Via WhatsApp, telefoon of beeldbellen. Op jouw manier. In jouw tempo.</p>
+      <p>Cenra Nederland is opgezet om een laagdrempelige, persoonlijke en flexibele vorm van begeleiding te bieden. Geen wachtlijsten. Geen volle wachtkamers. Geen verwijzingen. Bij ons kun je gewoon beginnen. Via WhatsApp, telefoon of beeldbellen. Op jouw manier. In jouw tempo.</p>
 
       <h3>Wat doen we?</h3>
       <p>We bieden begeleiding op maat, op afstand en afgestemd op de behoefte van de klant. Voor volwassenen werken we met maandpakketten, van één keer per week contact tot intensievere begeleiding.</p>
@@ -40,7 +40,7 @@ const blogPosts: BlogPost[] = [
 
       <p>We werken met vaste contactmomenten, korte lijnen en praktische middelen zoals op maat gemaakt behandelplan, rouwkalenders en opdrachten die passen bij de situatie van de klant.</p>
 
-      <p>Soms praten we over verlies. Soms juist niet. Soms gaat het gesprek over hoe je je brood weer proeft zonder schuldgevoel. Of over wat je zegt als iemand vraagt: "Ben je er al een beetje overheen?" Bij Xenra mag alles besproken worden, ook de dingen die je denkt dat 'niet normaal' zijn om te voelen.</p>
+      <p>Soms praten we over verlies. Soms juist niet. Soms gaat het gesprek over hoe je je brood weer proeft zonder schuldgevoel. Of over wat je zegt als iemand vraagt: "Ben je er al een beetje overheen?" Bij Cenra Nederland mag alles besproken worden, ook de dingen die je denkt dat 'niet normaal' zijn om te voelen.</p>
 
       <h3>Waarom een blog-pagina?</h3>
       <p>De wereld van rouw is vaak stil. Onzichtbaar. En tegelijkertijd leeft het overal.</p>
@@ -57,13 +57,13 @@ const blogPosts: BlogPost[] = [
       <h3>En jij?</h3>
       <p>Misschien herken je jezelf in de verhalen. Misschien juist niet. Misschien ben je op zoek naar hulp, voor jezelf, of voor iemand anders. Misschien lees je dit gewoon uit nieuwsgierigheid.</p>
 
-      <p>Wat je reden ook is: je bent welkom. En als jij ooit tegen iets aanloopt, groot of klein, weet dan dat je bij Xenra Nazorghulp terecht kunt. Ook als het gaat om dingen waarvan je denkt: "Zal ik me hier nou echt druk om maken?"</p>
+      <p>Wat je reden ook is: je bent welkom. En als jij ooit tegen iets aanloopt, groot of klein, weet dan dat je bij Cenra Nederland terecht kunt. Ook als het gaat om dingen waarvan je denkt: "Zal ik me hier nou echt druk om maken?"</p>
 
       <p><strong>Dat is precies waarom we bestaan.</strong></p>
 
-      <p><em>Welkom bij Xenra Nazorg.</em></p>
+      <p><em>Welkom bij Cenra Nederland.</em></p>
     `,
-    author: "Xenra Team",
+    author: "Cenra Nederland Team",
     date: "Juli 2025",
     readTime: "5 min",
     image: blogImagePath,
@@ -109,7 +109,7 @@ const blogPosts: BlogPost[] = [
 
       <p>Op een avond, terwijl haar vader al naar bed was, zat haar moeder achter de laptop. Ze typte zoekwoorden in die ze liever niet hardop wilde zeggen: rouwtherapie kinderen, online hulp na overlijden, rouwbegeleiding tieners.</p>
 
-      <p>Zo kwam ze op de website van Xenra Nazorg terecht en de woorden op de pagina leken precies te omschrijven waar hun gezin in zat: rauw verdriet, verlies dat alles verlamt en de mogelijkheid om niet alleen als ouder, maar ook als kind hulp te krijgen, juist als je geen zin hebt om ergens heen te gaan.</p>
+      <p>Zo kwam ze op de website van Cenra Nederland terecht en de woorden op de pagina leken precies te omschrijven waar hun gezin in zat: rauw verdriet, verlies dat alles verlamt en de mogelijkheid om niet alleen als ouder, maar ook als kind hulp te krijgen, juist als je geen zin hebt om ergens heen te gaan.</p>
 
       <p>De volgende ochtend vertelde ze Sanne erover en Sanne haalde haar schouders op. "Het zal toch niks helpen." Maar er zat een kleine aarzeling in haar stem en haar moeder greep die kans.</p>
 
@@ -153,11 +153,11 @@ const blogPosts: BlogPost[] = [
 
       <p>We zijn er nog steeds via de app en met één op één gesprekken. Niet omdat rouw een project is dat je afrondt, maar omdat het leven met verlies leren leven een langzaam proces is.</p>
 
-      <p>Haar ouders zeggen dat ze Xenra Nazorg zien als een reddingslijn, niet alleen voor hun dochter, maar ook voor henzelf.</p>
+      <p>Haar ouders zeggen dat ze Cenra Nederland zien als een reddingslijn, niet alleen voor hun dochter, maar ook voor henzelf.</p>
 
       <p>En zo blijft Sanne, stap voor stap, lopen op een weg die ze nooit had willen kennen.<br>Maar ze loopt hem niet meer alleen.</p>
     `,
-    author: "Xenra Team",
+    author: "Cenra Nederland Team",
     date: "Augustus 2025",
     readTime: "6 min",
     image: sanneBlogImagePath,
@@ -202,7 +202,7 @@ const blogPosts: BlogPost[] = [
 
       <p>De avonden waren het ergst, waar ze vroeger de hoop had dat hij misschien nog binnen zou komen lopen, wist ze nu zeker dat de stoel naast haar leeg zou blijven.</p>
 
-      <h3>Het contact met Xenra Nazorg</h3>
+      <h3>Het contact met Cenra Nederland</h3>
       <p>Na een paar weken vond Marjan de moed om hulp te zoeken. Ze kwam online op onze website terecht en stuurde een kort bericht: "Mijn man is net overleden. Ik weet niet hoe ik hiermee om moet gaan."</p>
 
       <p>Binnen een dag spraken we elkaar telefonisch. Niet om haar direct te overladen met vragen, maar om te luisteren, om te horen waar ze tegenaan liep. Marjan gaf aan dat ze het moeilijk vond om over Peter te praten met familie, omdat ze bang was dat ze hem steeds moesten verdedigen tegen opmerkingen als "Hij had ook minder moeten werken." Ze wilde steun zonder oordeel.</p>
@@ -229,7 +229,7 @@ const blogPosts: BlogPost[] = [
 
       <p>En terwijl haar verhaal uniek is, zit er een boodschap in die veel mensen zullen herkennen: Het leven is meer dan werken. En tijd samen is niet oneindig.</p>
     `,
-    author: "Xenra Team",
+    author: "Cenra Nederland Team",
     date: "Augustus 2025",
     readTime: "7 min",
     image: marjanBlogImagePath,
@@ -255,7 +255,7 @@ const blogPosts: BlogPost[] = [
 
       <p>Catharina woonde nog zelfstandig. Geen kinderen. Geen partner. "We waren met z'n tweeën. En nu is het ineens stil," zei ze. De koffie smaakte nergens naar. De televisie werd harder. En de dagen langer.</p>
 
-      <p>"Ik weet niet of ik dit goed doe, maar ik heb hulp nodig". Ze had ons nummer via een buurvrouw gekregen. Een aantekening op een briefje: Xenra Nazorghulp, hulp bij verdriet, ook via telefoon. Geen WhatsApp, want daar snapte ze niks van. Geen e-mail, want "ik weet wel waar de knopjes zitten, maar niet wat ze doen."</p>
+      <p>"Ik weet niet of ik dit goed doe, maar ik heb hulp nodig". Ze had ons nummer via een buurvrouw gekregen. Een aantekening op een briefje: Cenra Nederland, hulp bij verdriet, ook via telefoon. Geen WhatsApp, want daar snapte ze niks van. Geen e-mail, want "ik weet wel waar de knopjes zitten, maar niet wat ze doen."</p>
 
       <p>Ze belde. Rechtstreeks. "Ben ik bij de mensen van het verdriet?" vroeg ze voorzichtig. "Want ik zit er een beetje mee, geloof ik. Maar ik weet niet hoe dat moet, verwerken op mijn leeftijd. Het voelt zo… kinderachtig.". Dat was het begin.</p>
 
@@ -274,9 +274,9 @@ const blogPosts: BlogPost[] = [
       <h3>Iemand om tegen aan te praten</h3>
       <p>Deze blog is voor haar. En voor alle mensen op leeftijd die wel rouwen, maar geen woorden meer vinden. Voor wie digitaal contact lastig is. Voor wie zich afvraagt of het nog 'mag', om zo intens verdriet te voelen op een leeftijd waarop anderen vooral bezig zijn met kleinkinderen en rust.</p>
 
-      <p>Bij Xenra Nazorghulp helpen we ook hen. Niet met druk, schema's of eisen. Maar met een rustige stem aan de telefoon. Met een vast aanspreekpunt en vooral met oprechte aandacht, zonder oordeel. Want of je nou 13 bent of 78, rouw vraagt altijd om iemand die blijft, zonder haast en zonder script. Gewoon iemand die luistert als jij het even niet meer weet.</p>
+      <p>Bij Cenra Nederland helpen we ook hen. Niet met druk, schema's of eisen. Maar met een rustige stem aan de telefoon. Met een vast aanspreekpunt en vooral met oprechte aandacht, zonder oordeel. Want of je nou 13 bent of 78, rouw vraagt altijd om iemand die blijft, zonder haast en zonder script. Gewoon iemand die luistert als jij het even niet meer weet.</p>
     `,
-    author: "Xenra Team",
+    author: "Cenra Nederland Team",
     date: "Juli 2025",
     readTime: "5 min",
     image: secondBlogImagePath,
@@ -300,10 +300,10 @@ const blogPosts: BlogPost[] = [
 
       <p>De moeder wilde dat Laura professionele hulp zou krijgen. Maar Laura wilde niks, "Ze zei letterlijk: 'Als je iemand naar me toe stuurt, praat ik nooit meer.'" En dat meende ze.</p>
 
-      <h3>Vanuit wanhoop kwam ze bij Xenra</h3>
-      <p>De moeder vond ons via internet en ze bekeek de website van Xenra Nazorghulp en merkte dat we ook op afstand werken, via WhatsApp, zonder verplicht sessies. Ze stuurde ons een lange mail, vol frustratie en verdriet. Niet voor zichzelf, maar omdat ze haar dochter niet meer herkende.</p>
+      <h3>Vanuit wanhoop kwam ze bij Cenra Nederland</h3>
+      <p>De moeder vond ons via internet en ze bekeek de website van Cenra Nederland en merkte dat we ook op afstand werken, via WhatsApp, zonder verplicht sessies. Ze stuurde ons een lange mail, vol frustratie en verdriet. Niet voor zichzelf, maar omdat ze haar dochter niet meer herkende.</p>
 
-      <p>"Ik weet niet of dit mag, of dit werkt… maar kunnen jullie contact leggen met haar, zonder dat ze weet wie of wat jullie zijn?". We stelden voor om het volledig anoniem te doen. Geen openlijke sessies, geen 'dit is Xenra', gewoon neutraal, een anoniem appmaatje.</p>
+      <p>"Ik weet niet of dit mag, of dit werkt… maar kunnen jullie contact leggen met haar, zonder dat ze weet wie of wat jullie zijn?". We stelden voor om het volledig anoniem te doen. Geen openlijke sessies, geen 'dit is Cenra Nederland', gewoon neutraal, een anoniem appmaatje.</p>
 
       <p>Een onbekende die niks van haar wilde, maar wél altijd bereikbaar was. We gaven geen valse informatie, maar zeiden ook niet wie we waren. Alleen dat we 'iemand' waren die even naast haar wilde staan. Dat ze niks hoefde. Alleen lezen was al oké.</p>
 
@@ -336,11 +336,11 @@ const blogPosts: BlogPost[] = [
       <h3>De les van Laura</h3>
       <p>Wat Laura ons liet zien, is dat begeleiding niet altijd begint met een intakeformulier of een zorgplan. Soms begint het met een berichtje zonder afzender, zonder eisen en zonder verwachtingen.</p>
 
-      <p>Dat is waarom we bij Xenra Nazorghulp ook dit soort trajecten doen. Niet alles hoeft in hokjes te passen en zeker niet als het gaat om kinderen en jongeren die rouwen op hun eigen, ongrijpbare manier.</p>
+      <p>Dat is waarom we bij Cenra Nederland ook dit soort trajecten doen. Niet alles hoeft in hokjes te passen en zeker niet als het gaat om kinderen en jongeren die rouwen op hun eigen, ongrijpbare manier.</p>
 
       <p>We zien het als onze taak om erbij te zijn, desnoods in stilte en desnoods anoniem. Zolang het maar bijdraagt aan dat ene doel: dat iemand op een dag zegt, zoals Laura zei: "Het is nog steeds rot. Maar ik ben niet meer alleen."</p>
     `,
-    author: "Xenra Team",
+    author: "Cenra Nederland Team",
     date: "Augustus 2025",
     readTime: "7 min",
     image: thirdBlogImagePath,
@@ -449,20 +449,20 @@ export default function Blogs() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "name": "Xenra Nazorghulp Blog",
+    "name": "Cenra Nederland Blog",
     "description": "Persoonlijke verhalen en inzichten over rouwbegeleiding en verliesverwerking",
     "url": "https://nazorghulp.nl/blogs",
     "inLanguage": "nl-NL",
     "publisher": {
       "@type": "Organization",
-      "name": "Xenra Nazorghulp"
+      "name": "Cenra Nederland"
     }
   };
 
   return (
     <div className="min-h-screen">
       <HeadMeta 
-        title="Blogs & Verhalen - Xenra Nazorghulp"
+        title="Blogs & Verhalen - Cenra Nederland"
         description="Ontdek waardevolle artikelen, persoonlijke verhalen en professionele inzichten die je kunnen helpen tijdens je rouwproces. Praktische ondersteuning en verbondenheid."
         keywords="rouwbegeleiding blog, nazorg verhalen, rouw tips, verlies verwerken, rouwproces inzichten"
         url="https://nazorghulp.nl/blogs"

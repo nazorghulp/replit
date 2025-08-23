@@ -9,11 +9,11 @@ export default function OverOns() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "Over Xenra Nazorghulp",
+    "name": "Over Cenra Nederland",
     "description": "Ervaren begeleiding bij verlies. Ons team van psychologen en begeleiders helpt volwassenen en kinderen hun verlies te verwerken.",
     "mainEntity": {
       "@type": "Organization",
-      "name": "Xenra Nazorghulp",
+      "name": "Cenra Nederland",
       "description": "Professionele nazorg en rouwbegeleiding",
       "serviceArea": "Nederland"
     }
@@ -22,7 +22,7 @@ export default function OverOns() {
   return (
     <div>
       <HeadMeta 
-        title="Over Xenra Nazorghulp - Ervaren begeleiding bij verlies"
+        title="Over Cenra Nederland - Ervaren begeleiding bij verlies"
         description="Ons team van psychologen en begeleiders helpt volwassenen en kinderen hun verlies te verwerken. Professionele nazorg met jarenlange ervaring in rouwbegeleiding."
         keywords="rouwbegeleiding team, nazorg ervaring, begeleiding verlies, professionele nazorg"
         url="https://nazorg.nl/over-ons"
@@ -95,7 +95,7 @@ export default function OverOns() {
             </h2>
             
             <p className="text-xl text-warm-gray max-w-3xl mx-auto leading-relaxed">
-              Bij Xenra Nazorghulp geloven we dat rouw geen lineair proces is. Iedereen beleeft het op zijn of haar eigen manier. Daarom werken wij met behandeltrajecten die volledig zijn afgestemd op de situatie, het tempo en de wensen van de persoon die we begeleiden.
+              Bij Cenra Nederland geloven we dat rouw geen lineair proces is. Iedereen beleeft het op zijn of haar eigen manier. Daarom werken wij met behandeltrajecten die volledig zijn afgestemd op de situatie, het tempo en de wensen van de persoon die we begeleiden.
             </p>
           </div>
 
@@ -223,7 +223,7 @@ export default function OverOns() {
               <div className="p-10 lg:p-16">
                 <div className="space-y-8 text-lg lg:text-xl leading-relaxed">
                   <p className="text-warm-gray">
-                    Achter Xenra Nazorghulp staat een klein, betrokken team van professionele psychologen en begeleiders. 
+                    Achter Cenra Nederland staat een klein, betrokken team van professionele psychologen en begeleiders. 
                     We hebben ruime ervaring in het ondersteunen van mensen na het verlies van een dierbare – 
                     <strong className="text-purple-primary">zowel volwassenen als jongeren en kinderen tot 17 jaar</strong>.
                   </p>

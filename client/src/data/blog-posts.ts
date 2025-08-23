@@ -29,7 +29,7 @@ export const blogPosts: BlogPost[] = [
     id: "1",
     slug: "welkom-bij-cenra-nederland-rouw-kent-geen-script",
     title: "Welkom bij Cenra Nederland – Rouw kent geen script",
-    metaTitle: "Welkom bij Cenra Nederland - Persoonlijke Rouwbegeleiding | Nazorghulp.nl",
+    metaTitle: "Welkom bij Cenra Nederland - Persoonlijke Rouwbegeleiding | Cenra Nederland",
     metaDescription: "Ontdek Cenra Nederland: flexibele en laagdrempelige rouwbegeleiding zonder wachtlijsten. Voor volwassenen en kinderen, op jouw manier en in jouw tempo.",
     excerpt: "Bij Cenra Nederland geloven we dat rouw geen handleiding volgt. Er is geen 'standaardtraject' dat begint bij verdriet en eindigt bij verwerking. Iedereen beleeft verlies op zijn eigen manier.",
     content: `
@@ -382,7 +382,7 @@ export const blogPosts: BlogPost[] = [
     id: "4",
     slug: "een-kopje-koffie-voor-twee-rouw-op-leeftijd",
     title: "Een kopje koffie voor twee, over rouw op leeftijd en hoe we toch nabij konden zijn",
-    metaTitle: "Een kopje koffie voor twee - Rouw op leeftijd | Nazorghulp voor Ouderen",
+    metaTitle: "Een kopje koffie voor twee - Rouw op leeftijd | Cenra Nederland",
     metaDescription: "Het verhaal van 78-jarige Catharina na het verlies van haar zus. Ontdek hoe telefonische rouwbegeleiding ook op latere leeftijd waardevol kan zijn.",
     excerpt: "Ze waren zussen, maar eigenlijk meer dan dat. Maatjes, kameraden en vertrouwde elkaars zwijgen net zo goed als elkaars verhalen. Mevrouw Catharina was 78 toen haar oudere zus overleed.",
     content: `

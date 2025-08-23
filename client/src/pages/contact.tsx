@@ -8,11 +8,11 @@ export default function Contact() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contact Xenra Nazorghulp",
+    "name": "Contact Cenra Nederland",
     "description": "Neem direct contact op voor rouwbegeleiding",
     "mainEntity": {
       "@type": "Organization",
-      "name": "Xenra Nazorghulp",
+      "name": "Cenra Nederland",
       "telephone": "085-401 92 65",
       "email": "info@nazorg.nl",
       "contactPoint": {
@@ -27,7 +27,7 @@ export default function Contact() {
   return (
     <div>
       <HeadMeta 
-        title="Contact Xenra Nazorghulp - Neem direct contact op"
+        title="Contact Cenra Nederland - Neem direct contact op"
         description="Bel, mail of vul het formulier in. We reageren zeer kort. WhatsApp, telefoon of e-mail - kies wat voor jou prettig voelt."
         keywords="contact nazorg, contact rouwbegeleiding, telefoonnummer rouwbegeleiding, WhatsApp nazorg"
         url="https://nazorg.nl/contact"

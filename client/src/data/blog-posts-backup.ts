@@ -28,18 +28,18 @@ export const blogPosts: BlogPost[] = [
   {
     id: "1", 
     slug: "welkom-bij-xenra-nazorghulp-rouw-kent-geen-script",
-    title: "Welkom bij Xenra Nazorghulp – Rouw kent geen script",
-    metaTitle: "Welkom bij Xenra Nazorghulp - Persoonlijke Rouwbegeleiding | Nazorghulp.nl",
-    metaDescription: "Ontdek Xenra Nazorghulp: flexibele en laagdrempelige rouwbegeleiding zonder wachtlijsten. Voor volwassenen en kinderen, op jouw manier en in jouw tempo.",
-    excerpt: "Bij Xenra Nazorghulp geloven we dat rouw geen handleiding volgt. Er is geen 'standaardtraject' dat begint bij verdriet en eindigt bij verwerking. Iedereen beleeft verlies op zijn eigen manier.",
+    title: "Welkom bij Cenra Nederland – Rouw kent geen script",
+    metaTitle: "Welkom bij Cenra Nederland - Persoonlijke Rouwbegeleiding | Nazorghulp.nl",
+    metaDescription: "Ontdek Cenra Nederland: flexibele en laagdrempelige rouwbegeleiding zonder wachtlijsten. Voor volwassenen en kinderen, op jouw manier en in jouw tempo.",
+    excerpt: "Bij Cenra Nederland geloven we dat rouw geen handleiding volgt. Er is geen 'standaardtraject' dat begint bij verdriet en eindigt bij verwerking. Iedereen beleeft verlies op zijn eigen manier.",
     content: `
-      <h2>Wat betekent rouwbegeleiding bij Xenra?</h2>
-      <p>Bij Xenra Nazorghulp geloven we dat rouw geen handleiding volgt. Er is geen "standaardtraject" dat begint bij verdriet en eindigt bij verwerking. Iedereen beleeft verlies op zijn eigen manier. Soms heftig, soms stil. Soms direct, en soms… pas een jaar later, midden in de supermarkt bij het zien van een blik bruine bonen dat aan oma doet denken.</p>
+      <h2>Wat betekent rouwbegeleiding bij Cenra Nederland?</h2>
+      <p>Bij Cenra Nederland geloven we dat rouw geen handleiding volgt. Er is geen "standaardtraject" dat begint bij verdriet en eindigt bij verwerking. Iedereen beleeft verlies op zijn eigen manier. Soms heftig, soms stil. Soms direct, en soms… pas een jaar later, midden in de supermarkt bij het zien van een blik bruine bonen dat aan oma doet denken.</p>
 
       <p>Wij zijn er voor al die vormen van rouw. Voor de ouder die worstelt met schuldgevoelens na een overlijden. Voor het kind dat niet begrijpt waarom iedereen "doorgaat met leven". Voor de volwassene die ineens in paniek raakt bij het horen van een liedje. En ja, zelfs voor de persoon die zich afvraagt of het oké is om blij te zijn ná een begrafenis.</p>
 
       <h2>Onze aanpak: flexibel en laagdrempelig</h2>
-      <p>Xenra Nazorghulp is opgezet om een laagdrempelige, persoonlijke en flexibele vorm van begeleiding te bieden. Geen wachtlijsten. Geen volle wachtkamers. Geen verwijzingen. Bij ons kun je gewoon beginnen. Via WhatsApp, telefoon of beeldbellen. Op jouw manier. In jouw tempo.</p>
+      <p>Cenra Nederland is opgezet om een laagdrempelige, persoonlijke en flexibele vorm van begeleiding te bieden. Geen wachtlijsten. Geen volle wachtkamers. Geen verwijzingen. Bij ons kun je gewoon beginnen. Via WhatsApp, telefoon of beeldbellen. Op jouw manier. In jouw tempo.</p>
 
       <h3>Wat doen we precies?</h3>
       <p>We bieden begeleiding op maat, op afstand en afgestemd op de behoefte van de klant. Voor volwassenen werken we met maandpakketten, van één keer per week contact tot intensievere begeleiding.</p>
@@ -48,7 +48,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>We werken met vaste contactmomenten, korte lijnen en praktische middelen zoals op maat gemaakt behandelplan, rouwkalenders en opdrachten die passen bij de situatie van de klant.</p>
 
-      <p>Soms praten we over verlies. Soms juist niet. Soms gaat het gesprek over hoe je je brood weer proeft zonder schuldgevoel. Of over wat je zegt als iemand vraagt: "Ben je er al een beetje overheen?" Bij Xenra mag alles besproken worden, ook de dingen die je denkt dat 'niet normaal' zijn om te voelen.</p>
+      <p>Soms praten we over verlies. Soms juist niet. Soms gaat het gesprek over hoe je je brood weer proeft zonder schuldgevoel. Of over wat je zegt als iemand vraagt: "Ben je er al een beetje overheen?" Bij Cenra Nederland mag alles besproken worden, ook de dingen die je denkt dat 'niet normaal' zijn om te voelen.</p>
 
       <h2>Waarom deze blog-pagina?</h2>
       <p>De wereld van rouw is vaak stil. Onzichtbaar. En tegelijkertijd leeft het overal.</p>
@@ -65,18 +65,18 @@ export const blogPosts: BlogPost[] = [
       <h2>Ben jij er ook?</h2>
       <p>Misschien herken je jezelf in de verhalen. Misschien juist niet. Misschien ben je op zoek naar hulp, voor jezelf, of voor iemand anders. Misschien lees je dit gewoon uit nieuwsgierigheid.</p>
 
-      <p>Wat je reden ook is: je bent welkom. En als jij ooit tegen iets aanloopt, groot of klein, weet dan dat je bij Xenra Nazorghulp terecht kunt. Ook als het gaat om dingen waarvan je denkt: "Zal ik me hier nou echt druk om maken?"</p>
+      <p>Wat je reden ook is: je bent welkom. En als jij ooit tegen iets aanloopt, groot of klein, weet dan dat je bij Cenra Nederland terecht kunt. Ook als het gaat om dingen waarvan je denkt: "Zal ik me hier nou echt druk om maken?"</p>
 
       <p><strong>Dat is precies waarom we bestaan.</strong></p>
 
-      <p><em>Welkom bij Xenra Nazorg.</em></p>
+      <p><em>Welkom bij Cenra Nederland Nazorg.</em></p>
     `,
-    author: "Xenra Team",
+    author: "Cenra Nederland Team",
     date: "Juli 2025",
     publishedDate: "2025-07-15",
     readTime: "5 min",
     image: blogImagePath,
-    alt: "Familie ondersteuning en rouwbegeleiding - Xenra Nazorghulp biedt warme begeleiding voor nabestaanden",
+    alt: "Familie ondersteuning en rouwbegeleiding - Cenra Nederland biedt warme begeleiding voor nabestaanden",
     isPinned: true,
     tags: ["rouwbegeleiding", "welkom", "flexibele aanpak", "laagdrempelig"]
   },
@@ -85,7 +85,7 @@ export const blogPosts: BlogPost[] = [
     slug: "de-stilte-na-het-lachen-het-verhaal-van-sanne",
     title: "\"De stilte na het lachen\" – Het verhaal van Sanne",
     metaTitle: "De stilte na het lachen - Het verhaal van Sanne | Rouwbegeleiding voor Jongeren",
-    metaDescription: "Het verhaal van 16-jarige Sanne na het verlies van haar zus. Lees hoe Xenra Nazorghulp jongeren helpt met rouwverwerking en steun biedt in moeilijke tijden.",
+    metaDescription: "Het verhaal van 16-jarige Sanne na het verlies van haar zus. Lees hoe Cenra Nederland jongeren helpt met rouwverwerking en steun biedt in moeilijke tijden.",
     excerpt: "Het was een druilerige dinsdagmiddag in november, de lucht hing zwaar, alsof hij op elk moment zou scheuren. Binnen, in een klein rijtjeshuis in een rustige woonwijk, rook het nog naar warme chocolademelk.",
     content: `
       <h2>Een gewone dinsdagmiddag die alles veranderde</h2>
@@ -104,7 +104,7 @@ export const blogPosts: BlogPost[] = [
       <p>Op school waren haar vrienden lief, maar onhandig. Ze wisten niet wat ze moesten zeggen, dus zeiden ze vaak niets. Of juist te veel. "Het komt wel goed," zei haar beste vriendin Emma. "De tijd heelt alle wonden." Sanne wilde schreeuwen: waarom zou ik willen dat het 'goed komt'? Waarom zou ik willen vergeten hoe ze eruitzag als ze lachte?</p>
 
       <h2>Hulp zoeken voor jongeren in rouw</h2>
-      <p>Sannes moeder zocht hulp. De huisarts verwees naar een psycholoog, maar daar was een wachtlijst van vier maanden. "Ze moet nu hulp hebben," zei haar moeder tegen de praktijkassistente. "Ze eet bijna niet, ze slaapt niet, ze praat nauwelijks." Via internet vond ze Xenra Nazorghulp.</p>
+      <p>Sannes moeder zocht hulp. De huisarts verwees naar een psycholoog, maar daar was een wachtlijst van vier maanden. "Ze moet nu hulp hebben," zei haar moeder tegen de praktijkassistente. "Ze eet bijna niet, ze slaapt niet, ze praat nauwelijks." Via internet vond ze Cenra Nederland.</p>
 
       <p>Het eerste contact was via WhatsApp. Sanne mocht gewoon typen wat ze voelde, zonder afspraak, zonder dat ze haar verhaal aan een vreemde in een witte jas hoefde te vertellen. Haar begeleider, Marjan, stuurde geen lege zinnen terug zoals "het komt wel goed". In plaats daarvan schreef ze: "Wat naar dat je je zo alleen voelt. En wat logisch dat je je schuldig voelt. Dat hoort bij rouw, maar dat maakt het niet minder zwaar."</p>
 
@@ -119,7 +119,7 @@ export const blogPosts: BlogPost[] = [
       <p>Marjan gaf Sanne opdrachten die pasten bij haar leeftijd en situatie. Ze mocht een brief schrijven aan Lisa met alles wat ze nog wilde zeggen. Ze maakte een fotoboek met hun mooiste herinneringen. En heel belangrijk: ze leerde dat rouw niet "over" gaat, maar dat je leert ermee te leven.</p>
 
       <h3>Contact met andere jongeren</h3>
-      <p>Via Xenra kwam Sanne ook in contact met andere jongeren die verlies hadden meegemaakt. Niet in groepstherapie – daar was ze nog niet klaar voor – maar via een besloten chatgroep. Daar las ze verhalen van leeftijdsgenoten die hun vader, moeder of broer hadden verloren. Verhalen die haar lieten zien dat ze niet de enige was die worstelde met schuldgevoelens en boosheid.</p>
+      <p>Via Cenra Nederland kwam Sanne ook in contact met andere jongeren die verlies hadden meegemaakt. Niet in groepstherapie – daar was ze nog niet klaar voor – maar via een besloten chatgroep. Daar las ze verhalen van leeftijdsgenoten die hun vader, moeder of broer hadden verloren. Verhalen die haar lieten zien dat ze niet de enige was die worstelde met schuldgevoelens en boosheid.</p>
 
       <h2>Verder leven, niet vergeten</h2>
       <p>Een jaar later gaat het beter met Sanne. Ze gaat weer naar school, heeft weer contact met vrienden, kan soms zelfs lachen zonder zich schuldig te voelen. De mok van Lisa staat nog steeds op de salontafel, maar nu voelt dat niet meer als een mes in haar hart. Het voelt als een herinnering aan iemand die ze voor altijd zal missen, maar van wie ze de liefde mee mag nemen.</p>
@@ -139,9 +139,9 @@ export const blogPosts: BlogPost[] = [
         <li>Flexibiliteit in tempo en intensiteit</li>
       </ul>
 
-      <p>Bij Xenra Nazorghulp begrijpen we dat jongeren anders rouwen dan volwassenen. We bieden daarom speciale begeleiding aan voor kinderen en tieners tot 18 jaar, altijd afgestemd op hun eigen tempo en behoeften.</p>
+      <p>Bij Cenra Nederland begrijpen we dat jongeren anders rouwen dan volwassenen. We bieden daarom speciale begeleiding aan voor kinderen en tieners tot 18 jaar, altijd afgestemd op hun eigen tempo en behoeften.</p>
     `,
-    author: "Xenra Team",
+    author: "Cenra Nederland Team",
     date: "Augustus 2025",
     publishedDate: "2025-08-15",
     readTime: "8 min",
@@ -191,7 +191,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>De avonden waren het ergst, waar ze vroeger de hoop had dat hij misschien nog binnen zou komen lopen, wist ze nu zeker dat de stoel naast haar leeg zou blijven.</p>
 
-      <h2>Het contact met Xenra Nazorg</h2>
+      <h2>Het contact met Cenra Nederland Nazorg</h2>
       <p>Na een paar weken vond Marjan de moed om hulp te zoeken. Ze kwam online op onze website terecht en stuurde een kort bericht: "Mijn man is net overleden. Ik weet niet hoe ik hiermee om moet gaan."</p>
 
       <p>Binnen een dag spraken we elkaar telefonisch. Niet om haar direct te overladen met vragen, maar om te luisteren, om te horen waar ze tegenaan liep. Marjan gaf aan dat ze het moeilijk vond om over Peter te praten met familie, omdat ze bang was dat ze hem steeds moesten verdedigen tegen opmerkingen als "Hij had ook minder moeten werken." Ze wilde steun zonder oordeel.</p>
@@ -218,7 +218,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>En terwijl haar verhaal uniek is, zit er een boodschap in die veel mensen zullen herkennen: Het leven is meer dan werken. En tijd samen is niet oneindig.</p>
     `,
-    author: "Xenra Team",
+    author: "Cenra Nederland Team",
     date: "Augustus 2025",
     publishedDate: "2025-08-20",
     readTime: "7 min",
@@ -251,7 +251,7 @@ export const blogPosts: BlogPost[] = [
       <p>Catharina woonde nog zelfstandig. Geen kinderen. Geen partner. "We waren met z'n tweeën. En nu is het ineens stil," zei ze. De koffie smaakte nergens naar. De televisie werd harder. En de dagen langer.</p>
 
       <h3>Hulp zoeken op latere leeftijd</h3>
-      <p>"Ik weet niet of ik dit goed doe, maar ik heb hulp nodig". Ze had ons nummer via een buurvrouw gekregen. Een aantekening op een briefje: Xenra Nazorghulp, hulp bij verdriet, ook via telefoon. Geen WhatsApp, want daar snapte ze niks van. Geen e-mail, want "ik weet wel waar de knopjes zitten, maar niet wat ze doen."</p>
+      <p>"Ik weet niet of ik dit goed doe, maar ik heb hulp nodig". Ze had ons nummer via een buurvrouw gekregen. Een aantekening op een briefje: Cenra Nederland, hulp bij verdriet, ook via telefoon. Geen WhatsApp, want daar snapte ze niks van. Geen e-mail, want "ik weet wel waar de knopjes zitten, maar niet wat ze doen."</p>
 
       <p>Ze belde. Rechtstreeks. "Ben ik bij de mensen van het verdriet?" vroeg ze voorzichtig. "Want ik zit er een beetje mee, geloof ik. Maar ik weet niet hoe dat moet, verwerken op mijn leeftijd. Het voelt zo… kinderachtig.". Dat was het begin.</p>
 
@@ -270,9 +270,9 @@ export const blogPosts: BlogPost[] = [
       <h2>Iemand om tegen aan te praten</h2>
       <p>Deze blog is voor haar. En voor alle mensen op leeftijd die wel rouwen, maar geen woorden meer vinden. Voor wie digitaal contact lastig is. Voor wie zich afvraagt of het nog 'mag', om zo intens verdriet te voelen op een leeftijd waarop anderen vooral bezig zijn met kleinkinderen en rust.</p>
 
-      <p>Bij Xenra Nazorghulp helpen we ook hen. Niet met druk, schema's of eisen. Maar met een rustige stem aan de telefoon. Met een vast aanspreekpunt en vooral met oprechte aandacht, zonder oordeel. Want of je nou 13 bent of 78, rouw vraagt altijd om iemand die blijft, zonder haast en zonder script. Gewoon iemand die luistert als jij het even niet meer weet.</p>
+      <p>Bij Cenra Nederland helpen we ook hen. Niet met druk, schema's of eisen. Maar met een rustige stem aan de telefoon. Met een vast aanspreekpunt en vooral met oprechte aandacht, zonder oordeel. Want of je nou 13 bent of 78, rouw vraagt altijd om iemand die blijft, zonder haast en zonder script. Gewoon iemand die luistert als jij het even niet meer weet.</p>
     `,
-    author: "Xenra Team",
+    author: "Cenra Nederland Team",
     date: "Juli 2025",
     publishedDate: "2025-07-25",
     readTime: "5 min",
@@ -284,7 +284,7 @@ export const blogPosts: BlogPost[] = [
     id: "5",
     slug: "ik-wil-helemaal-niks-anonieme-verbinding",
     title: "\"Ik wil helemaal niks\", een meisje, een scherm en een stille verbinding",
-    metaTitle: "Ik wil helemaal niks - Anonieme Begeleiding voor Jongeren | Xenra Nazorghulp",
+    metaTitle: "Ik wil helemaal niks - Anonieme Begeleiding voor Jongeren | Cenra Nederland",
     metaDescription: "Het verhaal van Laura (13) die na het verlies van haar vader hulp kreeg via anonieme chat. Ontdek hoe digitale rouwbegeleiding jongeren kan helpen.",
     excerpt: "Soms komt hulp niet binnen via een schoolpsycholoog, een verwijzing of een intakegesprek. Soms komt het binnen via een appje, geen naam, geen gezicht en geen druk.",
     content: `
@@ -302,10 +302,10 @@ export const blogPosts: BlogPost[] = [
 
       <p>De moeder wilde dat Laura professionele hulp zou krijgen. Maar Laura wilde niks, "Ze zei letterlijk: 'Als je iemand naar me toe stuurt, praat ik nooit meer.'" En dat meende ze.</p>
 
-      <h2>Vanuit wanhoop kwam ze bij Xenra</h2>
-      <p>De moeder vond ons via internet en ze bekeek de website van Xenra Nazorghulp en merkte dat we ook op afstand werken, via WhatsApp, zonder verplicht sessies. Ze stuurde ons een lange mail, vol frustratie en verdriet. Niet voor zichzelf, maar omdat ze haar dochter niet meer herkende.</p>
+      <h2>Vanuit wanhoop kwam ze bij Cenra Nederland</h2>
+      <p>De moeder vond ons via internet en ze bekeek de website van Cenra Nederland en merkte dat we ook op afstand werken, via WhatsApp, zonder verplicht sessies. Ze stuurde ons een lange mail, vol frustratie en verdriet. Niet voor zichzelf, maar omdat ze haar dochter niet meer herkende.</p>
 
-      <p>"Ik weet niet of dit mag, of dit werkt… maar kunnen jullie contact leggen met haar, zonder dat ze weet wie of wat jullie zijn?". We stelden voor om het volledig anoniem te doen. Geen openlijke sessies, geen 'dit is Xenra', gewoon neutraal, een anoniem appmaatje.</p>
+      <p>"Ik weet niet of dit mag, of dit werkt… maar kunnen jullie contact leggen met haar, zonder dat ze weet wie of wat jullie zijn?". We stelden voor om het volledig anoniem te doen. Geen openlijke sessies, geen 'dit is Cenra Nederland', gewoon neutraal, een anoniem appmaatje.</p>
 
       <p>Een onbekende die niks van haar wilde, maar wél altijd bereikbaar was. We gaven geen valse informatie, maar zeiden ook niet wie we waren. Alleen dat we 'iemand' waren die even naast haar wilde staan. Dat ze niks hoefde. Alleen lezen was al oké.</p>
 
@@ -338,11 +338,11 @@ export const blogPosts: BlogPost[] = [
       <h2>De les van Laura</h2>
       <p>Wat Laura ons liet zien, is dat begeleiding niet altijd begint met een intakeformulier of een zorgplan. Soms begint het met een berichtje zonder afzender, zonder eisen en zonder verwachtingen.</p>
 
-      <p>Dat is waarom we bij Xenra Nazorghulp ook dit soort trajecten doen. Niet alles hoeft in hokjes te passen en zeker niet als het gaat om kinderen en jongeren die rouwen op hun eigen, ongrijpbare manier.</p>
+      <p>Dat is waarom we bij Cenra Nederland ook dit soort trajecten doen. Niet alles hoeft in hokjes te passen en zeker niet als het gaat om kinderen en jongeren die rouwen op hun eigen, ongrijpbare manier.</p>
 
       <p>We zien het als onze taak om erbij te zijn, desnoods in stilte en desnoods anoniem. Zolang het maar bijdraagt aan dat ene doel: dat iemand op een dag zegt, zoals Laura zei: "Het is nog steeds rot. Maar ik ben niet meer alleen."</p>
     `,
-    author: "Xenra Team",
+    author: "Cenra Nederland Team",
     date: "Augustus 2025",
     publishedDate: "2025-08-25",
     readTime: "7 min",
