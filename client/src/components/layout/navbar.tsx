@@ -17,12 +17,11 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-full">
           {/* Left Logo */}
           <Link href="/" className="flex items-center relative z-20">
-            <div className="w-32 sm:w-36 md:w-40 h-12 sm:h-14 md:h-16 bg-white rounded-lg flex items-center justify-center p-1 shadow-lg border-2 border-white/20">
+            <div className="w-32 sm:w-36 md:w-40 h-12 sm:h-14 md:h-16 bg-white rounded-lg flex items-center justify-center shadow-lg border-2 border-white/20 overflow-hidden">
               <img 
                 src={logoPath} 
                 alt="Cenra Nederland" 
-                className="w-full h-full object-contain"
-                style={{ clipPath: 'none' }}
+                className="w-full h-full object-cover"
               />
             </div>
           </Link>
