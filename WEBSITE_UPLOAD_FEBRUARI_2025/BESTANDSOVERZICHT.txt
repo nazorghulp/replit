@@ -1,0 +1,45 @@
+CENRA NEDERLAND WEBSITE - DOWNLOAD PAKKET FEBRUARI 2025
+=======================================================
+
+TOTALE GROOTTE: 8.8MB
+AANTAL BESTANDEN: 19
+AANTAL AFBEELDINGEN: 12 (allemaal geoptimaliseerd)
+
+HOOFDBESTANDEN:
+├── index.html (5.4KB) - Hoofdpagina
+├── blogs.html (5.4KB) - Blog overzichtspagina  
+├── .htaccess (2.7KB) - Apache configuratie
+├── robots.txt (510B) - Zoekmachine instructies
+├── sitemap.xml (2.3KB) - XML sitemap
+├── UPLOAD_INSTRUCTIES.md - Gedetailleerde upload handleiding
+└── BESTANDSOVERZICHT.txt - Dit bestand
+
+ASSETS MAP (8.7MB):
+├── CSS: index-v8-66q89.css (124KB) - Gecompileerde Tailwind CSS
+├── JavaScript: index-VgF_AeNl.js (431KB) - React applicatie bundle
+└── AFBEELDINGEN (8.1MB totaal):
+    ├── Cenra Nederland Logo web_1755957075296-DQEz_unK.png (37KB) - NIEUW LOGO
+    ├── sanne-blog-foto-optimized-Dv4nGsT5.png (74KB)
+    ├── marjan-scherp-2024-CMLYJKBe.png (142KB)
+    ├── zittend zonder gezicht_1753737536522_optimized-nc3fSc9A.png (575KB)
+    ├── gezin zonder man 2_1753906889142_optimized-4Nf-Jmb5.png (621KB)
+    ├── image_1753725391508_optimized-CfB7tk22.png (720KB)
+    ├── image_1754354797503_optimized-q1QiqNuZ.png (826KB)
+    ├── therapie kind_1753803329995_optimized-5-76tFu4.png (886KB)
+    ├── image_1754353490936_optimized-CwqWqsHo.png (918KB)
+    ├── Peaceful_healing_landscape_break_53864a0f-DZFPNnDS.png (982KB)
+    ├── therapie kind 2_1753905937844_optimized-BDpvRkO_.png (1.3MB)
+    └── therapie 2_1753907123918_optimized-BCiMBXem.png (1.5MB)
+
+BELANGRIJKE UPDATES:
+✅ Complete rebrand naar "Cenra Nederland"
+✅ Nieuw logo geïmplementeerd (37KB, geoptimaliseerd)
+✅ Alle "Xenra" verwijzingen vervangen
+✅ SEO metadata volledig bijgewerkt  
+✅ Telefoon transparantie "(lokaal tarief)" behouden
+✅ Geoptimaliseerde afbeeldingen (89% kleiner dan origineel)
+✅ Modern responsive design
+✅ Google Analytics compatibel
+✅ Apache routing geconfigureerd
+
+KLAAR VOOR UPLOAD NAAR: nazorg.nl
