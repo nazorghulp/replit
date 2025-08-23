@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
-import logoPath from "@assets/logo web_1753678013397.jpg";
+import logoPath from "@assets/Cenra Nederland Logo web_1755957075296.png";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +22,7 @@ export default function Navbar() {
                 src={logoPath} 
                 alt="Cenra Nederland" 
                 className="w-full h-full object-contain"
-                style={{ clipPath: 'inset(15% 10% 15% 10%)' }}
+                style={{ clipPath: 'none' }}
               />
             </div>
           </Link>

@@ -14,7 +14,7 @@ export default function HeadMeta({
   title, 
   description, 
   keywords = '',
-  image = 'https://nazorghulp.nl/assets/logo%20web_1753678013397-D2Ku1MAC.jpg',
+  image = 'https://nazorg.nl/assets/Cenra%20Nederland%20Logo%20web_1755957075296.png',
   url = '',
   type = 'website',
   structuredData

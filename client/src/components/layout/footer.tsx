@@ -1,5 +1,5 @@
 import { Mail, Clock, Calendar } from "lucide-react";
-import Logo from "@/components/ui/logo";
+import logoPath from "@assets/Cenra Nederland Logo web_1755957075296.png";
 
 export default function Footer() {
   return (
@@ -9,7 +9,13 @@ export default function Footer() {
           <div>
             <div className="mb-6">
               <div className="flex items-center">
-                <span className="text-2xl font-semibold text-gray-700">Cenra Nederland</span>
+                <div className="w-40 h-16 bg-white rounded-lg flex items-center justify-center p-1">
+                  <img 
+                    src={logoPath} 
+                    alt="Cenra Nederland" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
               </div>
             </div>
             <p className="text-gray-700 mb-8 leading-relaxed text-sm">
