@@ -49,7 +49,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-600 mt-8 pt-8 text-center">
           <p className="text-gray-700">
-            &copy; 2024 Kazenra Nederland. Alle rechten voorbehouden. | Privacy | Algemene Voorwaarden
+            &copy; 2024 Cenra Nederland. Alle rechten voorbehouden. | Privacy | Algemene Voorwaarden
           </p>
         </div>
       </div>

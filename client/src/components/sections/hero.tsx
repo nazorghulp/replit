@@ -16,7 +16,7 @@ export default function Hero() {
         <div className="text-center text-white max-w-4xl mx-auto">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-6 leading-tight">
             <span className="block">Nazorg voor Nabestaanden</span>
-            <span className="block text-orange-light">Kazenra Nederland</span>
+            <span className="block text-orange-light">Cenra Nederland</span>
           </h1>
         </div>
       </div>
@@ -46,7 +46,7 @@ export default function Hero() {
                   </p>
                   
                   <p>
-                    Bij Kazenra Nederland bieden we niet alleen een luisterend oor, maar professionele online therapie 
+                    Bij Cenra Nederland bieden we niet alleen een luisterend oor, maar professionele online therapie 
                     door ervaren psychologen, gespecialiseerd in rouw. We begrijpen dat rouwen geen rechte lijn is: 
                     de ene dag lukt het je om te praten, de andere dag voelt elke stap te zwaar.
                   </p>
@@ -120,14 +120,14 @@ export default function Hero() {
                     Verdriet, boosheid, eenzaamheid en verwarring zijn allemaal normale reacties.
                   </p>
                   <p>
-                    Bij Kazenra Nederland begrijpen we dat iedereen anders rouwt. Er is geen 'juiste' manier om 
+                    Bij Cenra Nederland begrijpen we dat iedereen anders rouwt. Er is geen 'juiste' manier om 
                     met verlies om te gaan, en er is geen tijdslijn die voor iedereen geldt. Wat wel 
                     belangrijk is, is dat je de ruimte krijgt om te voelen wat je voelt.
                   </p>
                   <p>
                     Misschien voel je je schuldig over het zoeken van hulp, of denk je dat je het zelf 
                     moet kunnen. Maar het tegenovergestelde is waar: het vragen om ondersteuning is een 
-                    teken van moed en zelfzorg. Kazenra Nederland kan een waardevolle rol spelen in jouw 
+                    teken van moed en zelfzorg. Cenra Nederland kan een waardevolle rol spelen in jouw 
                     verwerkingsproces, door je de tools en begeleiding te bieden die je nodig hebt.
                   </p>
                 </div>
