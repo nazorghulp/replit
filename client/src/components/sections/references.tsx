@@ -5,7 +5,7 @@ export default function References() {
     {
       name: "Maria van der Berg",
       location: "Amsterdam",
-      text: "Na het verlies van mijn partner voelde ik me volledig verloren. De begeleiders van Xenra hebben me geholpen om stap voor stap weer grip op mijn leven te krijgen. Hun begrip en professionaliteit hebben het verschil gemaakt.",
+      text: "Na het verlies van mijn partner voelde ik me volledig verloren. De begeleiders van Kazenra Nederland hebben me geholpen om stap voor stap weer grip op mijn leven te krijgen. Hun begrip en professionaliteit hebben het verschil gemaakt.",
       rating: 5
     },
     {

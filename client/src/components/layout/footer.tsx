@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="mb-6">
               <div className="flex items-center">
-                <span className="text-2xl font-semibold text-gray-700">Xenra Nazorghulp</span>
+                <span className="text-2xl font-semibold text-gray-700">Kazenra Nederland</span>
               </div>
             </div>
             <p className="text-gray-700 mb-8 leading-relaxed text-sm">
@@ -49,7 +49,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-600 mt-8 pt-8 text-center">
           <p className="text-gray-700">
-            &copy; 2024 Xenra Nazorghulp. Alle rechten voorbehouden. | Privacy | Algemene Voorwaarden
+            &copy; 2024 Kazenra Nederland. Alle rechten voorbehouden. | Privacy | Algemene Voorwaarden
           </p>
         </div>
       </div>

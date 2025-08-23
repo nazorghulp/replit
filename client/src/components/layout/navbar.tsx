@@ -20,7 +20,7 @@ export default function Navbar() {
             <div className="w-32 sm:w-36 md:w-40 h-12 sm:h-14 md:h-16 bg-white rounded-lg flex items-center justify-center p-1 shadow-lg border-2 border-white/20">
               <img 
                 src={logoPath} 
-                alt="Xenra Nazorg" 
+                alt="Kazenra Nederland" 
                 className="w-full h-full object-contain"
                 style={{ clipPath: 'inset(15% 10% 15% 10%)' }}
               />

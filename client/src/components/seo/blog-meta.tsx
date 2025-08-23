@@ -38,7 +38,7 @@ export default function BlogMeta({
       <meta property="og:image" content={imageUrl} />
       <meta property="og:image:alt" content={alt} />
       <meta property="og:url" content={canonicalUrl} />
-      <meta property="og:site_name" content="Xenra Nazorghulp" />
+      <meta property="og:site_name" content="Kazenra Nederland" />
       <meta property="article:published_time" content={publishedDate} />
       <meta property="article:author" content={author} />
       <meta property="article:section" content="Rouwbegeleiding" />
@@ -71,7 +71,7 @@ export default function BlogMeta({
           },
           "publisher": {
             "@type": "Organization",
-            "name": "Xenra Nazorghulp",
+            "name": "Kazenra Nederland",
             "logo": {
               "@type": "ImageObject",
               "url": "https://nazorghulp.nl/logo.png"

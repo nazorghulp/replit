@@ -7,7 +7,7 @@ export default function Home() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Xenra Nazorghulp",
+    "name": "Kazenra Nederland",
     "description": "Professionele nazorg en rouwbegeleiding voor nabestaanden en kinderen",
     "url": "https://nazorg.nl",
     "telephone": "085-401 92 65",
@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <div className="bg-orange-soft">
       <HeadMeta 
-        title="Nazorg voor nabestaanden - Xenra Nazorghulp"
+        title="Nazorg voor nabestaanden - Kazenra Nederland"
         description="Directe begeleiding bij verlies. Kies je eigen pakket zonder wachtlijst - ook voor kinderen. Professionele nazorg en rouwbegeleiding op jouw tempo."
         keywords="nazorg nabestaanden, rouwbegeleiding, kinderen rouw verwerken, rouw support online, rouwbegeleiding zonder wachtlijst, begeleiding verlies, nazorg begeleiding na overlijden ouder"
         url="https://nazorg.nl"

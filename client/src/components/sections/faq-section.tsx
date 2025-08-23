@@ -60,8 +60,8 @@ const faqData = [
         answer: "Elke begeleiding start met een persoonlijk intakegesprek waarin we kennismaken en je situatie bespreken. Daarna stellen we samen een begeleidingsplan op dat aansluit bij jouw behoeften. Sessies kunnen plaatsvinden via videobellen, telefonisch contact of berichtuitwisseling, afhankelijk van wat voor jou het prettigst voelt."
       },
       {
-        question: "Hoeveel ervaring heeft Xenra Nazorghulp met rouwbegeleiding?",
-        answer: "Xenra Nazorghulp heeft jarenlange ervaring in nazorg en professionele begeleiding van nabestaanden. Onze begeleiders zijn gespecialiseerd in rouwverwerking en hebben uitgebreide training in het begeleiden van mensen in verlies en rouw. We combineren professionele expertise met een warme, persoonlijke benadering."
+        question: "Hoeveel ervaring heeft Kazenra Nederland met rouwbegeleiding?",
+        answer: "Kazenra Nederland heeft jarenlange ervaring in nazorg en professionele begeleiding van nabestaanden. Onze begeleiders zijn gespecialiseerd in rouwverwerking en hebben uitgebreide training in het begeleiden van mensen in verlies en rouw. We combineren professionele expertise met een warme, persoonlijke benadering."
       }
     ]
   }

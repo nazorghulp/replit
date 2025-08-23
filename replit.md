@@ -1,7 +1,7 @@
-# Xenra Nazorghulp - Grief Support Website
+# Kazenra Nederland - Grief Support Website
 
 ## Overview
-This project is a full-stack grief support website for Xenra Nazorghulp, a Dutch bereavement counseling service. It provides information about their services and facilitates client contact. The business vision is to offer accessible and comprehensive grief support, leveraging a modern online presence to reach a wider audience and streamline client engagement.
+This project is a full-stack grief support website for Kazenra Nederland (formerly Xenra Nazorghulp), a Dutch bereavement counseling service. It provides information about their services and facilitates client contact. The business vision is to offer accessible and comprehensive grief support, leveraging a modern online presence to reach a wider audience and streamline client engagement.
 
 ## User Preferences
 Preferred communication style: Simple, everyday language.
@@ -68,6 +68,7 @@ The design emphasizes a professional and empathetic aesthetic.
 - **Blogs Refresh Fix**: Resolved blogs page refresh issue by ensuring blogs.html references production assets (/assets/index-DWLrQCAJ.js) instead of development files (/src/main.tsx). All pages now refresh correctly.
 - **Phone Number Transparency**: Added "(lokaal tarief)" to all phone number displays (navbar desktop/mobile, hamburger menu, contact page) for cost transparency and user trust.
 - **Homepage Visual Break**: Added custom-generated peaceful landscape image between text sections on homepage to create visual pause in long text blocks, improving readability and user experience.
+- **Complete Rebrand**: Systematic replacement of all "Xenra Nazorghulp" references with "Kazenra Nederland" across all React components, blog content, SEO metadata, and production files while maintaining all functionality and phone transparency features.
 
 ## External Dependencies
 

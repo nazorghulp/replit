@@ -10,8 +10,8 @@ export default function BlogsOverview() {
   return (
     <>
       <HeadMeta 
-        title="Blogs - Verhalen over Rouw en Herstel | Xenra Nazorghulp"
-        description="Lees inspirerende verhalen over rouwverwerking en herstel. Ontdek hoe anderen omgaan met verlies en vind herkenning in hun ervaringen bij Xenra Nazorghulp."
+        title="Blogs - Verhalen over Rouw en Herstel | Kazenra Nederland"
+        description="Lees inspirerende verhalen over rouwverwerking en herstel. Ontdek hoe anderen omgaan met verlies en vind herkenning in hun ervaringen bij Kazenra Nederland."
       />
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-orange-50">
@@ -145,7 +145,7 @@ export default function BlogsOverview() {
                 Herken je jezelf in deze verhalen?
               </h2>
               <p className="text-warm-gray text-lg mb-6 leading-relaxed">
-                Bij Xenra Nazorghulp begrijpen we dat iedereen zijn eigen verhaal heeft. 
+                Bij Kazenra Nederland begrijpen we dat iedereen zijn eigen verhaal heeft. 
                 Wij zijn er om jou te helpen jouw verhaal vorm te geven, in jouw tempo en op jouw manier.
               </p>
               <Link 
@@ -165,12 +165,12 @@ export default function BlogsOverview() {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Blog",
-          "name": "Xenra Nazorghulp Blog",
+          "name": "Kazenra Nederland Blog",
           "description": "Verhalen over rouwverwerking en herstel",
           "url": "https://nazorghulp.nl/blogs",
           "publisher": {
             "@type": "Organization",
-            "name": "Xenra Nazorghulp",
+            "name": "Kazenra Nederland",
             "logo": {
               "@type": "ImageObject",
               "url": "https://nazorghulp.nl/logo.png"

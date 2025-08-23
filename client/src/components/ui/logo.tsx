@@ -7,7 +7,7 @@ export default function Logo() {
         X
       </div>
       <span className="ml-3 text-xl font-semibold text-dark-gray group-hover:text-purple-primary transition-colors duration-200">
-        Xenra Nazorghulp
+        Kazenra Nederland
       </span>
     </Link>
   );

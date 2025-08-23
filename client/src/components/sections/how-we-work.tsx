@@ -149,7 +149,7 @@ export function ChildrenYouthHelp() {
                   <Heart className="w-6 h-6 text-purple-primary mt-1 flex-shrink-0" />
                   <p>
                     <strong className="text-purple-primary">Rouw raakt ook kinderen</strong> – diep, maar vaak anders dan bij volwassenen. 
-                    Ze begrijpen verlies nog niet altijd volledig en uiten gevoelens op hun eigen manier. Bij Xenra Nazorghulp 
+                    Ze begrijpen verlies nog niet altijd volledig en uiten gevoelens op hun eigen manier. Bij Kazenra Nederland 
                     bieden we daarom begeleiding speciaal gericht op <strong className="text-orange-primary">kinderen en jongeren tot 17 jaar</strong>.
                   </p>
                 </div>
